@@ -1,0 +1,19 @@
+# Local raw source storage
+#
+# Raw sources may include copyrighted files, sensitive notes, large PDFs, Word
+# documents, or private research material. Keep the directory structure in git,
+# but do not commit raw source contents by default.
+sources/**
+!sources/
+!sources/**/
+!sources/**/.gitkeep
+!sources/README.md
+
+# Sensitive private scratch space
+private_notes/**
+!private_notes/
+!private_notes/.gitkeep
+!private_notes/README.md
+
+# Local OS/editor noise
+.DS_Store
