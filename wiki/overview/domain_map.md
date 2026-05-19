@@ -39,6 +39,8 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 - Dementia.
 - Falls and general aging issues.
 - Multiple chronic conditions in aging.
+- Systemic sclerosis-associated Raynaud phenomenon.
+- Postpartum women.
 - Gynecological cancer.
 
 ## Primary Technology Lenses

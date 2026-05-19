@@ -54,6 +54,14 @@ Raw sources should be treated as immutable.
 - `wiki/commands/`: Short command templates for Codex.
 - `wiki/templates/`: Reusable page templates.
 
+## Source-Backed Evidence Pages
+
+- `wiki/evidence/hcd_generative_ai_family_caregiver_mhealth.md`
+- `wiki/evidence/raynaud_mhealth_usability_systemic_sclerosis.md`
+- `wiki/evidence/chatgpt_health_sci_preclinic_preparation.md`
+- `wiki/evidence/dissertation_family_caregiver_mhealth_app.md`
+- `wiki/evidence/setiawan_2019_adaptive_mhealth_self_management.md`
+
 ## Outputs
 
 - `outputs/ingest_previews/`: Human-review previews before major source integration.
@@ -89,7 +97,39 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/conditions/dementia.md`
 - `wiki/conditions/falls_and_aging.md`
 - `wiki/conditions/multiple_chronic_conditions_in_aging.md`
+- `wiki/conditions/systemic_sclerosis_associated_raynaud_phenomenon.md`
+- `wiki/conditions/postpartum_women.md`
 - `wiki/conditions/gynecological_cancer.md`
+
+## Caregiving Challenge Hubs
+
+- `wiki/caregiving_challenges/monitoring_and_safety_awareness.md`
+- `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`
+- `wiki/caregiving_challenges/information_access_and_health_literacy.md`
+- `wiki/caregiving_challenges/emotional_and_social_support.md`
+- `wiki/caregiving_challenges/care_coordination_and_shared_access.md`
+- `wiki/caregiving_challenges/caregiver_self_care_and_health_tracking.md`
+
+## Care Recipient Need Pages
+
+- `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`
+- `wiki/care_recipient_needs/symptom_self_reporting_and_tracking.md`
+- `wiki/care_recipient_needs/pre_clinic_preparation_and_advocacy.md`
+- `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md`
+
+## Design Pattern Pages
+
+- `wiki/design_patterns/adaptive_ai_layer_for_caregiver_mhealth.md`
+- `wiki/design_patterns/trajectory_sensitive_caregiver_content.md`
+- `wiki/design_patterns/accessibility_first_mhealth_symptom_reporting.md`
+- `wiki/design_patterns/real_world_reliability_for_mhealth_data_capture.md`
+- `wiki/design_patterns/ai_assisted_pre_clinic_preparation.md`
+- `wiki/design_patterns/care_recipient_style_prompting_for_empathy.md`
+- `wiki/design_patterns/adaptive_modular_caregiver_mhealth.md`
+- `wiki/design_patterns/one_stop_caregiver_support_app.md`
+- `wiki/design_patterns/ai_and_wearable_augmented_caregiver_support.md`
+- `wiki/design_patterns/adaptive_mhealth_self_management_platform.md`
+- `wiki/design_patterns/clinician_portal_supported_mhealth.md`
 
 ## Initial Technology Pages
 

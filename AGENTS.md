@@ -57,7 +57,9 @@ Condition priority:
 2. Dementia.
 3. Falls and general aging issues.
 4. Multiple chronic conditions in aging.
-5. Gynecological cancer.
+5. Systemic sclerosis-associated Raynaud phenomenon.
+6. Postpartum women.
+7. Gynecological cancer.
 
 ## 4. Core Conceptual Model
 

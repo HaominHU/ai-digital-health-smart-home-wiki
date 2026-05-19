@@ -44,3 +44,69 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Revised `README.md` to match the restaurant wiki's icon-led format and replaced AI-facing reproduction steps with user-facing prompt examples for ingest, quick notes, queries, prompt generation, and linting.
 - Files touched: `README.md`, `sources/README.md`, `LOG.md`.
 - Notes: Clarified that command files are reusable instruction recipes, not terminal commands, and that Codex can copy local files into `sources/` when asked.
+
+## [2026-05-18] architecture | Expanded condition priority list
+
+- Summary: Added systemic sclerosis-associated Raynaud phenomenon and postpartum women as priority condition/context overlays before gynecological cancer.
+- Files touched: `AGENTS.md`, `README.md`, `INDEX.md`, `MEMORY.md`, `wiki/overview/domain_map.md`, `wiki/conditions/systemic_sclerosis_associated_raynaud_phenomenon.md`, `wiki/conditions/postpartum_women.md`, `LOG.md`.
+- Notes: New condition pages are scaffold entries only and contain no source-backed claims yet.
+
+## [2026-05-18] ingest | Human-centered design recommendations for generative AI in caregiver mHealth
+
+- Summary: Created an ingest preview for an AMIA abstract on human-centered design recommendations for generative AI in mHealth apps for family caregivers.
+- Files touched: `sources/abstracts/Hu_podium_abstract_User_centered_design_family_caregiver_AI_vision_submit.pdf`, `outputs/ingest_previews/2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth_preview.md`, `LOG.md`.
+- Notes: Source type is AMIA conference submission abstract; evidence type is conference takeaway; privacy level is private/non-sensitive per user; review status is pending before wiki integration.
+
+## [2026-05-18] ingest | Integrated generative AI caregiver mHealth abstract
+
+- Summary: Integrated the approved AMIA abstract preview into population, condition, technology, caregiving challenge, design pattern, and evidence pages.
+- Files touched: `outputs/ingest_previews/2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth_preview.md`, `wiki/populations/family_caregivers.md`, `wiki/populations/people_with_chronic_conditions_and_disabilities.md`, `wiki/conditions/spinal_cord_injury.md`, `wiki/conditions/gynecological_cancer.md`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`, `wiki/caregiving_challenges/information_access_and_health_literacy.md`, `wiki/caregiving_challenges/emotional_and_social_support.md`, `wiki/design_patterns/adaptive_ai_layer_for_caregiver_mhealth.md`, `wiki/design_patterns/trajectory_sensitive_caregiver_content.md`, `wiki/evidence/hcd_generative_ai_family_caregiver_mhealth.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is AMIA conference submission abstract; evidence type is conference takeaway; privacy level is private/non-sensitive per user. Broad neurological-condition evidence was mapped cautiously to spinal cord injury only where no specific non-SCI neurological condition was named.
+
+## [2026-05-18] ingest | Raynaud mHealth app usability preview
+
+- Summary: Created an ingest preview for an AMIA abstract on usability evaluation and iterative refinement of a Raynaud's phenomenon mHealth app for people with systemic sclerosis.
+- Files touched: `sources/abstracts/202605_AMIA_Hu_Raynaud_Usability_resubmit_poster.pdf`, `outputs/ingest_previews/2026-05-18_hu_raynaud-phenomenon-mhealth-usability_preview.md`, `LOG.md`.
+- Notes: Source type is AMIA conference submission abstract; evidence type is conference takeaway; privacy level is private/non-sensitive per user; review status is pending before wiki integration.
+
+## [2026-05-18] ingest | Integrated Raynaud mHealth app usability abstract
+
+- Summary: Integrated the approved AMIA abstract preview into the systemic sclerosis-associated Raynaud phenomenon condition page, chronic condition/disability and older-adult population pages, care-recipient symptom tracking, design patterns, and evidence pages.
+- Files touched: `outputs/ingest_previews/2026-05-18_hu_raynaud-phenomenon-mhealth-usability_preview.md`, `wiki/conditions/systemic_sclerosis_associated_raynaud_phenomenon.md`, `wiki/populations/people_with_chronic_conditions_and_disabilities.md`, `wiki/populations/older_adults.md`, `wiki/care_recipient_needs/symptom_self_reporting_and_tracking.md`, `wiki/design_patterns/accessibility_first_mhealth_symptom_reporting.md`, `wiki/design_patterns/real_world_reliability_for_mhealth_data_capture.md`, `wiki/evidence/raynaud_mhealth_usability_systemic_sclerosis.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is AMIA conference submission abstract; evidence type is conference takeaway; privacy level is private/non-sensitive per user. Older-adult relevance is limited to accessibility/usability barriers and is not treated as aging-related disease evidence.
+
+## [2026-05-18] ingest | ChatGPT Health SCI pre-clinic preparation preview
+
+- Summary: Created an ingest preview for an AMIA abstract comparing ChatGPT and a source-reported ChatGPT Health interface for spinal cord injury pre-clinic preparation without connected records.
+- Files touched: `sources/abstracts/Hu_poster_abstract_ChatGPT_ChatGPTHealth_Comparison_submit.pdf`, `outputs/ingest_previews/2026-05-18_hu_chatgpt-health-sci-preclinic-preparation_preview.md`, `LOG.md`.
+- Notes: Source type is AMIA conference submission abstract; evidence type is conference takeaway; privacy level is private/non-sensitive per user; review status is pending before wiki integration. Product/model details are source-reported and not independently verified during ingest.
+
+## [2026-05-18] ingest | Integrated ChatGPT Health SCI pre-clinic preparation abstract
+
+- Summary: Integrated the approved AMIA abstract preview into the spinal cord injury condition page, AI-driven digital health technology page, care-recipient privacy/autonomy page, pre-clinic preparation hub, design patterns, and evidence page.
+- Files touched: `outputs/ingest_previews/2026-05-18_hu_chatgpt-health-sci-preclinic-preparation_preview.md`, `wiki/conditions/spinal_cord_injury.md`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`, `wiki/care_recipient_needs/pre_clinic_preparation_and_advocacy.md`, `wiki/design_patterns/ai_assisted_pre_clinic_preparation.md`, `wiki/design_patterns/care_recipient_style_prompting_for_empathy.md`, `wiki/evidence/chatgpt_health_sci_preclinic_preparation.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is AMIA conference submission abstract; evidence type is conference takeaway; privacy level is private/non-sensitive per user. Product/model details are source-reported and should be re-verified before current-state OpenAI product claims.
+
+## [2026-05-18] ingest | Family caregiver mHealth dissertation preview
+
+- Summary: Created an ingest preview for Hu's doctoral dissertation on developing a multi-component mHealth app for family caregivers of people with chronic conditions and disabilities.
+- Files touched: `sources/papers/Hu_ETD_241205_submission.pdf`, `outputs/ingest_previews/2026-05-18_hu_dissertation-family-caregiver-mhealth-app_preview.md`, `LOG.md`.
+- Notes: Source type is doctoral dissertation; evidence type is dissertation; privacy level is private/non-sensitive per user; review status is pending before wiki integration. Preview is scoped to wiki-relevant populations, technologies, SCI, and gynecological cancer; non-wiki conditions remain source-context only.
+
+## [2026-05-18] ingest | Integrated family caregiver mHealth dissertation
+
+- Summary: Integrated the approved dissertation preview into population, SCI, gynecological cancer, technology, caregiving challenge, care-recipient privacy, design pattern, and evidence pages.
+- Files touched: `outputs/ingest_previews/2026-05-18_hu_dissertation-family-caregiver-mhealth-app_preview.md`, `wiki/populations/family_caregivers.md`, `wiki/populations/people_with_chronic_conditions_and_disabilities.md`, `wiki/conditions/spinal_cord_injury.md`, `wiki/conditions/gynecological_cancer.md`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/technologies/smart_home_technologies.md`, `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`, `wiki/caregiving_challenges/information_access_and_health_literacy.md`, `wiki/caregiving_challenges/emotional_and_social_support.md`, `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`, `wiki/caregiving_challenges/care_coordination_and_shared_access.md`, `wiki/caregiving_challenges/caregiver_self_care_and_health_tracking.md`, `wiki/design_patterns/adaptive_modular_caregiver_mhealth.md`, `wiki/design_patterns/one_stop_caregiver_support_app.md`, `wiki/design_patterns/ai_and_wearable_augmented_caregiver_support.md`, `wiki/evidence/dissertation_family_caregiver_mhealth_app.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is doctoral dissertation; evidence type is dissertation; privacy level is private/non-sensitive per user. Non-wiki conditions from study composition were not added as condition overlays.
+
+## [2026-05-18] ingest | Setiawan 2019 adaptive mHealth self-management preview
+
+- Summary: Created an ingest preview for a JMIR Formative Research paper on iMHere 2.0, an adaptive mHealth system for self-management among people with chronic conditions and disabilities.
+- Files touched: `sources/papers/Setiawan 2019_imhere.pdf`, `outputs/ingest_previews/2026-05-18_setiawan_2019_adaptive-mhealth-self-management_preview.md`, `LOG.md`.
+- Notes: Source type is journal article; evidence type is published evidence; privacy level is private/non-sensitive per user; review status is pending before wiki integration. Non-wiki conditions from the paper remain source-context only.
+
+## [2026-05-18] ingest | Integrated Setiawan 2019 adaptive mHealth self-management paper
+
+- Summary: Integrated the approved JMIR paper preview into PwCCD, SCI, care-recipient self-management, privacy/autonomy, accessibility, reliability, adaptive mHealth, clinician portal, and shared-access pages.
+- Files touched: `outputs/ingest_previews/2026-05-18_setiawan_2019_adaptive-mhealth-self-management_preview.md`, `wiki/populations/people_with_chronic_conditions_and_disabilities.md`, `wiki/conditions/spinal_cord_injury.md`, `wiki/care_recipient_needs/symptom_self_reporting_and_tracking.md`, `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`, `wiki/design_patterns/accessibility_first_mhealth_symptom_reporting.md`, `wiki/design_patterns/real_world_reliability_for_mhealth_data_capture.md`, `wiki/design_patterns/adaptive_modular_caregiver_mhealth.md`, `wiki/caregiving_challenges/care_coordination_and_shared_access.md`, `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md`, `wiki/design_patterns/adaptive_mhealth_self_management_platform.md`, `wiki/design_patterns/clinician_portal_supported_mhealth.md`, `wiki/evidence/setiawan_2019_adaptive_mhealth_self_management.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is journal article; evidence type is published evidence; privacy level is private/non-sensitive per user. User note recorded: Setiawan 2019 and Hu's dissertation jointly ground the caregiver research, system infrastructure, and future system expansion.

@@ -87,7 +87,9 @@ Condition priority:
 2. Dementia
 3. Falls and general aging issues
 4. Multiple chronic conditions in aging
-5. Gynecological cancer
+5. Systemic sclerosis-associated Raynaud phenomenon
+6. Postpartum women
+7. Gynecological cancer
 
 ## 🪜 How to Use This Wiki
 
@@ -235,6 +237,8 @@ Initial scaffold pages:
 - `wiki/conditions/dementia.md`
 - `wiki/conditions/falls_and_aging.md`
 - `wiki/conditions/multiple_chronic_conditions_in_aging.md`
+- `wiki/conditions/systemic_sclerosis_associated_raynaud_phenomenon.md`
+- `wiki/conditions/postpartum_women.md`
 - `wiki/conditions/gynecological_cancer.md`
 - `wiki/technologies/ai_driven_digital_health.md`
 - `wiki/technologies/smart_home_technologies.md`
