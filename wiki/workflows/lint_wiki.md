@@ -3,7 +3,7 @@ title: Lint Wiki Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-05-18
+last_updated: 2026-05-22
 ---
 
 # Lint Wiki Workflow
@@ -33,6 +33,9 @@ Health-check the research wiki so it stays accurate, source-tracked, privacy-awa
 - Duplicate pages or overlapping concepts.
 - Inconsistent YAML frontmatter.
 - Generated outputs that should be digested back into the wiki.
+- Missing citation-memory records for citation-bearing evidence sources.
+- Reference records missing original citation text, source IDs, evidence type, or export-readiness status.
+- RIS exports that appear to contain invented or incomplete metadata.
 - Future RAG readiness problems such as missing tags, source IDs, dates, or summaries.
 - Locally stored raw sources that may no longer need to be retained after successful wiki digestion.
 
@@ -43,12 +46,13 @@ Health-check the research wiki so it stays accurate, source-tracked, privacy-awa
 3. Check source and evidence labels.
 4. Check privacy and healthcare decision boundaries.
 5. Check conceptual distinctions.
-6. Check cross-links and orphan pages.
-7. Check whether raw sources under `sources/` should be retained, moved, or removed after successful digestion.
-8. Report findings first, ordered by severity.
-9. Fix only the issues the user asked to fix, unless the lint task explicitly authorizes fixes.
-10. Do not delete raw sources automatically; flag them for user review.
-11. Append a `lint` entry to `LOG.md` when the lint pass changes files or creates a durable report.
+6. Check citation-memory records under `wiki/references/items/` against citation-bearing evidence pages.
+7. Check cross-links and orphan pages.
+8. Check whether raw sources under `sources/` should be retained, moved, or removed after successful digestion.
+9. Report findings first, ordered by severity.
+10. Fix only the issues the user asked to fix, unless the lint task explicitly authorizes fixes.
+11. Do not delete raw sources automatically; flag them for user review.
+12. Append a `lint` entry to `LOG.md` when the lint pass changes files or creates a durable report.
 
 ## Suggested Commands
 
@@ -57,6 +61,7 @@ rg --files
 rg -n "TODO|TBD|unknown|missing|gap|needs source|source needed" .
 rg -n "diagnose|treatment|recommend|PHI|participant|patient|clinical" .
 rg -n "normal aging|aging issue|caregiver|care recipient|evidence type" wiki
+rg -n "citation_status|export_ready|Original Citation|RIS Export" wiki/references wiki/templates
 ```
 
 ## Required LOG.md Update

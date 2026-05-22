@@ -3,7 +3,7 @@ title: Ingest Source Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-05-18
+last_updated: 2026-05-22
 ---
 
 # Ingest Source Workflow
@@ -39,6 +39,7 @@ Before durable integration, identify as much of this context as possible:
 - DOI or URL if available.
 - Evidence type: published evidence, formal documentation, personal observation, discussion note, conference takeaway, or user research idea.
 - Privacy sensitivity.
+- Original citation text or enough metadata to reconstruct a citation, when the source is citation-bearing.
 
 If important source context is missing, ask the user before updating the wiki unless it is clearly a low-risk quick note.
 
@@ -87,10 +88,12 @@ For short quick notes or personal takeaways:
 6. Extract source-backed findings, methods, populations, technologies, contexts, limitations, and open questions.
 7. Separate evidence from interpretation, personal insight, and speculative design direction.
 8. Identify relevant wiki targets.
-9. Update pages under `wiki/` only after preview confirmation when required.
-10. Update `INDEX.md` if pages or summaries changed.
-11. Update `MEMORY.md` after major milestones.
-12. Append a concise `ingest` entry to `LOG.md`.
+9. For citation-bearing sources, create or update a citation-memory record under `wiki/references/items/` using `wiki/templates/reference_item_template.md`.
+10. Preserve the original citation text and mark whether the record is RIS export-ready.
+11. Update pages under `wiki/` only after preview confirmation when required.
+12. Update `INDEX.md` if pages or summaries changed.
+13. Update `MEMORY.md` after major milestones.
+14. Append a concise `ingest` entry to `LOG.md`.
 
 ## Common Wiki Targets
 
@@ -102,6 +105,7 @@ For short quick notes or personal takeaways:
 - Home or care setting context -> `wiki/environments/`
 - Conceptual distinctions -> `wiki/concepts/`
 - Evidence summaries -> `wiki/evidence/`
+- Citation memory -> `wiki/references/items/`
 - Design implications -> `wiki/design_patterns/`
 - Gaps and study ideas -> `wiki/research_questions/`
 
@@ -113,6 +117,18 @@ For short quick notes or personal takeaways:
 - Evidence-backed finding vs interpretation.
 - Current evidence vs speculative design direction.
 - Research support vs clinical decision-making.
+
+## Citation Memory Check
+
+For papers, dissertations, reports, formal documentation, conference abstracts, proceedings, and other citation-bearing sources:
+
+- Preserve the original citation in `wiki/references/items/`.
+- Store one canonical Markdown citation-memory record per source.
+- Link the citation record to relevant evidence and topic pages.
+- Record writing roles such as introduction, background, significance, design rationale, methods rationale, limitation, or gap framing.
+- Mark `export_ready: true` only when the minimum RIS fields are known.
+- Use `outputs/citation_exports/` only for generated export files, not canonical storage.
+- Do not invent missing bibliographic metadata.
 
 ## Privacy and Security Check
 
@@ -139,5 +155,5 @@ Use this format:
 
 - Summary: Integrated or previewed [source/note] for [topic].
 - Files touched: `sources/[file]` if applicable, `outputs/ingest_previews/[file]` if applicable, `wiki/[page].md`, `INDEX.md` if changed, `LOG.md`.
-- Notes: Mention source type, evidence type, privacy level, review status, and unresolved gaps.
+- Notes: Mention source type, evidence type, privacy level, citation-memory status, review status, and unresolved gaps.
 ```

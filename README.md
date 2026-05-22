@@ -6,7 +6,7 @@
 
 **🎯 Research Focus:** AI-Driven Digital Health, Smart Home Technologies, Family Caregiving, Chronic Conditions, Disability, Aging
 
-**🧠 Knowledge Architecture:** Markdown + YAML, Source Tracking, Evidence Labeling, Research Prompt Generation, Design/Spec Prompt Generation, Future RAG Preparation
+**🧠 Knowledge Architecture:** Markdown + YAML, Source Tracking, Evidence Labeling, Knowledge-Level Citation Memory, Research Prompt Generation, Design/Spec Prompt Generation, Future RAG Preparation
 
 **📊 Status:** WIP / Private Research Wiki
 
@@ -44,6 +44,7 @@ The structure follows the Karpathy-style LLM Wiki pattern in a research-specific
 
 - `sources/` is the immutable raw source layer.
 - `wiki/` is the maintained Markdown knowledge layer.
+- `wiki/references/` is the knowledge-level citation-memory layer.
 - `AGENTS.md` is the schema/control layer for Codex behavior.
 - `INDEX.md` is content-oriented navigation.
 - `LOG.md` is chronological logging.
@@ -55,6 +56,7 @@ Core operations:
 - **Query:** read the index and relevant Wiki pages to generate source-aware answers, comparisons, concept maps, evidence briefs, or research gaps.
 - **Lint:** periodically check for unsupported claims, missing source tracking, weak evidence labels, privacy risks, conceptual conflation, stale paths, and future RAG readiness.
 - **Generate prompts:** produce AI-ready research, writing, design, coding-plan, or specification prompts grounded in accumulated Wiki knowledge.
+- **Citation-supported brainstorming:** use wiki citation memory to suggest citations for a manuscript idea, assess coverage quality, optionally supplement with searched external candidate citations, generate an AI feed prompt, and prepare separate Zotero/EndNote-compatible RIS content.
 
 ## 🧩 Research Model
 
@@ -65,6 +67,7 @@ Core operations:
 - Aging-related functional decline and age-associated disease development are distinguished.
 - Evidence, interpretation, personal insight, and speculative design direction are separated.
 - Source tracking is required for every ingested knowledge item.
+- The wiki stores knowledge-level citation memory, while Zotero/EndNote remain paper-level reference managers for manuscript-specific collections.
 
 Primary focus:
 
@@ -114,6 +117,10 @@ Ask wiki: What does the wiki currently know about smart home monitoring for fami
 
 ```text
 Generate a research prompt about [topic] using the wiki.
+```
+
+```text
+Brainstorm citations for a paper about [topic]. Give me an AI feed prompt and a Zotero/EndNote RIS list.
 ```
 
 ```text
@@ -167,6 +174,8 @@ Raw source storage rules:
 - Use source IDs and filenames like `YYYY-MM-DD_author-or-org_short-title.ext`.
 - If you provide only a DOI or URL, Codex should record the source reference. It should download or store a copy only if you ask and access is available.
 - If you provide an external local file path, Codex can copy it into `sources/` when you ask it to store the source.
+- Citation-bearing sources should get a Markdown citation-memory record under `wiki/references/items/`, preserving the original citation and export-readiness status.
+- Generated Zotero/EndNote-compatible exports should go under `outputs/citation_exports/`; RIS is the default export format.
 - Periodic lint checks should flag locally stored raw sources that may be removable after successful wiki digestion.
 - Do not delete raw source files automatically.
 
@@ -197,6 +206,7 @@ wiki/evidence/                    Source-backed evidence summaries
 wiki/design_patterns/             Reusable intervention and system design patterns
 wiki/research_questions/          Research gaps, questions, and study ideas
 wiki/specs/                       Research, design, and system specification pages
+wiki/references/                  Knowledge-level citation memory and reference records
 wiki/workflows/                   Repeatable research Wiki workflows
 wiki/commands/                    Reusable short Codex command templates
 wiki/templates/                   Reusable page templates
@@ -208,6 +218,7 @@ outputs/design_prompts/           AI-ready design prompts
 outputs/spec_prompts/             AI-ready system or study specification prompts
 outputs/query_answers/            Durable answers worth preserving outside chat
 outputs/lint_reports/             Wiki health-check reports
+outputs/citation_exports/         Generated Zotero/EndNote-compatible exports, usually RIS
 
 sources/papers/                   Published papers and paper notes
 sources/reports/                  Reports, dissertations, white papers, and formal documents

@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-05-18
+last_updated: 2026-05-22
 ---
 
 # Research Wiki Memory
@@ -32,6 +32,8 @@ The wiki must not act as a clinical decision-maker, diagnostic system, treatment
 - Maintained wiki pages live under `wiki/`.
 - Generated previews, briefs, prompts, and reports live under `outputs/`.
 - Sensitive scratch notes live under `private_notes/`.
+- Citation-memory records live under `wiki/references/items/`.
+- Zotero/EndNote-compatible citation exports live under `outputs/citation_exports/`.
 - `AGENTS.md` governs agent behavior.
 - `INDEX.md` is the content-oriented map.
 - `LOG.md` is the chronological timeline.
@@ -45,6 +47,7 @@ The wiki must not act as a clinical decision-maker, diagnostic system, treatment
 - Technologies are reusable intervention lenses.
 - Aging-related functional decline and age-associated disease development must be distinguished.
 - Evidence, interpretation, personal insight, and speculative design direction must remain separate.
+- The wiki is the knowledge-level citation memory layer; Zotero and EndNote remain paper-level reference managers for manuscript-specific collections.
 
 Current condition priority order:
 
@@ -78,6 +81,16 @@ Recommended raw source ID and filename pattern:
 `YYYY-MM-DD_author-or-org_short-title.ext`
 
 Periodic lint checks should flag locally stored raw sources that may be removable after their contents have been well digested into the wiki. Do not delete raw sources automatically.
+
+## Citation Management Baseline
+
+Citation-bearing sources should have Markdown citation-memory records under `wiki/references/items/`.
+
+Citation records should preserve original citation text, source IDs, evidence type, topic links, supported claims, writing roles, and export-readiness status. RIS is the default generated export format because it is compatible with Zotero and EndNote.
+
+Use citation-supported brainstorming when the user is developing a manuscript idea and wants citations for introduction, background, significance, or related writing sections. Default to wiki-first mode: use stored wiki citations first and assess coverage quality rather than relying on a citation-count threshold.
+
+When wiki coverage is weak, narrow, missing foundational sources, missing recent state-of-the-art sources, or missing population/condition/technology anchors, external seed search can supplement bibliography-building. Keep searched citations separate from wiki citations, label them as external candidates until reviewed or ingested, and create separate RIS exports for wiki citations and external candidates when files are requested.
 
 ## Next Useful Step
 

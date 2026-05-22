@@ -71,6 +71,7 @@ Use this architecture when creating, updating, or querying wiki pages:
 - Technologies are reusable intervention lenses.
 - Aging-related functional decline and age-associated disease development must be distinguished.
 - Sources are tracked.
+- Citation memory is managed at the knowledge level.
 - Evidence, interpretation, personal insight, and speculative design direction are separated.
 - Specs and AI-ready prompts are generated from accumulated wiki knowledge.
 
@@ -133,6 +134,24 @@ Do not create Chinese-language wiki pages.
 ## 7. Source and Evidence Rules
 
 Every ingested knowledge item must track its source.
+
+Every ingested paper, report, dissertation, formal documentation source, or other citation-bearing source should also preserve its original bibliographic citation in the wiki's citation-memory layer when metadata is available.
+
+Reference-management boundary:
+
+- The wiki is the knowledge-level citation memory layer.
+- Zotero and EndNote remain paper-level reference-management tools.
+- Use the wiki to remember why a citation matters, what topics and claims it supports, and which writing roles it can serve.
+- Use Zotero or EndNote for PDF management, citation styling, coauthor sharing, and manuscript-specific collections.
+
+Default citation storage and export:
+
+- Store canonical citation-memory records as Markdown under `wiki/references/items/`.
+- Use `wiki/templates/reference_item_template.md` for new citation records.
+- Treat `outputs/citation_exports/` as the generated export layer.
+- Use RIS as the default Zotero/EndNote-compatible export format unless the user requests another format.
+- Do not store topic-specific RIS files as canonical citation memory.
+- Do not invent citations, authors, venues, DOIs, URLs, dates, or bibliographic fields.
 
 Raw source files may be stored locally under `sources/`, but they are ignored by git by default because they may be private, copyrighted, sensitive, or too large for GitHub. Do not assume raw source files are available after cloning unless they are explicitly provided.
 
@@ -207,6 +226,7 @@ Wiki folders:
 - `wiki/design_patterns/`: Reusable design directions and intervention patterns.
 - `wiki/research_questions/`: Open questions, gaps, and study ideas.
 - `wiki/specs/`: Generated or maintained system/research specification pages.
+- `wiki/references/`: Knowledge-level citation memory and reference item records.
 - `wiki/workflows/`: Repeatable maintenance workflows.
 - `wiki/commands/`: Short Codex command templates.
 - `wiki/templates/`: Page templates.
@@ -246,6 +266,8 @@ Read a source or note, preserve the raw source, extract source-backed knowledge,
 
 Major sources require an ingest preview before wiki updates.
 
+For citation-bearing sources, create or update the relevant Markdown citation-memory record under `wiki/references/items/` and mark whether the record is ready for RIS export.
+
 ### Query
 
 Answer questions by reading `MEMORY.md`, `INDEX.md`, and relevant wiki pages. Clearly separate evidence-backed claims, interpretation, gaps, and speculative design directions. Cite or point to source-tracked wiki pages when useful.
@@ -257,6 +279,8 @@ If a query produces durable synthesis, ask whether to file it back into the wiki
 Periodically check for stale claims, missing source tracking, weak evidence labels, broken links, orphan pages, duplicate concepts, unsupported claims, privacy risks, and conceptual conflation.
 
 Also check whether locally stored raw sources should still be retained. If a source has been well digested into the wiki and does not need to remain locally stored, flag it for the user's review rather than deleting it automatically.
+
+Also check for citation-bearing evidence sources that lack reference records, original citation text, evidence labels, or export-readiness status.
 
 ### Generate Downstream Prompts
 
@@ -273,6 +297,23 @@ Prompts should include:
 - Required outputs.
 - Review criteria.
 
+### Citation-Supported Brainstorming
+
+When the user brainstorms a paper, grant, proposal, or research idea and asks for citations, use the citation-supported brainstorming workflow.
+
+Default behavior:
+
+- Use wiki-first mode: start with stored citation-memory records and source-backed wiki pages.
+- Evaluate citation coverage quality rather than using a fixed citation-count threshold.
+- Treat coverage as weak when the wiki is missing foundational work, recent state-of-the-art work, population anchors, condition-specific anchors, technology/intervention anchors, or when available citations are too narrow for the proposed argument.
+- Group citations by writing role, such as introduction, background, significance, population burden, condition context, technology rationale, methods/design rationale, and gap framing.
+- Produce an AI feed prompt when requested or when useful for downstream drafting.
+- Keep wiki citations and searched external candidate citations in separate sections.
+- Produce separate Zotero/EndNote-compatible RIS lists for wiki citations and searched external candidates when enough metadata is available.
+- Mark incomplete or not-export-ready citations rather than fabricating missing fields.
+- Clearly identify evidence gaps and, if needed, ask whether to search externally for candidate foundational or state-of-the-art sources.
+- Treat searched external citations as unreviewed candidates until ingested or otherwise reviewed; do not treat them as established wiki evidence.
+
 ## 12. Future RAG and Vector Search Readiness
 
 Do not over-engineer the first version.
@@ -287,5 +328,6 @@ Prepare for future vector DB or RAG expansion by maintaining:
 - Tags.
 - Dates.
 - Explicit source links or source file references.
+- Citation-memory records and export-readiness labels for citation-bearing sources.
 
 Do not add a database, embedding system, or custom tooling until the wiki has enough content to justify it.

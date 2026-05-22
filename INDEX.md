@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-05-18
+last_updated: 2026-05-22
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -50,6 +50,7 @@ Raw sources should be treated as immutable.
 - `wiki/design_patterns/`: Reusable intervention and system design patterns.
 - `wiki/research_questions/`: Research gaps, open questions, and study ideas.
 - `wiki/specs/`: Research, design, and system specification pages.
+- `wiki/references/`: Knowledge-level citation memory and reference item records for Zotero/EndNote-ready export workflows.
 - `wiki/workflows/`: Repeatable maintenance workflows.
 - `wiki/commands/`: Short command templates for Codex.
 - `wiki/templates/`: Reusable page templates.
@@ -62,6 +63,16 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/dissertation_family_caregiver_mhealth_app.md`
 - `wiki/evidence/setiawan_2019_adaptive_mhealth_self_management.md`
 
+## Citation Memory
+
+- `wiki/references/README.md`: Citation-memory policy and Zotero/EndNote export boundary.
+- `wiki/references/items/2019-04-25_setiawan_adaptive-mhealth-self-management.md`
+
+## Templates
+
+- `wiki/templates/reference_item_template.md`
+- `wiki/templates/citation_supported_brainstorming_output_template.md`
+
 ## Outputs
 
 - `outputs/ingest_previews/`: Human-review previews before major source integration.
@@ -71,6 +82,7 @@ Raw sources should be treated as immutable.
 - `outputs/spec_prompts/`: AI-ready system or study specification prompts.
 - `outputs/query_answers/`: Durable answers worth preserving outside chat.
 - `outputs/lint_reports/`: Wiki health-check reports.
+- `outputs/citation_exports/`: Generated Zotero/EndNote-compatible citation exports, usually RIS.
 
 ## Privacy-Sensitive Space
 
@@ -143,6 +155,7 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/workflows/lint_wiki.md`
 - `wiki/workflows/generate_research_prompt.md`
 - `wiki/workflows/generate_design_spec_prompt.md`
+- `wiki/workflows/citation_supported_brainstorming.md`
 
 ## Command Templates
 
@@ -153,3 +166,4 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/commands/lint_wiki.md`
 - `wiki/commands/generate_research_prompt.md`
 - `wiki/commands/generate_design_spec_prompt.md`
+- `wiki/commands/citation_supported_brainstorming.md`

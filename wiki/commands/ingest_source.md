@@ -3,7 +3,7 @@ title: Ingest Source Command
 type: command
 status: ready
 privacy: private
-last_updated: 2026-05-18
+last_updated: 2026-05-22
 ---
 
 # Ingest Source
@@ -25,5 +25,7 @@ Identify source context, evidence type, privacy level, and whether human review 
 For major sources, create an ingest preview under `outputs/ingest_previews/` and ask for confirmation before updating wiki pages.
 
 For short low-risk notes, update the relevant wiki pages directly if source context is clear.
+
+For citation-bearing sources, preserve the original bibliographic citation in a Markdown citation-memory record under `wiki/references/items/` and mark whether it is RIS export-ready for Zotero/EndNote.
 
 Always track sources, separate evidence from interpretation, respect the clinical decision boundary, update `INDEX.md` when needed, and append to `LOG.md`.
