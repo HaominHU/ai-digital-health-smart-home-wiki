@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiving-trajectory, adaptive-content, health-literacy, design-pattern]
-last_updated: 2026-05-18
+last_updated: 2026-05-26
 ---
 
 # Trajectory-Sensitive Caregiver Content
@@ -17,6 +17,8 @@ Adapt caregiver-facing information to the caregiver's trajectory stage, experien
 ## Source-Backed Rationale
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Caregivers reported that informational needs shift across the caregiving trajectory; newly onboarded caregivers may need different support than experienced caregivers managing long-term routines.
+- `2020_schulz_family-caregiving-for-older-adults`: Caregiver tasks can accumulate across a trajectory from sporadic support to IADL/ADL care, end-of-life care, institutional transition, death, and bereavement, with disease-specific trajectories such as stroke or cancer varying in pace and learning demands.
+- `2016_nasem_families-caring-for-an-aging-america`: Caregiver supports should account for caregiver duration, high-need older-adult care, diversity, employment, and system navigation context.
 
 ## Relevant Populations
 
@@ -43,6 +45,8 @@ Adapt caregiver-facing information to the caregiver's trajectory stage, experien
 ## Evidence
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`.
+- `2020_schulz_family-caregiving-for-older-adults`.
+- `2016_nasem_families-caring-for-an-aging-america`.
 
 ## Gaps
 

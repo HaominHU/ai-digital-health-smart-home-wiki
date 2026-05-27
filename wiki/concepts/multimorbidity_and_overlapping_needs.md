@@ -3,9 +3,9 @@ title: Multimorbidity and Overlapping Needs
 type: concept
 status: draft
 privacy: private
-evidence_status: scaffold
+evidence_status: has_sources
 tags: [multimorbidity, overlapping-needs, aging, chronic-conditions]
-last_updated: 2026-05-18
+last_updated: 2026-05-26
 ---
 
 # Multimorbidity and Overlapping Needs
@@ -26,6 +26,7 @@ Do not force a single-cause explanation when multiple conditions, impairments, t
 - Which needs come from the care recipient's condition, disability, symptoms, function, or environment?
 - Which needs are shaped by age-associated prevalence or later-life disease development?
 
-## Evidence Status
+## Evidence
 
-This page is a conceptual scaffold. Add source-backed claims through the ingest workflow.
+- `2016_nasem_families-caring-for-an-aging-america`: The report identifies high-need older adults as those with probable dementia or substantial self-care limitations and situates caregiver demand within chronic health problems, functional limitation, cognitive impairment, family structure, work, and LTSS context.
+- `2020_schulz_family-caregiving-for-older-adults`: The review notes that high-need/high-cost older adults can include people with multiple chronic diseases plus functional limitations, probable dementia, or end-of-life care needs, and that these contexts increase risk for unmet care needs.

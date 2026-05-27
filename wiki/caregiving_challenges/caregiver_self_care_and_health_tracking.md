@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-05-18
+last_updated: 2026-05-27
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -27,6 +27,11 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 ## Caregiver Need
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Dissertation co-design findings reported that many family caregivers neglected their own health, experienced chronic stress, and wanted tools for stress management, healthy habit tracking, emotional tracking, and vital-sign tracking.
+- `2020_schulz_family-caregiving-for-older-adults`: Caregiver physical health, psychological distress, sleep, biomarkers, health behaviors, and social relationships are important caregiver outcome domains, though causal attribution should be cautious.
+- `2016_nasem_families-caring-for-an-aging-america`: Caregiver support policy should address caregiver health, values, social and economic well-being, and risk assessment.
+- `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Caregiver physical health, self-care, sleep, utilization, and economic status were under-measured in caregiver intervention studies.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study reported body pain, sleeplessness, tiredness, physical weakness, and sickness related to lifting, turning, and constant support.
+- `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends that caregivers receive support for caring for themselves, including attention to their own health status and respite from caregiving when possible.
 
 ## Care Recipient Connection
 
@@ -43,12 +48,18 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 ## Evidence
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`.
+- `2020_schulz_family-caregiving-for-older-adults`.
+- `2016_nasem_families-caring-for-an-aging-america`.
+- `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
+- `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 
 ## Design Implications
 
 - Reduce logging burden with simple interactions, reminders, retrospective entry, and optional passive data capture.
 - Avoid making self-care tools feel like another caregiving task.
 - Include privacy and consent for any wearable or passive monitoring data.
+- Evaluate whether caregiver self-care tools improve meaningful health, quality-of-life, sleep, utilization, or economic outcomes rather than only app satisfaction.
 
 ## Gaps
 

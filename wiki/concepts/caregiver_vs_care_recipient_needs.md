@@ -3,9 +3,9 @@ title: Caregiver vs Care Recipient Needs
 type: concept
 status: draft
 privacy: private
-evidence_status: scaffold
+evidence_status: has_sources
 tags: [caregiving, care-recipient, needs, conceptual-distinction]
-last_updated: 2026-05-18
+last_updated: 2026-05-26
 ---
 
 # Caregiver vs Care Recipient Needs
@@ -31,6 +31,13 @@ When ingesting or querying a source, explicitly ask:
 - Where do they overlap?
 - Where might they conflict?
 
-## Evidence Status
+## Evidence
 
-This page is a conceptual scaffold. Add source-backed claims through the ingest workflow.
+- `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Caregiver interventions should distinguish caregiving activities, caregiver outcomes, and care-recipient outcomes.
+- `2016_nasem_families-caring-for-an-aging-america`: Person- and family-centered care requires engaging family caregivers while preserving care-recipient autonomy, privacy, and dignity.
+- `2020_schulz_family-caregiving-for-older-adults`: Caregiving can affect caregiver well-being, social relationships, work, and health while care-recipient needs may involve function, symptoms, safety, and suffering; these related concerns should not be collapsed.
+
+## Related Pages
+
+- `wiki/concepts/caregiving_activities_vs_outcomes.md`
+- `wiki/design_patterns/person_and_family_centered_care_coordination.md`

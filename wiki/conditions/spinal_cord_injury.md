@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [spinal-cord-injury, disability, condition-overlay]
-last_updated: 2026-05-18
+last_updated: 2026-05-26
 ---
 
 # Spinal Cord Injury
@@ -20,13 +20,14 @@ Acquired spinal cord injury should not be treated as the same issue as aging-rel
 
 ## Caregiver Needs
 
-To be source-backed.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: In a qualitative study at a Ghanaian neurosurgical hospital, SCI family caregivers often entered caregiving suddenly and felt unprepared. They provided ADL/IADL support, hands-on inpatient care, bowel/bladder-related support, transportation, financial management, and household/business support while experiencing physical and financial burden.
 
 ## Care Recipient Needs
 
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: People with spinal cord injury may need support preparing for brief clinical encounters because SCI can involve complex, multi-system health challenges and self-advocacy needs. The source evaluates exploratory AI support for pre-clinic preparation, not clinical decision-making.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation includes SCI as a wiki-relevant condition context for family caregiver co-design and pilot work. SCI-related caregiver support included condition-specific education, caregiving skill training, accessible resources, self-care support, reminders, and app-based tools.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: The iMHere 2.0 paper includes SCI as a relevant condition context for adaptive mHealth self-management support and prior iMHere evidence, while non-wiki conditions in the paper should remain source context only.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI care-recipient support needs in the Ghanaian study included help with bathing, dressing, feeding, toileting, bladder/bowel management, transport, and other daily activities. Use as lived-experience evidence, not prevalence evidence.
 
 ## Technology Support Opportunities
 
@@ -34,6 +35,7 @@ To be source-backed.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AI-driven pre-clinic preparation may support structured outputs such as care-recipient questions, portal message drafts, caregiver tools, and multi-deliverable preparation materials. The source also notes privacy concerns around connecting sensitive health records to commercial AI platforms.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation supports adaptive modular caregiver mHealth design that combines general caregiver modules with SCI-specific educational content and resources.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: iMHere 2.0 provides adaptive modules, caregiver app support, clinician portal configuration, accessibility customization, and secure synchronization for self-management support.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: Design opportunities include SCI caregiver onboarding, task training, counselling/social support referral, financial/resource navigation, and caregiver self-care support. The study did not evaluate a technology intervention.
 
 ## Evidence
 
@@ -41,3 +43,4 @@ To be source-backed.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AMIA abstract comparing source-reported ChatGPT and ChatGPT Health interfaces for SCI pre-clinic preparation without connected records. The evaluation was exploratory and small, with AI-judge scoring and no clinical outcome evaluation.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Dissertation evidence from user-centered design and pilot testing; non-wiki conditions included in study composition should not be converted into new condition overlays.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: Published evidence for adaptive mHealth usability and feasibility; feasibility data should not be overread as SCI-specific effectiveness evidence.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: Published qualitative evidence from 10 family caregivers in Ghana; context-specific and not generalizable as prevalence or intervention evidence.

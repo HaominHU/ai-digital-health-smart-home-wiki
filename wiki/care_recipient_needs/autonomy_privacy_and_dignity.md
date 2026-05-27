@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-05-18
+last_updated: 2026-05-27
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -25,8 +25,24 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: An SCI pre-clinic preparation abstract notes that care recipients may be reluctant to link sensitive EHR or wearable data to a commercial AI platform. The source evaluates use without connected records and frames AI support around preparation and advocacy rather than autonomous clinical decision-making.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation identifies balancing security and multiple-user access as a caregiver app design issue. Shared access and monitoring features should preserve care recipient privacy, consent, role boundaries, and autonomy.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: iMHere 2.0 uses caregiver roles, clinician portal support, secure two-way communication, real-time synchronization, temporary local storage for most modules, and network-only personal health record handling to manage self-management support and data access.
+- `2016_nasem_families-caring-for-an-aging-america`: Person- and family-centered care should recognize caregivers as partners while still respecting care-recipient autonomy and privacy; HIPAA misunderstanding and individual-coverage models can complicate caregiver engagement.
+- `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Caregiver interventions may affect care-recipient outcomes including psychological health, physical health, disease management, utilization, and economic status, so care-recipient effects should be measured separately.
+- `2020_schulz_family-caregiving-for-older-adults`: Monitoring, advocacy, surrogacy, and care coordination can support care recipients but can also interact with relationship quality, care-recipient suffering, and safety concerns.
+- `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG-style systems require careful control over what user data are indexed, retrieved, logged, and exposed as provenance.
+- `2023_yao_react-reasoning-acting-language-models`: ReAct-style systems raise privacy and safety concerns when language models can look up information or take actions in external environments.
+
+## Design Implications
+
+- Do not index or retrieve sensitive care-recipient data without explicit consent and a retention policy.
+- Keep AI action spaces permissioned and auditable.
+- Require human confirmation before sharing information, sending messages, changing access, or acting on behalf of a care recipient.
+- Preserve care-recipient control over what is summarized, disclosed, or delegated to caregivers.
 
 ## Related Pages
 
 - `wiki/care_recipient_needs/pre_clinic_preparation_and_advocacy.md`
 - `wiki/technologies/ai_driven_digital_health.md`
+- `wiki/design_patterns/person_and_family_centered_care_coordination.md`
+- `wiki/concepts/caregiver_vs_care_recipient_needs.md`
+- `wiki/design_patterns/retrieval_grounded_health_ai_support.md`
+- `wiki/design_patterns/reasoning_action_health_ai_agent.md`

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-05-18
+last_updated: 2026-05-27
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -18,6 +18,12 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation describes an adaptive modular infrastructure with general modules for all family caregivers, general modules with condition-specific content, data interfaces, and condition-specific modules.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: The iMHere 2.0 paper grounds the system infrastructure behind this research line, including adaptive modules, caregiver app, clinician portal, secure synchronization, and scalable architecture that can support future expansion.
+- `2020_schulz_family-caregiving-for-older-adults`: Caregiver supports are more plausible when they address both practical care demands and emotional toll and are tailored to caregiver risk, disease/treatment trajectory, and care context.
+- `2016_nasem_families-caring-for-an-aging-america`: Caregiver support should start from assessment of caregiver risks, needs, strengths, preferences, capacity, and willingness.
+- `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Modules should be classifiable by whether they target clinical knowledge, psychological skills, support seeking, quantity/quality of care, caregiver outcomes, or care-recipient outcomes.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregiver modules should consider onboarding for sudden caregiving entry, ADL/IADL support, physical burden, financial/resource navigation, social support, coping, and training/counselling referral.
+- `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver modules should consider schedule disruption, financial/resource navigation, symptom-management education, respite prompts, self-care support, and interdisciplinary referral pathways.
+- `2001_glasgow_re-aim-framework-chronic-illness-management`: Modular systems should be evaluated for reach, efficacy, adoption, implementation, and maintenance, not only module usability or participant satisfaction.
 
 ## Relevant Populations
 
@@ -37,22 +43,37 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Resource libraries.
 - Risk assessment.
 - Goals and plans.
+- Caregiver assessment and triage.
+- Evaluation instrumentation for activities, outcomes, utilization, and cost.
+- SCI-specific caregiver onboarding and task training.
+- Financial strain and social support navigation.
+- Advanced cancer symptom-management education and referral pathways.
+- Reach, adoption, implementation, and maintenance instrumentation.
 
 ## Design Constraints
 
 - Keep reusable caregiver challenges separate from condition overlays.
 - Do not turn participant-composition conditions into new wiki condition taxonomies unless explicitly prioritized.
 - Treat future AI and wearable augmentation as an extension layer unless implemented and evaluated.
+- Track whether modular personalization improves reach and sustained use or only adds configuration burden.
 
 ## Evidence
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`.
+- `2020_schulz_family-caregiving-for-older-adults`.
+- `2016_nasem_families-caring-for-an-aging-america`.
+- `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
+- `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
+- `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
+- `2001_glasgow_re-aim-framework-chronic-illness-management`.
 
 ## Gaps
 
 - Needs broader testing across caregiver populations and conditions.
 - Needs outcome evidence beyond usability, acceptability, and feasibility.
+- Needs evaluation designs that distinguish module targets, caregiver outcomes, care-recipient outcomes, utilization, and cost.
+- Needs RE-AIM-style evaluation of representativeness, organizational adoption, fidelity, and sustained use.
 
 ## Related Pages
 

@@ -3,9 +3,9 @@ title: Multiple Chronic Conditions in Aging
 type: condition
 status: draft
 privacy: private
-evidence_status: scaffold
+evidence_status: has_sources
 tags: [multimorbidity, chronic-conditions, aging, condition-overlay]
-last_updated: 2026-05-18
+last_updated: 2026-05-26
 ---
 
 # Multiple Chronic Conditions in Aging
@@ -20,16 +20,18 @@ Track interactions among aging-related functional decline, chronic disease, disa
 
 ## Caregiver Needs
 
-To be source-backed.
+- `2016_nasem_families-caring-for-an-aging-america`: Older-adult caregiving demand can reflect chronic health problems, functional limitation, cognitive impairment, family structure, employment, and LTSS fragmentation.
+- `2020_schulz_family-caregiving-for-older-adults`: High-need/high-cost older adults with multiple chronic diseases and functional limitations may have higher unmet care needs, increasing caregiver support and assessment needs.
 
 ## Care Recipient Needs
 
-To be source-backed.
+- Needs may include help with self-care, mobility, household tasks, symptom management, medical tasks, safety monitoring, and care coordination.
 
 ## Technology Support Opportunities
 
-To be source-backed.
+- Digital health and smart home tools may support monitoring, training, care coordination, and caregiver assessment, but these citations provide design rationale rather than condition-specific effectiveness evidence.
 
 ## Evidence
 
-No source-backed claims yet.
+- `2016_nasem_families-caring-for-an-aging-america`.
+- `2020_schulz_family-caregiving-for-older-adults`.

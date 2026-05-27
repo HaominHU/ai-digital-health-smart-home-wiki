@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-05-27
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -62,11 +62,27 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/chatgpt_health_sci_preclinic_preparation.md`
 - `wiki/evidence/dissertation_family_caregiver_mhealth_app.md`
 - `wiki/evidence/setiawan_2019_adaptive_mhealth_self_management.md`
+- `wiki/evidence/schulz_2020_family_caregiving_older_adults.md`
+- `wiki/evidence/nasem_2016_families_caring_aging_america.md`
+- `wiki/evidence/van_houtven_2011_caregiver_intervention_framework.md`
+- `wiki/evidence/mohammed_2023_sci_family_caregiver_experiences_ghana.md`
+- `wiki/evidence/hartnett_2016_caregiver_burden_end_stage_ovarian_cancer.md`
+- `wiki/evidence/glasgow_2001_reaim_chronic_illness_management.md`
+- `wiki/evidence/lewis_2020_rag_knowledge_intensive_nlp.md`
+- `wiki/evidence/yao_2023_react_reasoning_acting_language_models.md`
 
 ## Citation Memory
 
 - `wiki/references/README.md`: Citation-memory policy and Zotero/EndNote export boundary.
 - `wiki/references/items/2019-04-25_setiawan_adaptive-mhealth-self-management.md`
+- `wiki/references/items/2020_schulz_family-caregiving-for-older-adults.md`
+- `wiki/references/items/2016_nasem_families-caring-for-an-aging-america.md`
+- `wiki/references/items/2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions.md`
+- `wiki/references/items/2023-04-21_mohammed_sci-family-caregiver-experiences-ghana.md`
+- `wiki/references/items/2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer.md`
+- `wiki/references/items/2001_glasgow_re-aim-framework-chronic-illness-management.md`
+- `wiki/references/items/2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp.md`
+- `wiki/references/items/2023_yao_react-reasoning-acting-language-models.md`
 
 ## Templates
 
@@ -96,6 +112,9 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/concepts/aging_vs_disease.md`: Distinguishes aging-related decline from disease and disability.
 - `wiki/concepts/caregiver_vs_care_recipient_needs.md`: Separates caregiver needs from care recipient needs.
 - `wiki/concepts/multimorbidity_and_overlapping_needs.md`: Tracks overlapping needs and interacting causes.
+- `wiki/concepts/caregiving_as_chronic_stress_exposure.md`: Frames caregiving as potential chronic stress exposure while preserving variation and positive caregiving meanings.
+- `wiki/concepts/caregiving_activities_vs_outcomes.md`: Separates caregiving activities from caregiver and care-recipient outcomes.
+- `wiki/concepts/reach_adoption_implementation_maintenance.md`: Uses RE-AIM to track reach, efficacy, adoption, implementation, and maintenance for intervention evaluation.
 
 ## Initial Population Pages
 
@@ -142,6 +161,15 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/design_patterns/ai_and_wearable_augmented_caregiver_support.md`
 - `wiki/design_patterns/adaptive_mhealth_self_management_platform.md`
 - `wiki/design_patterns/clinician_portal_supported_mhealth.md`
+- `wiki/design_patterns/caregiver_assessment_and_triage.md`
+- `wiki/design_patterns/caregiver_intervention_evaluation_core_outcomes.md`
+- `wiki/design_patterns/person_and_family_centered_care_coordination.md`
+- `wiki/design_patterns/retrieval_grounded_health_ai_support.md`
+- `wiki/design_patterns/reasoning_action_health_ai_agent.md`
+
+## Research Question Pages
+
+- `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`
 
 ## Initial Technology Pages
 

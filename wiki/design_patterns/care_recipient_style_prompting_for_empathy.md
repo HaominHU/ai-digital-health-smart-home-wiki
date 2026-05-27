@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [prompting, empathy, human-centered-ai, care-recipient, design-pattern]
-last_updated: 2026-05-18
+last_updated: 2026-05-27
 ---
 
 # Care-Recipient-Style Prompting for Empathy
@@ -17,6 +17,7 @@ Use natural care-recipient-style inputs to evaluate or elicit AI responses inten
 ## Source-Backed Rationale
 
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: In an exploratory SCI pre-clinic preparation evaluation, care-recipient-style prompts scored higher overall than concise clinical prompts, primarily because empathetic tone was higher.
+- `2023_yao_react-reasoning-acting-language-models`: ReAct-style reasoning/action traces can improve inspectability for developers or reviewers, but health-facing interfaces should avoid exposing sensitive private reasoning as user-facing content.
 
 ## Relevant Populations
 
@@ -39,10 +40,12 @@ Use natural care-recipient-style inputs to evaluate or elicit AI responses inten
 - Empathetic tone should not compensate for clinical inaccuracy.
 - Prompt style effects should be evaluated alongside accuracy, actionability, usability, privacy, and safety.
 - Generated responses should remain preparation or knowledge support, not clinical decision-making.
+- Provide concise user-facing rationales and source links rather than raw private scratch reasoning.
 
 ## Evidence
 
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`.
+- `2023_yao_react-reasoning-acting-language-models`.
 
 ## Gaps
 
