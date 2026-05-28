@@ -20,6 +20,7 @@ Use a clinician-facing portal to configure mHealth modules, review self-manageme
 - `2016_nasem_families-caring-for-an-aging-america`: Provider systems should identify, assess, engage, train, support, and refer family caregivers; payment and delivery systems often need redesign to support these interactions.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Provider-supported caregiver interventions should specify targeted caregiving activities and caregiver/care-recipient outcomes.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Portal-supported interventions need evaluation of organizational adoption, implementation consistency, and maintenance in routine care, not just patient-level efficacy.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes a health care provider interface for approving clients with dementia, updating client information, and discussing care plans with caregivers.
 
 ## Relevant Populations
 
@@ -38,6 +39,7 @@ Use a clinician-facing portal to configure mHealth modules, review self-manageme
 - Instant messaging.
 - Alerts by SMS or email for urgent/severe conditions.
 - Adoption, fidelity, workflow-fit, and maintenance metrics.
+- Care-plan discussion tools and provider-facing client management.
 
 ## Design Constraints
 
@@ -52,6 +54,7 @@ Use a clinician-facing portal to configure mHealth modules, review self-manageme
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Gaps
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [rag, source-grounding, ai, digital-health, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Retrieval-Grounded Health AI Support
@@ -19,6 +19,7 @@ Use retrieval-augmented generation to ground AI support in a curated source base
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG combines a parametric generator with non-parametric retrieved documents and can update knowledge through the external index.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Future caregiver mHealth AI directions include retrieval-augmented generation for condition-specific content and trajectory-sensitive support.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AI-assisted pre-clinic preparation should distinguish record-free support from record-connected systems with stronger privacy, consent, and trust implications.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy uses a RAG-supported chatbot with internal Q&A content, external sources, confidence thresholds, empathetic context generation, and urgent/sensitive-case routing to helpline resources.
 
 ## Relevant Uses
 
@@ -27,6 +28,7 @@ Use retrieval-augmented generation to ground AI support in a curated source base
 - Condition-specific content adaptation.
 - Research literature synthesis and prompt generation.
 - Wiki-grounded knowledge support.
+- Dementia caregiver symptom-management and resource-navigation support.
 
 ## Design Constraints
 
@@ -35,12 +37,14 @@ Use retrieval-augmented generation to ground AI support in a curated source base
 - Keep generated content in research, design, preparation, or knowledge-support scope unless separately validated.
 - Do not treat retrieval as proof of correctness; source quality, retrieval quality, and generation quality must be evaluated separately.
 - Protect sensitive user data before retrieval, indexing, or logging.
+- Define confidence thresholds, out-of-scope behavior, and escalation pathways for urgent or sensitive queries.
 
 ## Evidence
 
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Gaps
 

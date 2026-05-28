@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Emotional and Social Support
@@ -33,6 +33,7 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Depression, burden, psychological morbidity, anxiety, coping, self-efficacy, and social support are common caregiver intervention outcomes or activity targets.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana reported shock, uncertainty, disrupted social life, and reliance on hope, religious practices, encouragement, and support from relatives and friends.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: End-stage ovarian cancer caregivers reported high caregiver esteem while also experiencing practical burdens, showing that positive meaning and support needs can coexist.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes an online peer support forum, moderator tools, inappropriate-post flagging, blocking, content filtering, helpline access, and an LLM-based forum bot named Sparky to stimulate interactions.
 
 ## Care Recipient Connection
 
@@ -52,6 +53,7 @@ To be further source-backed.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Design Implications
 

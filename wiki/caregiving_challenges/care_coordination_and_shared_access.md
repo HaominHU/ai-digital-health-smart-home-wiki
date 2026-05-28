@@ -33,6 +33,8 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana reported instrumental roles including transportation, cooking, errands, housekeeping, managing finances, and managing care-recipient business or money.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends interdisciplinary support, including nursing education, social work, financial and medication assistance, community organization referrals, support groups, and respite.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise tool use and inspectable action traces, but it should only inform speculative coordination support under strict action-space limits.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes care planning, centralized provider messaging, QR code multi-caregiver coordination, telemedicine links, care center transfer workflows, provider interface, and moderator interface for dementia caregiver support.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports specialized agents for appointment scheduling and reminders, coordinated by a central orchestrator.
 
 ## Care Recipient Connection
 
@@ -45,6 +47,7 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2016_nasem_families-caring-for-an-aging-america`: Shared access and caregiver engagement should be designed as person- and family-centered care, preserving care-recipient autonomy, privacy, and consent.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG can support source-grounded resource lookup or coordination drafts when sources are curated.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct can support draft task orchestration, but external communication, purchases, care-plan changes, or device actions should require human confirmation.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy is a concrete provider-connected caregiver mHealth example, but the study reports usability/acceptability rather than coordination outcome effectiveness.
 
 ## Evidence
 
@@ -57,6 +60,8 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`.
 
 ## Design Implications
 
@@ -65,6 +70,7 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - Include auditability and revocable access when designing shared caregiver systems.
 - Assess caregiver capacity and willingness before assigning coordination tasks.
 - For AI-assisted coordination, log retrieved sources, proposed actions, confirmations, and any shared-access changes.
+- For multi-caregiver and provider-connected workflows, make role permissions, consent, and revocation explicit.
 
 ## Gaps
 

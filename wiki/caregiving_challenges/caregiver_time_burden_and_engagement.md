@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-time-burden, engagement, mhealth, caregiving]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Caregiver Time Burden and Engagement
@@ -34,6 +34,8 @@ Reusable caregiving challenge hub for cases where caregiver time limits, competi
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study described time spent in hospital and care tasks, disrupted social life, reduced ability to work, and financial strain from increased care expenses.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: In a pilot study of end-stage ovarian cancer caregivers, disrupted schedules were among the most burdensome factors and were higher among higher-income, unemployed, or retired caregivers in this sample.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Reach is shaped by barriers such as cost, necessary referrals, scheduling, transportation, and inconvenience, which are especially relevant when caregivers already face time scarcity.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Dementia caregivers reported that curated CareBuddy content and service directories saved time compared with searching independently; long-term engagement remains an evidence gap.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports reduced task completion time and cognitive load for a multi-agent CareBuddy system, but this remains abstract-level evidence.
 
 ## Care Recipient Connection
 
@@ -58,6 +60,8 @@ To be further source-backed.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`.
 
 ## Design Implications
 

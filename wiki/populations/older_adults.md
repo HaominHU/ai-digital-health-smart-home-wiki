@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Older Adults
@@ -37,6 +37,8 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `2016_nasem_families-caring-for-an-aging-america`: The National Academies report explicitly states that need for caregiving is not an inevitable consequence of aging; functional, cognitive, mental health, and chronic health limitations drive the need for help.
 - `2020_schulz_family-caregiving-for-older-adults`: Schulz et al. 2020 anchors older-adult caregiving in chronic illness, disability, care intensity, dementia, multimorbidity, and health/social system context rather than normal aging alone.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM supports evaluating whether chronic illness and caregiver interventions reach older adults equitably and can be adopted, implemented, and maintained in real-world settings.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract included older adults with and without early-stage memory impairment in a usability study of a multi-agent conversational AI; treat this as usability context, not evidence that dementia is normal aging.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: The dementia caregiver app context is relevant to older adults when dementia-related cognitive impairment and care needs are present, not age alone.
 
 ## Related Pages
 

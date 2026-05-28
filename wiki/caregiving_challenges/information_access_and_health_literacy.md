@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Information Access and Health Literacy
@@ -36,6 +36,7 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Educational and self-management interventions should be evaluated for reach and representativeness, because referral requirements, scheduling, cost, transportation, and literacy or technology barriers can limit participation.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG provides technical rationale for retrieving source material and generating adapted outputs, but does not establish healthcare or caregiver education effectiveness.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise information seeking with external tools, but health use requires source verification and bounded action spaces.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Dementia caregivers valued curated dementia trajectory, behavioral/physical symptom management, grief, stress, self-care, and service-directory content; early feedback also flagged textual overload, leading to content and navigation refinements.
 
 ## Care Recipient Connection
 
@@ -48,6 +49,7 @@ To be further source-backed.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Telephone, interactive computer, mailed, and policy modalities may change reach, adoption, implementation, and maintenance compared with face-to-face education.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Retrieval-grounded systems can connect generated education to retrieved source passages.
 - `2023_yao_react-reasoning-acting-language-models`: Reasoning-action systems can structure search, lookup, and draft-generation workflows.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy uses a RAG-supported chatbot, structured Q&A database, tiered confidence retrieval, and source-reported urgent/sensitive-case routing to helpline resources.
 
 ## Evidence
 
@@ -61,6 +63,7 @@ To be further source-backed.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Design Implications
 
@@ -70,6 +73,7 @@ To be further source-backed.
 - Record whether a design claim targets knowledge, clinical skill, decision support, communication, or provider referral.
 - Evaluate whether information interventions reach low-literacy, low-resource, or time-constrained caregivers rather than only motivated participants.
 - Use curated sources, citation traceability, and review workflows when adapting health information with AI.
+- Reduce text overload through progressive disclosure, visuals, audio options, and navigation aids when caregivers are under cognitive and time burden.
 
 ## Gaps
 

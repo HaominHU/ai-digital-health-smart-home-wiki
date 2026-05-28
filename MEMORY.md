@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Research Wiki Memory
@@ -239,3 +239,16 @@ Source-backed AI method notes:
 - Use both sources as technical architecture/design rationale for future AI-driven digital health, caregiver-support, pre-clinic preparation, information access, and bounded tool-use systems.
 - Do not treat either source as healthcare, caregiving, condition-specific, clinical-safety, usability, equity, or intervention-effectiveness evidence.
 - Health-related RAG/ReAct systems need curated source corpora, privacy controls, access control, audit logs, human confirmation, source review, clinical decision boundaries, and RE-AIM-style evaluation before real-world use.
+
+Part 2 integrated sources:
+
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Innovation in Aging conference abstract on CareBuddy as a modular multi-agent conversational AI for Alzheimer's care and assistance.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: JMIR Aging development and mixed-methods usability/acceptability study of CareBuddy as a mobile care ecosystem for dementia caregivers.
+
+Source-backed CareBuddy notes:
+
+- Hasan 2025 should be used as abstract-level evidence for multi-agent conversational AI with specialized agents for medical inquiries, appointment scheduling, meal planning, and reminders coordinated by a central orchestrator.
+- Malhotra 2025 should be used as direct published evidence for dementia caregiver mHealth development, usability, acceptability, and design rationale, not effectiveness.
+- Malhotra 2025 CareBuddy includes personalized assessments, tailored dementia symptom-management strategies, RAG-supported chatbot support, GPS monitoring for wandering, care plans, provider messaging, QR multi-caregiver coordination, telemedicine links, helpline access, financial/legal/future planning, self-care worksheets, calendar reminders, peer forum support, provider/moderator interfaces, usage logs, notifications, chat history management, and source-reported privacy/security controls.
+- CareBuddy strengthens the wiki's dementia caregiver system-design layer across AI-driven digital health, smart-home/location monitoring, information access, care coordination, caregiver self-care, emotional/social support, safety monitoring, care-recipient privacy, modular caregiver mHealth, one-stop caregiver support, RAG health AI, clinician-portal support, reliability, and intervention evaluation.
+- Do not treat either source as evidence of clinical effectiveness, care-recipient safety outcomes, long-term adoption, or caregiver burden reduction. The planned hybrid type 1 randomized trial in Malhotra 2025 is future work.

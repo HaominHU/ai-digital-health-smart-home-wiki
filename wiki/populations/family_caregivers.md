@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Family Caregivers
@@ -34,6 +34,7 @@ Primary population focus for this wiki.
 - Caregiver identification, assessment, training, and referral needs in health care and long-term services and supports.
 - Intervention evaluation needs that separate caregiving activities from caregiver outcomes and care-recipient outcomes.
 - Reach, adoption, implementation, and maintenance risks when caregiver interventions rely on caregivers having time, technology access, literacy, clinic linkage, or sustained engagement capacity.
+- Dementia caregiver needs around symptom-management education, wandering/location awareness, care planning, provider communication, service directories, peer support, crisis support, self-care, and legal/financial/future planning.
 
 ## Evidence
 
@@ -45,6 +46,8 @@ Primary population focus for this wiki.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: A Ghanaian qualitative study provides SCI-specific evidence that family caregivers may enter caregiving suddenly, perform ADL/IADL and inpatient hands-on care tasks, and experience physical and financial burden while using social, religious, and family coping supports.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: A pilot study of end-stage ovarian cancer caregivers found that positive caregiver esteem can coexist with disrupted schedules and financial burden, supporting separate tracking of positive meaning and practical burden.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM is not caregiver-specific evidence, but it supports evaluating caregiver interventions for representativeness, adoption, implementation consistency, and sustained use.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: A JMIR Aging development and mixed-methods study provides dementia caregiver mHealth usability/acceptability evidence for a multicomponent mobile care ecosystem.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Conference abstract evidence describes multi-agent conversational AI support for people with Alzheimer's disease and informal caregivers.
 
 ## Related Pages
 

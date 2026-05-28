@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -32,6 +32,7 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Caregiver physical health, self-care, sleep, utilization, and economic status were under-measured in caregiver intervention studies.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study reported body pain, sleeplessness, tiredness, physical weakness, and sickness related to lifting, turning, and constant support.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends that caregivers receive support for caring for themselves, including attention to their own health status and respite from caregiving when possible.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes caregiver self-care resources and psychologist-developed worksheets focused on caregiving identity, burnout, self-care, anticipatory grief, and emotional resilience.
 
 ## Care Recipient Connection
 
@@ -53,6 +54,7 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Design Implications
 

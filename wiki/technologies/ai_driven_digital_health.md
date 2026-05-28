@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # AI-Driven Digital Health
@@ -42,6 +42,8 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: AI and digital health interventions should be evaluated for reach, efficacy/effectiveness, adoption, implementation, and maintenance rather than technical performance or efficacy alone.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Retrieval-augmented generation is a technical method for grounding generated outputs in retrieved source passages and updating knowledge through an external index.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct is a technical method for interleaving reasoning traces and tool/environment actions, relevant to bounded AI agents but not evidence of healthcare safety or effectiveness.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes a source-reported GPT-4/GPT-3.5 RAG chatbot with confidence-based retrieval, internal Q&A content, external sources, urgent/sensitive-case helpline routing, and privacy/security controls.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: A CareBuddy abstract describes a multi-agent conversational AI architecture with specialized agents and central orchestration for Alzheimer's care and assistance.
 
 ## Evidence
 
@@ -54,3 +56,5 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM evaluation framework for chronic illness intervention impact, implementation, and maintenance.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Technical RAG method source; use for architecture rationale only.
 - `2023_yao_react-reasoning-acting-language-models`: Technical ReAct method source; use for bounded tool-use and oversight rationale only.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Published usability/acceptability evidence for AI-supported dementia caregiver mHealth; not effectiveness evidence.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Conference abstract evidence for multi-agent conversational AI in Alzheimer's care; abstract-level only.

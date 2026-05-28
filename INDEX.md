@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -70,6 +70,8 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/glasgow_2001_reaim_chronic_illness_management.md`
 - `wiki/evidence/lewis_2020_rag_knowledge_intensive_nlp.md`
 - `wiki/evidence/yao_2023_react_reasoning_acting_language_models.md`
+- `wiki/evidence/hasan_2025_carebuddy_multi_agent_conversational_ai_alzheimers.md`
+- `wiki/evidence/malhotra_2025_carebuddy_mobile_care_ecosystem_dementia_caregiving.md`
 
 ## Citation Memory
 
@@ -83,6 +85,8 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2001_glasgow_re-aim-framework-chronic-illness-management.md`
 - `wiki/references/items/2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp.md`
 - `wiki/references/items/2023_yao_react-reasoning-acting-language-models.md`
+- `wiki/references/items/2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers.md`
+- `wiki/references/items/2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving.md`
 
 ## Templates
 

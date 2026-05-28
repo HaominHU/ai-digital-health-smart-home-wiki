@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -24,6 +24,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregiver modules should consider onboarding for sudden caregiving entry, ADL/IADL support, physical burden, financial/resource navigation, social support, coping, and training/counselling referral.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver modules should consider schedule disruption, financial/resource navigation, symptom-management education, respite prompts, self-care support, and interdisciplinary referral pathways.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Modular systems should be evaluated for reach, efficacy, adoption, implementation, and maintenance, not only module usability or participant satisfaction.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy provides a dementia-specific example of a modular mobile care ecosystem with assessment, tailored symptom support, RAG chatbot, GPS monitoring, care planning, telemedicine links, helpline, self-care, reminders, and peer support.
 
 ## Relevant Populations
 
@@ -49,6 +50,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Financial strain and social support navigation.
 - Advanced cancer symptom-management education and referral pathways.
 - Reach, adoption, implementation, and maintenance instrumentation.
+- Dementia-specific modules for behavioral/physical symptoms, wandering, caregiver self-care, peer support, and future planning.
 
 ## Design Constraints
 
@@ -67,6 +69,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Gaps
 

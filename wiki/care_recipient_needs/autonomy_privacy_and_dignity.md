@@ -30,6 +30,8 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2020_schulz_family-caregiving-for-older-adults`: Monitoring, advocacy, surrogacy, and care coordination can support care recipients but can also interact with relationship quality, care-recipient suffering, and safety concerns.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG-style systems require careful control over what user data are indexed, retrieved, logged, and exposed as provenance.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct-style systems raise privacy and safety concerns when language models can look up information or take actions in external environments.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes GPS monitoring, chatbot records, provider messaging, shared caregiver access, cloud storage, and source-reported de-identification/delinking/privacy controls, making consent and role boundaries central.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: A multi-agent conversational AI intended for both persons with Alzheimer's disease and caregivers should preserve care-recipient autonomy when task support and medical inquiries are included.
 
 ## Design Implications
 
@@ -37,6 +39,7 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - Keep AI action spaces permissioned and auditable.
 - Require human confirmation before sharing information, sending messages, changing access, or acting on behalf of a care recipient.
 - Preserve care-recipient control over what is summarized, disclosed, or delegated to caregivers.
+- Treat GPS location, chatbot conversation history, care plans, and provider messages as sensitive data with explicit access and retention rules.
 
 ## Related Pages
 

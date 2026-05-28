@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, reliability, data-capture, cache, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Real-World Reliability for mHealth Data Capture
@@ -24,6 +24,7 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM frames real-world implementation consistency and long-term maintenance as core evaluation dimensions, not secondary details after efficacy.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG pipelines add retrieval-index quality, source update procedures, and provenance reliability as system reliability concerns.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct-style systems add action logging, tool failure recovery, and bounded action-space reliability as system reliability concerns.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy reports system usage logs, notification systems, chat history management, cloud synchronization, and user feedback about GPS tracker refresh issues.
 
 ## Relevant Populations
 
@@ -41,6 +42,7 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 - Real-world feedback loops after lab usability testing.
 - Implementation-fidelity and maintenance checks for repeated data capture.
 - Retrieval, source-provenance, and action-log reliability checks for AI-supported workflows.
+- GPS refresh, notification, chat-history, and cloud synchronization reliability checks.
 
 ## Design Constraints
 
@@ -59,6 +61,7 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Gaps
 

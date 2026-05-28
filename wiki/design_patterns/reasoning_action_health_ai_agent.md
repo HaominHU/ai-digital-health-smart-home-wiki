@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [react, agentic-ai, tool-use, human-oversight, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Reasoning-Action Health AI Agent
@@ -19,6 +19,8 @@ Use a tightly bounded reasoning-plus-action architecture when an AI system needs
 - `2023_yao_react-reasoning-acting-language-models`: ReAct interleaves reasoning traces and task-specific actions, allowing models to gather external information and produce inspectable trajectories.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Future caregiver mHealth directions include agentic interaction for proactive engagement and context-sensitive prompts.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AI-assisted preparation can support question generation, portal-message drafts, and structured visit-preparation outputs without autonomous clinical decision-making.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract describes specialized CareBuddy agents for medical inquiries, appointment scheduling, meal planning, and reminders coordinated by a central orchestrator.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes bounded chatbot and forum-bot support within a broader caregiver app, with source-reported safety routing and privacy measures.
 
 ## Relevant Uses
 
@@ -28,6 +30,7 @@ Use a tightly bounded reasoning-plus-action architecture when an AI system needs
 - Resource-navigation support.
 - Research/design prompt generation.
 - Smart-home task support only when actions are permissioned and non-dangerous.
+- Scheduling, reminder, meal/grocery planning, and resource-navigation support when actions remain reviewable.
 
 ## Design Constraints
 
@@ -42,6 +45,8 @@ Use a tightly bounded reasoning-plus-action architecture when an AI system needs
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`.
+- `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 
 ## Gaps
 
