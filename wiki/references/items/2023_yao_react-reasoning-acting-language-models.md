@@ -27,7 +27,7 @@ doi:
 url:
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/33_yao_react_2022.pdf
+source_file: sources/papers/37_yao_react_2022.pdf
 related_evidence_pages:
   - wiki/evidence/yao_2023_react_reasoning_acting_language_models.md
 related_wiki_pages:

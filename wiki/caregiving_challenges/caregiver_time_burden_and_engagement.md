@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-time-burden, engagement, mhealth, caregiving]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Caregiver Time Burden and Engagement
@@ -28,6 +28,10 @@ Reusable caregiving challenge hub for cases where caregiver time limits, competi
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Family caregivers reported time restrictions as a barrier, motivating intuitive navigation, onboarding support, and just-in-time prompts rather than reliance on self-directed exploration.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Dissertation co-design and pilot findings show that family caregivers wanted reminders, lower learning burden, better module integration, and support that reduces rather than adds to caregiving workload.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Pearlin-style role-strain and stress-proliferation logic supports treating caregiver time burden as part of a wider system of role demands and secondary stressors.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Care duration, amount of care, ADL assistance intensity, vigilance demands, and coresidence are linked to caregiver health effects.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth can reduce access barriers related to transportation, respite, work schedules, rural residence, and crowded urban settings, but modality and implementation still require evaluation.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health tools may increase access to caregiver support but must account for technology use, digital literacy, accessibility, attrition, and low usage.
 - `2020_schulz_family-caregiving-for-older-adults`: Care intensity, duration, work strain, living with the care recipient, and high-intensity personal or medical care are important risk contexts for caregiver burden and adverse outcomes.
 - `2016_nasem_families-caring-for-an-aging-america`: The report highlights long caregiving duration, working caregivers, paid leave and economic support policy needs, and financial harm when caregivers reduce work or leave the workforce.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Quantity of caregiving and work productivity are important but under-measured intervention evaluation constructs.
@@ -52,6 +56,10 @@ To be further source-backed.
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`.
 - `2020_schulz_family-caregiving-for-older-adults`.
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.

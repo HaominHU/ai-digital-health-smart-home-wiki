@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -18,6 +18,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation describes an adaptive modular infrastructure with general modules for all family caregivers, general modules with condition-specific content, data interfaces, and condition-specific modules.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: The iMHere 2.0 paper grounds the system infrastructure behind this research line, including adaptive modules, caregiver app, clinician portal, secure synchronization, and scalable architecture that can support future expansion.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Pearlin-style stress-process architecture supports tailoring modules by stressor type, secondary strains, coping resources, social support, mastery, and outcome risk.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Modular caregiver systems should account for care intensity, vigilance, caregiver physical and psychological health, health behaviors, and positive caregiving meaning.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth caregiver interventions commonly combine skills training, psychoeducation/resources, self-monitoring/tracking, reminders, counseling, and support applications across telephone, web, and combined modalities.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Modern digital health caregiver interventions should use HCD, accessibility, usability, cultural/linguistic tailoring, and theory-informed intervention components.
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiver supports are more plausible when they address both practical care demands and emotional toll and are tailored to caregiver risk, disease/treatment trajectory, and care context.
 - `2016_nasem_families-caring-for-an-aging-america`: Caregiver support should start from assessment of caregiver risks, needs, strengths, preferences, capacity, and willingness.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Modules should be classifiable by whether they target clinical knowledge, psychological skills, support seeking, quantity/quality of care, caregiver outcomes, or care-recipient outcomes.
@@ -45,6 +49,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Risk assessment.
 - Goals and plans.
 - Caregiver assessment and triage.
+- Stress-process-tailored support pathways.
+- Caregiver health behavior and self-care modules.
+- Telehealth and digital health delivery modes.
+- HCD-informed accessibility and usability modules.
 - Evaluation instrumentation for activities, outcomes, utilization, and cost.
 - SCI-specific caregiver onboarding and task training.
 - Financial strain and social support navigation.
@@ -63,6 +71,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`.
 - `2020_schulz_family-caregiving-for-older-adults`.
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.

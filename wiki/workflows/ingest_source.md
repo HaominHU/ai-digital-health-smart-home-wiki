@@ -95,6 +95,32 @@ For short quick notes or personal takeaways:
 13. Update `MEMORY.md` after major milestones.
 14. Append a concise `ingest` entry to `LOG.md`.
 
+## Source-Type Extraction Depth
+
+Match the extraction depth to the source type. Do not let review papers collapse into generic summaries, and do not let single studies lose the full study picture.
+
+For systematic reviews, scoping reviews, meta-analyses, and evidence syntheses, capture:
+
+- Review question and inclusion logic.
+- Search date range, databases, study designs, and screening scope when available.
+- Included population and condition scope, including whether the review directly supports a priority wiki condition or only broad caregiver/digital health context.
+- Technology or intervention taxonomy, including concrete delivery modes, intervention components, and whether the source is AI-specific, smart-home-specific, broader digital health, telehealth, or non-technology intervention evidence.
+- Outcome taxonomy, including caregiver outcomes, care-recipient outcomes, usability/acceptability outcomes, implementation outcomes, and evidence-quality ratings when available.
+- Equity, access, cultural, linguistic, accessibility, and human-centered design details, especially when the source mentions marginalized or underserved caregivers.
+- Review-level takeaway: what the review adds beyond repeating included studies.
+- What the review does not answer, including unsupported condition-specific, clinical-effectiveness, AI-agent, smart-home, or implementation claims.
+
+For single empirical studies, capture a compact full-study picture:
+
+- Problem or gap addressed.
+- Population, care-recipient condition, setting, and relationship context.
+- Intervention, system, exposure, or phenomenon studied.
+- Key innovation or distinguishing contribution.
+- Study design, methods, sample, and measures.
+- Main results and primary takeaway.
+- Evidence limits, including whether the source supports feasibility, usability, acceptability, mechanism, association, or effectiveness.
+- Direct wiki mapping across caregiver needs, care-recipient needs, condition overlays, technology lenses, design patterns, and evaluation logic.
+
 ## Common Wiki Targets
 
 - Population implications -> `wiki/populations/`

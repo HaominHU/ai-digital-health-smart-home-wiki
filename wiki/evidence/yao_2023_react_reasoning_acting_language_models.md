@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2023_yao_react-reasoning-acting-language-models
-source_file: sources/papers/33_yao_react_2022.pdf
+source_file: sources/papers/37_yao_react_2022.pdf
 reference_item: wiki/references/items/2023_yao_react-reasoning-acting-language-models.md
 evidence_type: published technical evidence
 source_type: conference paper
@@ -49,4 +49,4 @@ ReAct is useful for this wiki as a technical method for bounded AI agents that r
 
 ## Source Citation
 
-- `2023_yao_react-reasoning-acting-language-models`: Yao S, Zhao J, Yu D, Du N, Shafran I, Narasimhan K, Cao Y. ReAct: Synergizing Reasoning and Acting in Language Models. ICLR 2023. arXiv:`2210.03629v3`. Source file: `sources/papers/33_yao_react_2022.pdf`.
+- `2023_yao_react-reasoning-acting-language-models`: Yao S, Zhao J, Yu D, Du N, Shafran I, Narasimhan K, Cao Y. ReAct: Synergizing Reasoning and Acting in Language Models. ICLR 2023. arXiv:`2210.03629v3`. Source file: `sources/papers/37_yao_react_2022.pdf`.

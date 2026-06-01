@@ -34,7 +34,7 @@ doi: 10.2196/78759
 url: https://aging.jmir.org/2025/1/e78759
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/38_malhotra_carebuddy_2025.pdf
+source_file: sources/papers/malhotra_carebuddy_2025.pdf
 related_evidence_pages:
   - wiki/evidence/malhotra_2025_carebuddy_mobile_care_ecosystem_dementia_caregiving.md
 related_wiki_pages:

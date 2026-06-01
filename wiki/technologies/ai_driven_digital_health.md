@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # AI-Driven Digital Health
@@ -40,6 +40,8 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2020_schulz_family-caregiving-for-older-adults`: Technology-based caregiver interventions can deliver knowledge, social support, therapeutic strategies, monitoring, training, and performance support, but sustained use, accessibility, cost-effectiveness, system design, and care integration remain unresolved.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: AI or digital health interventions should make explicit whether they target caregiving activities, caregiver outcomes, care-recipient outcomes, utilization, or economic outcomes.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: AI and digital health interventions should be evaluated for reach, efficacy/effectiveness, adoption, implementation, and maintenance rather than technical performance or efficacy alone.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth RCT evidence supports remote caregiver intervention delivery through telephone, web, and combined modalities, but should not be treated as AI-specific evidence.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health caregiver interventions can support psychological health, self-efficacy, caregiving skills, quality of life, social support, and coping; HCD, accessibility, and cultural/linguistic tailoring remain major design needs.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Retrieval-augmented generation is a technical method for grounding generated outputs in retrieved source passages and updating knowledge through an external index.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct is a technical method for interleaving reasoning traces and tool/environment actions, relevant to bounded AI agents but not evidence of healthcare safety or effectiveness.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes a source-reported GPT-4/GPT-3.5 RAG chatbot with confidence-based retrieval, internal Q&A content, external sources, urgent/sensitive-case helpline routing, and privacy/security controls.
@@ -54,6 +56,8 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2020_schulz_family-caregiving-for-older-adults`: Review evidence supporting technology-based caregiver intervention rationale and cautions.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Evaluation framework for caregiver intervention targets and outcomes.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM evaluation framework for chronic illness intervention impact, implementation, and maintenance.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth caregiver intervention systematic review; use for digital delivery and outcome-domain rationale, not AI effectiveness.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health caregiver intervention systematic review; use for HCD/usability/accessibility and caregiver outcome rationale, not autonomous AI evidence.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Technical RAG method source; use for architecture rationale only.
 - `2023_yao_react-reasoning-acting-language-models`: Technical ReAct method source; use for bounded tool-use and oversight rationale only.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Published usability/acceptability evidence for AI-supported dementia caregiver mHealth; not effectiveness evidence.

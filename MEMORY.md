@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Research Wiki Memory
@@ -188,6 +188,8 @@ New source-backed hubs from the sixth integrated batch:
 Systematic ingest rule:
 
 - For future caregiver or digital health sources, classify population scope, condition scope, caregiver challenge, care-recipient need, technology lens, environment, intervention target/mechanism, evaluation outcomes, and evidence limits. A single citation can and often should appear across multiple wiki fields with different writing roles.
+- For systematic reviews, scoping reviews, meta-analyses, and evidence syntheses, do not stop at generic findings. Capture review question/inclusion logic, included population and condition scope, technology/intervention taxonomy, outcome taxonomy, evidence quality and heterogeneity, equity/HCD/accessibility details, review-level takeaway, and what the review does not answer.
+- For single empirical studies, preserve a compact full-study picture: problem or gap, population/condition/setting, intervention or phenomenon, key innovation, methods/sample/measures, main results, primary takeaway, evidence limits, and direct wiki mappings.
 
 Seventh integrated source:
 
@@ -225,9 +227,36 @@ Source-backed implementation and evaluation notes:
 - Maintenance applies at both the individual level and organization level.
 - Use this source as a methods and implementation-science anchor for digital health, smart-home, caregiver-support, and chronic illness management intervention evaluation.
 - Do not treat this source as caregiver-specific evidence, condition-specific evidence, or proof that a particular AI, mHealth, or smart-home intervention is effective.
-- Technology-access assumptions in the paper reflect the 2000-era context and need current evidence before making present-day access claims.
 
-Tenth and eleventh integrated sources:
+Tenth integrated batch:
+
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Society and Mental Health article serving as a readable modern overview of Leonard I. Pearlin's stress-process legacy.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Journal of Social Work Education article on physical and mental health effects of family caregiving.
+
+Source-backed stress-process and caregiver health notes:
+
+- Source 01 should be used as a readable gateway into Pearlin's original stress-process architecture, not as a substitute citation for the original 1981 stress-process article or 1990 caregiving-specific stress-process paper.
+- Pearlin-style stress-process architecture supports separating primary stressors, secondary role strains, secondary intrapsychic strains, stressor meaning/appraisal, coping, social support, mastery/self-concept, and outcomes.
+- Schulz and Sherwood 2008 supports caregiving as chronic stress exposure involving sustained strain, unpredictability, uncontrollability, secondary stress, and vigilance.
+- Caregiver health outcomes should include psychological health, physical health, health behaviors, self-care, positive caregiving meanings, and mortality-related outcomes when appropriate.
+- Dementia caregiving burden claims from Schulz and Sherwood 2008 are caregiver-context evidence, not dementia treatment evidence and not evidence that dementia is normal aging.
+
+Eleventh integrated batch:
+
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: International Journal of Telemedicine and Applications systematic review of 57 randomized controlled trial articles on telehealth interventions for family caregivers of people with chronic health conditions.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: DIGITAL HEALTH updated systematic review of 40 modern digital health intervention studies for family caregivers, including HCD method assessment.
+
+Source-backed digital caregiver intervention notes:
+
+- Graven 2021 supports telehealth caregiver intervention delivery across telephone, web, and combined modalities; telephone was the dominant RCT delivery mode, skills training was the most common intervention strategy, and psychological functioning was the most frequent improvement domain.
+- Graven 2021 should not be treated as AI-agent, smart-home, or care-recipient clinical effectiveness evidence.
+- Zhai 2023 supports digital health caregiver intervention design and outcome rationale, including psychological health, self-efficacy, caregiving skills, quality of life, social support, and coping.
+- Zhai 2023 maps modern caregiver digital health technologies into web resources, telemedicine, and mHealth; intervention purposes include education, real-time communication, data collection/monitoring, psychotherapy, and connection/support.
+- Zhai 2023 adds HCD, usability, accessibility, cultural/linguistic tailoring, marginalized caregiver inclusion, and digital health literacy as recurring design and evaluation concerns.
+- Usability, satisfaction, feasibility, and acceptability remain separate from caregiver outcome effectiveness.
+- Technology-access assumptions in older telehealth and digital health literature need current evidence before making present-day access claims.
+
+AI method integrated sources:
 
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: NeurIPS 2020 technical paper introducing retrieval-augmented generation for knowledge-intensive NLP tasks.
 - `2023_yao_react-reasoning-acting-language-models`: ICLR 2023 technical paper introducing ReAct, a reasoning-plus-action prompting paradigm for language models.

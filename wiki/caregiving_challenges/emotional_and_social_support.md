@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Emotional and Social Support
@@ -28,6 +28,10 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Across design and evaluation phases, caregivers envisioned support for emotional check-ins, peer connection, and situation-specific contacts.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Dissertation co-design findings identified stress, burnout, emotional toll, social isolation, and compromised relationships as caregiver challenges. Pilot participants requested emotional trackers and communication tools for emotional support.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Pearlin-style stress-process logic supports treating coping, social support, mastery, and self-concept as mechanisms that can mediate or moderate stress effects.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Schulz and Sherwood 2008 identifies depression, anxiety, stress/burden, subjective well-being, positive aspects of caregiving, and self-efficacy as caregiver psychological outcome domains.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth RCT evidence most frequently reported improvements in caregiver psychological functioning across modalities.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health interventions were reported to improve caregiver psychological health, social support, coping, self-efficacy, and quality of life in the reviewed literature.
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiver psychological distress, depression, anxiety, social isolation, relationship strain, and exposure to care-recipient suffering are central caregiver risk domains.
 - `2016_nasem_families-caring-for-an-aging-america`: Family caregivers of older adults are at risk for depressive symptoms, anxiety, stress, emotional difficulty, and social isolation, especially under high-intensity or long-duration care.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Depression, burden, psychological morbidity, anxiety, coping, self-efficacy, and social support are common caregiver intervention outcomes or activity targets.
@@ -48,6 +52,10 @@ To be further source-backed.
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`.
 - `2020_schulz_family-caregiving-for-older-adults`.
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
@@ -58,6 +66,7 @@ To be further source-backed.
 ## Design Implications
 
 - Emotional and social support should be treated as a first-class caregiver need, not only an optional add-on.
+- Track positive meaning separately from distress; positive aspects of caregiving can coexist with high burden.
 - AI-mediated emotional support requires explicit human oversight, privacy boundaries, escalation design, and safeguards against over-reliance.
 - Emotional support evaluations should distinguish satisfaction from clinically or practically meaningful changes in distress, quality of life, social support, and functioning.
 

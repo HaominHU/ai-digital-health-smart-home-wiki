@@ -138,7 +138,7 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 ## [2026-05-26] ingest | Mohammed 2023 SCI family caregiver experiences preview
 
 - Summary: Created an ingest preview for a PLOS ONE qualitative study on family caregivers of people with spinal cord injury at Komfo Anokye Teaching Hospital in Ghana.
-- Files touched: `sources/papers/20_mohammed_sci_family_caregiver_experiences_2023.pdf`, `outputs/ingest_previews/2026-05-26_mohammed_sci-family-caregiver-experiences-ghana-2023_preview.md`, `LOG.md`.
+- Files touched: `sources/papers/24_mohammed_sci_family_caregiver_experiences_2023.pdf`, `outputs/ingest_previews/2026-05-26_mohammed_sci-family-caregiver-experiences-ghana-2023_preview.md`, `LOG.md`.
 - Notes: Source type is journal article; evidence type is published qualitative evidence; privacy level is private/non-sensitive. Review status is pending before wiki integration. Source 27 was not previewed because the local PDF appears incomplete.
 
 ## [2026-05-26] ingest | Integrated Mohammed 2023 SCI family caregiver experiences
@@ -150,7 +150,7 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 ## [2026-05-26] ingest | Hartnett 2016 end-stage ovarian cancer caregiver burden preview
 
 - Summary: Created an ingest preview for a Clinical Journal of Oncology Nursing pilot study on caregiver burden among primary caregivers of patients with end-stage ovarian cancer.
-- Files touched: `sources/papers/27_hartnett_caregiver_burden_end_stage_ovarian_cancer_2016.pdf`, `outputs/ingest_previews/2026-05-26_hartnett_caregiver-burden-end-stage-ovarian-cancer-2016_preview.md`, `LOG.md`.
+- Files touched: `sources/papers/31_hartnett_caregiver_burden_end_stage_ovarian_cancer_2016.pdf`, `outputs/ingest_previews/2026-05-26_hartnett_caregiver-burden-end-stage-ovarian-cancer-2016_preview.md`, `LOG.md`.
 - Notes: Source type is journal article; evidence type is published pilot study evidence; privacy level is private/non-sensitive. The updated local PDF now extracts as a full-text article. Review status is pending before wiki integration.
 
 ## [2026-05-27] ingest | Integrated Hartnett 2016 end-stage ovarian cancer caregiver burden
@@ -162,7 +162,7 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 ## [2026-05-27] ingest | Glasgow 2001 RE-AIM chronic illness management preview
 
 - Summary: Created an ingest preview for a Patient Education and Counseling article using the RE-AIM framework to evaluate chronic illness management intervention modalities.
-- Files touched: `sources/papers/reaim_framework_chronic_illness_2001.pdf`, `outputs/ingest_previews/2026-05-27_glasgow_re-aim-framework-chronic-illness-management-2001_preview.md`, `LOG.md`.
+- Files touched: `sources/papers/39_glasgow_reaim_framework_chronic_illness_2001.pdf`, `outputs/ingest_previews/2026-05-27_glasgow_re-aim-framework-chronic-illness-management-2001_preview.md`, `LOG.md`.
 - Notes: Source type is journal article; evidence type is published evidence; privacy level is private/non-sensitive. Review status is pending before wiki integration. Proposed use is as an implementation and evaluation framework, not direct caregiver-specific or condition-specific effectiveness evidence.
 
 ## [2026-05-27] ingest | Integrated Glasgow 2001 RE-AIM chronic illness management framework
@@ -174,7 +174,7 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 ## [2026-05-27] ingest | Previewed AI method sources 32 and 33
 
 - Summary: Created pending ingest previews for Lewis et al. 2020 on retrieval-augmented generation and Yao et al. 2023 on ReAct reasoning-plus-action language model agents, plus a batch AI-method crosswalk.
-- Files touched: `sources/papers/32_lewis_rag_2020.pdf`, `sources/papers/33_yao_react_2022.pdf`, `outputs/ingest_previews/2026-05-27_lewis_rag-knowledge-intensive-nlp-2020_preview.md`, `outputs/ingest_previews/2026-05-27_yao_react-reasoning-acting-language-models-2023_preview.md`, `outputs/ingest_previews/2026-05-27_batch-32-33_ai-methods-crosswalk.md`, `LOG.md`.
+- Files touched: `sources/papers/36_lewis_rag_2020.pdf`, `sources/papers/37_yao_react_2022.pdf`, `outputs/ingest_previews/2026-05-27_lewis_rag-knowledge-intensive-nlp-2020_preview.md`, `outputs/ingest_previews/2026-05-27_yao_react-reasoning-acting-language-models-2023_preview.md`, `outputs/ingest_previews/2026-05-27_batch-32-33_ai-methods-crosswalk.md`, `LOG.md`.
 - Notes: Source type is conference paper for both; evidence type is published technical evidence; privacy level is private/non-sensitive. Review status is pending before wiki integration. Proposed use is technical architecture/design rationale, not clinical, caregiver-specific, condition-specific, or intervention-effectiveness evidence.
 
 ## [2026-05-27] ingest | Integrated AI method sources 32 and 33
@@ -186,7 +186,7 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 ## [2026-05-28] ingest | Previewed part 2 CareBuddy abstract and paper
 
 - Summary: Created pending ingest previews for a 2025 Innovation in Aging abstract on CareBuddy multi-agent conversational AI for Alzheimer's care and a 2025 JMIR Aging paper on CareBuddy as a mobile care ecosystem for dementia caregivers, plus a part 2 crosswalk.
-- Files touched: `sources/abstracts/2025_gsa_carebuddy.pdf`, `sources/papers/38_malhotra_carebuddy_2025.pdf`, `outputs/ingest_previews/2026-05-28_hasan_carebuddy-multi-agent-conversational-ai-alzheimers-2025_preview.md`, `outputs/ingest_previews/2026-05-28_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving-2025_preview.md`, `outputs/ingest_previews/2026-05-28_batch-part-2_carebuddy-crosswalk.md`, `LOG.md`.
+- Files touched: `sources/abstracts/2025_gsa_carebuddy.pdf`, `sources/papers/malhotra_carebuddy_2025.pdf`, `outputs/ingest_previews/2026-05-28_hasan_carebuddy-multi-agent-conversational-ai-alzheimers-2025_preview.md`, `outputs/ingest_previews/2026-05-28_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving-2025_preview.md`, `outputs/ingest_previews/2026-05-28_batch-part-2_carebuddy-crosswalk.md`, `LOG.md`.
 - Notes: Review status is pending before wiki integration. The abstract is conference-level evidence; the JMIR article is published development/usability/acceptability evidence. Neither should be treated as clinical effectiveness evidence.
 
 ## [2026-05-28] ingest | Integrated part 2 CareBuddy abstract and paper
@@ -194,3 +194,45 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Integrated approved CareBuddy part 2 sources into citation memory, evidence pages, dementia, family caregiver and older adult population pages, AI/smart-home technology lenses, caregiver challenge hubs, care-recipient privacy, design patterns, evaluation questions, index, memory, and log.
 - Files touched: `outputs/ingest_previews/2026-05-28_hasan_carebuddy-multi-agent-conversational-ai-alzheimers-2025_preview.md`, `outputs/ingest_previews/2026-05-28_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving-2025_preview.md`, `outputs/ingest_previews/2026-05-28_batch-part-2_carebuddy-crosswalk.md`, `wiki/references/items/2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers.md`, `wiki/references/items/2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving.md`, `wiki/evidence/hasan_2025_carebuddy_multi_agent_conversational_ai_alzheimers.md`, `wiki/evidence/malhotra_2025_carebuddy_mobile_care_ecosystem_dementia_caregiving.md`, `wiki/conditions/dementia.md`, `wiki/populations/family_caregivers.md`, `wiki/populations/older_adults.md`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/technologies/smart_home_technologies.md`, `wiki/caregiving_challenges/information_access_and_health_literacy.md`, `wiki/caregiving_challenges/care_coordination_and_shared_access.md`, `wiki/caregiving_challenges/caregiver_self_care_and_health_tracking.md`, `wiki/caregiving_challenges/emotional_and_social_support.md`, `wiki/caregiving_challenges/monitoring_and_safety_awareness.md`, `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`, `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`, `wiki/design_patterns/adaptive_modular_caregiver_mhealth.md`, `wiki/design_patterns/one_stop_caregiver_support_app.md`, `wiki/design_patterns/retrieval_grounded_health_ai_support.md`, `wiki/design_patterns/reasoning_action_health_ai_agent.md`, `wiki/design_patterns/clinician_portal_supported_mhealth.md`, `wiki/design_patterns/real_world_reliability_for_mhealth_data_capture.md`, `wiki/design_patterns/caregiver_intervention_evaluation_core_outcomes.md`, `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
 - Notes: Citation-memory records are RIS export-ready. Claims are bounded to abstract-level usability signals for Hasan 2025 and development/usability/acceptability evidence for Malhotra 2025; neither is treated as clinical effectiveness evidence.
+
+## [2026-06-01] workflow | Renumbered paper source filenames to updated citation list
+
+- Summary: Compared `sources/papers/` against the updated citation list, identified newly added non-ingested paper PDFs, and renumbered existing paper filenames to match the updated list while leaving user-authored Hu and Setiawan sources unnumbered.
+- Files touched: `sources/papers/`, `wiki/evidence/`, `wiki/references/items/`, `LOG.md`.
+- Notes: Newly added but not ingested papers are `03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf` and `07_zhai_digital_health_fcg_support_systematic_review.pdf`. No new source ingest was performed. Abstract filenames were intentionally left unchanged.
+
+## [2026-06-01] ingest | Previewed stress-process and caregiver health-effects sources 01 and 03
+
+- Summary: Created pending ingest previews for Aneshensel and Avison 2015 on Pearlin's stress-process legacy and Schulz and Sherwood 2008 on physical and mental health effects of family caregiving, plus a batch crosswalk for stress-process and caregiver-health mapping.
+- Files touched: `sources/papers/01_the stress process.pdf`, `sources/papers/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf`, `outputs/ingest_previews/2026-06-01_aneshensel-avison_stress-process-appreciation-pearlin-2015_preview.md`, `outputs/ingest_previews/2026-06-01_schulz-sherwood_physical-mental-health-effects-family-caregiving-2008_preview.md`, `outputs/ingest_previews/2026-06-01_batch-01-03_stress-and-caregiver-health-crosswalk.md`, `LOG.md`.
+- Notes: Review status is pending before wiki integration. Source 01 is readable but is Aneshensel and Avison 2015, a secondary appreciation/overview of Pearlin's stress-process work, not the original Pearlin et al. 1981 stress-process article. Source 03 is readable and provides caregiver health-effects framing, not technology or intervention-effectiveness evidence.
+
+## [2026-06-01] ingest | Refined source 01 preview with Pearlin stress-process verification
+
+- Summary: Updated the pending source 01 preview and batch crosswalk so Aneshensel and Avison 2015 is framed as a readable modern gateway into Pearlin's original stress-process model, with supplemental online verification of the 1981 original stress-process article, the 1990 caregiving-specific stress-process article, Pearlin's 1989 sociological stress paper, and the later stress-process revisited framing.
+- Files touched: `outputs/ingest_previews/2026-06-01_aneshensel-avison_stress-process-appreciation-pearlin-2015_preview.md`, `outputs/ingest_previews/2026-06-01_batch-01-03_stress-and-caregiver-health-crosswalk.md`, `LOG.md`.
+- Notes: Supplemental online sources were used for identity and focus verification only; they are not yet integrated wiki evidence or canonical citation-memory records.
+
+## [2026-06-01] ingest | Integrated stress-process and caregiver health-effects sources 01 and 03
+
+- Summary: Integrated approved previews for Aneshensel and Avison 2015 and Schulz and Sherwood 2008 into citation memory, evidence pages, stress-process concepts, caregiver population pages, dementia and older-adult context, caregiver challenge hubs, design patterns, index, memory, and log.
+- Files touched: `wiki/references/items/2015_aneshensel-avison_stress-process-appreciation-pearlin.md`, `wiki/references/items/2008_schulz-sherwood_physical-mental-health-effects-family-caregiving.md`, `wiki/evidence/aneshensel_avison_2015_stress_process_appreciation_pearlin.md`, `wiki/evidence/schulz_sherwood_2008_physical_mental_health_effects_family_caregiving.md`, `wiki/concepts/`, `wiki/populations/`, `wiki/conditions/dementia.md`, `wiki/caregiving_challenges/`, `wiki/design_patterns/`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Citation-memory records are RIS export-ready. Source 01 is treated as a readable secondary gateway into Pearlin's stress-process architecture, not as the original 1981 or 1990 Pearlin paper. Source 03 is caregiver health-effects framing, not technology or intervention-effectiveness evidence.
+
+## [2026-06-01] ingest | Previewed digital caregiver intervention sources 07 and 09
+
+- Summary: Created pending ingest previews for Graven et al. 2021 on telehealth interventions for family caregivers of people with chronic health conditions and Zhai et al. 2023 on digital health interventions and HCD approaches for family caregivers, plus a batch crosswalk for telehealth, digital health, HCD, and caregiver outcome mapping.
+- Files touched: `sources/papers/07_gaven_telehealth_pwccd_rct_review.pdf`, `sources/papers/09_zhai_digital_health_fcg_support_systematic_review.pdf`, `outputs/ingest_previews/2026-06-01_graven_telehealth-interventions-family-caregivers-chronic-conditions-2021_preview.md`, `outputs/ingest_previews/2026-06-01_zhai_digital-health-interventions-support-family-caregivers-2023_preview.md`, `outputs/ingest_previews/2026-06-01_batch-07-09_digital-caregiver-intervention-crosswalk.md`, `LOG.md`.
+- Notes: Review status is pending before wiki integration. Both PDFs extracted readable text with Ghostscript. Source 07 is RCT-focused telehealth caregiver intervention evidence; source 09 is broader modern digital health and HCD evidence. Neither should be treated as AI-agent or smart-home effectiveness evidence.
+
+## [2026-06-01] ingest | Integrated digital caregiver intervention sources 07 and 09
+
+- Summary: Integrated approved previews for Graven et al. 2021 and Zhai et al. 2023 into citation memory, evidence pages, digital health and smart-home technology lenses, family caregiver and older-adult population pages, dementia context, caregiver challenge hubs, design patterns, research questions, index, memory, and log.
+- Files touched: `wiki/references/items/2021_graven_telehealth-interventions-family-caregivers-chronic-conditions.md`, `wiki/references/items/2023_zhai_digital-health-interventions-support-family-caregivers.md`, `wiki/evidence/graven_2021_telehealth_interventions_family_caregivers_chronic_conditions.md`, `wiki/evidence/zhai_2023_digital_health_interventions_support_family_caregivers.md`, `wiki/technologies/`, `wiki/populations/`, `wiki/conditions/dementia.md`, `wiki/caregiving_challenges/`, `wiki/design_patterns/`, `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Citation-memory records are RIS export-ready. Graven 2021 is telehealth RCT-review evidence; Zhai 2023 is broader digital health and HCD evidence. Neither is treated as AI-agent or smart-home effectiveness evidence, and usability/acceptability remain separate from effectiveness.
+
+## [2026-06-01] workflow | Refined review and single-study ingest depth
+
+- Summary: Updated the source-ingest workflow to require source-type-specific extraction depth, then refined the Graven 2021 and Zhai 2023 evidence and citation-memory records with clearer review-level takeaways, technology/intervention taxonomies, population/equity scope, outcome/evidence-quality framing, and explicit unanswered questions.
+- Files touched: `wiki/workflows/ingest_source.md`, `wiki/evidence/graven_2021_telehealth_interventions_family_caregivers_chronic_conditions.md`, `wiki/evidence/zhai_2023_digital_health_interventions_support_family_caregivers.md`, `wiki/references/items/2021_graven_telehealth-interventions-family-caregivers-chronic-conditions.md`, `wiki/references/items/2023_zhai_digital-health-interventions-support-family-caregivers.md`, `MEMORY.md`, `LOG.md`.
+- Notes: New ingest standard distinguishes review/meta/scoping source extraction from single-study extraction. Review sources should preserve inclusion logic, technology/intervention taxonomy, outcome taxonomy, equity/HCD/accessibility details, review-level takeaway, and what the review does not answer. Single studies should preserve a compact full-study picture.

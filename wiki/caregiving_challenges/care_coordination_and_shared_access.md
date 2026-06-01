@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-05-27
+last_updated: 2026-06-01
 ---
 
 # Care Coordination and Shared Access
@@ -32,6 +32,8 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Support-seeking skills include organizational, tactical, recruiting, provider coordination, and resource-navigation skills.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana reported instrumental roles including transportation, cooking, errands, housekeeping, managing finances, and managing care-recipient business or money.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends interdisciplinary support, including nursing education, social work, financial and medication assistance, community organization referrals, support groups, and respite.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth can provide an avenue for caregivers to discuss support needs between scheduled health care visits.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health interventions can support interactive communication and caregiver-care recipient relationships, but shared access and communication functions still require privacy and role-boundary design.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise tool use and inspectable action traces, but it should only inform speculative coordination support under strict action-space limits.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes care planning, centralized provider messaging, QR code multi-caregiver coordination, telemedicine links, care center transfer workflows, provider interface, and moderator interface for dementia caregiver support.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports specialized agents for appointment scheduling and reminders, coordinated by a central orchestrator.
@@ -58,6 +60,8 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.

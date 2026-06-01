@@ -24,7 +24,7 @@ doi:
 url:
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/reaim_framework_chronic_illness_2001.pdf
+source_file: sources/papers/39_glasgow_reaim_framework_chronic_illness_2001.pdf
 related_evidence_pages:
   - wiki/evidence/glasgow_2001_reaim_chronic_illness_management.md
 related_wiki_pages:

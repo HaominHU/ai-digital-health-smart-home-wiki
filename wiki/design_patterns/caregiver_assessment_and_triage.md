@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-assessment, triage, care-coordination, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-06-01
 ---
 
 # Caregiver Assessment and Triage
@@ -16,6 +16,9 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 
 ## Source-Backed Rationale
 
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Caregiver assessment can use Pearlin-style stress-process domains: primary stressors, secondary strains, stressor meaning, coping, social support, mastery, and outcomes.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Assessment should include care-recipient impairment and behavior, care intensity, vigilance, caregiver health, health behaviors, socioeconomic vulnerability, social support, and positive caregiving meanings.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital caregiver support should include caregiver psychosocial assessment and capacity assessment across physical condition, mental concerns, and self-efficacy.
 - `2016_nasem_families-caring-for-an-aging-america`: The National Academies report recommends routine caregiver identification and assessment in health care and LTSS, including caregiver health, stress, skills, employment, willingness, and support needs.
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiver risk varies by intensity, duration, care recipient suffering, behavioral symptoms, caregiver health, support availability, perceived choice, and home environment.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregiver assessment should include preparedness, physical burden, sleep disruption, financial strain, social support, coping strategies, and need for training or counselling.
@@ -26,6 +29,10 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Caregiver identification fields.
 - Risk screening.
 - Needs assessment.
+- Stress-process assessment fields.
+- Physical and mental health outcome screening.
+- Health behavior and self-care screening.
+- Digital access, literacy, usability, and accessibility screening.
 - Training and referral recommendations.
 - Role and consent management.
 - Monitoring for capacity mismatch or need for additional support.
@@ -36,6 +43,7 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 ## Design Constraints
 
 - Assessment should support care planning and caregiver support; it should not become autonomous clinical decision-making.
+- Assessment should distinguish stressors, resources, and outcomes rather than collapsing them into a single burden label.
 - Care-recipient consent, autonomy, and privacy must shape what caregiver data are collected and shared.
 - Escalation pathways require human review and clear responsibility boundaries.
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiving, care-recipient, needs, conceptual-distinction]
-last_updated: 2026-05-26
+last_updated: 2026-06-01
 ---
 
 # Caregiver vs Care Recipient Needs
@@ -33,6 +33,7 @@ When ingesting or querying a source, explicitly ask:
 
 ## Evidence
 
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Care recipient disability, cognitive impairment, behavior problems, suffering, and care intensity can become caregiver stressors and health risks, so care-recipient needs and caregiver outcomes should be linked but not collapsed.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Caregiver interventions should distinguish caregiving activities, caregiver outcomes, and care-recipient outcomes.
 - `2016_nasem_families-caring-for-an-aging-america`: Person- and family-centered care requires engaging family caregivers while preserving care-recipient autonomy, privacy, and dignity.
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiving can affect caregiver well-being, social relationships, work, and health while care-recipient needs may involve function, symptoms, safety, and suffering; these related concerns should not be collapsed.

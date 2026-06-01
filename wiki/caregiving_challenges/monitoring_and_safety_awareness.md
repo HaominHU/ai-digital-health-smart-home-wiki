@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Monitoring and Safety Awareness
@@ -16,6 +16,7 @@ Reusable caregiving challenge hub for awareness of safety, risk, daily status, a
 
 ## Caregiver Need
 
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Vigilance demands are part of why caregiving can function as chronic stress, especially when ongoing supervision is required.
 - `2020_schulz_family-caregiving-for-older-adults`: Caregivers may monitor care-recipient functioning, symptoms, medications, behavior, and location as needs increase across the care trajectory.
 - `2016_nasem_families-caring-for-an-aging-america`: Safety risks can emerge when there is a mismatch between caregiver capacity and older-adult health needs or circumstances.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana performed hands-on care tasks such as turning, toileting, diaper changes, bowel/bladder-related support, feeding, grooming, and transport.
@@ -34,6 +35,7 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 ## Evidence
 
 - `2020_schulz_family-caregiving-for-older-adults`.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`.
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.

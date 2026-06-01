@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, reliability, data-capture, cache, design-pattern]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Real-World Reliability for mHealth Data Capture
@@ -22,6 +22,7 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 - `2016_nasem_families-caring-for-an-aging-america`: Technology-based caregiver support research should evaluate access requirements such as broadband or technical skills and should consider feasibility, acceptability, usability, and cost-effectiveness.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Reliability and data-capture designs should support common outcome measurement, including caregiver activities, care-recipient outcomes, utilization, and economic variables when relevant.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM frames real-world implementation consistency and long-term maintenance as core evaluation dimensions, not secondary details after efficacy.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital caregiver intervention studies reported limitations including technology instability, low technology usage, high attrition, self-selection bias, self-report bias, and difficulty performing intention-to-treat analyses.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG pipelines add retrieval-index quality, source update procedures, and provenance reliability as system reliability concerns.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct-style systems add action logging, tool failure recovery, and bounded action-space reliability as system reliability concerns.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy reports system usage logs, notification systems, chat history management, cloud synchronization, and user feedback about GPS tracker refresh issues.
@@ -41,6 +42,7 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 - Data-completeness safeguards.
 - Real-world feedback loops after lab usability testing.
 - Implementation-fidelity and maintenance checks for repeated data capture.
+- Technology stability, use, attrition, and missingness monitoring.
 - Retrieval, source-provenance, and action-log reliability checks for AI-supported workflows.
 - GPS refresh, notification, chat-history, and cloud synchronization reliability checks.
 
@@ -59,6 +61,7 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.

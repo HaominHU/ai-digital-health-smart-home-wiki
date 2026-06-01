@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving
-source_file: sources/papers/38_malhotra_carebuddy_2025.pdf
+source_file: sources/papers/malhotra_carebuddy_2025.pdf
 reference_item: wiki/references/items/2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving.md
 evidence_type: published evidence
 source_type: journal article
@@ -44,4 +44,4 @@ This source is direct dementia caregiver mHealth evidence for a multicomponent a
 
 ## Source Citation
 
-- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Malhotra C, Yue Y, Ramakrishnan C, Shah S, Chen W, Yap P, Cheong CY, Teo I, Wee SL, Lan X, Chen Y, Chong CS, Huang X, Chua I. Supporting Dementia Caregiving With a Mobile Care Ecosystem: Development and Mixed Methods Study. JMIR Aging. 2025;8:e78759. DOI: `10.2196/78759`. Source file: `sources/papers/38_malhotra_carebuddy_2025.pdf`.
+- `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Malhotra C, Yue Y, Ramakrishnan C, Shah S, Chen W, Yap P, Cheong CY, Teo I, Wee SL, Lan X, Chen Y, Chong CS, Huang X, Chua I. Supporting Dementia Caregiving With a Mobile Care Ecosystem: Development and Mixed Methods Study. JMIR Aging. 2025;8:e78759. DOI: `10.2196/78759`. Source file: `sources/papers/malhotra_carebuddy_2025.pdf`.

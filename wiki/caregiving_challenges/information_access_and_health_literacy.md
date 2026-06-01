@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # Information Access and Health Literacy
@@ -34,6 +34,8 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study often felt unprepared for sudden caregiving responsibilities; the authors recommend training and counselling for family caregivers.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Oncology nursing recommendations include preparing caregivers for advanced ovarian cancer care and providing symptom-management education before discharge or home care.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Educational and self-management interventions should be evaluated for reach and representativeness, because referral requirements, scheduling, cost, transportation, and literacy or technology barriers can limit participation.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth caregiver interventions commonly used psychoeducational/resource materials and skills training components.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health interventions can provide up-to-date information and interactive communication, but future work should improve accessibility, usability, digital health literacy, and cultural/linguistic tailoring.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG provides technical rationale for retrieving source material and generating adapted outputs, but does not establish healthcare or caregiver education effectiveness.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise information seeking with external tools, but health use requires source verification and bounded action spaces.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Dementia caregivers valued curated dementia trajectory, behavioral/physical symptom management, grief, stress, self-care, and service-directory content; early feedback also flagged textual overload, leading to content and navigation refinements.
@@ -61,6 +63,8 @@ To be further source-backed.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`.
+- `2023_zhai_digital-health-interventions-support-family-caregivers`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
@@ -72,6 +76,7 @@ To be further source-backed.
 - Generated education should remain knowledge support and should not become diagnosis, treatment recommendation, or autonomous clinical advice.
 - Record whether a design claim targets knowledge, clinical skill, decision support, communication, or provider referral.
 - Evaluate whether information interventions reach low-literacy, low-resource, or time-constrained caregivers rather than only motivated participants.
+- Evaluate digital health literacy, usability, accessibility, and language/culture fit as design constraints that may affect reach and adoption.
 - Use curated sources, citation traceability, and review workflows when adapting health information with AI.
 - Reduce text overload through progressive disclosure, visuals, audio options, and navigation aids when caregivers are under cognitive and time burden.
 

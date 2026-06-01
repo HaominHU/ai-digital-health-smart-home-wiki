@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -62,6 +62,10 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/chatgpt_health_sci_preclinic_preparation.md`
 - `wiki/evidence/dissertation_family_caregiver_mhealth_app.md`
 - `wiki/evidence/setiawan_2019_adaptive_mhealth_self_management.md`
+- `wiki/evidence/aneshensel_avison_2015_stress_process_appreciation_pearlin.md`
+- `wiki/evidence/schulz_sherwood_2008_physical_mental_health_effects_family_caregiving.md`
+- `wiki/evidence/graven_2021_telehealth_interventions_family_caregivers_chronic_conditions.md`
+- `wiki/evidence/zhai_2023_digital_health_interventions_support_family_caregivers.md`
 - `wiki/evidence/schulz_2020_family_caregiving_older_adults.md`
 - `wiki/evidence/nasem_2016_families_caring_aging_america.md`
 - `wiki/evidence/van_houtven_2011_caregiver_intervention_framework.md`
@@ -77,6 +81,10 @@ Raw sources should be treated as immutable.
 
 - `wiki/references/README.md`: Citation-memory policy and Zotero/EndNote export boundary.
 - `wiki/references/items/2019-04-25_setiawan_adaptive-mhealth-self-management.md`
+- `wiki/references/items/2015_aneshensel-avison_stress-process-appreciation-pearlin.md`
+- `wiki/references/items/2008_schulz-sherwood_physical-mental-health-effects-family-caregiving.md`
+- `wiki/references/items/2021_graven_telehealth-interventions-family-caregivers-chronic-conditions.md`
+- `wiki/references/items/2023_zhai_digital-health-interventions-support-family-caregivers.md`
 - `wiki/references/items/2020_schulz_family-caregiving-for-older-adults.md`
 - `wiki/references/items/2016_nasem_families-caring-for-an-aging-america.md`
 - `wiki/references/items/2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions.md`
