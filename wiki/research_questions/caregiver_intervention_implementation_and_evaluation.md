@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -23,6 +23,11 @@ How should caregiver-support interventions, including digital health and smart h
 - `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Shows the need to compare telehealth modalities with in-person comparators, evaluate caregiver skills/self-efficacy/health outcomes, and include underserved or rural caregiver populations.
 - `2023_zhai_digital-health-interventions-support-family-caregivers`: Shows the need for stronger HCD reporting, marginalized caregiver inclusion, accessibility/usability evaluation, cultural and linguistic tailoring, and evidence-quality assessment.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Reports usability/acceptability evidence for CareBuddy and notes a planned 2-arm hybrid type 1 randomized controlled trial to evaluate implementation and effectiveness.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: Adds economic and health-system adoption questions for dementia caregiver interventions, especially in integrated care settings.
+- `2010_gitlin_cope-dementia-home-based-intervention`: Adds questions about active components, maintenance of short-term effects, proxy-reported outcomes, and home-based dyadic implementation.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Adds questions about transportability, facilitator fidelity, organizational support, and representativeness of caregiver participants.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Adds questions about synchronous scheduling, technology access, representation, and online mastery-building.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Adds questions about component matching, small-to-moderate effects, heterogeneity, publication bias, and long-term institutionalization outcomes.
 
 ## Open Subquestions
 
@@ -35,6 +40,8 @@ How should caregiver-support interventions, including digital health and smart h
 - Which telehealth modalities work best for which caregiver outcomes, and when are they comparable to in-person support?
 - How should digital health caregiver intervention studies report HCD methods, usability, technology instability, low use, attrition, digital literacy, and cultural or linguistic tailoring?
 - How should dementia caregiver apps evaluate long-term engagement, caregiver outcomes, care-recipient safety/privacy, and implementation across care settings after promising usability results?
+- Which dementia caregiver intervention components produce durable effects beyond knowledge, and which outcomes require active training, multicomponent support, or care-system integration?
+- How should cost, utilization, and institutionalization outcomes be evaluated without overgeneralizing from setting-specific or heterogeneous evidence?
 
 ## Related Pages
 

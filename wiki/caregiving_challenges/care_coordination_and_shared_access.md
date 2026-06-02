@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Care Coordination and Shared Access
@@ -37,6 +37,9 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise tool use and inspectable action traces, but it should only inform speculative coordination support under strict action-space limits.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes care planning, centralized provider messaging, QR code multi-caregiver coordination, telemedicine links, care center transfer workflows, provider interface, and moderator interface for dementia caregiver support.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports specialized agents for appointment scheduling and reminders, coordinated by a central orchestrator.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH VA suggests that structured caregiver role support embedded in an integrated care system may be associated with lower care-recipient VA costs.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE links caregiver training with patient medical review, home assessment, and physician follow-up for undiagnosed conditions.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver supports community-adoptable caregiver training, but implementation requires facilitator preparation and organizational support.
 
 ## Care Recipient Connection
 
@@ -66,6 +69,9 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
+- `2003_hepburn_savvy-caregiver-transportable-program`.
 
 ## Design Implications
 

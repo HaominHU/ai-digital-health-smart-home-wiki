@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Research Wiki Memory
@@ -94,7 +94,7 @@ When wiki coverage is weak, narrow, missing foundational sources, missing recent
 
 ## Next Useful Step
 
-Continue one-by-one source ingest from `sources/abstracts/` and `sources/papers/`.
+Current local abstracts and papers through source 42 have been previewed and integrated. A useful next step is a lint/source-status pass before adding new sources, especially to check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
 
 First integrated source:
 
@@ -255,6 +255,26 @@ Source-backed digital caregiver intervention notes:
 - Zhai 2023 adds HCD, usability, accessibility, cultural/linguistic tailoring, marginalized caregiver inclusion, and digital health literacy as recurring design and evaluation concerns.
 - Usability, satisfaction, feasibility, and acceptability remain separate from caregiver outcome effectiveness.
 - Technology-access assumptions in older telehealth and digital health literature need current evidence before making present-day access claims.
+
+Twelfth integrated batch:
+
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: Journal of the American Geriatrics Society article examining REACH II and REACH VA dementia caregiver intervention healthcare costs.
+- `2010_gitlin_cope-dementia-home-based-intervention`: JAMA randomized trial of the COPE home-based biobehavioral environmental intervention for community-living dementia dyads.
+- `2003_hepburn_savvy-caregiver-transportable-program`: The Gerontologist field-test article on translating the Savvy Caregiver Program into a transportable manualized dementia caregiver training program.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: The Gerontologist randomized trial of online synchronous/asynchronous Tele-Savvy psychoeducation for dementia family caregivers.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: The Gerontologist updated comprehensive meta-analysis of dementia caregiver intervention effects.
+
+Source-backed dementia caregiver intervention notes:
+
+- REACH II/REACH VA add healthcare cost and integrated-system adoption evidence; use them for economic/implementation evaluation, not dementia treatment evidence.
+- COPE supports short-term dyadic outcome evidence for home-based caregiver training, environmental/task tailoring, medical review, activity engagement, caregiver well-being, and caregiver confidence. It did not show sustained standardized effects at 9 months.
+- Savvy Caregiver supports role-training, manualized curriculum, facilitator preparation, fidelity, and transportability, but the 2003 field-test article is not RCT-level effectiveness evidence.
+- Tele-Savvy supports online synchronous/asynchronous dementia caregiver psychoeducation effects on depression, perceived stress, caregiver reaction to care-recipient behaviors, and mastery, while burden and anxiety effects were not found.
+- Walter and Pinquart 2020 supports a dementia caregiver intervention taxonomy and outcome taxonomy. Average effects are generally small-to-moderate, active caregiver participation matters, and heterogeneity/publication-bias cautions should travel with claims.
+
+Boundary note:
+
+- These sources strengthen the dementia caregiver intervention, implementation, delivery, and evaluation layer. They should not be treated as AI-agent evidence, smart-home effectiveness evidence, normal-aging evidence, or direct dementia clinical treatment evidence.
 
 AI method integrated sources:
 

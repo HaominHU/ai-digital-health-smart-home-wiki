@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-time-burden, engagement, mhealth, caregiving]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Caregiver Time Burden and Engagement
@@ -40,6 +40,10 @@ Reusable caregiving challenge hub for cases where caregiver time limits, competi
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Reach is shaped by barriers such as cost, necessary referrals, scheduling, transportation, and inconvenience, which are especially relevant when caregivers already face time scarcity.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Dementia caregivers reported that curated CareBuddy content and service directories saved time compared with searching independently; long-term engagement remains an evidence gap.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports reduced task completion time and cognitive load for a multi-agent CareBuddy system, but this remains abstract-level evidence.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH cost analysis supports considering healthcare cost concerns as an adoption barrier for caregiver interventions.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE required multiple home and telephone contacts, showing that effective caregiver training may still require substantial scheduled engagement.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy's cohort scheduling excluded some consented caregivers, making time availability and synchronous scheduling explicit reach issues.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention effects vary across intervention types and study characteristics, so time investment should be matched to outcome targets.
 
 ## Care Recipient Connection
 
@@ -70,6 +74,10 @@ To be further source-backed.
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 
 ## Design Implications
 

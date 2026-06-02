@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Older Adults
@@ -42,6 +42,10 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM supports evaluating whether chronic illness and caregiver interventions reach older adults equitably and can be adopted, implemented, and maintained in real-world settings.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract included older adults with and without early-stage memory impairment in a usability study of a multi-agent conversational AI; treat this as usability context, not evidence that dementia is normal aging.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: The dementia caregiver app context is relevant to older adults when dementia-related cognitive impairment and care needs are present, not age alone.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH cost evidence is relevant to older-adult caregiving when Alzheimer disease and related dementias create care needs; it is not evidence that dementia is normal aging.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE is relevant to older-adult home care when dementia-related functional decline and caregiver support needs are present.
+- `2003_hepburn_savvy-caregiver-transportable-program` and `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Savvy and Tele-Savvy support dementia caregiver training and mastery for later-life dementia contexts, bounded to dementia caregiving rather than age alone.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention effects are relevant to older-adult caregiving because dementia often occurs in later life, but disease and aging should remain conceptually separate.
 
 ## Related Pages
 
@@ -53,3 +57,7 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `wiki/evidence/schulz_sherwood_2008_physical_mental_health_effects_family_caregiving.md`
 - `wiki/evidence/graven_2021_telehealth_interventions_family_caregivers_chronic_conditions.md`
 - `wiki/evidence/zhai_2023_digital_health_interventions_support_family_caregivers.md`
+- `wiki/evidence/nichols_2017_reach_dementia_caregiver_healthcare_costs.md`
+- `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
+- `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
+- `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`

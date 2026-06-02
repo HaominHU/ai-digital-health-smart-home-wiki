@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -29,6 +29,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver modules should consider schedule disruption, financial/resource navigation, symptom-management education, respite prompts, self-care support, and interdisciplinary referral pathways.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Modular systems should be evaluated for reach, efficacy, adoption, implementation, and maintenance, not only module usability or participant satisfaction.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy provides a dementia-specific example of a modular mobile care ecosystem with assessment, tailored symptom support, RAG chatbot, GPS monitoring, care planning, telemedicine links, helpline, self-care, reminders, and peer support.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE supports modular dementia caregiver intervention logic around assessment, environmental/task tailoring, caregiver training, medical review, activity engagement, and stress reduction.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver supports manualized curriculum modules, facilitator preparation, homework, and fidelity-preserving transportability.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports synchronous/asynchronous digital delivery of caregiver role training and mastery-building modules.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Modular caregiver systems should prioritize active training when outcomes beyond knowledge are desired and should match components to target outcomes.
 
 ## Relevant Populations
 
@@ -59,6 +63,8 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Advanced cancer symptom-management education and referral pathways.
 - Reach, adoption, implementation, and maintenance instrumentation.
 - Dementia-specific modules for behavioral/physical symptoms, wandering, caregiver self-care, peer support, and future planning.
+- Active caregiver training modules for dementia-related behavior response, activity engagement, mastery, and environmental/task adaptation.
+- Synchronous/asynchronous learning pathways with explicit scheduling, connectivity, and technology-access constraints.
 
 ## Design Constraints
 
@@ -82,6 +88,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
+- `2003_hepburn_savvy-caregiver-transportable-program`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 
 ## Gaps
 

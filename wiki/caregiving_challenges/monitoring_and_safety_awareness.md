@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Monitoring and Safety Awareness
@@ -21,6 +21,7 @@ Reusable caregiving challenge hub for awareness of safety, risk, daily status, a
 - `2016_nasem_families-caring-for-an-aging-america`: Safety risks can emerge when there is a mismatch between caregiver capacity and older-adult health needs or circumstances.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana performed hands-on care tasks such as turning, toileting, diaper changes, bowel/bladder-related support, feeding, grooming, and transport.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes GPS location monitoring for wandering, Google Maps display of the last detected location, navigation to the tracked location, and battery reminders for the tracker.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE included home safety, patient capability assessment, medication review, and screening for treatable medical conditions, supporting safety awareness without relying on passive sensing.
 
 ## Care Recipient Connection
 
@@ -39,6 +40,7 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 - `2016_nasem_families-caring-for-an-aging-america`.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
 
 ## Design Implications
 

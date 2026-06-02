@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [dementia, caregiving, condition-overlay]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Dementia
@@ -28,6 +28,11 @@ Dementia in later life should not be treated as normal aging, even though it is 
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: In the reviewed U.S. caregiver intervention literature, Alzheimer disease and dementia caregiver studies were the dominant condition group.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy was developed as a multicomponent mobile care ecosystem for caregivers of individuals with dementia, including tailored symptom-management support, care coordination, peer support, self-care resources, and RAG-supported chatbot assistance.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: A conference abstract describes a modular multi-agent conversational AI for Alzheimer's care and caregiver assistance, with usability signals for scheduling and grocery planning.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH II and REACH VA add dementia caregiver intervention cost and implementation evidence; use this as health-system adoption and economic evaluation evidence, not dementia treatment evidence.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE provides randomized trial evidence that home-based caregiver training, environmental tailoring, and medical review can improve selected short-term dyadic outcomes for community-living dementia dyads.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver supports manualized dementia caregiver role training and transportability, but the field-test article is not RCT-level effectiveness evidence.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy provides randomized trial evidence for online synchronous/asynchronous dementia caregiver psychoeducation, with benefits for depression, perceived stress, reaction to behaviors, and mastery but not burden or anxiety.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: This meta-analysis supports small-to-moderate average dementia caregiver intervention effects across several caregiver outcomes and care-recipient symptoms, with heterogeneity and institutionalization cautions.
 
 ## Care Recipient Needs
 
@@ -37,6 +42,7 @@ Dementia in later life should not be treated as normal aging, even though it is 
 ## Technology Support Opportunities
 
 - Technology support can include caregiver training, monitoring support, care coordination, social support, self-care support, source-grounded chatbot assistance, and provider-connected mHealth. Current CareBuddy evidence supports usability/acceptability and design rationale, not clinical effectiveness.
+- Online and home-based caregiver interventions can support education, mastery, behavior-management response, activity engagement, and care coordination. These should remain caregiver or dyadic support evidence, not dementia disease-modification claims.
 
 ## Evidence
 
@@ -48,3 +54,8 @@ Dementia in later life should not be treated as normal aging, even though it is 
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
+- `2003_hepburn_savvy-caregiver-transportable-program`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Family Caregivers
@@ -38,6 +38,7 @@ Primary population focus for this wiki.
 - Stress-process-informed support that separates primary stressors, secondary strains, coping resources, social support, mastery, appraisal, and health outcomes.
 - Caregiver physical health, mental health, health behaviors, self-care, vigilance burden, and positive caregiving meaning.
 - Telehealth and digital health support needs, including remote skills training, psychoeducation, self-monitoring, counseling, social support, usability, accessibility, digital health literacy, and culturally/linguistically tailored intervention design.
+- Dementia caregiver intervention needs around active skills training, mastery, behavior-response coaching, home-environment fit, online access, economic evaluation, and implementation sustainability.
 
 ## Evidence
 
@@ -55,6 +56,11 @@ Primary population focus for this wiki.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM is not caregiver-specific evidence, but it supports evaluating caregiver interventions for representativeness, adoption, implementation consistency, and sustained use.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: A JMIR Aging development and mixed-methods study provides dementia caregiver mHealth usability/acceptability evidence for a multicomponent mobile care ecosystem.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Conference abstract evidence describes multi-agent conversational AI support for people with Alzheimer's disease and informal caregivers.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH II/REACH VA cost analysis supports adding healthcare utilization and cost outcomes to dementia caregiver intervention evaluation.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE provides randomized trial evidence for short-term improvements in selected caregiver and care-recipient outcomes through home-based dementia caregiver training and environmental tailoring.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver provides field-test evidence for manualized caregiver role training and program transportability.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy provides randomized trial evidence for online dementia caregiver psychoeducation effects on stress, depression, behavior reaction, and mastery.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: The meta-analysis supports generally small-to-moderate dementia caregiver intervention effects and an active-training rationale.
 
 ## Related Pages
 
@@ -76,3 +82,8 @@ Primary population focus for this wiki.
 - `wiki/design_patterns/caregiver_assessment_and_triage.md`
 - `wiki/design_patterns/caregiver_intervention_evaluation_core_outcomes.md`
 - `wiki/concepts/reach_adoption_implementation_maintenance.md`
+- `wiki/evidence/nichols_2017_reach_dementia_caregiver_healthcare_costs.md`
+- `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
+- `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
+- `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
+- `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`

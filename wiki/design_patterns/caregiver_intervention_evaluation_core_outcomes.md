@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, evaluation, outcomes, design-pattern]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Caregiver Intervention Evaluation Core Outcomes
@@ -28,6 +28,11 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp` and `2023_yao_react-reasoning-acting-language-models`: RAG and ReAct should be treated as technical mechanisms inside future interventions, not as outcome evidence by themselves.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy contributes usability, acceptability, and short-term engagement evidence for a dementia caregiver app; caregiver outcome effectiveness remains pending.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract contributes early task-completion, satisfaction, time, and cognitive-load signals for multi-agent AI, but only at abstract level.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: Dementia caregiver intervention evaluation can include caregiver and care-recipient healthcare expenditures, while cost findings remain setting-specific.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE supports measuring care-recipient functional dependence, activity engagement, quality of life, agitated behaviors, caregiver well-being, caregiver confidence, and longer-term maintenance.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy supports evaluating transportability, facilitator fidelity, caregiver knowledge/skill/confidence, behavior reaction, burden, mastery, and caregiving beliefs.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports evaluating depression, perceived stress, anxiety, burden, caregiver mastery, reaction to behavioral symptoms, technology access, schedule fit, and representation.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention evaluation should track burden, depression, anxiety, subjective well-being, ability/knowledge, care-recipient symptoms, and institutionalization, with heterogeneity and active-training cautions.
 
 ## Evaluation Dimensions
 
@@ -39,6 +44,7 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - RE-AIM outcomes: reach and representativeness, efficacy/effectiveness, organizational adoption, implementation consistency, and individual or organizational maintenance.
 - Digital health evidence-quality measures: MMAT/GRADE-style study quality, attrition, technology use, low usage, technology instability, self-selection bias, and self-report bias.
 - Digital caregiver app measures: SUS, MAUQ, usage logs, retention, task completion, cognitive load, satisfaction, and qualitative usability feedback.
+- Dementia caregiver intervention outcomes: mastery, behavior-reaction, caregiver confidence, caregiver knowledge, caregiver burden, stress, depression, anxiety, subjective well-being, care-recipient symptoms, function, engagement, institutionalization, and cost.
 
 ## Design Constraints
 
@@ -65,3 +71,8 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `wiki/evidence/yao_2023_react_reasoning_acting_language_models.md`
 - `wiki/evidence/malhotra_2025_carebuddy_mobile_care_ecosystem_dementia_caregiving.md`
 - `wiki/evidence/hasan_2025_carebuddy_multi_agent_conversational_ai_alzheimers.md`
+- `wiki/evidence/nichols_2017_reach_dementia_caregiver_healthcare_costs.md`
+- `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
+- `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
+- `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
+- `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`

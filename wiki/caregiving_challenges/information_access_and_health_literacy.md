@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Information Access and Health Literacy
@@ -39,6 +39,10 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG provides technical rationale for retrieving source material and generating adapted outputs, but does not establish healthcare or caregiver education effectiveness.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise information seeking with external tools, but health use requires source verification and bounded action spaces.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Dementia caregivers valued curated dementia trajectory, behavioral/physical symptom management, grief, stress, self-care, and service-directory content; early feedback also flagged textual overload, leading to content and navigation refinements.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE trained caregivers on patient capabilities, medication effects, pain, constipation, dehydration, home safety, communication, task simplification, and problem solving.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver frames dementia caregiving as a role requiring structured training, realistic care goals, capability estimation, activity design, and problem-solving practice.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports online caregiver psychoeducation with active exercises, synchronous coaching, and asynchronous lessons; technology access and schedule fit remain reach constraints.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Information-only psychoeducation mainly improved knowledge, while psychoeducation requiring active caregiver participation affected more outcomes.
 
 ## Care Recipient Connection
 
@@ -68,6 +72,10 @@ To be further source-backed.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
+- `2003_hepburn_savvy-caregiver-transportable-program`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 
 ## Design Implications
 

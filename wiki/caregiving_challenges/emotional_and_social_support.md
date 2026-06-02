@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Emotional and Social Support
@@ -38,6 +38,10 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana reported shock, uncertainty, disrupted social life, and reliance on hope, religious practices, encouragement, and support from relatives and friends.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: End-stage ovarian cancer caregivers reported high caregiver esteem while also experiencing practical burdens, showing that positive meaning and support needs can coexist.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes an online peer support forum, moderator tools, inappropriate-post flagging, blocking, content filtering, helpline access, and an LLM-based forum bot named Sparky to stimulate interactions.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE improved caregiver perceived change in well-being and confidence using activities at 4 months, supporting emotional and mastery-oriented outcomes in dementia caregiver intervention evaluation.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver field testing found improved caregiver reaction to care-recipient behavior and burden, supporting role-training as emotional coping support.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy improved depression, perceived stress, caregiver reaction to behaviors, and mastery, but not burden or anxiety.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver interventions had small-to-moderate average effects on burden, depression, anxiety, subjective well-being, and care-recipient symptoms, with heterogeneity.
 
 ## Care Recipient Connection
 
@@ -62,6 +66,10 @@ To be further source-backed.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2010_gitlin_cope-dementia-home-based-intervention`.
+- `2003_hepburn_savvy-caregiver-transportable-program`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 
 ## Design Implications
 

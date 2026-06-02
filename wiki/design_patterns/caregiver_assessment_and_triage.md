@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-assessment, triage, care-coordination, design-pattern]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Caregiver Assessment and Triage
@@ -23,6 +23,9 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiver risk varies by intensity, duration, care recipient suffering, behavioral symptoms, caregiver health, support availability, perceived choice, and home environment.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregiver assessment should include preparedness, physical burden, sleep disruption, financial strain, social support, coping strategies, and need for training or counselling.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver assessment can use CRA-informed domains such as disrupted schedules, financial problems, lack of family support, health problems, and caregiver self-esteem.
+- `2010_gitlin_cope-dementia-home-based-intervention`: Dementia caregiver assessment can include caregiver-identified concerns, patient capabilities, home environment, communication, and caregiver confidence using activities.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Dementia caregiver triage can include role-training needs, realistic care-goal formation, care-recipient capability estimation, and problem-solving support.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Online caregiver interventions should assess schedule fit, technology access, and readiness for synchronous/asynchronous participation.
 
 ## Technology Components
 
@@ -39,6 +42,7 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - SCI-specific ADL/IADL and bowel/bladder care training needs.
 - Financial and practical resource navigation.
 - Caregiver Reaction Assessment-style burden domains.
+- Dementia caregiver fields for behavior-response confidence, mastery, active training needs, schedule fit, technology access, and capacity for home-based or synchronous intervention participation.
 
 ## Design Constraints
 
@@ -52,3 +56,6 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `wiki/design_patterns/person_and_family_centered_care_coordination.md`
 - `wiki/caregiving_challenges/care_coordination_and_shared_access.md`
 - `wiki/caregiving_challenges/caregiver_self_care_and_health_tracking.md`
+- `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
+- `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
+- `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`

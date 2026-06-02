@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -76,6 +76,11 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/yao_2023_react_reasoning_acting_language_models.md`
 - `wiki/evidence/hasan_2025_carebuddy_multi_agent_conversational_ai_alzheimers.md`
 - `wiki/evidence/malhotra_2025_carebuddy_mobile_care_ecosystem_dementia_caregiving.md`
+- `wiki/evidence/nichols_2017_reach_dementia_caregiver_healthcare_costs.md`
+- `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
+- `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
+- `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
+- `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
 
 ## Citation Memory
 
@@ -95,6 +100,11 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2023_yao_react-reasoning-acting-language-models.md`
 - `wiki/references/items/2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers.md`
 - `wiki/references/items/2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving.md`
+- `wiki/references/items/2017_nichols_reach-dementia-caregiver-healthcare-costs.md`
+- `wiki/references/items/2010_gitlin_cope-dementia-home-based-intervention.md`
+- `wiki/references/items/2003_hepburn_savvy-caregiver-transportable-program.md`
+- `wiki/references/items/2022_hepburn_telesavvy-online-dementia-caregiver-program.md`
+- `wiki/references/items/2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis.md`
 
 ## Templates
 

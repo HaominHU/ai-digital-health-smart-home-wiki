@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -37,6 +37,10 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study reported body pain, sleeplessness, tiredness, physical weakness, and sickness related to lifting, turning, and constant support.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends that caregivers receive support for caring for themselves, including attention to their own health status and respite from caregiving when possible.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes caregiver self-care resources and psychologist-developed worksheets focused on caregiving identity, burnout, self-care, anticipatory grief, and emotional resilience.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH II included caregiver Medicare expenditure analysis, supporting caregiver healthcare utilization as an evaluation dimension where data are available.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver includes self-care issue awareness within caregiver role training, but the field-test article is not caregiver health effectiveness evidence.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy improved stress and depression but did not significantly improve burden or anxiety, underscoring the need to separate caregiver health and well-being outcomes.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver interventions showed average effects on depression, anxiety, burden, and subjective well-being; effect sizes were mostly small-to-moderate.
 
 ## Care Recipient Connection
 
@@ -63,6 +67,10 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`.
+- `2003_hepburn_savvy-caregiver-transportable-program`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 
 ## Design Implications
 

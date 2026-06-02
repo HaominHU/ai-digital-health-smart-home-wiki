@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-05-27
+last_updated: 2026-06-02
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -32,6 +32,9 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2023_yao_react-reasoning-acting-language-models`: ReAct-style systems raise privacy and safety concerns when language models can look up information or take actions in external environments.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes GPS monitoring, chatbot records, provider messaging, shared caregiver access, cloud storage, and source-reported de-identification/delinking/privacy controls, making consent and role boundaries central.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: A multi-agent conversational AI intended for both persons with Alzheimer's disease and caregivers should preserve care-recipient autonomy when task support and medical inquiries are included.
+- `2010_gitlin_cope-dementia-home-based-intervention`: COPE supports capability-aligned activity engagement and task simplification for people with dementia, but many outcomes relied on caregiver proxy reports and should not be treated as direct care-recipient subjective experience.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver's dementia-specific role training includes taking control as dementia erodes autonomy; wiki use should pair this with dignity, consent, and decision-capacity cautions.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Care-recipient symptoms and institutionalization should be measured separately from caregiver outcomes when evaluating caregiver interventions.
 
 ## Design Implications
 
@@ -40,6 +43,7 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - Require human confirmation before sharing information, sending messages, changing access, or acting on behalf of a care recipient.
 - Preserve care-recipient control over what is summarized, disclosed, or delegated to caregivers.
 - Treat GPS location, chatbot conversation history, care plans, and provider messages as sensitive data with explicit access and retention rules.
+- For dementia caregiver interventions, distinguish caregiver confidence or proxy-rated improvement from care-recipient autonomy, preference, and lived experience.
 
 ## Related Pages
 
