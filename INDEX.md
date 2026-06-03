@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -81,6 +81,8 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
+- `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`
+- `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`
 
 ## Citation Memory
 
@@ -188,10 +190,12 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/design_patterns/person_and_family_centered_care_coordination.md`
 - `wiki/design_patterns/retrieval_grounded_health_ai_support.md`
 - `wiki/design_patterns/reasoning_action_health_ai_agent.md`
+- `wiki/design_patterns/biomarker_stratified_neurorehabilitation.md`
 
 ## Research Question Pages
 
 - `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`
+- `wiki/research_questions/biomarker_stratified_neurorehabilitation.md`
 
 ## Initial Technology Pages
 

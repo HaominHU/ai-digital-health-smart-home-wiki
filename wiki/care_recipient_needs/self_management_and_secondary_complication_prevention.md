@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-management, secondary-complications, chronic-conditions, disability, mhealth]
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # Self-Management and Secondary Complication Prevention
@@ -29,6 +29,7 @@ People with chronic conditions and disabilities may need long-term self-manageme
 - `2020_schulz_family-caregiving-for-older-adults`: Older-adult caregivers may support symptom monitoring, medication management, medical tasks, and care coordination as care-recipient disability and needs increase.
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE included nurse assessment and caregiver follow-up for possible treatable medical conditions among people with dementia, but this should be treated as dyadic dementia care support rather than autonomous self-management evidence.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Care-recipient symptoms and institutionalization are separate outcome domains in caregiver intervention evaluation.
+- `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Lecture notes suggest that rehabilitation response after stroke-related aphasia may be shaped by systemic factors such as diabetes, hypertension, glycemic control, and hearing loss, plus brain-health and network metrics. Use as neurorehabilitation framing, not as evidence that any self-management intervention changes aphasia outcomes.
 
 ## Design Implications
 
@@ -37,6 +38,7 @@ People with chronic conditions and disabilities may need long-term self-manageme
 - Caregiver and clinician support can extend self-management but requires privacy, access-control, and autonomy safeguards.
 - Evaluation should specify whether a system changes care-recipient disease management, caregiver activities, caregiver burden, or health care utilization.
 - In dementia contexts, caregiver-supported disease management must be distinguished from care-recipient self-management because cognitive impairment may change autonomy, consent, and support needs.
+- In neurorehabilitation contexts, biomarker tracking should distinguish monitoring or stratification from validated intervention targets.
 
 ## Gaps
 
@@ -48,3 +50,4 @@ People with chronic conditions and disabilities may need long-term self-manageme
 - `wiki/populations/people_with_chronic_conditions_and_disabilities.md`
 - `wiki/conditions/spinal_cord_injury.md`
 - `wiki/design_patterns/adaptive_mhealth_self_management_platform.md`
+- `wiki/design_patterns/biomarker_stratified_neurorehabilitation.md`

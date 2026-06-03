@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # Research Wiki Memory
@@ -275,6 +275,27 @@ Source-backed dementia caregiver intervention notes:
 Boundary note:
 
 - These sources strengthen the dementia caregiver intervention, implementation, delivery, and evaluation layer. They should not be treated as AI-agent evidence, smart-home effectiveness evidence, normal-aging evidence, or direct dementia clinical treatment evidence.
+
+Standalone event-notes ingest:
+
+- `2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation`: University of Pittsburgh Rehabilitation Research Institute day event morning first lecture notes from Dr. Walter Koroshetz, Immediate past Director of NINDS and Senior Advisor at the Dana Foundation. The user specified that Gemini 3.5 Flash translated original slide points from `image.png` into spinal cord injury specific research, clinical trial, and engineering settings.
+
+Source-backed SCI research framing notes:
+
+- Treat these notes as presentation takeaway plus AI-assisted interpretation, not published evidence and not a verified transcript.
+- Keep this record separate from the middle Mac setup talk and separate from the ongoing caregiver system ingest.
+- The notes frame SCI research around rapid neuroscience progress with remaining spinal-circuitry gaps, neuroplasticity-focused combination therapies, bionic integration, spatial transcriptomics and single-cell omics, realistic public communication around stem-cell/regenerative timelines, hyper-acute secondary-injury urgency, better trial stratification, the brain-in-body problem, rodent-model translation limits, molecular/systems-neuroscience convergence, and sustained funding for long SCI trials.
+- Use this source for SCI research framing, trial-design questions, neuroengineering ideation, and science-communication gaps. Do not use it as proof of clinical effectiveness or as caregiver evidence unless later event notes directly discuss caregivers.
+
+Second standalone event-notes ingest:
+
+- `2026-06-03_fridriksson_brain-health-aphasia-recovery`: University of Pittsburgh Rehabilitation Research Institute day event second lecture notes from Dr. Julius Fridriksson, Professor and Vice President for Research, Department of Communication Sciences and Disorders, Arnold School of Public Health, University of South Carolina.
+
+Source-backed chronic-condition/disability neurorehabilitation framing notes:
+
+- Aphasia is not a focused condition overlay in this wiki; treat it as chronic-condition/disability neurorehabilitation source context unless the user later asks for an aphasia condition page.
+- The notes frame aphasia recovery as shaped by upstream drivers such as vascular strain, hypertension, diabetes, glycemic control, and hearing loss; brain-health axes such as Brain Age Gap and white matter hyperintensities; network mechanisms such as structural disconnection and controllability; and the stroke lesion pathway.
+- Use this source for biomarker-stratified rehabilitation design, trial-stratification questions, longitudinal imaging/behavior mapping, and AI analytics boundaries. Do not use it as proof of causality, proof of intervention effectiveness, or evidence that brain age can currently be clinically reversed.
 
 AI method integrated sources:
 

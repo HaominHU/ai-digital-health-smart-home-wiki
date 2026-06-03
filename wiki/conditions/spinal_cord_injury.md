@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [spinal-cord-injury, disability, condition-overlay]
-last_updated: 2026-05-26
+last_updated: 2026-06-03
 ---
 
 # Spinal Cord Injury
@@ -31,6 +31,7 @@ Acquired spinal cord injury should not be treated as the same issue as aging-rel
 
 ## Technology Support Opportunities
 
+- `2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation`: Morning first lecture notes translated into SCI-specific settings frame future SCI breakthroughs around convergence among neuroplasticity-focused rehabilitation, targeted electrical stimulation, brain-machine interfaces, bioengineered scaffolds, and omics-enabled mapping. Use as presentation takeaway and research framing only, not intervention-effectiveness evidence.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: The abstract includes family caregivers of individuals with neurological conditions in design and evaluation phases. Per user instruction, this can be mapped cautiously to the spinal cord injury overlay when no specific non-SCI neurological condition is named. Relevant technology opportunities include proactive prompts, adaptive education, and emotional/social support layers for caregiver mHealth.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AI-driven pre-clinic preparation may support structured outputs such as care-recipient questions, portal message drafts, caregiver tools, and multi-deliverable preparation materials. The source also notes privacy concerns around connecting sensitive health records to commercial AI platforms.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation supports adaptive modular caregiver mHealth design that combines general caregiver modules with SCI-specific educational content and resources.
@@ -39,6 +40,7 @@ Acquired spinal cord injury should not be treated as the same issue as aging-rel
 
 ## Evidence
 
+- `2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation`: University of Pittsburgh Rehabilitation Research Institute day event morning first lecture notes from Dr. Walter Koroshetz, translated by Gemini 3.5 Flash from original slide points into SCI-specific research, clinical trial, and engineering settings. Treat as presentation takeaway plus AI-assisted interpretation, not as published evidence, not as a verified transcript, and not as part of the middle Mac setup talk.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Source-backed at the broad "neurological conditions" level; SCI linkage is a wiki-relevance mapping rather than a source-specific SCI claim.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AMIA abstract comparing source-reported ChatGPT and ChatGPT Health interfaces for SCI pre-clinic preparation without connected records. The evaluation was exploratory and small, with AI-judge scoring and no clinical outcome evaluation.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Dissertation evidence from user-centered design and pilot testing; non-wiki conditions included in study composition should not be converted into new condition overlays.

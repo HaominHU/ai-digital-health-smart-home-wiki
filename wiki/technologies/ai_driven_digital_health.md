@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # AI-Driven Digital Health
@@ -48,6 +48,7 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: A CareBuddy abstract describes a multi-agent conversational AI architecture with specialized agents and central orchestration for Alzheimer's care and assistance.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports online synchronous/asynchronous caregiver psychoeducation as broad digital health intervention evidence, but it is not AI-agent evidence.
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`, `2010_gitlin_cope-dementia-home-based-intervention`, `2003_hepburn_savvy-caregiver-transportable-program`, and `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: These are useful caregiver intervention and evaluation anchors for future digital systems, not direct AI or smart-home effectiveness evidence.
+- `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Neurorehabilitation analytics should treat brain-health markers, systemic-health measures, sensory status, network metrics, lesion characteristics, and longitudinal outcomes as distinct data layers. AI support may help stratify trials or map trajectories, but prediction, causal inference, and clinical decision-making must remain separate.
 
 ## Evidence
 
@@ -65,3 +66,4 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Published usability/acceptability evidence for AI-supported dementia caregiver mHealth; not effectiveness evidence.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Conference abstract evidence for multi-agent conversational AI in Alzheimer's care; abstract-level only.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Online dementia caregiver psychoeducation RCT; use as digital delivery evidence, not AI evidence.
+- `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Lecture-note evidence for biomarker-aware neurorehabilitation framing; use for design and trial-stratification rationale, not AI effectiveness or clinical decision support evidence.

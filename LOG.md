@@ -27,6 +27,18 @@ Recommended types:
 
 Logging rule: if the work changes wiki source content, generated outputs, architecture, workflow state, or project memory, append a `LOG.md` entry in the same turn.
 
+## [2026-06-03] ingest | Koroshetz morning lecture neuroscience takeaways translated to SCI
+
+- Summary: Integrated standalone morning first lecture notes from Dr. Walter Koroshetz at the 2026 University of Pittsburgh Rehabilitation Research Institute day event as SCI research, clinical trial, and engineering framing.
+- Files touched: `sources/presentation_notes/2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation.md`, `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`, `wiki/conditions/spinal_cord_injury.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is lecture notes; evidence type is presentation takeaway; privacy level is private/non-sensitive. User specified that Gemini 3.5 Flash translated original slide points from `image.png` into SCI-specific settings. Citation-memory status: no formal citation record created because this is not a citation-bearing publication. Review status: automatically integrated as low-risk standalone event notes, separate from the ongoing caregiver system ingest and separate from the middle Mac setup talk.
+
+## [2026-06-03] ingest | Fridriksson brain health and aphasia recovery lecture
+
+- Summary: Integrated standalone second lecture notes from Dr. Julius Fridriksson as chronic-condition/disability neurorehabilitation framing for brain health, aphasia recovery, biomarker tracking, trial stratification, and longitudinal rehabilitation analytics.
+- Files touched: `sources/presentation_notes/2026-06-03_fridriksson_brain-health-aphasia-recovery.md`, `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`, `wiki/design_patterns/biomarker_stratified_neurorehabilitation.md`, `wiki/research_questions/biomarker_stratified_neurorehabilitation.md`, `wiki/populations/people_with_chronic_conditions_and_disabilities.md`, `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md`, `wiki/technologies/ai_driven_digital_health.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is lecture notes; evidence type is presentation takeaway; privacy level is private/non-sensitive. Aphasia was not added as a focused condition overlay per user instruction; it was treated as chronic-condition/disability neurorehabilitation context. Citation-memory status: no formal citation record created because this is not a citation-bearing publication.
+
 ## [2026-05-18] architecture | Initialized research wiki scaffold
 
 - Summary: Created the initial Karpathy-style research wiki structure for AI-driven digital health and smart home technologies, including raw source, wiki, output, and private note folders.
