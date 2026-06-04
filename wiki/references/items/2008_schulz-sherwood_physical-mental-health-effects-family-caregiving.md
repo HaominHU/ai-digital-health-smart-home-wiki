@@ -22,7 +22,7 @@ doi: 10.5175/JSWE.2008.773247702
 url: https://doi.org/10.5175/JSWE.2008.773247702
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf
+source_file: sources/papers/cg_system_core/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf
 related_evidence_pages:
   - wiki/evidence/schulz_sherwood_2008_physical_mental_health_effects_family_caregiving.md
 related_wiki_pages:

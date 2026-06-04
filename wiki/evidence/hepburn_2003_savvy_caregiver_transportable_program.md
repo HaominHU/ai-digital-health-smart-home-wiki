@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2003_hepburn_savvy-caregiver-transportable-program
-source_file: sources/papers/12_hepburn_savvy.pdf
+source_file: sources/papers/cg_system_core/12_hepburn_savvy.pdf
 reference_item: wiki/references/items/2003_hepburn_savvy-caregiver-transportable-program.md
 evidence_type: published evidence
 source_type: practice translation and field test article
@@ -42,4 +42,4 @@ Use this source for manualized dementia caregiver role-training and transportabi
 
 ## Source Citation
 
-- `2003_hepburn_savvy-caregiver-transportable-program`: Hepburn KW, Lewis M, Sherman CW, Tornatore J. The Savvy Caregiver Program: Developing and Testing a Transportable Dementia Family Caregiver Training Program. The Gerontologist. 2003;43(6):908-915. DOI: `10.1093/geront/43.6.908`. Source file: `sources/papers/12_hepburn_savvy.pdf`.
+- `2003_hepburn_savvy-caregiver-transportable-program`: Hepburn KW, Lewis M, Sherman CW, Tornatore J. The Savvy Caregiver Program: Developing and Testing a Transportable Dementia Family Caregiver Training Program. The Gerontologist. 2003;43(6):908-915. DOI: `10.1093/geront/43.6.908`. Source file: `sources/papers/cg_system_core/12_hepburn_savvy.pdf`.

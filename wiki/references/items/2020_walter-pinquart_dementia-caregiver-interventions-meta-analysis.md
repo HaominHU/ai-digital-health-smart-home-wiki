@@ -22,7 +22,7 @@ doi: 10.1093/geront/gnz118
 url: https://doi.org/10.1093/geront/gnz118
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/42_walter_updated_caregiver_intervention_analysis.pdf
+source_file: sources/papers/cg_system_core/42_walter_updated_caregiver_intervention_analysis.pdf
 related_evidence_pages:
   - wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md
 related_wiki_pages:

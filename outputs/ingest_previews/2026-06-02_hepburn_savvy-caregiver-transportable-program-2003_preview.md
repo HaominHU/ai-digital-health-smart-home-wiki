@@ -4,7 +4,7 @@ type: ingest_preview
 status: approved_integrated
 privacy: private
 source_id: 2003_hepburn_savvy-caregiver-transportable-program
-source_file: sources/papers/12_hepburn_savvy.pdf
+source_file: sources/papers/cg_system_core/12_hepburn_savvy.pdf
 evidence_type: published evidence
 source_type: practice translation and field test article
 last_updated: 2026-06-02
@@ -26,7 +26,7 @@ Approved by user and integrated into the wiki on 2026-06-02.
 - DOI: `10.1093/geront/43.6.908`
 - Source type: Practice translation and multi-site field test article
 - Evidence type: Published evidence
-- Source file: `sources/papers/12_hepburn_savvy.pdf`
+- Source file: `sources/papers/cg_system_core/12_hepburn_savvy.pdf`
 - Privacy sensitivity: No PHI or identifiable participant data detected in extracted text.
 - Readability: PDF text extraction is readable with Ghostscript.
 

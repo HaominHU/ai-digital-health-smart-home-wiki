@@ -32,7 +32,7 @@ doi:
 url:
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/36_lewis_rag_2020.pdf
+source_file: sources/papers/cg_system_core/36_lewis_rag_2020.pdf
 related_evidence_pages:
   - wiki/evidence/lewis_2020_rag_knowledge_intensive_nlp.md
 related_wiki_pages:

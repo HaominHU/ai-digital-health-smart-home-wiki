@@ -4,7 +4,7 @@ type: ingest_preview
 status: approved_integrated
 privacy: private
 source_id: 2017_nichols_reach-dementia-caregiver-healthcare-costs
-source_file: sources/papers/10_reachii_reachva.pdf
+source_file: sources/papers/cg_system_core/10_reachii_reachva.pdf
 evidence_type: published evidence
 source_type: journal article
 last_updated: 2026-06-02
@@ -26,7 +26,7 @@ Approved by user and integrated into the wiki on 2026-06-02.
 - DOI: `10.1111/jgs.14716`
 - Source type: Journal article using previously collected REACH II and REACH VA intervention data plus cost/expenditure data
 - Evidence type: Published evidence
-- Source file: `sources/papers/10_reachii_reachva.pdf`
+- Source file: `sources/papers/cg_system_core/10_reachii_reachva.pdf`
 - Privacy sensitivity: No PHI or identifiable participant data detected in extracted text.
 - Readability: PDF text extraction is readable with Ghostscript.
 

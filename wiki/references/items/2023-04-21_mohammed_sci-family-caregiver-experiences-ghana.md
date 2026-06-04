@@ -25,7 +25,7 @@ doi: 10.1371/journal.pone.0284436
 url: https://doi.org/10.1371/journal.pone.0284436
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/24_mohammed_sci_family_caregiver_experiences_2023.pdf
+source_file: sources/papers/cg_system_core/24_mohammed_sci_family_caregiver_experiences_2023.pdf
 related_evidence_pages:
   - wiki/evidence/mohammed_2023_sci_family_caregiver_experiences_ghana.md
 related_wiki_pages:

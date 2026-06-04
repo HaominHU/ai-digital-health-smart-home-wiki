@@ -3,7 +3,7 @@ title: Ingest Source Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-06-04
 ---
 
 # Ingest Source Workflow
@@ -46,6 +46,12 @@ If important source context is missing, ask the user before updating the wiki un
 ## Source Storage and Naming
 
 Raw source files may be stored locally under `sources/`, but they are ignored by git by default. The wiki should not depend on raw source files being available after cloning.
+
+For paper sources, preserve the purpose-specific lane when assigning or updating source paths. New purpose-specific folders may be created under `sources/papers/` when a stable new source group emerges.
+
+- Use `sources/papers/cg_system_core/` for the ongoing numbered caregiver system-design core citation ingest. Part 4 is completed; part 5 is the next planned staged core ingest.
+- Use `sources/papers/monthly_pubmed/` for monthly PubMed push papers before triage, prioritization, preview, or integration. Keep it flat for now; add a date or topic sub-hierarchy later only if the folder becomes hard to manage.
+- Use top-level `sources/papers/` only for legacy papers, standalone papers, or papers not yet assigned to a purpose-specific lane.
 
 Use this default source ID and filename convention for raw files and source references:
 

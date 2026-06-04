@@ -43,6 +43,9 @@ This project explores how a domain-specific research Wiki can support ongoing sc
 The structure follows the Karpathy-style LLM Wiki pattern in a research-specific way:
 
 - `sources/` is the immutable raw source layer.
+- `sources/papers/` can contain purpose-specific paper lanes as source groups emerge.
+- `sources/papers/cg_system_core/` is an example lane for the ongoing numbered core citation set for caregiver system-design ingest.
+- `sources/papers/monthly_pubmed/` is an example flat storage lane for monthly PubMed pushes before triage and integration.
 - `wiki/` is the maintained Markdown knowledge layer.
 - `wiki/references/` is the knowledge-level citation-memory layer.
 - `AGENTS.md` is the schema/control layer for Codex behavior.

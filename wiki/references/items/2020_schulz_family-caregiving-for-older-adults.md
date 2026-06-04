@@ -25,7 +25,7 @@ doi: 10.1146/annurev-psych-010419-050754
 url: https://doi.org/10.1146/annurev-psych-010419-050754
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/04_schulz_family_caregiving_for_older_adults_2020.pdf
+source_file: sources/papers/cg_system_core/04_schulz_family_caregiving_for_older_adults_2020.pdf
 related_evidence_pages:
   - wiki/evidence/schulz_2020_family_caregiving_older_adults.md
 related_wiki_pages:

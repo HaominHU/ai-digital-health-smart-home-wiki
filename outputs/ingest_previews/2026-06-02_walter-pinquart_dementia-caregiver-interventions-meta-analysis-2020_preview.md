@@ -4,7 +4,7 @@ type: ingest_preview
 status: approved_integrated
 privacy: private
 source_id: 2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis
-source_file: sources/papers/42_walter_updated_caregiver_intervention_analysis.pdf
+source_file: sources/papers/cg_system_core/42_walter_updated_caregiver_intervention_analysis.pdf
 evidence_type: published evidence
 source_type: meta-analysis
 last_updated: 2026-06-02
@@ -26,7 +26,7 @@ Approved by user and integrated into the wiki on 2026-06-02.
 - DOI: `10.1093/geront/gnz118`
 - Source type: Meta-analysis
 - Evidence type: Published evidence
-- Source file: `sources/papers/42_walter_updated_caregiver_intervention_analysis.pdf`
+- Source file: `sources/papers/cg_system_core/42_walter_updated_caregiver_intervention_analysis.pdf`
 - Privacy sensitivity: No PHI or identifiable participant data detected in extracted text.
 - Readability: PDF text extraction is readable with Ghostscript, with some table-text artifacts.
 

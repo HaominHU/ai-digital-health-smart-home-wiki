@@ -27,11 +27,11 @@ Integrated before this batch:
 
 Integrated in this batch:
 
-- `sources/papers/10_reachii_reachva.pdf`
-- `sources/papers/11_laura_cope.pdf`
-- `sources/papers/12_hepburn_savvy.pdf`
-- `sources/papers/13_hepburn_telesavvy.pdf`
-- `sources/papers/42_walter_updated_caregiver_intervention_analysis.pdf`
+- `sources/papers/cg_system_core/10_reachii_reachva.pdf`
+- `sources/papers/cg_system_core/11_laura_cope.pdf`
+- `sources/papers/cg_system_core/12_hepburn_savvy.pdf`
+- `sources/papers/cg_system_core/13_hepburn_telesavvy.pdf`
+- `sources/papers/cg_system_core/42_walter_updated_caregiver_intervention_analysis.pdf`
 
 ## Source Set
 

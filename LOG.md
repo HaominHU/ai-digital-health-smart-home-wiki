@@ -260,3 +260,27 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Integrated approved previews for REACH II/REACH VA costs, COPE, Savvy Caregiver, Tele-Savvy, and Walter and Pinquart 2020 into citation memory, evidence pages, dementia and family caregiver pages, caregiver challenge hubs, care-recipient need pages, design patterns, research questions, index, memory, and log.
 - Files touched: `outputs/ingest_previews/2026-06-02_*`, `wiki/references/items/2017_nichols_reach-dementia-caregiver-healthcare-costs.md`, `wiki/references/items/2010_gitlin_cope-dementia-home-based-intervention.md`, `wiki/references/items/2003_hepburn_savvy-caregiver-transportable-program.md`, `wiki/references/items/2022_hepburn_telesavvy-online-dementia-caregiver-program.md`, `wiki/references/items/2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis.md`, `wiki/evidence/nichols_2017_reach_dementia_caregiver_healthcare_costs.md`, `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`, `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`, `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`, `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`, `wiki/conditions/dementia.md`, `wiki/populations/`, `wiki/caregiving_challenges/`, `wiki/care_recipient_needs/`, `wiki/design_patterns/`, `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`, `wiki/environments/home.md`, `wiki/technologies/ai_driven_digital_health.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
 - Notes: Citation-memory records are RIS export-ready except Gitlin 2010 lacks DOI/URL from extracted text. Claims are bounded to dementia caregiver intervention, implementation, cost, transportability, online delivery, and meta-analytic evidence.
+
+## [2026-06-04] workflow | Documented paper source purpose lanes
+
+- Summary: Updated the source-layer structure to distinguish the ongoing caregiver system-design core citation lane from the monthly PubMed push storage lane, and repaired current source references for moved core papers.
+- Files touched: `AGENTS.md`, `README.md`, `INDEX.md`, `MEMORY.md`, `wiki/workflows/ingest_source.md`, `wiki/evidence/`, `wiki/references/items/`, `outputs/ingest_previews/`, `LOG.md`.
+- Notes: `sources/papers/cg_system_core/` and `sources/papers/monthly_pubmed/` are example purpose-specific lanes, not a closed list. New paper-group folders can be added as new stable source groups emerge. `monthly_pubmed` should remain flat for now, with another hierarchy added later only if needed. Top-level `sources/papers/` remains available for legacy, standalone, or unassigned papers.
+
+## [2026-06-04] memory | Revised non-ingested paper status
+
+- Summary: Updated `MEMORY.md` after a quick source-status sweep to mark the current non-ingested paper explicitly.
+- Files touched: `MEMORY.md`, `LOG.md`.
+- Notes: `sources/papers/monthly_pubmed/kingsada_2026_preferences_dh_scope_review.pdf` is stored but not yet previewed, integrated, or represented in citation memory. Current core citation papers through source 42 remain previewed and integrated.
+
+## [2026-06-04] ingest | Previewed monthly PubMed paper on DHT preferences
+
+- Summary: Created a pending ingest preview for Kingsada et al. 2026, a Health Economics Review scoping review on patient preferences toward digital health technologies.
+- Files touched: `sources/papers/monthly_pubmed/kingsada_2026_preferences_dh_scope_review.pdf`, `outputs/ingest_previews/2026-06-04_kingsada_preferences-digital-health-technologies-2026_preview.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Source type is scoping review; evidence type is published evidence; privacy level is private/non-sensitive. Review status is pending before wiki integration. This source belongs to the monthly PubMed lane and remains separate from the `cg_system_core` caregiver system-design ingest.
+
+## [2026-06-04] ingest | Integrated monthly PubMed DHT preferences review
+
+- Summary: Integrated the approved Kingsada et al. 2026 scoping review into citation memory, a new evidence page, digital-health technology context, older-adult population context, caregiver/care-recipient preference separation, design patterns, research questions, index, memory, and log.
+- Files touched: `outputs/ingest_previews/2026-06-04_kingsada_preferences-digital-health-technologies-2026_preview.md`, `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`, `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/populations/older_adults.md`, `wiki/concepts/caregiver_vs_care_recipient_needs.md`, `wiki/design_patterns/`, `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Citation-memory record is RIS export-ready with article-in-press limits: final volume, issue, and page/article fields were not available from the accepted manuscript. Claims are bounded to patient preferences, DHT adoption, preference elicitation, HTA/reimbursement rationale, older-adult preference context, and privacy/security design rationale. This source remains separate from `cg_system_core` and is not caregiver-specific or intervention-effectiveness evidence.

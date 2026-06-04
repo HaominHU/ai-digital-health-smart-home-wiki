@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-06-02
+last_updated: 2026-06-04
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -33,6 +33,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver supports manualized curriculum modules, facilitator preparation, homework, and fidelity-preserving transportability.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports synchronous/asynchronous digital delivery of caregiver role training and mastery-building modules.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Modular caregiver systems should prioritize active training when outcomes beyond knowledge are desired and should match components to target outcomes.
+- `2026_kingsada_preferences-digital-health-technologies`: Patient preference evidence supports modular digital health design that can expose choices around cost, privacy, personalization, clinician connection, self-management, and hybrid support. Use this as indirect preference-sensitive design rationale, not caregiver-specific evidence.
 
 ## Relevant Populations
 
@@ -65,6 +66,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Dementia-specific modules for behavioral/physical symptoms, wandering, caregiver self-care, peer support, and future planning.
 - Active caregiver training modules for dementia-related behavior response, activity engagement, mastery, and environmental/task adaptation.
 - Synchronous/asynchronous learning pathways with explicit scheduling, connectivity, and technology-access constraints.
+- Preference-elicitation and configuration checks that separately capture caregiver preferences, care-recipient preferences, and shared-access privacy trade-offs.
 
 ## Design Constraints
 
@@ -72,6 +74,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Do not turn participant-composition conditions into new wiki condition taxonomies unless explicitly prioritized.
 - Treat future AI and wearable augmentation as an extension layer unless implemented and evaluated.
 - Track whether modular personalization improves reach and sustained use or only adds configuration burden.
+- Do not import patient DHT preferences directly as caregiver preferences; elicit caregiver and care-recipient preferences separately when modules affect both.
 
 ## Evidence
 
@@ -92,6 +95,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2003_hepburn_savvy-caregiver-transportable-program`.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
+- `2026_kingsada_preferences-digital-health-technologies`.
 
 ## Gaps
 

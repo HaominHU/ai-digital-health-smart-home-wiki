@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, evaluation, outcomes, design-pattern]
-last_updated: 2026-06-02
+last_updated: 2026-06-04
 ---
 
 # Caregiver Intervention Evaluation Core Outcomes
@@ -33,6 +33,7 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy supports evaluating transportability, facilitator fidelity, caregiver knowledge/skill/confidence, behavior reaction, burden, mastery, and caregiving beliefs.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports evaluating depression, perceived stress, anxiety, burden, caregiver mastery, reaction to behavioral symptoms, technology access, schedule fit, and representation.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention evaluation should track burden, depression, anxiety, subjective well-being, ability/knowledge, care-recipient symptoms, and institutionalization, with heterogeneity and active-training cautions.
+- `2026_kingsada_preferences-digital-health-technologies`: Preference elicitation methods such as DCE, conjoint analysis, best-worst scaling, contingent valuation, interviews, focus groups, and mixed methods can help evaluate digital health design trade-offs, but patient preferences should remain separate from caregiver outcomes and effectiveness endpoints.
 
 ## Evaluation Dimensions
 
@@ -45,6 +46,7 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Digital health evidence-quality measures: MMAT/GRADE-style study quality, attrition, technology use, low usage, technology instability, self-selection bias, and self-report bias.
 - Digital caregiver app measures: SUS, MAUQ, usage logs, retention, task completion, cognitive load, satisfaction, and qualitative usability feedback.
 - Dementia caregiver intervention outcomes: mastery, behavior-reaction, caregiver confidence, caregiver knowledge, caregiver burden, stress, depression, anxiety, subjective well-being, care-recipient symptoms, function, engagement, institutionalization, and cost.
+- Preference-elicitation measures: DCE, conjoint analysis, best-worst scaling, contingent valuation, qualitative interviews, focus groups, and mixed methods to assess trade-offs among cost, privacy, convenience, personalization, human support, and data security.
 
 ## Design Constraints
 
@@ -55,6 +57,7 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Measure positive caregiving meaning separately from practical burden; high caregiver esteem does not mean schedule, financial, health, or support burdens are absent.
 - Do not infer population impact from efficacy, usability, or acceptability alone; specify reach, adoption, implementation, and maintenance assumptions.
 - For AI-enabled interventions, separately evaluate technical performance, source faithfulness, privacy/security, caregiver workload, caregiver outcomes, care-recipient outcomes, and implementation outcomes.
+- Do not treat patient preference, willingness to pay, satisfaction, or acceptability as caregiver outcome effectiveness.
 
 ## Related Pages
 
@@ -76,3 +79,4 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
+- `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`

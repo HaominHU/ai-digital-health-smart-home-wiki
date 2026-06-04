@@ -23,7 +23,7 @@ doi: 10.1186/1471-2318-11-77
 url: https://doi.org/10.1186/1471-2318-11-77
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/06_van_houtven_organizing_framework_2011.pdf
+source_file: sources/papers/cg_system_core/06_van_houtven_organizing_framework_2011.pdf
 related_evidence_pages:
   - wiki/evidence/van_houtven_2011_caregiver_intervention_framework.md
 related_wiki_pages:

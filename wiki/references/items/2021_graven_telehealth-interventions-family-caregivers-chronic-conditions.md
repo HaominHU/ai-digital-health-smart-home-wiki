@@ -26,7 +26,7 @@ doi: 10.1155/2021/3518050
 url: https://doi.org/10.1155/2021/3518050
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/07_gaven_telehealth_pwccd_rct_review.pdf
+source_file: sources/papers/cg_system_core/07_gaven_telehealth_pwccd_rct_review.pdf
 related_evidence_pages:
   - wiki/evidence/graven_2021_telehealth_interventions_family_caregivers_chronic_conditions.md
 related_wiki_pages:

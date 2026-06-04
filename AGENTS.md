@@ -155,6 +155,13 @@ Default citation storage and export:
 
 Raw source files may be stored locally under `sources/`, but they are ignored by git by default because they may be private, copyrighted, sensitive, or too large for GitHub. Do not assume raw source files are available after cloning unless they are explicitly provided.
 
+Paper source organization:
+
+- `sources/papers/`: Published paper source layer. Purpose-specific paper lanes may be added under this folder as new source groups emerge.
+- `sources/papers/cg_system_core/`: Example purpose-specific lane for the ongoing key citation set for caregiver system-design evidence ingest. This is the current lane for the numbered caregiver-system core papers; part 4 has been completed and the next planned ingest is part 5.
+- `sources/papers/monthly_pubmed/`: Example purpose-specific lane for monthly PubMed push papers before they are selected, prioritized, or integrated. Keep this folder flat for now; add a date or topic sub-hierarchy later only when volume justifies it.
+- Papers that remain directly under `sources/papers/` are legacy, standalone, or not yet assigned to one of the purpose-specific lanes.
+
 Use this default source ID and raw filename convention:
 
 `YYYY-MM-DD_author-or-org_short-title.ext`
@@ -208,6 +215,8 @@ Use Markdown as source knowledge and YAML frontmatter for structured metadata.
 Core folders:
 
 - `sources/`: Raw source layer. Preserve source files and source notes. Do not modify after saving except to add separate metadata files.
+- `sources/papers/cg_system_core/`: Example purpose-specific lane for numbered caregiver system-design core citation papers in the ongoing staged ingest.
+- `sources/papers/monthly_pubmed/`: Example purpose-specific lane for flat monthly PubMed push paper storage before triage or ingest.
 - `wiki/`: Maintained research wiki layer.
 - `outputs/`: Generated artifacts such as ingest previews, evidence briefs, research prompts, design prompts, spec prompts, query answers, and lint reports.
 - `private_notes/`: Sensitive scratch space and private working notes.

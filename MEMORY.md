@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Research Wiki Memory
@@ -76,6 +76,12 @@ The user manually handles commits and git management.
 
 Raw source files may be stored locally under `sources/`, but they are ignored by git by default. The tracked wiki should preserve source-derived knowledge through source IDs, source context, evidence labels, and durable Markdown synthesis.
 
+Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
+
+- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Part 4 is completed and part 5 is the next planned staged ingest.
+- `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add a date or topic sub-hierarchy later only when needed.
+- Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
+
 Recommended raw source ID and filename pattern:
 
 `YYYY-MM-DD_author-or-org_short-title.ext`
@@ -94,7 +100,18 @@ When wiki coverage is weak, narrow, missing foundational sources, missing recent
 
 ## Next Useful Step
 
-Current local abstracts and papers through source 42 have been previewed and integrated. A useful next step is a lint/source-status pass before adding new sources, especially to check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+Current local abstracts and papers through source 42 have been previewed and integrated, and current source paths have been revised for the new `sources/papers/cg_system_core/` layer.
+
+Current non-ingested paper status:
+
+- No current non-ingested paper remains in `sources/papers/monthly_pubmed/`.
+- `2026_kingsada_preferences-digital-health-technologies`: Kingsada et al. 2026 Health Economics Review scoping review on patient preferences toward digital health technologies has been previewed and integrated from the monthly PubMed lane.
+
+Monthly PubMed integrated source:
+
+- `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
+
+A useful next step is part 5 of the `cg_system_core` staged ingest or another future monthly PubMed triage when new monthly papers arrive. Keep these lanes separate. A later lint/source-status pass should also check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
 
 First integrated source:
 

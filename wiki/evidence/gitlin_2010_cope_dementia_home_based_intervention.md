@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2010_gitlin_cope-dementia-home-based-intervention
-source_file: sources/papers/11_laura_cope.pdf
+source_file: sources/papers/cg_system_core/11_laura_cope.pdf
 reference_item: wiki/references/items/2010_gitlin_cope-dementia-home-based-intervention.md
 evidence_type: published evidence
 source_type: randomized trial
@@ -44,4 +44,4 @@ Use COPE as evidence that home-based dementia caregiver training plus environmen
 
 ## Source Citation
 
-- `2010_gitlin_cope-dementia-home-based-intervention`: Gitlin LN, Winter L, Dennis MP, Hodgson N, Hauck WW. A Biobehavioral Home-Based Intervention and the Well-being of Patients With Dementia and Their Caregivers: The COPE Randomized Trial. JAMA. 2010;304(9):983-991. Trial registration: `NCT00259454`. Source file: `sources/papers/11_laura_cope.pdf`.
+- `2010_gitlin_cope-dementia-home-based-intervention`: Gitlin LN, Winter L, Dennis MP, Hodgson N, Hauck WW. A Biobehavioral Home-Based Intervention and the Well-being of Patients With Dementia and Their Caregivers: The COPE Randomized Trial. JAMA. 2010;304(9):983-991. Trial registration: `NCT00259454`. Source file: `sources/papers/cg_system_core/11_laura_cope.pdf`.

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-06-02
+last_updated: 2026-06-04
 ---
 
 # Older Adults
@@ -30,6 +30,7 @@ Caregiving need among older adults should be linked to functional limitation, co
 - Chronic disease and multimorbidity context.
 - Font size, contrast, and interaction accessibility in digital health tools.
 - Reach and access barriers in intervention delivery, including technology access, transportation, scheduling, referrals, and sustained engagement.
+- Preference-sensitive digital health design, including simplicity, clear explanation, privacy, data security, clinical support, cost, and face-to-face fallback when needed.
 
 ## Evidence
 
@@ -46,6 +47,7 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE is relevant to older-adult home care when dementia-related functional decline and caregiver support needs are present.
 - `2003_hepburn_savvy-caregiver-transportable-program` and `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Savvy and Tele-Savvy support dementia caregiver training and mastery for later-life dementia contexts, bounded to dementia caregiving rather than age alone.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention effects are relevant to older-adult caregiving because dementia often occurs in later life, but disease and aging should remain conceptually separate.
+- `2026_kingsada_preferences-digital-health-technologies`: Older-adult patient preference evidence for digital health is limited but suggests attention to simple, clearly explained, tailored tools, multimodal education, initial face-to-face interaction, privacy, comfort, and clinical support. Use this as patient-preference context, not as caregiver evidence or evidence that chronic disease is normal aging.
 
 ## Related Pages
 
@@ -61,3 +63,4 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
+- `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`

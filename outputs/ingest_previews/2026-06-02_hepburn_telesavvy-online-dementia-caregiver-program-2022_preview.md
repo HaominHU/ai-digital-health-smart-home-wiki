@@ -4,7 +4,7 @@ type: ingest_preview
 status: approved_integrated
 privacy: private
 source_id: 2022_hepburn_telesavvy-online-dementia-caregiver-program
-source_file: sources/papers/13_hepburn_telesavvy.pdf
+source_file: sources/papers/cg_system_core/13_hepburn_telesavvy.pdf
 evidence_type: published evidence
 source_type: randomized trial
 last_updated: 2026-06-02
@@ -26,7 +26,7 @@ Approved by user and integrated into the wiki on 2026-06-02.
 - DOI: `10.1093/geront/gnab029`
 - Source type: Randomized trial
 - Evidence type: Published evidence
-- Source file: `sources/papers/13_hepburn_telesavvy.pdf`
+- Source file: `sources/papers/cg_system_core/13_hepburn_telesavvy.pdf`
 - Privacy sensitivity: No PHI or identifiable participant data detected in extracted text.
 - Readability: PDF text extraction is readable with Ghostscript, with some table-text artifacts.
 

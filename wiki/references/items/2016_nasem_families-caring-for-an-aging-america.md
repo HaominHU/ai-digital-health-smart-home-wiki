@@ -21,7 +21,7 @@ doi: 10.17226/23606
 url: https://doi.org/10.17226/23606
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/05_families_caring_for_an_aging_america_2016.pdf
+source_file: sources/papers/cg_system_core/05_families_caring_for_an_aging_america_2016.pdf
 related_evidence_pages:
   - wiki/evidence/nasem_2016_families_caring_aging_america.md
 related_wiki_pages:

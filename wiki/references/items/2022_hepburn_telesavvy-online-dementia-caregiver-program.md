@@ -31,7 +31,7 @@ doi: 10.1093/geront/gnab029
 url: https://doi.org/10.1093/geront/gnab029
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/13_hepburn_telesavvy.pdf
+source_file: sources/papers/cg_system_core/13_hepburn_telesavvy.pdf
 related_evidence_pages:
   - wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md
 related_wiki_pages:

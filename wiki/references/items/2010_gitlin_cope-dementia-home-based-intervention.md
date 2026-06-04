@@ -25,7 +25,7 @@ doi:
 url:
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/11_laura_cope.pdf
+source_file: sources/papers/cg_system_core/11_laura_cope.pdf
 related_evidence_pages:
   - wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md
 related_wiki_pages:

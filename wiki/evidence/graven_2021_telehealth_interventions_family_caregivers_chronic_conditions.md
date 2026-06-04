@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2021_graven_telehealth-interventions-family-caregivers-chronic-conditions
-source_file: sources/papers/07_gaven_telehealth_pwccd_rct_review.pdf
+source_file: sources/papers/cg_system_core/07_gaven_telehealth_pwccd_rct_review.pdf
 reference_item: wiki/references/items/2021_graven_telehealth-interventions-family-caregivers-chronic-conditions.md
 evidence_type: published evidence
 source_type: systematic review of randomized controlled trials
@@ -84,4 +84,4 @@ For this wiki, this source supports telehealth as a caregiver intervention deliv
 
 ## Source Citation
 
-- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Graven LJ, Glueckauf RL, Regal RA, Merbitz NK, Lustria MLA, James BA. Telehealth Interventions for Family Caregivers of Persons with Chronic Health Conditions: A Systematic Review of Randomized Controlled Trials. International Journal of Telemedicine and Applications. 2021;2021:3518050. DOI: `10.1155/2021/3518050`. Source file: `sources/papers/07_gaven_telehealth_pwccd_rct_review.pdf`.
+- `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Graven LJ, Glueckauf RL, Regal RA, Merbitz NK, Lustria MLA, James BA. Telehealth Interventions for Family Caregivers of Persons with Chronic Health Conditions: A Systematic Review of Randomized Controlled Trials. International Journal of Telemedicine and Applications. 2021;2021:3518050. DOI: `10.1155/2021/3518050`. Source file: `sources/papers/cg_system_core/07_gaven_telehealth_pwccd_rct_review.pdf`.

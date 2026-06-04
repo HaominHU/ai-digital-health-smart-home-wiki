@@ -4,7 +4,7 @@ type: ingest_preview
 status: approved_integrated
 privacy: private
 source_id: 2010_gitlin_cope-dementia-home-based-intervention
-source_file: sources/papers/11_laura_cope.pdf
+source_file: sources/papers/cg_system_core/11_laura_cope.pdf
 evidence_type: published evidence
 source_type: randomized trial
 last_updated: 2026-06-02
@@ -27,7 +27,7 @@ Approved by user and integrated into the wiki on 2026-06-02.
 - Trial registration: `NCT00259454`
 - Source type: Randomized trial
 - Evidence type: Published evidence
-- Source file: `sources/papers/11_laura_cope.pdf`
+- Source file: `sources/papers/cg_system_core/11_laura_cope.pdf`
 - Privacy sensitivity: No PHI or identifiable participant data detected in extracted text.
 - Readability: PDF text extraction is readable with Ghostscript.
 

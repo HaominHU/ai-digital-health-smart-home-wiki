@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -25,7 +25,9 @@ The wiki is designed as a Markdown knowledge middleware layer: readable by human
 
 ## Raw Source Layer
 
-- `sources/papers/`: Published papers and paper notes.
+- `sources/papers/`: Published papers and paper notes. Purpose-specific paper lanes can be added under this folder as new source groups emerge.
+- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Part 4 is completed; part 5 is the next staged core ingest.
+- `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add another hierarchy later only if volume or workflow needs justify it.
 - `sources/reports/`: Reports, dissertations, white papers, and formal documents.
 - `sources/abstracts/`: Abstracts and short publication records.
 - `sources/conference_notes/`: Conference notes and session takeaways.
@@ -83,6 +85,7 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
 - `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`
 - `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`
+- `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
 
 ## Citation Memory
 
@@ -107,6 +110,7 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2003_hepburn_savvy-caregiver-transportable-program.md`
 - `wiki/references/items/2022_hepburn_telesavvy-online-dementia-caregiver-program.md`
 - `wiki/references/items/2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis.md`
+- `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`
 
 ## Templates
 

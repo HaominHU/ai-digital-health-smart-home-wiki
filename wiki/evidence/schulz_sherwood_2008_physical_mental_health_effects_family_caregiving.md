@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2008_schulz-sherwood_physical-mental-health-effects-family-caregiving
-source_file: sources/papers/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf
+source_file: sources/papers/cg_system_core/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf
 reference_item: wiki/references/items/2008_schulz-sherwood_physical-mental-health-effects-family-caregiving.md
 evidence_type: published evidence
 source_type: journal article
@@ -45,4 +45,4 @@ For this wiki, this source supports caregiver self-care, assessment, triage, and
 
 ## Source Citation
 
-- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Schulz R, Sherwood PR. Physical and Mental Health Effects of Family Caregiving. Journal of Social Work Education. 2008;44:sup3:105-113. DOI: `10.5175/JSWE.2008.773247702`. Source file: `sources/papers/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf`.
+- `2008_schulz-sherwood_physical-mental-health-effects-family-caregiving`: Schulz R, Sherwood PR. Physical and Mental Health Effects of Family Caregiving. Journal of Social Work Education. 2008;44:sup3:105-113. DOI: `10.5175/JSWE.2008.773247702`. Source file: `sources/papers/cg_system_core/03_schulz_PHYSICAL AND MENTAL HEALTH EFFECTS OF FAMILY CAREGIVING.pdf`.

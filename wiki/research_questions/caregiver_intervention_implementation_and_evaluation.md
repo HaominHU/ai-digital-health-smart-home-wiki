@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-06-02
+last_updated: 2026-06-04
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -28,6 +28,7 @@ How should caregiver-support interventions, including digital health and smart h
 - `2003_hepburn_savvy-caregiver-transportable-program`: Adds questions about transportability, facilitator fidelity, organizational support, and representativeness of caregiver participants.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Adds questions about synchronous scheduling, technology access, representation, and online mastery-building.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Adds questions about component matching, small-to-moderate effects, heterogeneity, publication bias, and long-term institutionalization outcomes.
+- `2026_kingsada_preferences-digital-health-technologies`: Adds questions about how patient or care-recipient preference elicitation should inform digital health design without being mistaken for caregiver preference evidence or outcome effectiveness.
 
 ## Open Subquestions
 
@@ -42,6 +43,7 @@ How should caregiver-support interventions, including digital health and smart h
 - How should dementia caregiver apps evaluate long-term engagement, caregiver outcomes, care-recipient safety/privacy, and implementation across care settings after promising usability results?
 - Which dementia caregiver intervention components produce durable effects beyond knowledge, and which outcomes require active training, multicomponent support, or care-system integration?
 - How should cost, utilization, and institutionalization outcomes be evaluated without overgeneralizing from setting-specific or heterogeneous evidence?
+- How should DCE, conjoint analysis, best-worst scaling, contingent valuation, interviews, focus groups, or mixed methods be used to elicit caregiver and care-recipient preferences separately when digital systems involve shared access, privacy trade-offs, or proxy use?
 
 ## Related Pages
 

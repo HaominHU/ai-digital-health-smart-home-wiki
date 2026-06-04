@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp
-source_file: sources/papers/36_lewis_rag_2020.pdf
+source_file: sources/papers/cg_system_core/36_lewis_rag_2020.pdf
 reference_item: wiki/references/items/2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp.md
 evidence_type: published technical evidence
 source_type: conference paper
@@ -50,4 +50,4 @@ RAG is useful for this wiki as a technical method for source-grounded AI support
 
 ## Source Citation
 
-- `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Lewis P, Perez E, Piktus A, Petroni F, Karpukhin V, Goyal N, Kuttler H, Lewis M, Yih W, Rocktaschel T, Riedel S, Kiela D. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 34th Conference on Neural Information Processing Systems. 2020. Source file: `sources/papers/36_lewis_rag_2020.pdf`.
+- `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Lewis P, Perez E, Piktus A, Petroni F, Karpukhin V, Goyal N, Kuttler H, Lewis M, Yih W, Rocktaschel T, Riedel S, Kiela D. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 34th Conference on Neural Information Processing Systems. 2020. Source file: `sources/papers/cg_system_core/36_lewis_rag_2020.pdf`.
