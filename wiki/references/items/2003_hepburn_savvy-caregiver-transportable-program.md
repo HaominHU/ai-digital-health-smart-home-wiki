@@ -24,7 +24,7 @@ doi: 10.1093/geront/43.6.908
 url: https://doi.org/10.1093/geront/43.6.908
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/cg_system_core/12_hepburn_savvy.pdf
+source_file: sources/papers/cg_system_core/11_hepburn_savvy.pdf
 related_evidence_pages:
   - wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md
 related_wiki_pages:

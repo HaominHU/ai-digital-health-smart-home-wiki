@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -22,6 +22,7 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 
 - Cross-condition challenge.
 - Spinal cord injury.
+- Dementia.
 - Gynecological cancer.
 
 ## Caregiver Need
@@ -41,6 +42,8 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver includes self-care issue awareness within caregiver role training, but the field-test article is not caregiver health effectiveness evidence.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy improved stress and depression but did not significantly improve burden or anxiety, underscoring the need to separate caregiver health and well-being outcomes.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver interventions showed average effects on depression, anxiety, burden, and subjective well-being; effect sizes were mostly small-to-moderate.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregivers need help finding balance, including time for themselves, maintaining health and social relationships, respite, stability, role adjustment, and accepting formal or informal support.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver intervention evidence should separate self-care-adjacent outcomes such as depression, quality of life, subjective well-being, burden, anxiety, and mastery because effects differ by endpoint.
 
 ## Care Recipient Connection
 
@@ -71,6 +74,8 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - `2003_hepburn_savvy-caregiver-transportable-program`.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`.
 
 ## Design Implications
 
@@ -79,6 +84,7 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - Account for resource depletion: caregivers under chronic stress may need low-effort support, not additional homework.
 - Include privacy and consent for any wearable or passive monitoring data.
 - Evaluate whether caregiver self-care tools improve meaningful health, quality-of-life, sleep, utilization, or economic outcomes rather than only app satisfaction.
+- For dementia caregivers, treat balance, respite, and self-care as support needs and evaluate them separately from knowledge gain, satisfaction, or app engagement.
 
 ## Gaps
 

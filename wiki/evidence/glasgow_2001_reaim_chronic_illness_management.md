@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2001_glasgow_re-aim-framework-chronic-illness-management
-source_file: sources/papers/cg_system_core/39_glasgow_reaim_framework_chronic_illness_2001.pdf
+source_file: sources/papers/cg_system_core/29c_glasgow_reaim_framework_chronic_illness_2001.pdf
 reference_item: wiki/references/items/2001_glasgow_re-aim-framework-chronic-illness-management.md
 evidence_type: published evidence
 source_type: journal article
@@ -54,4 +54,4 @@ For this wiki, RE-AIM is most useful as an evaluation and implementation framewo
 
 ## Source Citation
 
-- `2001_glasgow_re-aim-framework-chronic-illness-management`: Glasgow RE, McKay HG, Piette JD, Reynolds KD. The RE-AIM framework for evaluating interventions: what can it tell us about approaches to chronic illness management? Patient Education and Counseling. 2001;44:119-127. PII: `S0738-3991(00)00186-5`. Source file: `sources/papers/cg_system_core/39_glasgow_reaim_framework_chronic_illness_2001.pdf`.
+- `2001_glasgow_re-aim-framework-chronic-illness-management`: Glasgow RE, McKay HG, Piette JD, Reynolds KD. The RE-AIM framework for evaluating interventions: what can it tell us about approaches to chronic illness management? Patient Education and Counseling. 2001;44:119-127. PII: `S0738-3991(00)00186-5`. Source file: `sources/papers/cg_system_core/29c_glasgow_reaim_framework_chronic_illness_2001.pdf`.

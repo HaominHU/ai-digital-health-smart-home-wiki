@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-06-04
+last_updated: 2026-06-07
 ---
 
 # AI-Driven Digital Health
@@ -48,6 +48,9 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: A CareBuddy abstract describes a multi-agent conversational AI architecture with specialized agents and central orchestration for Alzheimer's care and assistance.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports online synchronous/asynchronous caregiver psychoeducation as broad digital health intervention evidence, but it is not AI-agent evidence.
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`, `2010_gitlin_cope-dementia-home-based-intervention`, `2003_hepburn_savvy-caregiver-transportable-program`, and `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: These are useful caregiver intervention and evaluation anchors for future digital systems, not direct AI or smart-home effectiveness evidence.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Use this as outcome-matching logic for future AI-enabled dementia caregiver interventions; it is not AI or chatbot evidence.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Use this as a dementia caregiver needs taxonomy for adaptive content, triage, and service-navigation design; it is not digital intervention effectiveness evidence.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Use this as direct dementia chatbot design and evaluation evidence. It supports privacy, safety, evidence-provenance, accessibility, and end-user evaluation requirements, but not chatbot effectiveness or current-market claims.
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Neurorehabilitation analytics should treat brain-health markers, systemic-health measures, sensory status, network metrics, lesion characteristics, and longitudinal outcomes as distinct data layers. AI support may help stratify trials or map trajectories, but prediction, causal inference, and clinical decision-making must remain separate.
 - `2026_kingsada_preferences-digital-health-technologies`: Patient-facing digital health design should account for patient preferences around cost, privacy, convenience, ease of use, data security, personalization, clinician connection, and hybrid digital/in-person support. This is adoption and preference evidence, not AI safety or effectiveness evidence.
 
@@ -67,5 +70,8 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Published usability/acceptability evidence for AI-supported dementia caregiver mHealth; not effectiveness evidence.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Conference abstract evidence for multi-agent conversational AI in Alzheimer's care; abstract-level only.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Online dementia caregiver psychoeducation RCT; use as digital delivery evidence, not AI evidence.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Meta-review evidence for dementia caregiver intervention outcome matching; use as a future AI-system evaluation anchor, not AI evidence.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Mixed-method review evidence for dementia caregiver needs; use for adaptive content and triage design rationale, not effectiveness evidence.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Systematic review of commercially available dementia chatbots; use for chatbot function/quality and evidence-gap framing, not clinical or caregiver outcome effectiveness.
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Lecture-note evidence for biomarker-aware neurorehabilitation framing; use for design and trial-stratification rationale, not AI effectiveness or clinical decision support evidence.
 - `2026_kingsada_preferences-digital-health-technologies`: Scoping-review evidence on patient preferences for eHealth, telehealth, telemedicine, and mHealth; use for preference-sensitive adoption and HTA rationale, not clinical effectiveness or caregiver outcome evidence.

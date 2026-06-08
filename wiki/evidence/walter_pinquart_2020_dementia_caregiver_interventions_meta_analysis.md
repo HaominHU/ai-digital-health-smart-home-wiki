@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis
-source_file: sources/papers/cg_system_core/42_walter_updated_caregiver_intervention_analysis.pdf
+source_file: sources/papers/cg_system_core/31_walter_pinquart_dementia_caregiver_intervention_meta_analysis_2020.pdf
 reference_item: wiki/references/items/2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis.md
 evidence_type: published evidence
 source_type: meta-analysis
@@ -43,4 +43,4 @@ Dementia caregiver interventions have real but mostly modest average effects. In
 
 ## Source Citation
 
-- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Walter E, Pinquart M. How Effective Are Dementia Caregiver Interventions? An Updated Comprehensive Meta-Analysis. The Gerontologist. 2020;60(8):e609-e619. DOI: `10.1093/geront/gnz118`. Source file: `sources/papers/cg_system_core/42_walter_updated_caregiver_intervention_analysis.pdf`.
+- `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Walter E, Pinquart M. How Effective Are Dementia Caregiver Interventions? An Updated Comprehensive Meta-Analysis. The Gerontologist. 2020;60(8):e609-e619. DOI: `10.1093/geront/gnz118`. Source file: `sources/papers/cg_system_core/31_walter_pinquart_dementia_caregiver_intervention_meta_analysis_2020.pdf`.

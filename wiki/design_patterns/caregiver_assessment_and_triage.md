@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-assessment, triage, care-coordination, design-pattern]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Caregiver Assessment and Triage
@@ -26,6 +26,9 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `2010_gitlin_cope-dementia-home-based-intervention`: Dementia caregiver assessment can include caregiver-identified concerns, patient capabilities, home environment, communication, and caregiver confidence using activities.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Dementia caregiver triage can include role-training needs, realistic care-goal formation, care-recipient capability estimation, and problem-solving support.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Online caregiver interventions should assess schedule fit, technology access, and readiness for synchronous/asynchronous participation.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregiver assessment should cover support, tailored information, training/education needs, balance, respite, financial/legal support, medical/mental-health help, and changing needs across the disease trajectory.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver triage should map assessed needs to specific intervention mechanisms and outcome targets rather than assuming all support should reduce burden.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Chatbot triage requires scope limits, privacy review, safe disclaimers, evidence provenance, failure handling, and referral/escalation pathways.
 
 ## Technology Components
 
@@ -43,6 +46,8 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Financial and practical resource navigation.
 - Caregiver Reaction Assessment-style burden domains.
 - Dementia caregiver fields for behavior-response confidence, mastery, active training needs, schedule fit, technology access, and capacity for home-based or synchronous intervention participation.
+- Dementia trajectory fields for caregiver support, information, training, balance, legal/financial planning, respite, and acceptance of help.
+- Chatbot readiness fields for digital access, voice/text interaction fit, privacy expectations, urgency/safety risk, and need for human support.
 
 ## Design Constraints
 
@@ -50,6 +55,7 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Assessment should distinguish stressors, resources, and outcomes rather than collapsing them into a single burden label.
 - Care-recipient consent, autonomy, and privacy must shape what caregiver data are collected and shared.
 - Escalation pathways require human review and clear responsibility boundaries.
+- Match triage recommendations to evidence-supported mechanisms and label chatbot support as information or navigation support unless outcome evidence is available.
 
 ## Related Pages
 
@@ -59,3 +65,6 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `wiki/evidence/gitlin_2010_cope_dementia_home_based_intervention.md`
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
+- `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
+- `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
+- `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`

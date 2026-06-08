@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [dementia, caregiving, condition-overlay]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Dementia
@@ -33,16 +33,21 @@ Dementia in later life should not be treated as normal aging, even though it is 
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver supports manualized dementia caregiver role training and transportability, but the field-test article is not RCT-level effectiveness evidence.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy provides randomized trial evidence for online synchronous/asynchronous dementia caregiver psychoeducation, with benefits for depression, perceived stress, reaction to behaviors, and mastery but not burden or anxiety.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: This meta-analysis supports small-to-moderate average dementia caregiver intervention effects across several caregiver outcomes and care-recipient symptoms, with heterogeneity and institutionalization cautions.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: This meta-review is the current dementia caregiver intervention synthesis anchor; it supports outcome-matched intervention logic and cautions that depression is more consistently modifiable than burden, anxiety, or social support.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregivers caring at home need dynamic support, accessible and personalized information, training to manage change, and help finding balance between caregiving and personal life.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbots were early-stage in the 2020 review window; use this source for chatbot function, quality, privacy, safety, and evidence-gap framing, not chatbot effectiveness claims.
 
 ## Care Recipient Needs
 
 - High-need dementia contexts may involve cognitive impairment, self-care support, safety supervision, behavioral symptoms, and care coordination needs.
 - Dementia care-recipient support can include wandering/location-safety needs and person-centered care planning, but monitoring must preserve autonomy, privacy, and dignity.
+- Chatbots and voice assistants that support reminiscence, engagement, or information access for people with dementia must preserve care-recipient privacy, autonomy, comprehension, and escalation boundaries.
 
 ## Technology Support Opportunities
 
 - Technology support can include caregiver training, monitoring support, care coordination, social support, self-care support, source-grounded chatbot assistance, and provider-connected mHealth. Current CareBuddy evidence supports usability/acceptability and design rationale, not clinical effectiveness.
 - Online and home-based caregiver interventions can support education, mastery, behavior-management response, activity engagement, and care coordination. These should remain caregiver or dyadic support evidence, not dementia disease-modification claims.
+- Dementia chatbot support should be evaluated for evidence provenance, accessible dialog, privacy/security, safe disclaimers, escalation pathways, caregiver-skills content, and end-user outcomes. App-store feature reviews or usability impressions should not be treated as caregiver burden, clinical safety, or care-recipient outcome evidence.
 
 ## Evidence
 
@@ -59,3 +64,6 @@ Dementia in later life should not be treated as normal aging, even though it is 
 - `2003_hepburn_savvy-caregiver-transportable-program`.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
+- `2021_ruggiano_chatbots-dementia-caregivers`.

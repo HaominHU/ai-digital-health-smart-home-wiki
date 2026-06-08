@@ -284,3 +284,51 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Integrated the approved Kingsada et al. 2026 scoping review into citation memory, a new evidence page, digital-health technology context, older-adult population context, caregiver/care-recipient preference separation, design patterns, research questions, index, memory, and log.
 - Files touched: `outputs/ingest_previews/2026-06-04_kingsada_preferences-digital-health-technologies-2026_preview.md`, `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`, `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/populations/older_adults.md`, `wiki/concepts/caregiver_vs_care_recipient_needs.md`, `wiki/design_patterns/`, `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
 - Notes: Citation-memory record is RIS export-ready with article-in-press limits: final volume, issue, and page/article fields were not available from the accepted manuscript. Claims are bounded to patient preferences, DHT adoption, preference elicitation, HTA/reimbursement rationale, older-adult preference context, and privacy/security design rationale. This source remains separate from `cg_system_core` and is not caregiver-specific or intervention-effectiveness evidence.
+
+## [2026-06-06] memory | Noted part 5 dementia caregiver source gaps
+
+- Summary: Recorded the planned part 5 dementia caregiver source queue and why AHRQ 2020 is not in the immediate ingest batch.
+- Files touched: `MEMORY.md`, `LOG.md`.
+- Notes: AHRQ 2020 is skipped for now because it is over 500 pages. No source ingest was performed.
+
+## [2026-06-06] memory | Added caregiver system core reference plan
+
+- Summary: Added a planning-only reference map for the caregiver system core source backbone, connecting prior ingest batches to the planned part 5 dementia caregiver sources and later theory, SCI, gynecologic cancer, AI-agent, and implementation/evaluation source families.
+- Files touched: `wiki/references/cg_system_core_reference_plan.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: This file is a source-selection and continuity aid, not canonical citation memory or source-backed evidence. Individual citation records should still be created only after preview-first ingest.
+
+## [2026-06-06] workflow | Renumbered core paper source files to updated Tier 1 list
+
+- Summary: Rescanned `sources/papers/cg_system_core/`, then renumbered local core paper files and source references to match the updated core-list structure without ingesting new sources.
+- Files touched: `sources/papers/cg_system_core/`, `wiki/evidence/`, `wiki/references/items/`, `outputs/ingest_previews/`, `wiki/references/cg_system_core_reference_plan.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Part 5 immediate ingest queue is now Cheng 2020, Bressan 2020, and Ruggiano 2021. AHRQ 2020 remains skipped for now. Previously integrated but deprioritized sources were retained in the wiki and moved to the 30+ range where applicable.
+
+## [2026-06-07] memory | Revised core reference plan numbering notes
+
+- Summary: Updated the caregiver system core reference plan so it matches the newly numbered base list through 29 plus 30+ supporting sources.
+- Files touched: `wiki/references/cg_system_core_reference_plan.md`, `MEMORY.md`, `LOG.md`.
+- Notes: AHRQ 2020 remains skipped for now without an active source number. No source ingest was performed.
+
+## [2026-06-07] memory | Simplified core reference plan to starter list
+
+- Summary: Simplified the caregiver system core reference plan so it keeps only the updated base-through-29 starter list, 30+ supporting-source model, and AHRQ 2020 as a future potential reference.
+- Files touched: `wiki/references/cg_system_core_reference_plan.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Sources outside the updated starter list are removed from the plan rather than retained as removed/deferred status rows. No source ingest was performed.
+
+## [2026-06-07] ingest | Previewed part 5 dementia caregiver sources 13, 14, and 15
+
+- Summary: Created approved-integrated ingest previews for Cheng and Zhang 2020 on dementia caregiver intervention meta-review evidence, Bressan et al. 2020 on dementia caregiver needs, and Ruggiano et al. 2021 on dementia chatbot functions and quality.
+- Files touched: `outputs/ingest_previews/2026-06-07_cheng_meta-review-dementia-caregiver-interventions-2020_preview.md`, `outputs/ingest_previews/2026-06-07_bressan_dementia-caregiver-needs-mixed-method-review-2020_preview.md`, `outputs/ingest_previews/2026-06-07_ruggiano_chatbots-dementia-caregivers-2021_preview.md`, `LOG.md`.
+- Notes: The user directly instructed ingest of sources 13-15, so previews were produced and carried into integration in the same run. Cheng and Bressan are dementia caregiver intervention/needs synthesis sources; Ruggiano is chatbot function/quality and evidence-gap evidence.
+
+## [2026-06-07] ingest | Integrated part 5 dementia caregiver sources 13, 14, and 15
+
+- Summary: Integrated Cheng 2020, Bressan 2020, and Ruggiano 2021 into citation memory, evidence pages, dementia and family caregiver pages, caregiver challenge hubs, care-recipient privacy/autonomy, AI/RAG technology and design patterns, caregiver evaluation logic, index, memory, and the core reference plan.
+- Files touched: `wiki/references/items/2020_cheng_meta-review-dementia-caregiver-interventions.md`, `wiki/references/items/2020_bressan_dementia-caregiver-needs-mixed-method-review.md`, `wiki/references/items/2021_ruggiano_chatbots-dementia-caregivers.md`, `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`, `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`, `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`, `wiki/conditions/dementia.md`, `wiki/populations/family_caregivers.md`, `wiki/caregiving_challenges/`, `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`, `wiki/design_patterns/`, `wiki/technologies/ai_driven_digital_health.md`, `wiki/references/cg_system_core_reference_plan.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Citation-memory records are RIS export-ready. Part 5 closes the narrowed dementia/ADRD caregiver Tier 1 branch in section 3 of the updated core reference plan. Claims are bounded to review-level dementia caregiver intervention synthesis, needs synthesis, and chatbot function/quality evidence; usability, acceptability, app-store availability, or chatbot feature review are not treated as effectiveness evidence.
+
+## [2026-06-07] ingest | Refined part 5 previews with review-level story strategy
+
+- Summary: Revised the Part 5 ingest previews so Cheng 2020, Bressan 2020, and Ruggiano 2021 each include an explicit review-level takeaway and story section, making the preview strategy from the prior batch visible before wiki integration.
+- Files touched: `outputs/ingest_previews/2026-06-07_cheng_meta-review-dementia-caregiver-interventions-2020_preview.md`, `outputs/ingest_previews/2026-06-07_bressan_dementia-caregiver-needs-mixed-method-review-2020_preview.md`, `outputs/ingest_previews/2026-06-07_ruggiano_chatbots-dementia-caregivers-2021_preview.md`, `LOG.md`.
+- Notes: All three Part 5 sources are reviews, so the added sections use review-level takeaway/story framing rather than standalone empirical full-study storytelling.

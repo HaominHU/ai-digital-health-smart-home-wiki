@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Care Coordination and Shared Access
@@ -21,6 +21,7 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 ## Relevant Conditions
 
 - Cross-condition challenge.
+- Dementia.
 - Spinal cord injury.
 - Gynecological cancer.
 
@@ -40,6 +41,8 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH VA suggests that structured caregiver role support embedded in an integrated care system may be associated with lower care-recipient VA costs.
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE links caregiver training with patient medical review, home assessment, and physician follow-up for undiagnosed conditions.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver supports community-adoptable caregiver training, but implementation requires facilitator preparation and organizational support.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregivers need service navigation, medical and mental-health assistance, legal and financial guidance, future planning, respite, and formal or informal support across changing home-care demands.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Chatbot-based resource linking is a possible support function, but reviewed dementia chatbots lacked outcome evidence and require privacy, safety, evidence-source, and escalation evaluation before care-coordination claims.
 
 ## Care Recipient Connection
 
@@ -53,6 +56,7 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG can support source-grounded resource lookup or coordination drafts when sources are curated.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct can support draft task orchestration, but external communication, purchases, care-plan changes, or device actions should require human confirmation.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy is a concrete provider-connected caregiver mHealth example, but the study reports usability/acceptability rather than coordination outcome effectiveness.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Conversational support for resource navigation should preserve source traceability, avoid unsupported clinical advice, and route unresolved or urgent needs to human support.
 
 ## Evidence
 
@@ -72,6 +76,8 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`.
 - `2010_gitlin_cope-dementia-home-based-intervention`.
 - `2003_hepburn_savvy-caregiver-transportable-program`.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
+- `2021_ruggiano_chatbots-dementia-caregivers`.
 
 ## Design Implications
 
@@ -81,6 +87,7 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - Assess caregiver capacity and willingness before assigning coordination tasks.
 - For AI-assisted coordination, log retrieved sources, proposed actions, confirmations, and any shared-access changes.
 - For multi-caregiver and provider-connected workflows, make role permissions, consent, and revocation explicit.
+- For dementia resource-navigation and chatbot workflows, distinguish information retrieval from care-plan action, provider communication, emergency response, and formal referral.
 
 ## Gaps
 

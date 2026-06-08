@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-04
+last_updated: 2026-06-07
 ---
 
 # Research Wiki Memory
@@ -78,7 +78,7 @@ Raw source files may be stored locally under `sources/`, but they are ignored by
 
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
-- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Part 4 is completed and part 5 is the next planned staged ingest.
+- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Part 5 is completed for the narrowed dementia caregiver block.
 - `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add a date or topic sub-hierarchy later only when needed.
 - Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
 
@@ -100,7 +100,7 @@ When wiki coverage is weak, narrow, missing foundational sources, missing recent
 
 ## Next Useful Step
 
-Current local abstracts and papers through source 42 have been previewed and integrated, and current source paths have been revised for the new `sources/papers/cg_system_core/` layer.
+Current local abstracts and previously integrated paper source paths have been revised for the updated `sources/papers/cg_system_core/` numbering. The updated core list keeps foundational caregiver theory, broad digital caregiver support, a narrowed dementia/ADRD Tier 1 branch, SCI caregiver evidence, gynecologic cancer/cancer caregiver evidence, and a grouped AI-agent architecture/evaluation set.
 
 Current non-ingested paper status:
 
@@ -111,7 +111,22 @@ Monthly PubMed integrated source:
 
 - `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
 
-A useful next step is part 5 of the `cg_system_core` staged ingest or another future monthly PubMed triage when new monthly papers arrive. Keep these lanes separate. A later lint/source-status pass should also check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+A useful next step is a later `cg_system_core` staged ingest for the next branch of the updated core list, likely SCI caregiver sources, gynecologic cancer/cancer caregiver sources, or the grouped AI-agent/implementation framework sources, or another future monthly PubMed triage when new monthly papers arrive. Keep these lanes separate. A later lint/source-status pass should also check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+
+Part 5 completed dementia caregiver sources after the updated core-list trim:
+
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Cheng and Zhang 2020 comprehensive meta-review of dementia caregiver intervention reviews.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Bressan, Visintini, and Palese 2020 mixed-method systematic review of dementia caregiver needs.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Ruggiano et al. 2021 systematic review of chatbot functions and quality for people with dementia and caregivers.
+
+Reference planning file:
+
+- `wiki/references/cg_system_core_reference_plan.md`: Planning-only map for the full caregiver system core reference backbone, including how prior batches connect to part 5 and future theory, dementia, SCI, gynecologic cancer, AI-agent, and implementation/evaluation sources. This file is not canonical citation memory and should not be treated as evidence until individual sources are previewed and integrated.
+
+Part 5 source-gap notes:
+
+- AHRQ 2020 is intentionally skipped for now because it is very long, over 500 pages, and not practical for this staged ingest batch.
+- Previously integrated but deprioritized material is retained in the wiki and moved to the 30+ source-number range when applicable, rather than being deleted.
 
 First integrated source:
 
@@ -292,6 +307,19 @@ Source-backed dementia caregiver intervention notes:
 Boundary note:
 
 - These sources strengthen the dementia caregiver intervention, implementation, delivery, and evaluation layer. They should not be treated as AI-agent evidence, smart-home effectiveness evidence, normal-aging evidence, or direct dementia clinical treatment evidence.
+
+Thirteenth integrated batch:
+
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: BMC Geriatrics comprehensive meta-review of systematic reviews and meta-analyses on nonpharmacological interventions for informal dementia caregivers.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Health and Social Care in the Community mixed-method systematic review of needs among family caregivers of people with dementia living at home.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Journal of Medical Internet Research systematic review of commercially available chatbot functions and quality for people with dementia and caregivers.
+
+Source-backed part 5 dementia caregiver notes:
+
+- Cheng 2020 closes the current dementia caregiver intervention synthesis anchor for section 3. It supports outcome-matched intervention logic, with depression more consistently modifiable than burden, anxiety, or social support, and cautions against assuming dyadic, multicomponent, respite, support-group, or technology-delivered approaches are inherently superior.
+- Bressan 2020 closes the dementia caregiver needs anchor for section 3. It organizes home-care dementia caregiver needs around being supported, receiving accessible and personalized information, being trained and educated to manage changes, and finding balance.
+- Ruggiano 2021 closes the dementia chatbot anchor for section 3. It supports cautious chatbot function/quality, privacy, safety, evidence-provenance, accessibility, escalation, and end-user-evaluation requirements, but not chatbot effectiveness, caregiver burden reduction, clinical safety, RAG/LLM effectiveness, or current app-market claims.
+- These sources complete the narrowed dementia/ADRD caregiver Tier 1 branch in the updated core reference plan. AHRQ 2020 remains a future potential reference only and is skipped for now because it is over 500 pages.
 
 Standalone event-notes ingest:
 

@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-04
+last_updated: 2026-06-07
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -26,7 +26,7 @@ The wiki is designed as a Markdown knowledge middleware layer: readable by human
 ## Raw Source Layer
 
 - `sources/papers/`: Published papers and paper notes. Purpose-specific paper lanes can be added under this folder as new source groups emerge.
-- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Part 4 is completed; part 5 is the next staged core ingest.
+- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Part 5 is completed for the narrowed dementia caregiver block.
 - `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add another hierarchy later only if volume or workflow needs justify it.
 - `sources/reports/`: Reports, dissertations, white papers, and formal documents.
 - `sources/abstracts/`: Abstracts and short publication records.
@@ -83,6 +83,9 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
+- `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
+- `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
+- `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`
 - `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`
 - `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
@@ -90,6 +93,7 @@ Raw sources should be treated as immutable.
 ## Citation Memory
 
 - `wiki/references/README.md`: Citation-memory policy and Zotero/EndNote export boundary.
+- `wiki/references/cg_system_core_reference_plan.md`: Planning-only map for the caregiver system core reference backbone, staged ingest batches, source roles, and deferred/skipped sources.
 - `wiki/references/items/2019-04-25_setiawan_adaptive-mhealth-self-management.md`
 - `wiki/references/items/2015_aneshensel-avison_stress-process-appreciation-pearlin.md`
 - `wiki/references/items/2008_schulz-sherwood_physical-mental-health-effects-family-caregiving.md`
@@ -110,6 +114,9 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2003_hepburn_savvy-caregiver-transportable-program.md`
 - `wiki/references/items/2022_hepburn_telesavvy-online-dementia-caregiver-program.md`
 - `wiki/references/items/2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis.md`
+- `wiki/references/items/2020_cheng_meta-review-dementia-caregiver-interventions.md`
+- `wiki/references/items/2020_bressan_dementia-caregiver-needs-mixed-method-review.md`
+- `wiki/references/items/2021_ruggiano_chatbots-dementia-caregivers.md`
 - `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`
 
 ## Templates

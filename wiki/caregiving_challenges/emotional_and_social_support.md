@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Emotional and Social Support
@@ -42,6 +42,9 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver field testing found improved caregiver reaction to care-recipient behavior and burden, supporting role-training as emotional coping support.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy improved depression, perceived stress, caregiver reaction to behaviors, and mastery, but not burden or anxiety.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver interventions had small-to-moderate average effects on burden, depression, anxiety, subjective well-being, and care-recipient symptoms, with heterogeneity.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver interventions show more consistent review-level support for depression than for anxiety, social support, or burden; emotional-support claims should be endpoint-specific.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregivers need psychological, emotional, social, formal-service, family, friend, and professional support, alongside respite and help accepting support.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbots may support reminiscence, engagement, or information access, but reviewed tools did not provide outcome evidence for emotional or social support effects.
 
 ## Care Recipient Connection
 
@@ -51,6 +54,7 @@ To be further source-backed.
 
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Multimodal AI, AI-facilitated emotional check-ins, peer matching, generated emotion-status representations, and dynamic resource directories were proposed as future design directions.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Co-design workshops themselves were recognized as a peer-support opportunity, suggesting social connection can also be part of the research and engagement workflow.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Conversational agents should not be presented as substitutes for human support; privacy, escalation, evidence provenance, and failure handling are part of the emotional-support safety case.
 
 ## Evidence
 
@@ -70,6 +74,9 @@ To be further source-backed.
 - `2003_hepburn_savvy-caregiver-transportable-program`.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
+- `2021_ruggiano_chatbots-dementia-caregivers`.
 
 ## Design Implications
 
@@ -77,6 +84,8 @@ To be further source-backed.
 - Track positive meaning separately from distress; positive aspects of caregiving can coexist with high burden.
 - AI-mediated emotional support requires explicit human oversight, privacy boundaries, escalation design, and safeguards against over-reliance.
 - Emotional support evaluations should distinguish satisfaction from clinically or practically meaningful changes in distress, quality of life, social support, and functioning.
+- Dementia emotional-support interventions should specify whether the target is depression, perceived stress, anxiety, burden, mastery, behavior reaction, social support, or subjective well-being.
+- Chatbot-based emotional support needs human escalation, crisis routing, clear scope limits, and evaluation beyond app-store availability or ease of use.
 
 ## Gaps
 

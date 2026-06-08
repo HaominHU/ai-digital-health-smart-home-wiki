@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2022_hepburn_telesavvy-online-dementia-caregiver-program
-source_file: sources/papers/cg_system_core/13_hepburn_telesavvy.pdf
+source_file: sources/papers/cg_system_core/12_hepburn_telesavvy.pdf
 reference_item: wiki/references/items/2022_hepburn_telesavvy-online-dementia-caregiver-program.md
 evidence_type: published evidence
 source_type: randomized trial
@@ -42,4 +42,4 @@ Use this source for distance-delivered dementia caregiver skills training, maste
 
 ## Source Citation
 
-- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Hepburn K, Nocera J, Higgins M, Epps F, Brewster GS, Lindauer A, Morhardt D, Shah R, Bonds K, Nash R, Griffiths PC. Results of a Randomized Trial Testing the Efficacy of Tele-Savvy, an Online Synchronous/Asynchronous Psychoeducation Program for Family Caregivers of Persons Living with Dementia. The Gerontologist. 2022;62(4):616-628. DOI: `10.1093/geront/gnab029`. Source file: `sources/papers/cg_system_core/13_hepburn_telesavvy.pdf`.
+- `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Hepburn K, Nocera J, Higgins M, Epps F, Brewster GS, Lindauer A, Morhardt D, Shah R, Bonds K, Nash R, Griffiths PC. Results of a Randomized Trial Testing the Efficacy of Tele-Savvy, an Online Synchronous/Asynchronous Psychoeducation Program for Family Caregivers of Persons Living with Dementia. The Gerontologist. 2022;62(4):616-628. DOI: `10.1093/geront/gnab029`. Source file: `sources/papers/cg_system_core/12_hepburn_telesavvy.pdf`.

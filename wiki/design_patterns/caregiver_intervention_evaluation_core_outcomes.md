@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, evaluation, outcomes, design-pattern]
-last_updated: 2026-06-04
+last_updated: 2026-06-07
 ---
 
 # Caregiver Intervention Evaluation Core Outcomes
@@ -33,6 +33,9 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy supports evaluating transportability, facilitator fidelity, caregiver knowledge/skill/confidence, behavior reaction, burden, mastery, and caregiving beliefs.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports evaluating depression, perceived stress, anxiety, burden, caregiver mastery, reaction to behavioral symptoms, technology access, schedule fit, and representation.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention evaluation should track burden, depression, anxiety, subjective well-being, ability/knowledge, care-recipient symptoms, and institutionalization, with heterogeneity and active-training cautions.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver intervention evaluation should specify intervention type, active ingredient, comparator, and outcome domain; depression appears more consistently modifiable than burden, anxiety, or social support.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Needs-assessment and intervention evaluation should track whether dementia caregiver support addresses dynamic needs for support, information, training, and balance rather than relying only on post-use satisfaction.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Chatbot evaluation should separate app availability, dialog quality, usability, content provenance, privacy/safety, escalation, caregiver skills content, end-user evaluation, and caregiver or care-recipient outcome effectiveness.
 - `2026_kingsada_preferences-digital-health-technologies`: Preference elicitation methods such as DCE, conjoint analysis, best-worst scaling, contingent valuation, interviews, focus groups, and mixed methods can help evaluate digital health design trade-offs, but patient preferences should remain separate from caregiver outcomes and effectiveness endpoints.
 
 ## Evaluation Dimensions
@@ -46,6 +49,8 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Digital health evidence-quality measures: MMAT/GRADE-style study quality, attrition, technology use, low usage, technology instability, self-selection bias, and self-report bias.
 - Digital caregiver app measures: SUS, MAUQ, usage logs, retention, task completion, cognitive load, satisfaction, and qualitative usability feedback.
 - Dementia caregiver intervention outcomes: mastery, behavior-reaction, caregiver confidence, caregiver knowledge, caregiver burden, stress, depression, anxiety, subjective well-being, care-recipient symptoms, function, engagement, institutionalization, and cost.
+- Dementia caregiver needs outcomes: support access, tailored information, training readiness, respite use, legal/financial/service navigation, self-care balance, role adjustment, and perceived capacity to manage changing care demands.
+- Chatbot and conversational-agent outcomes: task completion, command success, dialog breakdowns, caregiver-skills content coverage, evidence-source clarity, privacy comprehension, safety/escalation behavior, usability, adoption, and downstream caregiver or care-recipient outcomes when studied.
 - Preference-elicitation measures: DCE, conjoint analysis, best-worst scaling, contingent valuation, qualitative interviews, focus groups, and mixed methods to assess trade-offs among cost, privacy, convenience, personalization, human support, and data security.
 
 ## Design Constraints
@@ -58,6 +63,8 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Do not infer population impact from efficacy, usability, or acceptability alone; specify reach, adoption, implementation, and maintenance assumptions.
 - For AI-enabled interventions, separately evaluate technical performance, source faithfulness, privacy/security, caregiver workload, caregiver outcomes, care-recipient outcomes, and implementation outcomes.
 - Do not treat patient preference, willingness to pay, satisfaction, or acceptability as caregiver outcome effectiveness.
+- Do not treat app-store availability, chatbot feature review, or voice-command usability as evidence of caregiver outcome benefit.
+- For dementia caregiver interventions, do not treat support groups, respite, dyadic format, technology delivery, or multicomponent packaging as inherently effective without outcome-specific evidence.
 
 ## Related Pages
 
@@ -79,4 +86,7 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
+- `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
+- `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
+- `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`

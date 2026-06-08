@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2017_nichols_reach-dementia-caregiver-healthcare-costs
-source_file: sources/papers/cg_system_core/10_reachii_reachva.pdf
+source_file: sources/papers/cg_system_core/09_reachii_reachva.pdf
 reference_item: wiki/references/items/2017_nichols_reach-dementia-caregiver-healthcare-costs.md
 evidence_type: published evidence
 source_type: journal article
@@ -40,4 +40,4 @@ Use this source for caregiver intervention implementation, payer, and economic e
 
 ## Source Citation
 
-- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: Nichols LO, Martindale-Adams J, Zhu CW, Kaplan EK, Zuber JK, Waters TM. Impact of the REACH II and REACH VA dementia caregiver interventions on healthcare costs. Journal of the American Geriatrics Society. 2017;65(5):931-936. DOI: `10.1111/jgs.14716`. Source file: `sources/papers/cg_system_core/10_reachii_reachva.pdf`.
+- `2017_nichols_reach-dementia-caregiver-healthcare-costs`: Nichols LO, Martindale-Adams J, Zhu CW, Kaplan EK, Zuber JK, Waters TM. Impact of the REACH II and REACH VA dementia caregiver interventions on healthcare costs. Journal of the American Geriatrics Society. 2017;65(5):931-936. DOI: `10.1111/jgs.14716`. Source file: `sources/papers/cg_system_core/09_reachii_reachva.pdf`.

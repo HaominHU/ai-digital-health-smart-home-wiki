@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Family Caregivers
@@ -39,6 +39,9 @@ Primary population focus for this wiki.
 - Caregiver physical health, mental health, health behaviors, self-care, vigilance burden, and positive caregiving meaning.
 - Telehealth and digital health support needs, including remote skills training, psychoeducation, self-monitoring, counseling, social support, usability, accessibility, digital health literacy, and culturally/linguistically tailored intervention design.
 - Dementia caregiver intervention needs around active skills training, mastery, behavior-response coaching, home-environment fit, online access, economic evaluation, and implementation sustainability.
+- Dementia caregiver support needs that change across the disease trajectory, including formal and informal support, tailored information, training, care coordination, respite, legal/financial guidance, emotional support, and time for caregiver health and social life.
+- Outcome-matched dementia caregiver interventions rather than assuming burden reduction as the default endpoint for every intervention type.
+- Chatbot and conversational-agent support that separates education, reminiscence, self-assessment, resource linking, usability, privacy, and caregiver outcome effectiveness.
 
 ## Evidence
 
@@ -61,6 +64,9 @@ Primary population focus for this wiki.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver provides field-test evidence for manualized caregiver role training and program transportability.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy provides randomized trial evidence for online dementia caregiver psychoeducation effects on stress, depression, behavior reaction, and mastery.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: The meta-analysis supports generally small-to-moderate dementia caregiver intervention effects and an active-training rationale.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: The meta-review supports dementia caregiver intervention taxonomy and outcome-matching logic, with depression more consistently modifiable than burden, anxiety, or social support.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: The mixed-method review anchors dementia caregiver needs around being supported, receiving accessible and personalized information, being trained to manage changes, and finding balance.
+- `2021_ruggiano_chatbots-dementia-caregivers`: The systematic review supports cautious chatbot design and evaluation requirements for dementia caregivers and people with dementia, while noting no peer-reviewed outcome evidence for included apps.
 
 ## Related Pages
 
@@ -87,3 +93,6 @@ Primary population focus for this wiki.
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
+- `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
+- `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
+- `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`

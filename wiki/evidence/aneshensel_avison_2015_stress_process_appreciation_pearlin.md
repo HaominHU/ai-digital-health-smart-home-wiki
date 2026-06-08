@@ -4,7 +4,7 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2015_aneshensel-avison_stress-process-appreciation-pearlin
-source_file: sources/papers/cg_system_core/01_the stress process.pdf
+source_file: sources/papers/cg_system_core/30_aneshensel_avison_stress_process_appreciation_pearlin_2015.pdf
 reference_item: wiki/references/items/2015_aneshensel-avison_stress-process-appreciation-pearlin.md
 evidence_type: published evidence
 source_type: journal article
@@ -49,4 +49,4 @@ This model is especially useful for designing caregiver-support systems that avo
 
 ## Source Citation
 
-- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Aneshensel CS, Avison WR. The Stress Process: An Appreciation of Leonard I. Pearlin. Society and Mental Health. 2015;5(2):67-85. DOI: `10.1177/2156869315585388`. Source file: `sources/papers/cg_system_core/01_the stress process.pdf`.
+- `2015_aneshensel-avison_stress-process-appreciation-pearlin`: Aneshensel CS, Avison WR. The Stress Process: An Appreciation of Leonard I. Pearlin. Society and Mental Health. 2015;5(2):67-85. DOI: `10.1177/2156869315585388`. Source file: `sources/papers/cg_system_core/30_aneshensel_avison_stress_process_appreciation_pearlin_2015.pdf`.

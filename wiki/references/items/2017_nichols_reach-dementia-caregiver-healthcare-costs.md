@@ -26,7 +26,7 @@ doi: 10.1111/jgs.14716
 url: https://doi.org/10.1111/jgs.14716
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/cg_system_core/10_reachii_reachva.pdf
+source_file: sources/papers/cg_system_core/09_reachii_reachva.pdf
 related_evidence_pages:
   - wiki/evidence/nichols_2017_reach_dementia_caregiver_healthcare_costs.md
 related_wiki_pages:

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Information Access and Health Literacy
@@ -43,6 +43,9 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver frames dementia caregiving as a role requiring structured training, realistic care goals, capability estimation, activity design, and problem-solving practice.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Tele-Savvy supports online caregiver psychoeducation with active exercises, synchronous coaching, and asynchronous lessons; technology access and schedule fit remain reach constraints.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Information-only psychoeducation mainly improved knowledge, while psychoeducation requiring active caregiver participation affected more outcomes.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver education claims should distinguish active psychoeducation, communication skills training, information-only education, and broader multicomponent interventions because each maps to different outcome domains.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregivers need accessible, personalized, timely information and training about dementia trajectory, symptoms, behavioral issues, medications, emergencies, services, home adaptation, incontinence, nutrition, and financial/legal support.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbots may support education or resource linking, but reviewed apps had limited caregiver-skills content, unclear evidence sources, and constrained conversational ability.
 
 ## Care Recipient Connection
 
@@ -56,6 +59,7 @@ To be further source-backed.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: Retrieval-grounded systems can connect generated education to retrieved source passages.
 - `2023_yao_react-reasoning-acting-language-models`: Reasoning-action systems can structure search, lookup, and draft-generation workflows.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy uses a RAG-supported chatbot, structured Q&A database, tiered confidence retrieval, and source-reported urgent/sensitive-case routing to helpline resources.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Chatbot information support should include evidence-based references, plain interaction requirements, end-user testing, and fallback pathways when the bot cannot understand or safely answer a request.
 
 ## Evidence
 
@@ -76,6 +80,9 @@ To be further source-backed.
 - `2003_hepburn_savvy-caregiver-transportable-program`.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
+- `2020_cheng_meta-review-dementia-caregiver-interventions`.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
+- `2021_ruggiano_chatbots-dementia-caregivers`.
 
 ## Design Implications
 
@@ -87,6 +94,8 @@ To be further source-backed.
 - Evaluate digital health literacy, usability, accessibility, and language/culture fit as design constraints that may affect reach and adoption.
 - Use curated sources, citation traceability, and review workflows when adapting health information with AI.
 - Reduce text overload through progressive disclosure, visuals, audio options, and navigation aids when caregivers are under cognitive and time burden.
+- Match dementia caregiver educational content to the mechanism and endpoint: knowledge, communication skill, coping, mastery, quality of life, depression, burden, or social support.
+- Treat chatbot feature availability and user satisfaction as separate from education quality, caregiver skill acquisition, caregiver outcomes, and care-recipient outcomes.
 
 ## Gaps
 

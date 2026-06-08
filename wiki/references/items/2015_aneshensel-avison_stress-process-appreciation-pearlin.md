@@ -22,7 +22,7 @@ doi: 10.1177/2156869315585388
 url: https://doi.org/10.1177/2156869315585388
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/cg_system_core/01_the stress process.pdf
+source_file: sources/papers/cg_system_core/30_aneshensel_avison_stress_process_appreciation_pearlin_2015.pdf
 related_evidence_pages:
   - wiki/evidence/aneshensel_avison_2015_stress_process_appreciation_pearlin.md
 related_wiki_pages:

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-06-02
+last_updated: 2026-06-07
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -35,6 +35,8 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE supports capability-aligned activity engagement and task simplification for people with dementia, but many outcomes relied on caregiver proxy reports and should not be treated as direct care-recipient subjective experience.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver's dementia-specific role training includes taking control as dementia erodes autonomy; wiki use should pair this with dignity, consent, and decision-capacity cautions.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Care-recipient symptoms and institutionalization should be measured separately from caregiver outcomes when evaluating caregiver interventions.
+- `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbots and voice assistants raise privacy, safety, trustworthiness, evidence-source, disclaimer, accessibility, and escalation concerns for people with dementia and caregivers.
+- `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregiver training and information needs include safety and dignity, but caregiver needs should not be collapsed into care-recipient autonomy or preference.
 
 ## Design Implications
 
@@ -44,6 +46,7 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - Preserve care-recipient control over what is summarized, disclosed, or delegated to caregivers.
 - Treat GPS location, chatbot conversation history, care plans, and provider messages as sensitive data with explicit access and retention rules.
 - For dementia caregiver interventions, distinguish caregiver confidence or proxy-rated improvement from care-recipient autonomy, preference, and lived experience.
+- For dementia chatbots, do not assume that ease of use for a caregiver or successful command completion means the person with dementia understands, consents to, or benefits from the interaction.
 
 ## Related Pages
 
