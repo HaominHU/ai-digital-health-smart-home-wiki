@@ -57,6 +57,10 @@ Raw sources should be treated as immutable.
 - `wiki/commands/`: Short command templates for Codex.
 - `wiki/templates/`: Reusable page templates.
 
+## Overview and Synthesis Pages
+
+- `wiki/overview/caregiver_system_core_sota_synthesis.md`: Living owner-facing SoTA synthesis for the completed `cg_system_core` Tier 1 ingest, summarizing family caregiving outcomes, digital health intervention types/mechanisms/modalities, condition-specific dementia/SCI/gynecological cancer details, evidence boundaries, and research directions to keep current after future ingests.
+
 ## Source-Backed Evidence Pages
 
 - `wiki/evidence/hcd_generative_ai_family_caregiver_mhealth.md`
@@ -91,6 +95,10 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
 - `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
 - `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`
+- `wiki/evidence/ugalde_2019_cancer_caregiver_interventions_implementation_potential.md`
+- `wiki/evidence/becque_2023_supportive_interventions_advanced_cancer_caregivers.md`
+- `wiki/evidence/campbell_2024_gynecologic_cancer_caregiver_mhealth_self_management_needs.md`
+- `wiki/evidence/dave_2024_cancer_caregiver_needs_patient_advocacy_groups.md`
 - `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`
 - `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
@@ -127,6 +135,10 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2016_smith_caregiving-services-sci-systematic-review.md`
 - `wiki/references/items/2019_conti_secondary-conditions-caregiver-burden-sci.md`
 - `wiki/references/items/2022_espino_coping-social-support-caregiver-wellbeing-sci.md`
+- `wiki/references/items/2019_ugalde_cancer-caregiver-interventions-implementation-potential.md`
+- `wiki/references/items/2023_becque_supportive-interventions-family-caregivers-advanced-cancer.md`
+- `wiki/references/items/2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs.md`
+- `wiki/references/items/2024_dave_cancer-caregiver-needs-patient-advocacy-groups.md`
 - `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`
 
 ## Templates

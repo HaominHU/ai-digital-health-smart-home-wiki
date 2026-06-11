@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-06-04
+last_updated: 2026-06-11
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -29,6 +29,10 @@ How should caregiver-support interventions, including digital health and smart h
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Adds questions about synchronous scheduling, technology access, representation, and online mastery-building.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Adds questions about component matching, small-to-moderate effects, heterogeneity, publication bias, and long-term institutionalization outcomes.
 - `2026_kingsada_preferences-digital-health-technologies`: Adds questions about how patient or care-recipient preference elicitation should inform digital health design without being mistaken for caregiver preference evidence or outcome effectiveness.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Adds cancer caregiver implementation questions about acceptability, adoption, appropriateness, feasibility, fidelity, cost, caregiver co-design, high-need targeting, enrollment, workforce requirements, and delivery-resource reporting.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Adds advanced cancer caregiver questions about matching intervention target group, support component, delivery mode, and outcome dimension.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Adds questions about evaluating dyadic gynecologic cancer mHealth designs that support self-triage, private spaces, controlled sharing, and expert/peer support.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Adds questions about evaluating cancer caregiver advocacy-resource linkage, caregiver identity recognition, telehealth access, and practical/financial support.
 
 ## Open Subquestions
 
@@ -44,6 +48,11 @@ How should caregiver-support interventions, including digital health and smart h
 - Which dementia caregiver intervention components produce durable effects beyond knowledge, and which outcomes require active training, multicomponent support, or care-system integration?
 - How should cost, utilization, and institutionalization outcomes be evaluated without overgeneralizing from setting-specific or heterogeneous evidence?
 - How should DCE, conjoint analysis, best-worst scaling, contingent valuation, interviews, focus groups, or mixed methods be used to elicit caregiver and care-recipient preferences separately when digital systems involve shared access, privacy trade-offs, or proxy use?
+- For cancer caregiver interventions, how should implementation-readiness outcomes be built into study design rather than reconstructed from incomplete trial reports?
+- Which adoption partners, workforce roles, training requirements, fidelity checks, and cost data are necessary before a cancer caregiver intervention can move from research to practice?
+- For advanced cancer caregivers, when should support target the individual caregiver, the patient-caregiver dyad, the family, or peer groups, and which outcome dimensions should each format be expected to affect?
+- For gynecologic cancer mHealth, how should studies evaluate symptom-urgency confidence, privacy confidence, controlled sharing, and caregiver-only/private support without drifting into autonomous clinical triage?
+- Do advocacy-resource and patient-advocacy-group referrals improve caregiver navigation completion, financial relief, emotional support access, or caregiver outcomes compared with passive resource lists?
 
 ## Related Pages
 

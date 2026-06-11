@@ -42,6 +42,10 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiving service evaluation should include care hours, formal/informal mix, quality of care, turnover, training knowledge, functional independence, IADL capacity, and cost, while noting that intervention evidence is limited and low quality.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver evaluation should include secondary-condition indicators, functional independence, caregiving hours, years of caregiving, and caregiver burden dimensions, while preserving the correlational evidence boundary.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregiver evaluation should include problem-solving orientation, social support, leisure satisfaction, social integration, anxiety, depression, physical health complaints, burden, quality of life, respite/resource needs, and qualitative unmet needs.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Cancer caregiver intervention evaluation should include Proctor implementation outcomes such as acceptability, adoption, appropriateness, feasibility, fidelity, and cost, while separating reach/enrollment from completion among enrolled caregivers.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Advanced cancer caregiver intervention evaluation should classify target population, support components, delivery mode, setting, dose, and caregiver outcome dimension rather than treating supportive care as a single intervention type.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer mHealth evaluation should measure whether curated information, self-triage guidance, reminder customization, peer/clinical expert access, private spaces, and sharing controls meet patient and caregiver needs.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregiver ecosystem evaluation should include informational, communication, emotional, practical/financial, advocacy-resource, and telehealth-access outcomes rather than only clinical outcomes.
 
 ## Evaluation Dimensions
 
@@ -61,6 +65,10 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - SCI caregiving service measures: paid and unpaid care hours, care quality, personal assistant turnover, backup-care availability, training knowledge, functional independence, IADL capacity, secondary-condition prevention knowledge, and service costs.
 - SCI secondary-condition and burden measures: bladder dysfunction, UTIs, pressure injuries, chronic pain, respiratory/circulation issues, functional independence, time-dependent burden, developmental burden, physical burden, social burden, emotional burden, care hours, and caregiving duration.
 - SCI caregiver well-being and support measures: problem-solving orientation, social support satisfaction, leisure-time satisfaction, social integration, anxiety, depression, physical health complaints, quality of life, red flags, respite access, system-navigation burden, and qualitative unmet needs.
+- Cancer caregiver implementation-readiness measures: caregiver-perspective acceptability, stakeholder acceptability, caregiver input into development, adoption intentions or agreements, appropriateness and high-need targeting, screened/eligible/consented/commenced/completed counts, withdrawal, inability to complete, caregiver time commitment, fidelity, dose delivered, staff time, staff training, and resources.
+- Advanced cancer caregiver intervention outcomes: physical, psycho-emotional, social, spiritual, daily functioning, and quality of life, with intervention target population tracked as individual caregiver, patient-caregiver dyad, family, or peer group.
+- Gynecologic cancer mHealth design outcomes: perceived information trustworthiness, symptom-urgency confidence, fit to treatment trajectory, reminder burden, peer/clinical expert access, privacy confidence, sharing-control usability, and technology-access fit.
+- Broad cancer caregiver ecosystem outcomes: caregiver identity documentation, care-team communication, telehealth participation, plain-language comprehension, counseling access, peer/advocacy linkage, financial assistance, employment/leave support, and navigation completion.
 
 ## Design Constraints
 
@@ -78,6 +86,10 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Do not use SCI caregiving service reviews that exclude caregiver burden as direct caregiver burden evidence.
 - Do not treat correlational SCI secondary-condition evidence as proof that monitoring or prevention tools will reduce caregiver burden.
 - Do not treat exploratory SCI caregiver profiles as validated clinical triage categories without further testing.
+- For cancer caregiver interventions, do not infer implementation readiness from efficacy, rationale, acceptability, or high completion among enrolled participants without adoption, reach, fidelity, workforce, and cost evidence.
+- For advanced cancer caregiver interventions, do not treat broad supportive-care benefits as gynecological-cancer-specific effects, digital delivery evidence, or proof that one intervention format is best across all outcome dimensions.
+- For gynecologic cancer mHealth, do not infer outcome benefit from formative focus group interest or desired features.
+- For broad cancer caregiver advocacy support, do not infer effectiveness from resource availability or patient advocacy group mission statements without outcome or implementation evaluation.
 
 ## Related Pages
 
@@ -108,3 +120,7 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
 - `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
 - `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`
+- `wiki/evidence/ugalde_2019_cancer_caregiver_interventions_implementation_potential.md`
+- `wiki/evidence/becque_2023_supportive_interventions_advanced_cancer_caregivers.md`
+- `wiki/evidence/campbell_2024_gynecologic_cancer_caregiver_mhealth_self_management_needs.md`
+- `wiki/evidence/dave_2024_cancer_caregiver_needs_patient_advocacy_groups.md`

@@ -32,6 +32,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver modules can include secondary-condition monitoring prompts, bladder/UTI and pressure-injury routine support, functional-independence context, and burden-dimension tracking, while recognizing the source is correlational.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregiver modules can include problem-solving skill support, social-support routing, respite/resource navigation, caregiver health red-flag screening, and shared future-care planning.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver modules should consider schedule disruption, financial/resource navigation, symptom-management education, respite prompts, self-care support, and interdisciplinary referral pathways.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Cancer caregiver modules should include implementation-readiness checks for caregiver co-design, acceptability, high-need targeting, adoption partner, fidelity, staff time, training, resources, and cost. Use as implementation evidence, not mHealth effectiveness evidence.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Advanced cancer caregiver modules can be organized around caregiver self-care, patient-caregiving support, and family-care support, with format choices for individual, dyadic/family, or peer/group support. Use as intervention-taxonomy evidence, not mHealth effectiveness evidence.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer mHealth modules can include curated information, symptom-urgency guidance, trajectory-tailored recommendations, moderated expert/peer support, private spaces, and granular information-sharing controls. Use as formative design evidence, not effectiveness evidence.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregiver modules can include advocacy-resource navigation, financial/legal/employment support, counseling and peer-support links, and plain-language education. Use as ecosystem framing, not app effectiveness evidence.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Modular systems should be evaluated for reach, efficacy, adoption, implementation, and maintenance, not only module usability or participant satisfaction.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy provides a dementia-specific example of a modular mobile care ecosystem with assessment, tailored symptom support, RAG chatbot, GPS monitoring, care planning, telemedicine links, helpline, self-care, reminders, and peer support.
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE supports modular dementia caregiver intervention logic around assessment, environmental/task tailoring, caregiver training, medical review, activity engagement, and stress reduction.
@@ -71,6 +75,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - SCI-specific caregiver well-being modules for coping orientation, social support, respite, system navigation, red flags, and future planning.
 - Financial strain and social support navigation.
 - Advanced cancer symptom-management education and referral pathways.
+- Cancer caregiver implementation-readiness checks for adoption partner, staff role, training burden, fidelity, caregiver time, resource requirements, and cost.
+- Advanced cancer caregiver support modules for psycho-emotional, daily-functioning, social/family, spiritual, physical, and quality-of-life targets.
+- Gynecologic cancer dyadic modules for self-triage guidance, curated expert information, private caregiver/patient spaces, and controlled family sharing.
+- Advocacy-resource navigation modules for financial assistance, legal/employment rights, counseling, peer support, genetic-risk resources, and cancer-specific nonprofit support.
 - Reach, adoption, implementation, and maintenance instrumentation.
 - Dementia-specific modules for behavioral/physical symptoms, wandering, caregiver self-care, peer support, and future planning.
 - Active caregiver training modules for dementia-related behavior response, activity engagement, mastery, and environmental/task adaptation.
@@ -110,6 +118,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2016_smith_caregiving-services-sci-systematic-review`.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 
 ## Gaps
 
@@ -118,6 +130,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Needs evaluation designs that distinguish module targets, caregiver outcomes, care-recipient outcomes, utilization, and cost.
 - Needs RE-AIM-style evaluation of representativeness, organizational adoption, fidelity, and sustained use.
 - Needs SCI-specific testing of whether secondary-condition, respite, coping, and social-support modules improve meaningful outcomes beyond perceived relevance or usability.
+- Needs cancer caregiver digital adaptations that evaluate implementation readiness, not only usability or caregiver satisfaction.
+- Needs advanced-cancer-specific testing of whether modular digital delivery preserves the benefits of supportive interventions without increasing caregiver workload or losing face-to-face relational support.
+- Needs gynecologic cancer mHealth testing with more diverse, rural, lower-resource, and lower-digital-literacy samples.
+- Needs evaluation of whether advocacy-resource navigation produces completed referrals, reduced burden, financial relief, or better caregiver outcomes.
 
 ## Related Pages
 

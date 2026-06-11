@@ -46,6 +46,10 @@ Primary population focus for this wiki.
 - SCI caregiving service structures, including informal caregiver reliance, care hours, training, backup care availability, and formal/informal care mix.
 - SCI caregiver burden mechanisms linked to care-recipient secondary conditions, functional independence, hours of care, and burden dimensions.
 - SCI caregiver well-being support that includes coping/problem-solving orientation, social support, respite, system navigation, caregiver health red flags, and shared future planning.
+- Cancer caregiver intervention implementation needs that distinguish eligibility, enrollment, completion, adoption partners, caregiver co-design, fidelity, cost, staff training, and resource requirements.
+- Advanced cancer caregiver supportive-intervention needs that distinguish individual caregiver, patient-caregiver dyad, family, and peer-group support formats, as well as psycho-emotional, social, daily-functioning, physical, spiritual, and quality-of-life outcomes.
+- Gynecologic cancer caregiver mHealth design needs around curated information, symptom-urgency self-triage, trajectory-tailored support, expert/peer interaction, private spaces, and granular sharing controls.
+- Broad cancer caregiver unmet needs across informational, relationship/communication, emotional, and practical/financial domains, including patient advocacy group resource and navigation support.
 
 ## Evidence
 
@@ -65,6 +69,10 @@ Primary population focus for this wiki.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: A cross-sectional SCI dyad study found caregiver burden was associated with care-recipient physical secondary conditions and functional independence, especially bladder dysfunction, UTIs, pressure injuries, chronic pain, and hours or duration of caregiving. Use as correlational burden evidence.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: A mixed-methods SCI dyad study supports caregiver coping, problem-solving, social support, respite, system navigation, mental/physical health red flags, and unmet needs as assessment and support targets.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: A pilot study of end-stage ovarian cancer caregivers found that positive caregiver esteem can coexist with disrupted schedules and financial burden, supporting separate tracking of positive meaning and practical burden.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: A systematic review of cancer caregiver intervention studies supports implementation-readiness evaluation, including caregiver acceptability, adoption, appropriateness, feasibility, fidelity, costs, caregiver co-design gaps, low eligible-caregiver enrollment, and delivery-resource reporting.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: A systematic review of 32 supportive interventions for advanced cancer caregivers supports intervention taxonomy and outcome-domain matching, with most reported benefits in psycho-emotional, daily-functioning, and social dimensions.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: A focus group study with gynecologic cancer patients and caregivers supports dyadic mHealth design needs for curated information, symptom self-triage, private spaces, controlled sharing, and expert/peer support.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: A narrative review frames broad cancer caregiver needs across informational, relationship/communication, emotional, and practical/financial domains and highlights patient advocacy groups as resource and navigation actors.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM is not caregiver-specific evidence, but it supports evaluating caregiver interventions for representativeness, adoption, implementation consistency, and sustained use.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: A JMIR Aging development and mixed-methods study provides dementia caregiver mHealth usability/acceptability evidence for a multicomponent mobile care ecosystem.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Conference abstract evidence describes multi-agent conversational AI support for people with Alzheimer's disease and informal caregivers.
@@ -110,3 +118,7 @@ Primary population focus for this wiki.
 - `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
 - `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
 - `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`
+- `wiki/evidence/ugalde_2019_cancer_caregiver_interventions_implementation_potential.md`
+- `wiki/evidence/becque_2023_supportive_interventions_advanced_cancer_caregivers.md`
+- `wiki/evidence/campbell_2024_gynecologic_cancer_caregiver_mhealth_self_management_needs.md`
+- `wiki/evidence/dave_2024_cancer_caregiver_needs_patient_advocacy_groups.md`

@@ -39,6 +39,7 @@ The updated core list uses base source numbers through `29`, with additional or 
 - `19` begins the SCI caregiver branch.
 - `22` is intentionally not a local PDF ingest source. It is the NINDS spinal cord injury knowledge website (`https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`) and should be checked only when disease-background knowledge is needed.
 - `26` is the currently integrated gynecologic cancer caregiver source.
+- `27` is intentionally not a local PDF ingest source. It is the NCI PDQ family caregiver professional page (`https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`) and should be checked only when cancer caregiver background, framework, or clinical-context knowledge is needed.
 - `29a`, `29b`, and `29c` are the grouped AI-agent architecture and evaluation support set.
 - `30+` holds already-ingested or supporting sources that remain useful but are no longer Tier 1 base-list items.
 
@@ -95,12 +96,35 @@ Future potential reference:
 
 | Source | Primary role | Current status |
 |---|---|---|
-| Ugalde et al. 2019, systematic review of cancer caregiver interventions | Replacement for older cancer caregiver meta-analysis. | future |
-| Becque et al. 2023, supportive interventions for family caregivers of advanced cancer patients | Advanced cancer caregiver support. | future |
-| Campbell et al. 2024, needs of patients with gynecologic cancer and their caregivers | Direct gynecologic cancer caregiver needs. | future |
+| Ugalde et al. 2019, systematic review of cancer caregiver interventions | Cancer caregiver intervention implementation-readiness and translation-to-practice appraisal. | integrated; source 23 |
+| Becque et al. 2023, supportive interventions for family caregivers of advanced cancer patients | Advanced cancer caregiver support taxonomy and outcome-domain mapping. | integrated; source 24 |
+| Campbell et al. 2024, needs of patients with gynecologic cancer and their caregivers | Direct gynecologic cancer patient-caregiver formative mHealth design evidence. | integrated; source 25 |
 | Hartnett et al. 2016, end-stage ovarian cancer caregiver burden | Advanced/end-stage gynecologic cancer burden. | integrated; source 26 |
-| NCI PDQ 2025, informal caregivers in cancer | Authoritative cancer caregiver framework and current clinical background. | future |
-| Dave et al. 2024, unmet needs of caregivers of patients with cancer | Current unmet-needs synthesis for cancer caregivers. | future |
+| NCI PDQ 2025, family caregivers professional page | Authoritative cancer caregiver framework and current clinical background. This is source 27 in the planning list, but there is no local PDF to ingest. Check `https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com` only when cancer caregiver background or framework knowledge is needed; do not treat it as a PDF ingest source. | future background check only; no PDF ingest |
+| Dave et al. 2024, unmet needs of caregivers of patients with cancer | Broad cancer caregiver unmet-needs and patient advocacy ecosystem framing. | integrated; source 28 |
+
+## Part 7 Pre-Ingest Notes
+
+- Part 7 should not look for or create a source 27 PDF. Source 27 is the NCI PDQ family caregiver professional page at `https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`.
+- Use source 27 only as a cancer caregiver background, framework, or clinical-context check when needed.
+- Do not include source 27 in a Part 7 PDF ingest batch, and do not treat it as local PDF evidence unless a later reviewed source directly supports those claims.
+
+## Part 7 Completed Sources
+
+Preview-first ingest was completed for this source after the user's direct approval on 2026-06-11:
+
+- Source 23: `sources/papers/cg_system_core/23_ugalde_A systematic review of cancer caregiver interventions  Appraising the potential for.pdf`
+- Source 24: `sources/papers/cg_system_core/24_becque_2023_supportive_interention_caregiver_advanced_cancer.pdf`
+- Source 25: `sources/papers/cg_system_core/25_campbell_2024_needs_mHealth_self_management_focus_group.pdf`
+- Source 28: `sources/papers/cg_system_core/28_dave_2024_Identifying and addressing the needs of caregivers of patients with cancer  evidence on interventions and the role of patient advocacy groups.pdf`
+
+Keep source 23 bounded to broad cancer caregiver intervention implementation-readiness evidence using Proctor implementation outcomes. It supports claims about acceptability, adoption, appropriateness, feasibility, fidelity, cost, reach/enrollment gaps, caregiver co-design gaps, workforce/training/resource reporting, and translation-to-practice limits. It is not gynecological-cancer-specific effectiveness evidence, AI-agent evidence, smart-home evidence, mHealth effectiveness evidence, autonomous-care evidence, or cancer-treatment evidence.
+
+Keep source 24 bounded to broad advanced cancer caregiver supportive-intervention taxonomy and outcome mapping. It is not gynecological-cancer-specific effectiveness evidence, AI-agent evidence, smart-home evidence, mHealth effectiveness evidence, autonomous care evidence, or cancer-treatment evidence.
+
+Keep source 25 bounded to direct gynecologic cancer formative mHealth design evidence for patient-caregiver dyads. It supports curated information, symptom-urgency self-triage needs, trajectory tailoring, expert/peer interaction, private spaces, and granular sharing controls. It is not mHealth effectiveness evidence, AI-agent evidence, smart-home evidence, autonomous triage evidence, or cancer-treatment evidence.
+
+Keep source 28 bounded to broad cancer caregiver unmet-needs and patient advocacy ecosystem framing. It is a narrative review, not a systematic review; it supports informational, relationship/communication, emotional, and practical/financial need framing and advocacy-resource design logic, not gynecological-cancer-specific evidence, intervention-effectiveness proof, AI evidence, smart-home evidence, or mHealth effectiveness evidence.
 
 ## 6. AI-Agent Architecture and Evaluation
 

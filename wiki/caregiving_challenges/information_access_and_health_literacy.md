@@ -50,6 +50,8 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 - `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver education claims should distinguish active psychoeducation, communication skills training, information-only education, and broader multicomponent interventions because each maps to different outcome domains.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregivers need accessible, personalized, timely information and training about dementia trajectory, symptoms, behavioral issues, medications, emergencies, services, home adaptation, incontinence, nutrition, and financial/legal support.
 - `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbots may support education or resource linking, but reviewed apps had limited caregiver-skills content, unclear evidence sources, and constrained conversational ability.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer patients and caregivers wanted centralized, curated, trustworthy, plain-language, trajectory-tailored information and help deciding symptom urgency and whom to contact.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregivers need objective, trusted, plain-language and culturally competent information about diagnosis, prognosis, treatment options, side effects, biomarkers, genetic counseling, clinical trials, and care-system navigation.
 
 ## Care Recipient Connection
 
@@ -91,6 +93,8 @@ To be further source-backed.
 - `2009_elliott_brief-problem-solving-training-sci-caregivers`.
 - `2016_smith_caregiving-services-sci-systematic-review`.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 
 ## Design Implications
 
@@ -105,6 +109,8 @@ To be further source-backed.
 - Match dementia caregiver educational content to the mechanism and endpoint: knowledge, communication skill, coping, mastery, quality of life, depression, burden, or social support.
 - Treat chatbot feature availability and user satisfaction as separate from education quality, caregiver skill acquisition, caregiver outcomes, and care-recipient outcomes.
 - For SCI caregiver support, provide resource information in multiple accessible formats and across the rehabilitation spectrum rather than only at discharge.
+- For gynecologic cancer caregiver mHealth, pair curated information with symptom-urgency guidance and clear escalation boundaries; do not let self-triage become autonomous diagnosis or treatment advice.
+- For broad cancer caregiver support, connect plain-language education with advocacy-group, financial, genetic-counseling, clinical-trial, and care-system navigation resources when appropriate.
 
 ## Gaps
 

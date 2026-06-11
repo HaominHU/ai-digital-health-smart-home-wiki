@@ -40,6 +40,10 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver burden was higher with prolonged caregiving, more than 8 hours of daily care, and physical secondary conditions in the care recipient, supporting caregiver health and burden screening around intense care routines.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers described sleep deprivation, physical health concerns, delayed personal health care, emotional strain, low leisure satisfaction, and mental-health red flags, supporting low-burden caregiver health check-ins.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends that caregivers receive support for caring for themselves, including attention to their own health status and respite from caregiving when possible.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Cancer caregiver intervention studies included self-care as one content category, but the review's main contribution is implementation readiness: whether caregiver input, acceptability, feasibility, fidelity, cost, and adoption were designed or reported.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: In advanced cancer caregiver supportive-intervention studies, caregiver self-care was the most common intervention component. Use this as supportive-intervention taxonomy, not as evidence that self-tracking or mHealth improves caregiver health outcomes.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer caregiver mHealth should allow caregiver-only spaces for concerns and support, because universal patient-caregiver sharing can inhibit self-expression.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregivers may need support for emotional and physical stress, self-care, counseling, respite, and practical/financial strain; caregiver support should be independent of the patient's medical care when needed.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes caregiver self-care resources and psychologist-developed worksheets focused on caregiving identity, burnout, self-care, anticipatory grief, and emotional resilience.
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH II included caregiver Medicare expenditure analysis, supporting caregiver healthcare utilization as an evaluation dimension where data are available.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver includes self-care issue awareness within caregiver role training, but the field-test article is not caregiver health effectiveness evidence.
@@ -82,6 +86,10 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - `2009_elliott_brief-problem-solving-training-sci-caregivers`.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 
 ## Design Implications
 
@@ -92,6 +100,10 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - Evaluate whether caregiver self-care tools improve meaningful health, quality-of-life, sleep, utilization, or economic outcomes rather than only app satisfaction.
 - For dementia caregivers, treat balance, respite, and self-care as support needs and evaluate them separately from knowledge gain, satisfaction, or app engagement.
 - For SCI caregivers, screen for sleep, physical strain, delayed medical care, burden dimensions, and leisure/respite gaps without making self-care tracking another high-effort task.
+- For cancer caregiver interventions, treat self-care content as implementable only when caregiver involvement, acceptability, feasibility, delivery burden, fidelity, and adoption context are reported or tested.
+- For advanced cancer caregivers, treat self-care as an intervention component that may include psycho-emotional, physical, spiritual, daily-functioning, and quality-of-life targets; do not collapse it into app self-tracking.
+- In gynecologic cancer dyadic apps, caregiver self-care features may need private defaults with opt-in sharing.
+- For broad cancer caregiving, self-care design should include external counseling, advocacy, financial/legal, and respite pathways rather than only internal tracking.
 
 ## Gaps
 

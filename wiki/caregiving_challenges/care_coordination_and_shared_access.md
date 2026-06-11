@@ -36,6 +36,10 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiving services rely heavily on informal care, formal care, paid personal assistance, and self-managed care arrangements; service turnover, backup-care availability, and care quality should be tracked separately from caregiver convenience.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers described navigating health care, insurance, government benefits, caregiver compensation, home/vehicle modifications, respite, peer support, and supplemental care. System navigation itself can be a support need.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends interdisciplinary support, including nursing education, social work, financial and medication assistance, community organization referrals, support groups, and respite.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Cancer caregiver intervention studies rarely reported adoption intentions, agreements, or actions, and often underreported staff training, expertise, delivery time, and resources. Use this as service-translation evidence for coordination and referral design.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Advanced cancer caregiver interventions may target individual caregivers, patient-caregiver dyads, families, or peer groups, supporting care-coordination designs that treat relationship structure as part of the intervention context.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer patients and caregivers wanted private spaces plus granular control over what information is shared with the other dyad member and with family members, showing that shared-access design must support private, dyadic, and family-sharing modes.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregivers need recognition as care-team members, appropriate access to information, structured clinician communication, telehealth participation, and navigation support from health systems and patient advocacy groups.
 - `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth can provide an avenue for caregivers to discuss support needs between scheduled health care visits.
 - `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health interventions can support interactive communication and caregiver-care recipient relationships, but shared access and communication functions still require privacy and role-boundary design.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise tool use and inspectable action traces, but it should only inform speculative coordination support under strict action-space limits.
@@ -84,6 +88,10 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`.
 - `2016_smith_caregiving-services-sci-systematic-review`.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 
 ## Design Implications
 
@@ -96,6 +104,10 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - For dementia resource-navigation and chatbot workflows, distinguish information retrieval from care-plan action, provider communication, emergency response, and formal referral.
 - For SCI care arrangements, track formal/informal care mix, training, backup-care availability, and turnover before assuming that shared-access tools can stabilize care.
 - For SCI resource navigation, distinguish giving caregivers more information from actually reducing coordination burden; referral, compensation, respite, and supplemental-care pathways may require human or organizational support.
+- For cancer caregiver support, define adoption partners, staff roles, training, fidelity checks, and service-resource requirements before translating an intervention into a coordination workflow.
+- For advanced cancer caregiver support, decide whether coordination should be individual, dyadic, family-oriented, or peer/group-oriented before designing shared tasks or access.
+- For gynecologic cancer dyadic apps, avoid universal sharing defaults; support separate private spaces, explicit sharing choices, and revocable access for patients, caregivers, and other family members.
+- For broad cancer caregiver navigation, distinguish resource lists from closed-loop referral, eligibility support, financial assistance, legal/employment guidance, and patient advocacy group linkage.
 
 ## Gaps
 

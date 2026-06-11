@@ -42,6 +42,9 @@ Reusable caregiving challenge hub for cases where caregiver time limits, competi
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: In a cross-sectional SCI dyad study, caregivers providing more than 8 hours of daily care had higher caregiver burden, and pressure injuries were associated especially with time-dependent burden.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers described 24/7 care demands, lack of time off, work/education/social-life disruption, and difficulty attending support groups when no respite or alternative care was available.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: In a pilot study of end-stage ovarian cancer caregivers, disrupted schedules were among the most burdensome factors and were higher among higher-income, unemployed, or retired caregivers in this sample.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: In cancer caregiver intervention studies, most screened caregivers were eligible but fewer than one third of eligible caregivers consented on average; caregiver intervention time ranged widely, with a median of 180 minutes among reporting studies. Use this as reach and implementation-burden evidence, not intervention effectiveness evidence.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer patients and caregivers described information searching as time-consuming and wanted curated information, configurable reminders, and flexible sharing so app use does not become burdensome.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregiving can resemble a full-time job, with transportation, paperwork, work disruption, leave needs, and financial strain; caregivers may need practical and financial support, not only information.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Reach is shaped by barriers such as cost, necessary referrals, scheduling, transportation, and inconvenience, which are especially relevant when caregivers already face time scarcity.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: Dementia caregivers reported that curated CareBuddy content and service directories saved time compared with searching independently; long-term engagement remains an evidence gap.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports reduced task completion time and cognitive load for a multi-agent CareBuddy system, but this remains abstract-level evidence.
@@ -88,6 +91,9 @@ To be further source-backed.
 - `2016_smith_caregiving-services-sci-systematic-review`.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 
 ## Design Implications
 
@@ -100,6 +106,9 @@ To be further source-backed.
 - For SCI caregiving services, measure care hours and backup-care availability separately from subjective burden, and evaluate whether independence-building or training changes care demand.
 - For SCI secondary-condition support, evaluate whether pressure-injury, bladder/UTI, chronic-pain, and functional-independence support changes caregiver time burden rather than assuming prevention tools reduce workload.
 - For SCI caregiver well-being support, treat respite availability and leisure-time satisfaction as measurable outcomes and reach constraints.
+- For cancer caregiver interventions, separate eligibility, consent/enrollment, completion, withdrawal, caregiver time burden, staff delivery time, and adoption partner requirements before claiming that an intervention is implementable.
+- For gynecologic cancer mHealth, make reminders and information sharing configurable because support prompts can help at some care phases and feel intrusive at others.
+- For broad cancer caregiver support, include transportation, employment, leave, financial-assistance, paperwork, and advocacy-resource pathways as workload-reduction targets.
 
 ## Gaps
 

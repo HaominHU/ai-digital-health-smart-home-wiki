@@ -41,6 +41,10 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: In a cross-sectional SCI dyad study, UTIs were associated with developmental, physical, social, and emotional burden dimensions; chronic pain was weakly associated with developmental and emotional burden. Use as correlational burden-dimension evidence.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers' well-being was shaped by social support, isolation, problem-solving orientation, peer support, spiritual and instrumental support, mental-health concerns, and unmet respite or resource needs.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: End-stage ovarian cancer caregivers reported high caregiver esteem while also experiencing practical burdens, showing that positive meaning and support needs can coexist.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Cancer caregiver interventions often included social support, therapy, skills, information, or self-care content, but caregiver acceptability, caregiver input into development, adoption planning, and high-need targeting were limited or underreported.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: In advanced cancer caregiver intervention studies, psycho-emotional outcomes were the most frequent area of beneficial effect; dyadic and family interventions also aligned with social outcomes. Use as broad advanced cancer caregiver intervention evidence, not gynecological-cancer-specific evidence.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer patients and caregivers wanted peer and clinical expert interaction, including spaces for support that could be private from the other dyad member.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregivers may need emotional support for depression, anxiety, guilt, shame, anticipatory grief, survivor guilt, and caregiver stress; patient advocacy groups can provide peer support, counseling links, and navigation.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes an online peer support forum, moderator tools, inappropriate-post flagging, blocking, content filtering, helpline access, and an LLM-based forum bot named Sparky to stimulate interactions.
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE improved caregiver perceived change in well-being and confidence using activities at 4 months, supporting emotional and mastery-oriented outcomes in dementia caregiver intervention evaluation.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy Caregiver field testing found improved caregiver reaction to care-recipient behavior and burden, supporting role-training as emotional coping support.
@@ -85,6 +89,10 @@ To be further source-backed.
 - `2009_elliott_brief-problem-solving-training-sci-caregivers`.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 
 ## Design Implications
 
@@ -97,6 +105,10 @@ To be further source-backed.
 - SCI caregiver emotional-support claims should distinguish depression effects from problem-solving style, social functioning, and education or attention effects.
 - SCI caregiver social-support design should distinguish protective support, peer connection, instrumental respite, and system navigation instead of treating social support as a single feature.
 - SCI caregiver emotional-health screening should separate burden dimensions, depression/anxiety red flags, negative problem orientation, and qualitative isolation or unmet needs.
+- Cancer caregiver emotional and social support should include caregiver co-design, acceptability assessment, high-distress targeting when appropriate, adoption planning, and delivery-resource reporting.
+- Advanced cancer caregiver emotional-support design should match intervention format to target outcome: individual support for psycho-emotional outcomes, dyadic/family support when social or relationship outcomes matter, and peer/group support when daily-functioning goals are central.
+- In gynecologic cancer dyadic apps, emotional support may require separate patient and caregiver spaces so each person can seek support without protecting or burdening the other.
+- For broad cancer caregiver support, route emotional needs to counseling, peer support, advocacy groups, and human services rather than relying only on app content.
 
 ## Gaps
 

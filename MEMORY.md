@@ -102,6 +102,8 @@ When wiki coverage is weak, narrow, missing foundational sources, missing recent
 
 Current local abstracts and previously integrated paper source paths have been revised for the updated `sources/papers/cg_system_core/` numbering. The updated core list keeps foundational caregiver theory, broad digital caregiver support, a narrowed dementia/ADRD Tier 1 branch, SCI caregiver evidence, gynecologic cancer/cancer caregiver evidence, and a grouped AI-agent architecture/evaluation set.
 
+`wiki/overview/caregiver_system_core_sota_synthesis.md` is now the living owner-facing SoTA synthesis for the completed `cg_system_core` Tier 1 ingest. Use it as the first high-level map for family caregiving outcomes, digital health intervention types/mechanisms/modalities, condition-specific dementia/SCI/gynecological cancer distinctions, evidence boundaries, and research directions to keep current after future relevant ingests.
+
 Current non-ingested paper status:
 
 - No current non-ingested paper remains in `sources/papers/monthly_pubmed/`.
@@ -116,6 +118,10 @@ A useful next step is a later `cg_system_core` staged ingest for the next branch
 Part 6 pre-ingest planning note:
 
 - Do not look for or create a source 22 PDF in `sources/papers/cg_system_core/`. Source 22 is the NINDS spinal cord injury knowledge website (`https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`) and should be checked only when disease-background knowledge is needed. It is not part of the Part 6 PDF ingest batch and should not be treated as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence.
+
+Part 7 pre-ingest planning note:
+
+- Do not look for or create a source 27 PDF in `sources/papers/cg_system_core/`. Source 27 is the NCI PDQ family caregiver professional page (`https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`) and should be checked only when cancer caregiver background, framework, or clinical-context knowledge is needed. It is not part of a Part 7 PDF ingest batch and should not be treated as local PDF evidence, intervention-effectiveness evidence, AI, digital health, or smart-home evidence unless a later reviewed source directly supports those claims.
 
 Part 6 completed SCI caregiver problem-solving sources:
 
@@ -348,6 +354,17 @@ Source-backed SCI caregiver notes:
 - Conti 2019 supports SCI secondary-condition burden mechanisms, especially bladder dysfunction, UTIs, pressure injuries, chronic pain, functional independence, care hours, and caregiving duration. It is cross-sectional correlational evidence, not causal or intervention-effectiveness evidence.
 - Espino 2022 supports SCI caregiver protective-factor and unmet-needs logic around coping/problem-solving orientation, social support, respite, system navigation, caregiver mental/physical health red flags, and shared future planning. Its caregiver profiles are exploratory, not validated triage categories.
 - None of the Part 6 SCI caregiver sources are AI-agent, smart-home, autonomous care, or SCI disease-background evidence. Source 22 remains the NINDS SCI website for disease-background checks only.
+
+Part 7 cancer caregiver integrated sources:
+
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Psycho-Oncology systematic review appraising cancer caregiver intervention studies for implementation potential using Proctor implementation outcomes. Use as broad cancer caregiver implementation-readiness evidence, especially for acceptability, adoption, appropriateness, feasibility, fidelity, cost, caregiver co-design gaps, high-need targeting, eligible-caregiver enrollment gaps, staff training, delivery-resource reporting, and translation-to-practice limits.
+- Do not treat Ugalde 2019 as gynecological-cancer-specific effectiveness evidence, AI-agent evidence, smart-home evidence, mHealth effectiveness evidence, autonomous-care evidence, cancer-treatment evidence, or proof that acceptability or completion equals effectiveness. Its PDF extraction was usable for narrative sections, but long table details should be checked manually before exact included-study claims.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Psycho-Oncology systematic review of supportive interventions for family caregivers of patients with advanced cancer. Use as broad advanced cancer caregiver supportive-intervention taxonomy and outcome-domain mapping evidence, especially for individual, dyadic/family, and group support formats; caregiver self-care, patient-caregiving, and family-care components; and physical, psycho-emotional, social, spiritual, daily-functioning, and quality-of-life outcomes.
+- Do not treat Becque 2023 as gynecological-cancer-specific effectiveness evidence, AI-agent evidence, smart-home evidence, mHealth effectiveness evidence, autonomous care evidence, or cancer-treatment evidence. Its PDF has a two-column layout; Ghostscript extraction was usable for narrative sections, but table-level details should be checked manually before exact table claims.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: JMIR Cancer focus group study with 41 gynecologic cancer patients and 22 caregivers/support persons. Use as direct gynecologic cancer formative mHealth design evidence for curated trustworthy information, symptom-urgency self-triage needs, trajectory-tailored recommendations, moderated peer/clinical expert support, patient and caregiver private spaces, granular sharing controls, and technology-access cautions.
+- Do not treat Campbell 2024 as mHealth effectiveness evidence, AI-agent evidence, smart-home evidence, autonomous triage evidence, or cancer-treatment evidence. Its sample was mostly White and recruited through a trusted gynecologic oncology practice; COVID-19 timing and mixed patient-caregiver focus groups may have shaped responses.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Future Oncology narrative review on broad cancer caregiver unmet needs and patient advocacy group roles. Use as advocacy-ecosystem framing across informational, relationship/communication, emotional, and practical/financial needs; caregiver identity recognition; telehealth access cautions; and advocacy-group education, navigation, counseling, peer-support, financial-aid, and policy roles.
+- Do not treat Dave 2024 as a systematic review, gynecological-cancer-specific evidence, intervention-effectiveness proof, AI evidence, smart-home evidence, mHealth effectiveness evidence, or cancer-treatment evidence. The article includes Pfizer and advocacy-organization authors and explicitly says the review is not comprehensive.
 
 Standalone event-notes ingest:
 

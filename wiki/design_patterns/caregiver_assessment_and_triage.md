@@ -28,6 +28,10 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver assessment should include care-recipient secondary physical conditions, functional independence, bladder dysfunction, UTIs, pressure injuries, chronic pain, caregiving hours, years of caregiving, and multidimensional caregiver burden.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregiver triage can assess coping and problem-solving orientation, social support satisfaction, respite gaps, system-navigation needs, caregiver health red flags, isolation, unmet needs, and shared future care planning.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver assessment can use CRA-informed domains such as disrupted schedules, financial problems, lack of family support, health problems, and caregiver self-esteem.
+- `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Cancer caregiver intervention assessment should distinguish broad eligibility from actual enrollment, caregiver acceptability, high-need targeting, adoption partner fit, feasibility, fidelity, and implementation cost.
+- `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Advanced cancer caregiver triage should identify the target population for support (individual caregiver, dyad, family, or peer group) and the intended outcome dimension before selecting an intervention format.
+- `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer self-management support should assess symptom-urgency uncertainty, information needs, technology proficiency, privacy preferences, sharing preferences, and desired peer or clinical expert support.
+- `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregiver assessment can use informational, relationship/communication, emotional, and practical/financial need domains, including whether advocacy-group, financial, counseling, legal, or navigation resources are needed.
 - `2010_gitlin_cope-dementia-home-based-intervention`: Dementia caregiver assessment can include caregiver-identified concerns, patient capabilities, home environment, communication, and caregiver confidence using activities.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Dementia caregiver triage can include role-training needs, realistic care-goal formation, care-recipient capability estimation, and problem-solving support.
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Online caregiver interventions should assess schedule fit, technology access, and readiness for synchronous/asynchronous participation.
@@ -54,6 +58,10 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - SCI-specific coping, social support, respite, mental/physical health red flags, and future-planning fields.
 - Financial and practical resource navigation.
 - Caregiver Reaction Assessment-style burden domains.
+- Cancer caregiver reach and implementation-readiness fields for eligibility, consent/enrollment, completion, acceptability, co-design input, adoption partner, fidelity, staff time, training, resources, and cost.
+- Advanced cancer caregiver outcome-domain and target-population matching.
+- Gynecologic cancer symptom-urgency self-triage needs, privacy/sharing preferences, and expert/peer support routing.
+- Broad cancer caregiver advocacy-resource needs across information, communication, emotional, financial, employment, transportation, and legal domains.
 - Dementia caregiver fields for behavior-response confidence, mastery, active training needs, schedule fit, technology access, and capacity for home-based or synchronous intervention participation.
 - Dementia trajectory fields for caregiver support, information, training, balance, legal/financial planning, respite, and acceptance of help.
 - Chatbot readiness fields for digital access, voice/text interaction fit, privacy expectations, urgency/safety risk, and need for human support.
@@ -82,3 +90,7 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
 - `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
 - `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`
+- `wiki/evidence/ugalde_2019_cancer_caregiver_interventions_implementation_potential.md`
+- `wiki/evidence/becque_2023_supportive_interventions_advanced_cancer_caregivers.md`
+- `wiki/evidence/campbell_2024_gynecologic_cancer_caregiver_mhealth_self_management_needs.md`
+- `wiki/evidence/dave_2024_cancer_caregiver_needs_patient_advocacy_groups.md`
