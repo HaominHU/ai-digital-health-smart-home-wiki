@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -86,6 +86,11 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
 - `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
 - `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`
+- `wiki/evidence/elliott_2008_problem_solving_videoconferencing_sci_caregivers.md`
+- `wiki/evidence/elliott_2009_brief_problem_solving_training_sci_caregivers.md`
+- `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
+- `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
+- `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`
 - `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`
 - `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
@@ -117,6 +122,11 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2020_cheng_meta-review-dementia-caregiver-interventions.md`
 - `wiki/references/items/2020_bressan_dementia-caregiver-needs-mixed-method-review.md`
 - `wiki/references/items/2021_ruggiano_chatbots-dementia-caregivers.md`
+- `wiki/references/items/2008_elliott_problem-solving-videoconferencing-sci-caregivers.md`
+- `wiki/references/items/2009_elliott_brief-problem-solving-training-sci-caregivers.md`
+- `wiki/references/items/2016_smith_caregiving-services-sci-systematic-review.md`
+- `wiki/references/items/2019_conti_secondary-conditions-caregiver-burden-sci.md`
+- `wiki/references/items/2022_espino_coping-social-support-caregiver-wellbeing-sci.md`
 - `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`
 
 ## Templates

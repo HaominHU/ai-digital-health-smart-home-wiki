@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Emotional and Social Support
@@ -36,6 +36,10 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 - `2016_nasem_families-caring-for-an-aging-america`: Family caregivers of older adults are at risk for depressive symptoms, anxiety, stress, emotional difficulty, and social isolation, especially under high-intensity or long-duration care.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Depression, burden, psychological morbidity, anxiety, coping, self-efficacy, and social support are common caregiver intervention outcomes or activity targets.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana reported shock, uncertainty, disrupted social life, and reliance on hope, religious practices, encouragement, and support from relatives and friends.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Videoconference-delivered PST for SCI caregivers was associated with caregiver depression improvement signals, but the study had high attrition and did not clarify mechanisms.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Brief PST plus education for recent-onset SCI caregivers reduced dysfunctional problem-solving style but did not show observable caregiver depression effects, reinforcing the need to separate process and emotional-health outcomes.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: In a cross-sectional SCI dyad study, UTIs were associated with developmental, physical, social, and emotional burden dimensions; chronic pain was weakly associated with developmental and emotional burden. Use as correlational burden-dimension evidence.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers' well-being was shaped by social support, isolation, problem-solving orientation, peer support, spiritual and instrumental support, mental-health concerns, and unmet respite or resource needs.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: End-stage ovarian cancer caregivers reported high caregiver esteem while also experiencing practical burdens, showing that positive meaning and support needs can coexist.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes an online peer support forum, moderator tools, inappropriate-post flagging, blocking, content filtering, helpline access, and an LLM-based forum bot named Sparky to stimulate interactions.
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE improved caregiver perceived change in well-being and confidence using activities at 4 months, supporting emotional and mastery-oriented outcomes in dementia caregiver intervention evaluation.
@@ -77,6 +81,10 @@ To be further source-backed.
 - `2020_cheng_meta-review-dementia-caregiver-interventions`.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
 - `2021_ruggiano_chatbots-dementia-caregivers`.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
 
 ## Design Implications
 
@@ -86,6 +94,9 @@ To be further source-backed.
 - Emotional support evaluations should distinguish satisfaction from clinically or practically meaningful changes in distress, quality of life, social support, and functioning.
 - Dementia emotional-support interventions should specify whether the target is depression, perceived stress, anxiety, burden, mastery, behavior reaction, social support, or subjective well-being.
 - Chatbot-based emotional support needs human escalation, crisis routing, clear scope limits, and evaluation beyond app-store availability or ease of use.
+- SCI caregiver emotional-support claims should distinguish depression effects from problem-solving style, social functioning, and education or attention effects.
+- SCI caregiver social-support design should distinguish protective support, peer connection, instrumental respite, and system navigation instead of treating social support as a single feature.
+- SCI caregiver emotional-health screening should separate burden dimensions, depression/anxiety red flags, negative problem orientation, and qualitative isolation or unmet needs.
 
 ## Gaps
 

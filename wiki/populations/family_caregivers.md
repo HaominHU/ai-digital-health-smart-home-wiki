@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Family Caregivers
@@ -42,6 +42,10 @@ Primary population focus for this wiki.
 - Dementia caregiver support needs that change across the disease trajectory, including formal and informal support, tailored information, training, care coordination, respite, legal/financial guidance, emotional support, and time for caregiver health and social life.
 - Outcome-matched dementia caregiver interventions rather than assuming burden reduction as the default endpoint for every intervention type.
 - Chatbot and conversational-agent support that separates education, reminiscence, self-assessment, resource linking, usability, privacy, and caregiver outcome effectiveness.
+- SCI caregiver problem-solving support that separates process outcomes, emotional health, dyadic outcomes, telehealth access, attrition, and discharge-transition support.
+- SCI caregiving service structures, including informal caregiver reliance, care hours, training, backup care availability, and formal/informal care mix.
+- SCI caregiver burden mechanisms linked to care-recipient secondary conditions, functional independence, hours of care, and burden dimensions.
+- SCI caregiver well-being support that includes coping/problem-solving orientation, social support, respite, system navigation, caregiver health red flags, and shared future planning.
 
 ## Evidence
 
@@ -55,6 +59,11 @@ Primary population focus for this wiki.
 - `2016_nasem_families-caring-for-an-aging-america`: The National Academies report defines family caregivers broadly, estimates 17.7 million U.S. caregivers of older adults in 2011 outside nursing home settings, and calls for caregiver identification, assessment, support, and person- and family-centered care.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Van Houtven et al. 2011 supports separating caregiving activities from caregiver outcomes and care-recipient outcomes when evaluating caregiver interventions.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: A Ghanaian qualitative study provides SCI-specific evidence that family caregivers may enter caregiving suddenly, perform ADL/IADL and inpatient hands-on care tasks, and experience physical and financial burden while using social, religious, and family coping supports.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: An SCI caregiver RCT supports individualized problem-solving training by videoconferencing as telehealth-delivered caregiver support, with caregiver depression and care-recipient social-functioning signals but high attrition and unclear mechanisms.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: A recent-onset SCI caregiver RCT supports brief PST plus education for reducing dysfunctional problem-solving style, while showing no observable caregiver depression effect.
+- `2016_smith_caregiving-services-sci-systematic-review`: A systematic review of SCI caregiving services found reliance on informal caregivers, often women, and wide variation in care hours. The review excluded caregiver burden studies, so use it for service structure and training gaps rather than caregiver distress claims.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: A cross-sectional SCI dyad study found caregiver burden was associated with care-recipient physical secondary conditions and functional independence, especially bladder dysfunction, UTIs, pressure injuries, chronic pain, and hours or duration of caregiving. Use as correlational burden evidence.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: A mixed-methods SCI dyad study supports caregiver coping, problem-solving, social support, respite, system navigation, mental/physical health red flags, and unmet needs as assessment and support targets.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: A pilot study of end-stage ovarian cancer caregivers found that positive caregiver esteem can coexist with disrupted schedules and financial burden, supporting separate tracking of positive meaning and practical burden.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM is not caregiver-specific evidence, but it supports evaluating caregiver interventions for representativeness, adoption, implementation consistency, and sustained use.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: A JMIR Aging development and mixed-methods study provides dementia caregiver mHealth usability/acceptability evidence for a multicomponent mobile care ecosystem.
@@ -96,3 +105,8 @@ Primary population focus for this wiki.
 - `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
 - `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
 - `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`
+- `wiki/evidence/elliott_2008_problem_solving_videoconferencing_sci_caregivers.md`
+- `wiki/evidence/elliott_2009_brief_problem_solving_training_sci_caregivers.md`
+- `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
+- `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
+- `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -37,6 +37,8 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Care-recipient symptoms and institutionalization should be measured separately from caregiver outcomes when evaluating caregiver interventions.
 - `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbots and voice assistants raise privacy, safety, trustworthiness, evidence-source, disclaimer, accessibility, and escalation concerns for people with dementia and caregivers.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregiver training and information needs include safety and dignity, but caregiver needs should not be collapsed into care-recipient autonomy or preference.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Care recipients of SCI caregivers receiving PST reported social-functioning gains, supporting separate measurement of care-recipient outcomes when caregiver interventions are evaluated. This should not be treated as direct evidence of care-recipient preference or autonomy.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI dyads discussed care-recipient independence, adaptive coping, and shared future care planning. Use this as dyadic planning evidence, not as justification for caregiver override, surveillance, or collapsing care-recipient autonomy into caregiver support.
 
 ## Design Implications
 
@@ -47,6 +49,7 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - Treat GPS location, chatbot conversation history, care plans, and provider messages as sensitive data with explicit access and retention rules.
 - For dementia caregiver interventions, distinguish caregiver confidence or proxy-rated improvement from care-recipient autonomy, preference, and lived experience.
 - For dementia chatbots, do not assume that ease of use for a caregiver or successful command completion means the person with dementia understands, consents to, or benefits from the interaction.
+- For SCI caregiver systems, support shared future planning and care-recipient independence while preserving separate consent, autonomy, and preference fields.
 
 ## Related Pages
 

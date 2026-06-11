@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-assessment, triage, care-coordination, design-pattern]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Caregiver Assessment and Triage
@@ -22,6 +22,11 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `2016_nasem_families-caring-for-an-aging-america`: The National Academies report recommends routine caregiver identification and assessment in health care and LTSS, including caregiver health, stress, skills, employment, willingness, and support needs.
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiver risk varies by intensity, duration, care recipient suffering, behavioral symptoms, caregiver health, support availability, perceived choice, and home environment.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregiver assessment should include preparedness, physical burden, sleep disruption, financial strain, social support, coping strategies, and need for training or counselling.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver assessment can use personally salient problem identification and should include retention risk, technology access, caregiver depression, and possible care-recipient social-functioning effects.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Recent-onset SCI caregiver triage can include card-sort problem identification, dysfunctional problem-solving style, education needs, and readiness for brief follow-up contacts.
+- `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiver/service assessment should include care hours, formal/informal care mix, caregiver backup availability, training history, functional independence, IADL capacity, and secondary-condition knowledge needs.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver assessment should include care-recipient secondary physical conditions, functional independence, bladder dysfunction, UTIs, pressure injuries, chronic pain, caregiving hours, years of caregiving, and multidimensional caregiver burden.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregiver triage can assess coping and problem-solving orientation, social support satisfaction, respite gaps, system-navigation needs, caregiver health red flags, isolation, unmet needs, and shared future care planning.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver assessment can use CRA-informed domains such as disrupted schedules, financial problems, lack of family support, health problems, and caregiver self-esteem.
 - `2010_gitlin_cope-dementia-home-based-intervention`: Dementia caregiver assessment can include caregiver-identified concerns, patient capabilities, home environment, communication, and caregiver confidence using activities.
 - `2003_hepburn_savvy-caregiver-transportable-program`: Dementia caregiver triage can include role-training needs, realistic care-goal formation, care-recipient capability estimation, and problem-solving support.
@@ -43,6 +48,10 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Role and consent management.
 - Monitoring for capacity mismatch or need for additional support.
 - SCI-specific ADL/IADL and bowel/bladder care training needs.
+- SCI-specific problem identification, problem-solving style, discharge-transition support, and remote or brief follow-up fit.
+- SCI-specific formal/informal care mix, care hours, backup-care availability, care quality, and secondary-condition training needs.
+- SCI-specific secondary-condition burden fields for bladder dysfunction, UTIs, pressure injuries, chronic pain, functional independence, and burden dimensions.
+- SCI-specific coping, social support, respite, mental/physical health red flags, and future-planning fields.
 - Financial and practical resource navigation.
 - Caregiver Reaction Assessment-style burden domains.
 - Dementia caregiver fields for behavior-response confidence, mastery, active training needs, schedule fit, technology access, and capacity for home-based or synchronous intervention participation.
@@ -68,3 +77,8 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
 - `wiki/evidence/cheng_2020_meta_review_dementia_caregiver_interventions.md`
 - `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`
+- `wiki/evidence/elliott_2008_problem_solving_videoconferencing_sci_caregivers.md`
+- `wiki/evidence/elliott_2009_brief_problem_solving_training_sci_caregivers.md`
+- `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
+- `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
+- `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`

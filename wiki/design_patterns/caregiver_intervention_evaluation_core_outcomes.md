@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, evaluation, outcomes, design-pattern]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Caregiver Intervention Evaluation Core Outcomes
@@ -37,6 +37,11 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Needs-assessment and intervention evaluation should track whether dementia caregiver support addresses dynamic needs for support, information, training, and balance rather than relying only on post-use satisfaction.
 - `2021_ruggiano_chatbots-dementia-caregivers`: Chatbot evaluation should separate app availability, dialog quality, usability, content provenance, privacy/safety, escalation, caregiver skills content, end-user evaluation, and caregiver or care-recipient outcome effectiveness.
 - `2026_kingsada_preferences-digital-health-technologies`: Preference elicitation methods such as DCE, conjoint analysis, best-worst scaling, contingent valuation, interviews, focus groups, and mixed methods can help evaluate digital health design trade-offs, but patient preferences should remain separate from caregiver outcomes and effectiveness endpoints.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver intervention evaluation should separate caregiver depression, problem-solving measures, care-recipient social functioning, attrition, and telehealth delivery fidelity.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Recent-onset SCI caregiver intervention evaluation should separate dysfunctional problem-solving style, depression, physical/social functioning trends, education exposure, staff attention, and dropout.
+- `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiving service evaluation should include care hours, formal/informal mix, quality of care, turnover, training knowledge, functional independence, IADL capacity, and cost, while noting that intervention evidence is limited and low quality.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver evaluation should include secondary-condition indicators, functional independence, caregiving hours, years of caregiving, and caregiver burden dimensions, while preserving the correlational evidence boundary.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregiver evaluation should include problem-solving orientation, social support, leisure satisfaction, social integration, anxiety, depression, physical health complaints, burden, quality of life, respite/resource needs, and qualitative unmet needs.
 
 ## Evaluation Dimensions
 
@@ -52,6 +57,10 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Dementia caregiver needs outcomes: support access, tailored information, training readiness, respite use, legal/financial/service navigation, self-care balance, role adjustment, and perceived capacity to manage changing care demands.
 - Chatbot and conversational-agent outcomes: task completion, command success, dialog breakdowns, caregiver-skills content coverage, evidence-source clarity, privacy comprehension, safety/escalation behavior, usability, adoption, and downstream caregiver or care-recipient outcomes when studied.
 - Preference-elicitation measures: DCE, conjoint analysis, best-worst scaling, contingent valuation, qualitative interviews, focus groups, and mixed methods to assess trade-offs among cost, privacy, convenience, personalization, human support, and data security.
+- SCI caregiver problem-solving intervention measures: dysfunctional problem-solving style, constructive problem-solving style, depression, physical functioning, social functioning, care-recipient social functioning, attrition, technology access, and delivery fidelity.
+- SCI caregiving service measures: paid and unpaid care hours, care quality, personal assistant turnover, backup-care availability, training knowledge, functional independence, IADL capacity, secondary-condition prevention knowledge, and service costs.
+- SCI secondary-condition and burden measures: bladder dysfunction, UTIs, pressure injuries, chronic pain, respiratory/circulation issues, functional independence, time-dependent burden, developmental burden, physical burden, social burden, emotional burden, care hours, and caregiving duration.
+- SCI caregiver well-being and support measures: problem-solving orientation, social support satisfaction, leisure-time satisfaction, social integration, anxiety, depression, physical health complaints, quality of life, red flags, respite access, system-navigation burden, and qualitative unmet needs.
 
 ## Design Constraints
 
@@ -65,6 +74,10 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - Do not treat patient preference, willingness to pay, satisfaction, or acceptability as caregiver outcome effectiveness.
 - Do not treat app-store availability, chatbot feature review, or voice-command usability as evidence of caregiver outcome benefit.
 - For dementia caregiver interventions, do not treat support groups, respite, dyadic format, technology delivery, or multicomponent packaging as inherently effective without outcome-specific evidence.
+- For SCI caregiver interventions, do not treat remote delivery, brief format, education, or PST packaging as inherently effective without outcome-specific and mechanism-specific evidence.
+- Do not use SCI caregiving service reviews that exclude caregiver burden as direct caregiver burden evidence.
+- Do not treat correlational SCI secondary-condition evidence as proof that monitoring or prevention tools will reduce caregiver burden.
+- Do not treat exploratory SCI caregiver profiles as validated clinical triage categories without further testing.
 
 ## Related Pages
 
@@ -90,3 +103,8 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`
 - `wiki/evidence/ruggiano_2021_chatbots_dementia_caregivers.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
+- `wiki/evidence/elliott_2008_problem_solving_videoconferencing_sci_caregivers.md`
+- `wiki/evidence/elliott_2009_brief_problem_solving_training_sci_caregivers.md`
+- `wiki/evidence/smith_2016_caregiving_services_sci_systematic_review.md`
+- `wiki/evidence/conti_2019_secondary_conditions_caregiver_burden_sci.md`
+- `wiki/evidence/espino_2022_coping_social_support_caregiver_wellbeing_sci.md`

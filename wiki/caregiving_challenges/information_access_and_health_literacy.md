@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Information Access and Health Literacy
@@ -32,6 +32,10 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 - `2020_schulz_family-caregiving-for-older-adults`: Multicomponent psychosocial interventions often include education about disease, disease progression, resources, communication, and coping.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Clinical skills and knowledge are caregiving activity targets, including disease knowledge, service knowledge, problem solving, adherence to guidelines, and decision-making skills.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study often felt unprepared for sudden caregiving responsibilities; the authors recommend training and counselling for family caregivers.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver support can include problem-tailored coaching delivered remotely, with structured problem definition, alternative generation, decision-making, and solution review.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Recent-onset SCI caregivers may benefit from brief PST plus education and caregiver-requested follow-up, but the study cannot isolate PST effects from education and staff attention.
+- `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiver and attendant training evidence showed preliminary knowledge gains around secondary health conditions, respiratory complications, spasticity, autonomic dysreflexia, aging effects, and community services.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers described needing resource information across care phases, including home and vehicle modifications, local SCI providers, caregiver compensation programs, caregiver training, peer support, and respite or supplemental care options.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Oncology nursing recommendations include preparing caregivers for advanced ovarian cancer care and providing symptom-management education before discharge or home care.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Educational and self-management interventions should be evaluated for reach and representativeness, because referral requirements, scheduling, cost, transportation, and literacy or technology barriers can limit participation.
 - `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth caregiver interventions commonly used psychoeducational/resource materials and skills training components.
@@ -83,6 +87,10 @@ To be further source-backed.
 - `2020_cheng_meta-review-dementia-caregiver-interventions`.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
 - `2021_ruggiano_chatbots-dementia-caregivers`.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`.
+- `2016_smith_caregiving-services-sci-systematic-review`.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
 
 ## Design Implications
 
@@ -96,6 +104,7 @@ To be further source-backed.
 - Reduce text overload through progressive disclosure, visuals, audio options, and navigation aids when caregivers are under cognitive and time burden.
 - Match dementia caregiver educational content to the mechanism and endpoint: knowledge, communication skill, coping, mastery, quality of life, depression, burden, or social support.
 - Treat chatbot feature availability and user satisfaction as separate from education quality, caregiver skill acquisition, caregiver outcomes, and care-recipient outcomes.
+- For SCI caregiver support, provide resource information in multiple accessible formats and across the rehabilitation spectrum rather than only at discharge.
 
 ## Gaps
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-management, secondary-complications, chronic-conditions, disability, mhealth]
-last_updated: 2026-06-03
+last_updated: 2026-06-11
 ---
 
 # Self-Management and Secondary Complication Prevention
@@ -30,6 +30,8 @@ People with chronic conditions and disabilities may need long-term self-manageme
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE included nurse assessment and caregiver follow-up for possible treatable medical conditions among people with dementia, but this should be treated as dyadic dementia care support rather than autonomous self-management evidence.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Care-recipient symptoms and institutionalization are separate outcome domains in caregiver intervention evaluation.
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Lecture notes suggest that rehabilitation response after stroke-related aphasia may be shaped by systemic factors such as diabetes, hypertension, glycemic control, and hearing loss, plus brain-health and network metrics. Use as neurorehabilitation framing, not as evidence that any self-management intervention changes aphasia outcomes.
+- `2016_smith_caregiving-services-sci-systematic-review`: In SCI caregiving service studies, functional independence and IADL capacity were associated with care hours, and training evidence focused partly on secondary health condition knowledge. Use as support-needs and training rationale, not as disease-background or intervention-effectiveness evidence.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: In a cross-sectional SCI dyad study, bladder dysfunction, UTIs, pressure injuries, chronic pain, and functional independence were associated with caregiver burden dimensions, supporting dyadic secondary-condition prevention and self-management support.
 
 ## Design Implications
 
@@ -39,6 +41,8 @@ People with chronic conditions and disabilities may need long-term self-manageme
 - Evaluation should specify whether a system changes care-recipient disease management, caregiver activities, caregiver burden, or health care utilization.
 - In dementia contexts, caregiver-supported disease management must be distinguished from care-recipient self-management because cognitive impairment may change autonomy, consent, and support needs.
 - In neurorehabilitation contexts, biomarker tracking should distinguish monitoring or stratification from validated intervention targets.
+- For SCI, reducing unnecessary caregiving hours may require care-recipient independence support and secondary-condition prevention, but intervention evidence remains limited.
+- SCI secondary-condition support should evaluate both care-recipient health/function outcomes and caregiver workload or burden dimensions.
 
 ## Gaps
 

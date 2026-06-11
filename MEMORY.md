@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Research Wiki Memory
@@ -112,6 +112,16 @@ Monthly PubMed integrated source:
 - `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
 
 A useful next step is a later `cg_system_core` staged ingest for the next branch of the updated core list, likely SCI caregiver sources, gynecologic cancer/cancer caregiver sources, or the grouped AI-agent/implementation framework sources, or another future monthly PubMed triage when new monthly papers arrive. Keep these lanes separate. A later lint/source-status pass should also check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+
+Part 6 pre-ingest planning note:
+
+- Do not look for or create a source 22 PDF in `sources/papers/cg_system_core/`. Source 22 is the NINDS spinal cord injury knowledge website (`https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`) and should be checked only when disease-background knowledge is needed. It is not part of the Part 6 PDF ingest batch and should not be treated as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence.
+
+Part 6 completed SCI caregiver problem-solving sources:
+
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Behaviour Research and Therapy RCT of individualized problem-solving training delivered through monthly videoconferencing for family caregivers of people with SCI. Use as SCI caregiver telehealth/problem-solving intervention evidence with caregiver depression and care-recipient social-functioning signals, while preserving high-attrition, mechanism, fidelity, and technology-era limits.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Journal of Clinical Psychology RCT of brief PST plus education for recent-onset SCI family caregivers. Use as first-year SCI caregiver transition and problem-solving process evidence; it supports reduced dysfunctional problem-solving style, not caregiver depression effectiveness, and cannot isolate PST from education, information, and staff attention.
+- `2016_smith_caregiving-services-sci-systematic-review`: Spinal Cord PRISMA-guided systematic review of SCI caregiving services, including informal/formal care, care hours, functional predictors, service quality gaps, and caregiver/attendant training. Use as SCI caregiving service-structure evidence, not as the main caregiver burden synthesis because caregiver burden and lived-experience studies were intentionally excluded.
 
 Part 5 completed dementia caregiver sources after the updated core-list trim:
 
@@ -234,6 +244,7 @@ Source-backed SCI caregiver notes:
 - Reported burdens included body pain, sleeplessness, tiredness, physical weakness, sickness, reduced ability to work, and financial strain.
 - Coping included acceptance, personal care, hope, religious practices, social support, family financial help, childcare or business help, and encouragement.
 - Use this source as condition-specific qualitative evidence and design rationale for SCI caregiver onboarding, assessment, training, counselling/social support, financial/resource navigation, and low-burden self-care support. Do not use it as prevalence or intervention-effectiveness evidence.
+- Use Smith 2016 separately for SCI care-service structure, care hours, formal/informal care mix, and caregiver/attendant training gaps; pair it with Mohammed 2023 or other burden/lived-experience sources when making caregiver distress claims.
 
 Eighth integrated source:
 
@@ -320,6 +331,23 @@ Source-backed part 5 dementia caregiver notes:
 - Bressan 2020 closes the dementia caregiver needs anchor for section 3. It organizes home-care dementia caregiver needs around being supported, receiving accessible and personalized information, being trained and educated to manage changes, and finding balance.
 - Ruggiano 2021 closes the dementia chatbot anchor for section 3. It supports cautious chatbot function/quality, privacy, safety, evidence-provenance, accessibility, escalation, and end-user-evaluation requirements, but not chatbot effectiveness, caregiver burden reduction, clinical safety, RAG/LLM effectiveness, or current app-market claims.
 - These sources complete the narrowed dementia/ADRD caregiver Tier 1 branch in the updated core reference plan. AHRQ 2020 remains a future potential reference only and is skipped for now because it is over 500 pages.
+
+Part 6 SCI caregiver integrated sources:
+
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Behaviour Research and Therapy randomized trial of individualized problem-solving training delivered by monthly videoconferencing for SCI caregivers.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Journal of Clinical Psychology randomized trial of brief problem-solving training plus education for recent-onset SCI caregivers.
+- `2016_smith_caregiving-services-sci-systematic-review`: Spinal Cord systematic review of caregiving services in SCI.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: Topics in Spinal Cord Injury Rehabilitation cross-sectional dyad study on care-recipient secondary conditions and SCI caregiver burden dimensions.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: Topics in Spinal Cord Injury Rehabilitation mixed-methods study on coping, social support, unmet needs, and caregiver well-being in SCI dyads.
+
+Source-backed SCI caregiver notes:
+
+- Elliott 2008 supports remote/videoconference caregiver problem-solving support with caregiver depression and care-recipient social-functioning signals, but high attrition and unclear mechanisms limit broad effectiveness claims.
+- Elliott and Berry 2009 supports brief PST plus education for dysfunctional problem-solving style in recent-onset SCI caregivers, not caregiver depression effectiveness.
+- Smith 2016 supports SCI caregiving service structure, formal/informal care, care hours, functional predictors, caregiver/attendant training, and service-quality gaps. It excluded caregiver burden studies and should not be used as the primary caregiver burden synthesis.
+- Conti 2019 supports SCI secondary-condition burden mechanisms, especially bladder dysfunction, UTIs, pressure injuries, chronic pain, functional independence, care hours, and caregiving duration. It is cross-sectional correlational evidence, not causal or intervention-effectiveness evidence.
+- Espino 2022 supports SCI caregiver protective-factor and unmet-needs logic around coping/problem-solving orientation, social support, respite, system navigation, caregiver mental/physical health red flags, and shared future planning. Its caregiver profiles are exploratory, not validated triage categories.
+- None of the Part 6 SCI caregiver sources are AI-agent, smart-home, autonomous care, or SCI disease-background evidence. Source 22 remains the NINDS SCI website for disease-background checks only.
 
 Standalone event-notes ingest:
 

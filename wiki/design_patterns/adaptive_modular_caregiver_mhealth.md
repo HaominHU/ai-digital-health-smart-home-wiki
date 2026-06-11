@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-06-04
+last_updated: 2026-06-11
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -26,6 +26,11 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2016_nasem_families-caring-for-an-aging-america`: Caregiver support should start from assessment of caregiver risks, needs, strengths, preferences, capacity, and willingness.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Modules should be classifiable by whether they target clinical knowledge, psychological skills, support seeking, quantity/quality of care, caregiver outcomes, or care-recipient outcomes.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregiver modules should consider onboarding for sudden caregiving entry, ADL/IADL support, physical burden, financial/resource navigation, social support, coping, and training/counselling referral.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver modules can include remotely delivered, problem-tailored coaching, but should track attrition, fidelity, and dyadic outcomes.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: SCI caregiver modules can include brief PST, education, caregiver-requested boosters, and first-year transition support while separating problem-solving style from depression outcomes.
+- `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiver modules can include care-hour tracking, caregiver/attendant training, secondary-condition knowledge, formal/informal care mix, backup-care planning, and long-term changing needs.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver modules can include secondary-condition monitoring prompts, bladder/UTI and pressure-injury routine support, functional-independence context, and burden-dimension tracking, while recognizing the source is correlational.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregiver modules can include problem-solving skill support, social-support routing, respite/resource navigation, caregiver health red-flag screening, and shared future-care planning.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: Advanced ovarian cancer caregiver modules should consider schedule disruption, financial/resource navigation, symptom-management education, respite prompts, self-care support, and interdisciplinary referral pathways.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: Modular systems should be evaluated for reach, efficacy, adoption, implementation, and maintenance, not only module usability or participant satisfaction.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy provides a dementia-specific example of a modular mobile care ecosystem with assessment, tailored symptom support, RAG chatbot, GPS monitoring, care planning, telemedicine links, helpline, self-care, reminders, and peer support.
@@ -60,6 +65,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - HCD-informed accessibility and usability modules.
 - Evaluation instrumentation for activities, outcomes, utilization, and cost.
 - SCI-specific caregiver onboarding and task training.
+- SCI-specific problem-solving coaching, brief booster support, and discharge-to-community transition modules.
+- SCI-specific caregiving service modules for care hours, care quality, secondary-condition knowledge, attendant training, and formal/informal care coordination.
+- SCI-specific secondary-condition and burden modules for bladder/UTI routines, pressure-injury vigilance, chronic pain context, functional independence, and burden dimensions.
+- SCI-specific caregiver well-being modules for coping orientation, social support, respite, system navigation, red flags, and future planning.
 - Financial strain and social support navigation.
 - Advanced cancer symptom-management education and referral pathways.
 - Reach, adoption, implementation, and maintenance instrumentation.
@@ -96,6 +105,11 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2022_hepburn_telesavvy-online-dementia-caregiver-program`.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 - `2026_kingsada_preferences-digital-health-technologies`.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`.
+- `2016_smith_caregiving-services-sci-systematic-review`.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
 
 ## Gaps
 
@@ -103,6 +117,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Needs outcome evidence beyond usability, acceptability, and feasibility.
 - Needs evaluation designs that distinguish module targets, caregiver outcomes, care-recipient outcomes, utilization, and cost.
 - Needs RE-AIM-style evaluation of representativeness, organizational adoption, fidelity, and sustained use.
+- Needs SCI-specific testing of whether secondary-condition, respite, coping, and social-support modules improve meaningful outcomes beyond perceived relevance or usability.
 
 ## Related Pages
 

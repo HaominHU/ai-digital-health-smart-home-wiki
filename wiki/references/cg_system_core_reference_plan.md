@@ -3,7 +3,7 @@ title: Caregiver System Core Reference Plan
 type: reference_plan
 status: draft
 privacy: private
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 evidence_status: planning_only
 ---
 
@@ -37,6 +37,7 @@ The updated core list uses base source numbers through `29`, with additional or 
 - `03` through `15` cover the current foundational, broad digital caregiver support, and narrowed dementia/ADRD Tier 1 branch.
 - The gap between `15` and `19` is intentional in the current folder/list.
 - `19` begins the SCI caregiver branch.
+- `22` is intentionally not a local PDF ingest source. It is the NINDS spinal cord injury knowledge website (`https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`) and should be checked only when disease-background knowledge is needed.
 - `26` is the currently integrated gynecologic cancer caregiver source.
 - `29a`, `29b`, and `29c` are the grouped AI-agent architecture and evaluation support set.
 - `30+` holds already-ingested or supporting sources that remain useful but are no longer Tier 1 base-list items.
@@ -82,13 +83,13 @@ Future potential reference:
 
 | Source | Primary role | Current status |
 |---|---|---|
-| Elliott et al., SCI caregiver problem-solving intervention | Signature SCI caregiver problem-solving support. | future |
-| Elliott et al., SCI caregiver videoconferencing problem-solving training | Signature remote SCI caregiver problem-solving support. | future |
-| Smith et al. 2016, caregiving services in SCI systematic review | SCI caregiver services, care hours, training, and informal-care structure. | future |
+| Elliott et al. 2008, SCI caregiver videoconferencing problem-solving training | Signature remote SCI caregiver problem-solving support. | integrated; source 16 |
+| Elliott and Berry 2009, brief PST for recent-onset SCI caregivers | Signature first-year SCI caregiver problem-solving support. | integrated; source 17 |
+| Smith et al. 2016, caregiving services in SCI systematic review | SCI caregiver services, care hours, training, and informal-care structure. | integrated; source 18 |
 | Mohammed et al. 2023, experiences of SCI caregivers | Current qualitative evidence on SCI caregiver burden. | integrated; source 19 |
-| Conti et al. 2019, SCI caregiver burden | Psychological and physical burden in SCI caregivers. | future |
-| Espino et al. 2022, SCI coping, social support, problem solving | Coping/problem-solving and support factors for SCI caregivers. | future |
-| NINDS / NCBI / MSKTC SCI medical background | Supplemental pathology, rehabilitation, and acute-risk knowledge. | future |
+| Conti et al. 2019, SCI caregiver burden | Psychological and physical burden in SCI caregivers. | integrated; source 20 |
+| Espino et al. 2022, SCI coping, social support, problem solving | Coping/problem-solving and support factors for SCI caregivers. | integrated; source 21 |
+| NINDS spinal cord injury knowledge website | Supplemental disease-background knowledge for SCI pathology, symptoms, rehabilitation, and complications when needed. This is source 22 in the planning list, but there is no local PDF to ingest. Check `https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury` only when disease knowledge is needed; do not treat it as caregiver intervention evidence. | future background check only; no PDF ingest |
 
 ## 5. Gynecologic Cancer and Cancer Caregiver Evidence
 
@@ -121,3 +122,27 @@ Preview-first ingest was completed for these sources after the user's direct ins
 - Source 15: `sources/papers/cg_system_core/15_ruggiano_2021_chatbots_dementia_patients_caregivers.pdf`
 
 Do not treat AHRQ 2020 as a missing immediate part 5 source. It remains only a future potential reference.
+
+## Part 6 Pre-Ingest Notes
+
+- Part 6 should not look for a source 22 PDF. Source 22 is the NINDS spinal cord injury knowledge website at `https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`.
+- Use source 22 only as a disease-background knowledge check when SCI pathology, symptoms, rehabilitation, complications, or other medical background context is needed.
+- Do not include source 22 in the Part 6 PDF ingest batch, and do not treat it as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence unless a later reviewed source directly supports those claims.
+
+## Part 6 Completed Sources
+
+Preview-first ingest was completed for these sources after the user's direct approvals on 2026-06-10 and 2026-06-11:
+
+- Source 16: `sources/papers/cg_system_core/16_elliot_2008_problem_solving_video_conference.pdf`
+- Source 17: `sources/papers/cg_system_core/17_Elliott_2009_brief problem‐solving training for family caregivers of persons with recent‐onset spinal.pdf`
+- Source 18: `sources/papers/cg_system_core/18_smith_2016_caregiving_sci_systematic_review.pdf`
+- Source 20: `sources/papers/cg_system_core/20_conti_2019_secondary_conditions_caregiver_sci.pdf`
+- Source 21: `sources/papers/cg_system_core/21_espino_2022_coping_socialsupport_wellbeing_caregiver_sci.pdf`
+
+Keep sources 16 and 17 bounded to SCI caregiver problem-solving intervention evidence. Source 16 is telehealth/videoconferencing delivery evidence with high-attrition and mechanism limits. Source 17 is brief PST plus education evidence for dysfunctional problem-solving style, not caregiver depression effectiveness.
+
+Source 18 is SCI caregiving service-structure evidence. It should be used for formal/informal care, care hours, functional predictors, training, and service-quality gaps, not as the main SCI caregiver burden synthesis.
+
+Source 20 is SCI caregiver burden-mechanism evidence. It supports associations between care-recipient physical secondary conditions, functional independence, caregiving hours or duration, and caregiver burden dimensions. It is cross-sectional and correlational, not causal or intervention-effectiveness evidence.
+
+Source 21 is SCI caregiver coping, social-support, unmet-needs, and well-being evidence. It supports stratified assessment and support design around problem-solving orientation, social support, respite, system navigation, caregiver health red flags, and future planning. Its caregiver profiles are exploratory, not validated clinical triage categories.

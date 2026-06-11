@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Care Coordination and Shared Access
@@ -32,6 +32,9 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2020_schulz_family-caregiving-for-older-adults`: Caregiver roles include advocacy, care coordination, provider communication, and surrogacy across cumulative care trajectories.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Support-seeking skills include organizational, tactical, recruiting, provider coordination, and resource-navigation skills.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in Ghana reported instrumental roles including transportation, cooking, errands, housekeeping, managing finances, and managing care-recipient business or money.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver PST may affect care-recipient social functioning, so caregiver-support systems should evaluate dyadic effects separately from caregiver outcomes.
+- `2016_smith_caregiving-services-sci-systematic-review`: SCI caregiving services rely heavily on informal care, formal care, paid personal assistance, and self-managed care arrangements; service turnover, backup-care availability, and care quality should be tracked separately from caregiver convenience.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers described navigating health care, insurance, government benefits, caregiver compensation, home/vehicle modifications, respite, peer support, and supplemental care. System navigation itself can be a support need.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends interdisciplinary support, including nursing education, social work, financial and medication assistance, community organization referrals, support groups, and respite.
 - `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth can provide an avenue for caregivers to discuss support needs between scheduled health care visits.
 - `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health interventions can support interactive communication and caregiver-care recipient relationships, but shared access and communication functions still require privacy and role-boundary design.
@@ -78,6 +81,9 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2003_hepburn_savvy-caregiver-transportable-program`.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
 - `2021_ruggiano_chatbots-dementia-caregivers`.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`.
+- `2016_smith_caregiving-services-sci-systematic-review`.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
 
 ## Design Implications
 
@@ -88,6 +94,8 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - For AI-assisted coordination, log retrieved sources, proposed actions, confirmations, and any shared-access changes.
 - For multi-caregiver and provider-connected workflows, make role permissions, consent, and revocation explicit.
 - For dementia resource-navigation and chatbot workflows, distinguish information retrieval from care-plan action, provider communication, emergency response, and formal referral.
+- For SCI care arrangements, track formal/informal care mix, training, backup-care availability, and turnover before assuming that shared-access tools can stabilize care.
+- For SCI resource navigation, distinguish giving caregivers more information from actually reducing coordination burden; referral, compensation, respite, and supplemental-care pathways may require human or organizational support.
 
 ## Gaps
 

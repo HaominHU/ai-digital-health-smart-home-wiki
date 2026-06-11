@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-06-07
+last_updated: 2026-06-11
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -36,6 +36,9 @@ Reusable caregiving challenge hub for supporting caregiver physical health, emot
 - `2016_nasem_families-caring-for-an-aging-america`: Caregiver support policy should address caregiver health, values, social and economic well-being, and risk assessment.
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Caregiver physical health, self-care, sleep, utilization, and economic status were under-measured in caregiver intervention studies.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI caregivers in the Ghanaian study reported body pain, sleeplessness, tiredness, physical weakness, and sickness related to lifting, turning, and constant support.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Brief PST plus education for recent-onset SCI caregivers had cautious signals for physical and social functioning but did not show a depression effect; use as process and functioning evidence, not caregiver health effectiveness evidence.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI caregiver burden was higher with prolonged caregiving, more than 8 hours of daily care, and physical secondary conditions in the care recipient, supporting caregiver health and burden screening around intense care routines.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI caregivers described sleep deprivation, physical health concerns, delayed personal health care, emotional strain, low leisure satisfaction, and mental-health red flags, supporting low-burden caregiver health check-ins.
 - `2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer`: The oncology nursing article recommends that caregivers receive support for caring for themselves, including attention to their own health status and respite from caregiving when possible.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes caregiver self-care resources and psychologist-developed worksheets focused on caregiving identity, burnout, self-care, anticipatory grief, and emotional resilience.
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH II included caregiver Medicare expenditure analysis, supporting caregiver healthcare utilization as an evaluation dimension where data are available.
@@ -76,6 +79,9 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
 - `2020_cheng_meta-review-dementia-caregiver-interventions`.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
 
 ## Design Implications
 
@@ -85,6 +91,7 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - Include privacy and consent for any wearable or passive monitoring data.
 - Evaluate whether caregiver self-care tools improve meaningful health, quality-of-life, sleep, utilization, or economic outcomes rather than only app satisfaction.
 - For dementia caregivers, treat balance, respite, and self-care as support needs and evaluate them separately from knowledge gain, satisfaction, or app engagement.
+- For SCI caregivers, screen for sleep, physical strain, delayed medical care, burden dimensions, and leisure/respite gaps without making self-care tracking another high-effort task.
 
 ## Gaps
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [chronic-conditions, disability]
-last_updated: 2026-06-03
+last_updated: 2026-06-11
 ---
 
 # People with Chronic Conditions and Disabilities
@@ -41,6 +41,11 @@ Do not collapse disability, chronic disease, and aging-related decline into one 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation frames people with chronic conditions and disabilities as the care-recipient population whose functional, medical, and condition-specific needs shape family caregiver support requirements.
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`: Published JMIR evidence describes iMHere 2.0 as an adaptive mHealth system for people with chronic conditions and disabilities whose self-management needs are diverse, change over time, and require long-term engagement support.
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: SCI-specific qualitative evidence from Ghana shows how chronic disability and functional needs can create family caregiver support demands, including ADL/IADL help, transport, bowel/bladder support, and financial strain. Keep claims condition-specific to SCI unless supported by broader sources.
+- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI-specific randomized trial evidence supports home-based telehealth caregiver problem-solving support for severe physical disability contexts, while keeping claims bounded to SCI caregiving and early videoconferencing delivery.
+- `2009_elliott_brief-problem-solving-training-sci-caregivers`: SCI-specific randomized trial evidence supports brief discharge-transition caregiver PST plus education for recent-onset SCI, especially as problem-solving process evidence rather than depression-effectiveness evidence.
+- `2016_smith_caregiving-services-sci-systematic-review`: SCI-specific systematic review evidence links care hours to functional independence, neurological impairment, self-reported disability, and IADL capacity. Use as disability support and service-need evidence, bounded to SCI.
+- `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI-specific dyad evidence links care-recipient secondary physical conditions and functional independence with caregiver burden dimensions, supporting dyadic secondary-condition prevention and caregiver burden assessment.
+- `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI-specific mixed-methods evidence shows that adult SCI dyads' long-term family support needs include care-recipient independence, shared future care planning, social support, respite, resource navigation, and caregiver well-being support.
 - `2001_glasgow_re-aim-framework-chronic-illness-management`: RE-AIM provides a chronic illness management evaluation framework for considering participation, effectiveness, setting adoption, real-world implementation, and long-term maintenance.
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Second lecture notes use aphasia recovery as a chronic-condition/disability neurorehabilitation example where upstream vascular, metabolic, and sensory health; brain-health markers; network mechanisms; and lesion characteristics may jointly shape outcomes. Aphasia is source context here, not a new focused condition overlay.
 
