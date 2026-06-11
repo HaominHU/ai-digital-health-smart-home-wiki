@@ -76,6 +76,12 @@ The user manually handles commits and git management.
 
 Raw source files may be stored locally under `sources/`, but they are ignored by git by default. The tracked wiki should preserve source-derived knowledge through source IDs, source context, evidence labels, and durable Markdown synthesis.
 
+Commit/publish guardrail for ingest previews:
+
+- Do not stage or push `outputs/ingest_previews/` files by default. The user has corrected this error twice. Ingest previews are local-only working artifacts unless the user explicitly asks to publish or track specific preview files in that turn.
+- During caregiver-source ingest commit/push, stage maintained wiki files, evidence pages, citation-memory records, `INDEX.md`, `MEMORY.md`, `LOG.md`, and reference-plan updates, but leave ignored preview artifacts untracked.
+- Do not use `git add -f outputs/ingest_previews/...` unless the user explicitly requests it. Before committing, run `git status --short --ignored` and verify preview files appear as ignored (`!!`), not staged.
+
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Part 5 is completed for the narrowed dementia caregiver block.

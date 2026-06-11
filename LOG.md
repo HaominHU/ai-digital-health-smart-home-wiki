@@ -428,3 +428,9 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Revised the SoTA synthesis so the leading outcomes section describes outcomes of being a caregiver and providing care, while intervention-response logic now sits under a separate informed intervention design section.
 - Files touched: `wiki/overview/caregiver_system_core_sota_synthesis.md`, `LOG.md`.
 - Notes: This preserves the distinction between descriptive caregiving outcomes, care-recipient and dyadic effects, and intervention design logic.
+
+## [2026-06-11] memory | Prevent publishing local ingest previews
+
+- Summary: Added a durable commit/publish guardrail that `outputs/ingest_previews/` files are local-only by default and should not be force-added unless explicitly requested.
+- Files touched: `MEMORY.md`, `LOG.md`.
+- Notes: This was added after the user corrected repeated accidental publication of Part 7 ingest previews. Future commit checks should verify preview files remain ignored (`!!`) rather than staged.
