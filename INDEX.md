@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -26,7 +26,7 @@ The wiki is designed as a Markdown knowledge middleware layer: readable by human
 ## Raw Source Layer
 
 - `sources/papers/`: Published papers and paper notes. Purpose-specific paper lanes can be added under this folder as new source groups emerge.
-- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Part 5 is completed for the narrowed dementia caregiver block.
+- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
 - `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add another hierarchy later only if volume or workflow needs justify it.
 - `sources/reports/`: Reports, dissertations, white papers, and formal documents.
 - `sources/abstracts/`: Abstracts and short publication records.
@@ -59,7 +59,8 @@ Raw sources should be treated as immutable.
 
 ## Overview and Synthesis Pages
 
-- `wiki/overview/caregiver_system_core_sota_synthesis.md`: Living owner-facing SoTA synthesis for the completed `cg_system_core` Tier 1 ingest, summarizing family caregiving outcomes, digital health intervention types/mechanisms/modalities, condition-specific dementia/SCI/gynecological cancer details, evidence boundaries, and research directions to keep current after future ingests.
+- `wiki/overview/domain_map.md`: Top-level architecture, knowledge ownership, and routing page for the whole wiki.
+- `wiki/overview/caregiver_system_core_sota_synthesis.md`: Living owner-facing SoTA synthesis for the current integrated `cg_system_core` evidence, summarizing family caregiving outcomes, digital health intervention types/mechanisms/modalities, condition-specific dementia/SCI/gynecological cancer details, evidence boundaries, and research directions to keep current after future ingests.
 
 ## Source-Backed Evidence Pages
 
@@ -155,6 +156,8 @@ Raw sources should be treated as immutable.
 - `outputs/spec_prompts/`: AI-ready system or study specification prompts.
 - `outputs/query_answers/`: Durable answers worth preserving outside chat.
 - `outputs/lint_reports/`: Wiki health-check reports.
+- `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`: Structure, knowledge, logic, and workflow check that updated the domain map and added living overview/synthesis maintenance guardrails.
+- `outputs/lint_reports/2026-06-17_deep_overview_conflict_compliance_check.md`: Deep overview and knowledge-conflict compliance scan focused on old workflow contamination.
 - `outputs/citation_exports/`: Generated Zotero/EndNote-compatible citation exports, usually RIS.
 
 ## Privacy-Sensitive Space
@@ -163,9 +166,8 @@ Raw sources should be treated as immutable.
 
 Do not store identifiable participant data, PHI, clinical records, or raw sensitive study material unless the user explicitly provides a safe handling policy.
 
-## Initial Conceptual Pages
+## Core Concept Pages
 
-- `wiki/overview/domain_map.md`: Overall research domain map.
 - `wiki/concepts/aging_vs_disease.md`: Distinguishes aging-related decline from disease and disability.
 - `wiki/concepts/caregiver_vs_care_recipient_needs.md`: Separates caregiver needs from care recipient needs.
 - `wiki/concepts/multimorbidity_and_overlapping_needs.md`: Tracks overlapping needs and interacting causes.

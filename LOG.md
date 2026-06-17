@@ -434,3 +434,21 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Added a durable commit/publish guardrail that `outputs/ingest_previews/` files are local-only by default and should not be force-added unless explicitly requested.
 - Files touched: `MEMORY.md`, `LOG.md`.
 - Notes: This was added after the user corrected repeated accidental publication of Part 7 ingest previews. Future commit checks should verify preview files remain ignored (`!!`) rather than staged.
+
+## [2026-06-17] lint | Wiki structure knowledge logic workflow check
+
+- Summary: Ran a wiki-level structure, knowledge, logic, and workflow check focused on stale overview/domain-map evidence, overlapping content ownership, and durable future-ingest behavior.
+- Files touched: `AGENTS.md`, `wiki/overview/domain_map.md`, `wiki/workflows/ingest_source.md`, `wiki/workflows/lint_wiki.md`, `wiki/workflows/query_wiki.md`, `wiki/commands/README.md`, `wiki/commands/ingest_source.md`, `wiki/commands/lint_wiki.md`, `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Added knowledge ownership boundaries and a living overview/synthesis maintenance rule. Future ingests must update affected overview/synthesis/reference-plan/workflow/index/memory pages or log an explicit deferral. `domain_map.md` now acts as a compact evidence map and routing page instead of a stale partial evidence list.
+
+## [2026-06-17] lint | Cleared stale part-based workflow residue
+
+- Summary: Consolidated stale and redundant part-based planning language left from the older staged-ingest workflow into current-state source-status and boundary notes.
+- Files touched: `wiki/references/cg_system_core_reference_plan.md`, `MEMORY.md`, `INDEX.md`, `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`, `LOG.md`.
+- Notes: Removed duplicate pre-ingest/completed-source sections for already integrated SCI and cancer caregiver branches, kept the source 22/source 27 background-only boundaries, and removed the duplicate `domain_map.md` entry from the initial conceptual-page list.
+
+## [2026-06-17] lint | Deep overview conflict compliance check
+
+- Summary: Ran a deep scan of overview, synthesis, reference-plan, workflow, command, memory, index, evidence, and topic pages for old workflow contamination and knowledge conflicts.
+- Files touched: `wiki/overview/domain_map.md`, `wiki/overview/caregiver_system_core_sota_synthesis.md`, `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`, `INDEX.md`, `MEMORY.md`, `outputs/lint_reports/2026-06-17_deep_overview_conflict_compliance_check.md`, `LOG.md`.
+- Notes: Converted `domain_map.md` from a partial evidence map into a routing/governance page, removed remaining current-state `part` wording from memory and Bressan evidence, and found no direct knowledge conflicts around source 22/source 27 boundaries, aging-vs-disease, AI evidence, smart-home effectiveness, or mHealth effectiveness claims.

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 scope: cg_system_core
 ---
 
@@ -13,7 +13,7 @@ scope: cg_system_core
 
 ## Purpose
 
-This page is the living general-knowledge synthesis of the `cg_system_core` Tier 1 ingest. It is for the wiki owner as a research-state map: what the caregiver-system section currently knows, what should be kept in mind when citing the literature, and what design or research directions can be envisioned from the accumulated wiki.
+This page is the living general-knowledge synthesis of the current integrated `cg_system_core` evidence. It is for the wiki owner as a research-state map: what the caregiver-system section currently knows, what should be kept in mind when citing the literature, and what design or research directions can be envisioned from the accumulated wiki.
 
 This is not a clinical recommendation, treatment guide, grant section, manuscript section, or task-specific output. It should be revised after future relevant article ingests, especially when new caregiver intervention trials, implementation studies, AI-enabled caregiver systems, smart-home caregiving studies, or condition-specific evidence are added.
 

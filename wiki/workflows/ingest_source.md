@@ -3,7 +3,7 @@ title: Ingest Source Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-06-04
+last_updated: 2026-06-17
 ---
 
 # Ingest Source Workflow
@@ -49,7 +49,7 @@ Raw source files may be stored locally under `sources/`, but they are ignored by
 
 For paper sources, preserve the purpose-specific lane when assigning or updating source paths. New purpose-specific folders may be created under `sources/papers/` when a stable new source group emerges.
 
-- Use `sources/papers/cg_system_core/` for the ongoing numbered caregiver system-design core citation ingest. Part 4 is completed; part 5 is the next planned staged core ingest.
+- Use `sources/papers/cg_system_core/` for the ongoing numbered caregiver system-design core citation ingest. Check `wiki/references/cg_system_core_reference_plan.md` for the live staged-ingest status, integrated sources, future sources, and background-only source markers.
 - Use `sources/papers/monthly_pubmed/` for monthly PubMed push papers before triage, prioritization, preview, or integration. Keep it flat for now; add a date or topic sub-hierarchy later only if the folder becomes hard to manage.
 - Use top-level `sources/papers/` only for legacy papers, standalone papers, or papers not yet assigned to a purpose-specific lane.
 
@@ -93,13 +93,28 @@ For short quick notes or personal takeaways:
 5. For major sources, create an ingest preview before wiki updates.
 6. Extract source-backed findings, methods, populations, technologies, contexts, limitations, and open questions.
 7. Separate evidence from interpretation, personal insight, and speculative design direction.
-8. Identify relevant wiki targets.
+8. Identify relevant wiki targets and the knowledge owner for each target.
 9. For citation-bearing sources, create or update a citation-memory record under `wiki/references/items/` using `wiki/templates/reference_item_template.md`.
 10. Preserve the original citation text and mark whether the record is RIS export-ready.
 11. Update pages under `wiki/` only after preview confirmation when required.
-12. Update `INDEX.md` if pages or summaries changed.
-13. Update `MEMORY.md` after major milestones.
-14. Append a concise `ingest` entry to `LOG.md`.
+12. Check affected overview and synthesis pages, especially `wiki/overview/domain_map.md`, `wiki/overview/caregiver_system_core_sota_synthesis.md`, and any relevant reference plan. Update them when the source changes high-level knowledge, or record a short deferral reason in `LOG.md`.
+13. Update `INDEX.md` if pages or summaries changed.
+14. Update `MEMORY.md` after major milestones, workflow decisions, or significant wiki growth.
+15. Append a concise `ingest` entry to `LOG.md`.
+
+## Knowledge Ownership Check
+
+Before editing multiple pages, assign each extracted item to its primary owner:
+
+- Source-level findings and evidence limits -> `wiki/evidence/`.
+- Bibliographic metadata, citation text, writing roles, and export readiness -> `wiki/references/items/`.
+- Staged source status, source numbers, and background-only source markers -> relevant reference plans such as `wiki/references/cg_system_core_reference_plan.md`.
+- Cross-wiki state, high-level synthesis, and routing -> `wiki/overview/`.
+- Reusable topic synthesis -> populations, conditions, caregiving challenges, care-recipient needs, technologies, environments, and concepts.
+- Design implications and constraints -> `wiki/design_patterns/`.
+- Gaps and study ideas -> `wiki/research_questions/`.
+
+Do not copy a full source summary into every mapped page. Topic pages should keep concise source-backed implications and links; evidence pages should carry the detailed source picture.
 
 ## Source-Type Extraction Depth
 

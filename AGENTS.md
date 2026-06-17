@@ -75,6 +75,17 @@ Use this architecture when creating, updating, or querying wiki pages:
 - Evidence, interpretation, personal insight, and speculative design direction are separated.
 - Specs and AI-ready prompts are generated from accumulated wiki knowledge.
 
+Knowledge ownership rule:
+
+- `wiki/evidence/` pages own source-level summaries and limits.
+- `wiki/references/items/` pages own citation memory, writing roles, and export readiness.
+- `wiki/overview/` pages own cross-wiki maps and living syntheses; they should not become duplicate source summaries.
+- `wiki/conditions/`, `wiki/populations/`, `wiki/caregiving_challenges/`, `wiki/care_recipient_needs/`, `wiki/technologies/`, and `wiki/environments/` own reusable topic-level synthesis.
+- `wiki/design_patterns/` owns design implications and constraints, clearly labeled as evidence-backed or speculative.
+- `wiki/research_questions/` owns gaps, study ideas, and future research directions.
+
+When new evidence touches a living overview or synthesis page, update that page in the same turn or add a short explicit deferral note to `LOG.md` explaining why it was not updated.
+
 Important distinctions:
 
 - Do not treat disease conditions as normal aging.
@@ -158,7 +169,7 @@ Raw source files may be stored locally under `sources/`, but they are ignored by
 Paper source organization:
 
 - `sources/papers/`: Published paper source layer. Purpose-specific paper lanes may be added under this folder as new source groups emerge.
-- `sources/papers/cg_system_core/`: Example purpose-specific lane for the ongoing key citation set for caregiver system-design evidence ingest. This is the current lane for the numbered caregiver-system core papers; part 4 has been completed and the next planned ingest is part 5.
+- `sources/papers/cg_system_core/`: Example purpose-specific lane for the ongoing key citation set for caregiver system-design evidence ingest. This is the current lane for numbered caregiver-system core papers and related background-only source markers. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map instead of relying on old part numbers in chat context.
 - `sources/papers/monthly_pubmed/`: Example purpose-specific lane for monthly PubMed push papers before they are selected, prioritized, or integrated. Keep this folder flat for now; add a date or topic sub-hierarchy later only when volume justifies it.
 - Papers that remain directly under `sources/papers/` are legacy, standalone, or not yet assigned to one of the purpose-specific lanes.
 
@@ -277,6 +288,8 @@ Major sources require an ingest preview before wiki updates.
 
 For citation-bearing sources, create or update the relevant Markdown citation-memory record under `wiki/references/items/` and mark whether the record is ready for RIS export.
 
+For every ingest, decide whether the source changes any living overview, synthesis, domain map, reference plan, workflow, command, or memory page. If yes, update the affected page. If no, leave a concise `LOG.md` note such as "No overview or synthesis update needed because this source only adds source-level detail already covered by [page]."
+
 ### Query
 
 Answer questions by reading `MEMORY.md`, `INDEX.md`, and relevant wiki pages. Clearly separate evidence-backed claims, interpretation, gaps, and speculative design directions. Cite or point to source-tracked wiki pages when useful.
@@ -285,7 +298,7 @@ If a query produces durable synthesis, ask whether to file it back into the wiki
 
 ### Lint
 
-Periodically check for stale claims, missing source tracking, weak evidence labels, broken links, orphan pages, duplicate concepts, unsupported claims, privacy risks, and conceptual conflation.
+Periodically check for stale claims, missing source tracking, weak evidence labels, broken links, orphan pages, duplicate concepts, unsupported claims, privacy risks, conceptual conflation, and stale living overviews or synthesis pages after later ingests.
 
 Also check whether locally stored raw sources should still be retained. If a source has been well digested into the wiki and does not need to remain locally stored, flag it for the user's review rather than deleting it automatically.
 

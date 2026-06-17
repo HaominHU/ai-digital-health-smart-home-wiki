@@ -52,7 +52,7 @@ The review synthesized four interrelated caregiver need themes:
 
 ## Review-Level Takeaway
 
-Bressan 2020 is the part 5 dementia-needs anchor. It supports trajectory-sensitive caregiver support that combines timely information, practical training, social/emotional support, service navigation, and self-care sustainability.
+Bressan 2020 is the current dementia-needs anchor. It supports trajectory-sensitive caregiver support that combines timely information, practical training, social/emotional support, service navigation, and self-care sustainability.
 
 ## Evidence Limits
 

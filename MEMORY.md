@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Research Wiki Memory
@@ -38,6 +38,17 @@ The wiki must not act as a clinical decision-maker, diagnostic system, treatment
 - `INDEX.md` is the content-oriented map.
 - `LOG.md` is the chronological timeline.
 - `MEMORY.md` is the compressed current-state digest.
+
+Knowledge ownership baseline:
+
+- `wiki/evidence/` pages own source-level summaries and limits.
+- `wiki/references/items/` pages own citation memory, writing roles, and export readiness.
+- `wiki/overview/` pages own cross-wiki maps and living syntheses, not duplicated full source summaries.
+- Topic pages own reusable synthesis for their folder-level concept.
+- `wiki/design_patterns/` owns design implications and constraints.
+- `wiki/research_questions/` owns gaps and study ideas.
+
+After future ingests, check whether `wiki/overview/domain_map.md`, `wiki/overview/caregiver_system_core_sota_synthesis.md`, relevant reference plans, workflow/command files, `INDEX.md`, and `MEMORY.md` need updating. If a living overview or synthesis is affected but not updated, add a short deferral note to `LOG.md`.
 
 ## Domain Model
 
@@ -84,7 +95,7 @@ Commit/publish guardrail for ingest previews:
 
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
-- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Part 5 is completed for the narrowed dementia caregiver block.
+- `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
 - `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add a date or topic sub-hierarchy later only when needed.
 - Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
 
@@ -104,38 +115,37 @@ Use citation-supported brainstorming when the user is developing a manuscript id
 
 When wiki coverage is weak, narrow, missing foundational sources, missing recent state-of-the-art sources, or missing population/condition/technology anchors, external seed search can supplement bibliography-building. Keep searched citations separate from wiki citations, label them as external candidates until reviewed or ingested, and create separate RIS exports for wiki citations and external candidates when files are requested.
 
-## Next Useful Step
+## Current Operating State
 
-Current local abstracts and previously integrated paper source paths have been revised for the updated `sources/papers/cg_system_core/` numbering. The updated core list keeps foundational caregiver theory, broad digital caregiver support, a narrowed dementia/ADRD Tier 1 branch, SCI caregiver evidence, gynecologic cancer/cancer caregiver evidence, and a grouped AI-agent architecture/evaluation set.
+The `sources/papers/cg_system_core/` lane uses `wiki/references/cg_system_core_reference_plan.md` as its live source-status map. Do not infer remaining work from old part numbers or older chat summaries.
 
-`wiki/overview/caregiver_system_core_sota_synthesis.md` is now the living owner-facing SoTA synthesis for the completed `cg_system_core` Tier 1 ingest. Use it as the first high-level map for family caregiving outcomes, digital health intervention types/mechanisms/modalities, condition-specific dementia/SCI/gynecological cancer distinctions, evidence boundaries, and research directions to keep current after future relevant ingests.
+`wiki/overview/caregiver_system_core_sota_synthesis.md` is now the living owner-facing SoTA synthesis for the current integrated `cg_system_core` evidence. Use it as the first high-level map for family caregiving outcomes, digital health intervention types/mechanisms/modalities, condition-specific dementia/SCI/gynecological cancer distinctions, evidence boundaries, and research directions to keep current after future relevant ingests.
 
-Current non-ingested paper status:
+Current lane status:
 
 - No current non-ingested paper remains in `sources/papers/monthly_pubmed/`.
 - `2026_kingsada_preferences-digital-health-technologies`: Kingsada et al. 2026 Health Economics Review scoping review on patient preferences toward digital health technologies has been previewed and integrated from the monthly PubMed lane.
+- SCI caregiver sources 16-18 and 20-21 and gynecologic/cancer caregiver sources 23-25 and 28 have already been integrated; do not describe them as future ingest targets without rechecking the live reference plan.
+- Sources 22 and 27 are background-only web sources, not local PDF ingest targets.
 
 Monthly PubMed integrated source:
 
 - `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
 
-A useful next step is a later `cg_system_core` staged ingest for the next branch of the updated core list, likely SCI caregiver sources, gynecologic cancer/cancer caregiver sources, or the grouped AI-agent/implementation framework sources, or another future monthly PubMed triage when new monthly papers arrive. Keep these lanes separate. A later lint/source-status pass should also check citation export readiness, orphan pages, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+A useful next step is either the next genuinely unintegrated `cg_system_core` branch from the reference plan or a future monthly PubMed triage when new monthly papers arrive. A later lint/source-status pass should also check citation export readiness, orphan pages, stale overviews/syntheses, evidence limits, and whether ignored preview/source artifacts should be retained locally.
 
-Part 6 pre-ingest planning note:
+2026-06-17 structure/workflow check:
 
-- Do not look for or create a source 22 PDF in `sources/papers/cg_system_core/`. Source 22 is the NINDS spinal cord injury knowledge website (`https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`) and should be checked only when disease-background knowledge is needed. It is not part of the Part 6 PDF ingest batch and should not be treated as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence.
+- `wiki/overview/domain_map.md` had become stale after later ingests because its evidence section still listed only two early anchors. It is now a routing and governance page, not a partial evidence synthesis.
+- Future ingest and lint work must check stale living overview/synthesis pages and knowledge ownership boundaries, especially evidence pages vs topic pages vs overview pages vs reference plans vs design patterns.
+- `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md` records the structure, knowledge, logic, and workflow findings.
 
-Part 7 pre-ingest planning note:
+Background-only source boundary:
 
-- Do not look for or create a source 27 PDF in `sources/papers/cg_system_core/`. Source 27 is the NCI PDQ family caregiver professional page (`https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`) and should be checked only when cancer caregiver background, framework, or clinical-context knowledge is needed. It is not part of a Part 7 PDF ingest batch and should not be treated as local PDF evidence, intervention-effectiveness evidence, AI, digital health, or smart-home evidence unless a later reviewed source directly supports those claims.
+- Do not look for or create a source 22 PDF in `sources/papers/cg_system_core/`. Source 22 is the NINDS spinal cord injury knowledge website (`https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`) and should be checked only when disease-background knowledge is needed. It should not be treated as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence.
+- Do not look for or create a source 27 PDF in `sources/papers/cg_system_core/`. Source 27 is the NCI PDQ family caregiver professional page (`https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`) and should be checked only when cancer caregiver background, framework, or clinical-context knowledge is needed. It should not be treated as local PDF evidence, intervention-effectiveness evidence, AI, digital health, or smart-home evidence unless a later reviewed source directly supports those claims.
 
-Part 6 completed SCI caregiver problem-solving sources:
-
-- `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Behaviour Research and Therapy RCT of individualized problem-solving training delivered through monthly videoconferencing for family caregivers of people with SCI. Use as SCI caregiver telehealth/problem-solving intervention evidence with caregiver depression and care-recipient social-functioning signals, while preserving high-attrition, mechanism, fidelity, and technology-era limits.
-- `2009_elliott_brief-problem-solving-training-sci-caregivers`: Journal of Clinical Psychology RCT of brief PST plus education for recent-onset SCI family caregivers. Use as first-year SCI caregiver transition and problem-solving process evidence; it supports reduced dysfunctional problem-solving style, not caregiver depression effectiveness, and cannot isolate PST from education, information, and staff attention.
-- `2016_smith_caregiving-services-sci-systematic-review`: Spinal Cord PRISMA-guided systematic review of SCI caregiving services, including informal/formal care, care hours, functional predictors, service quality gaps, and caregiver/attendant training. Use as SCI caregiving service-structure evidence, not as the main caregiver burden synthesis because caregiver burden and lived-experience studies were intentionally excluded.
-
-Part 5 completed dementia caregiver sources after the updated core-list trim:
+Completed dementia caregiver sources after the updated core-list trim:
 
 - `2020_cheng_meta-review-dementia-caregiver-interventions`: Cheng and Zhang 2020 comprehensive meta-review of dementia caregiver intervention reviews.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Bressan, Visintini, and Palese 2020 mixed-method systematic review of dementia caregiver needs.
@@ -143,9 +153,9 @@ Part 5 completed dementia caregiver sources after the updated core-list trim:
 
 Reference planning file:
 
-- `wiki/references/cg_system_core_reference_plan.md`: Planning-only map for the full caregiver system core reference backbone, including how prior batches connect to part 5 and future theory, dementia, SCI, gynecologic cancer, AI-agent, and implementation/evaluation sources. This file is not canonical citation memory and should not be treated as evidence until individual sources are previewed and integrated.
+- `wiki/references/cg_system_core_reference_plan.md`: Planning-only map for the full caregiver system core reference backbone, including current integrated coverage, future sources, background-only source markers, and writing roles. This file is not canonical citation memory and should not be treated as evidence until individual sources are previewed and integrated.
 
-Part 5 source-gap notes:
+Source-gap notes:
 
 - AHRQ 2020 is intentionally skipped for now because it is very long, over 500 pages, and not practical for this staged ingest batch.
 - Previously integrated but deprioritized material is retained in the wiki and moved to the 30+ source-number range when applicable, rather than being deleted.
@@ -331,20 +341,20 @@ Boundary note:
 
 - These sources strengthen the dementia caregiver intervention, implementation, delivery, and evaluation layer. They should not be treated as AI-agent evidence, smart-home effectiveness evidence, normal-aging evidence, or direct dementia clinical treatment evidence.
 
-Thirteenth integrated batch:
+Current dementia caregiver branch notes:
 
 - `2020_cheng_meta-review-dementia-caregiver-interventions`: BMC Geriatrics comprehensive meta-review of systematic reviews and meta-analyses on nonpharmacological interventions for informal dementia caregivers.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Health and Social Care in the Community mixed-method systematic review of needs among family caregivers of people with dementia living at home.
 - `2021_ruggiano_chatbots-dementia-caregivers`: Journal of Medical Internet Research systematic review of commercially available chatbot functions and quality for people with dementia and caregivers.
 
-Source-backed part 5 dementia caregiver notes:
+Source-backed dementia caregiver notes:
 
 - Cheng 2020 closes the current dementia caregiver intervention synthesis anchor for section 3. It supports outcome-matched intervention logic, with depression more consistently modifiable than burden, anxiety, or social support, and cautions against assuming dyadic, multicomponent, respite, support-group, or technology-delivered approaches are inherently superior.
 - Bressan 2020 closes the dementia caregiver needs anchor for section 3. It organizes home-care dementia caregiver needs around being supported, receiving accessible and personalized information, being trained and educated to manage changes, and finding balance.
 - Ruggiano 2021 closes the dementia chatbot anchor for section 3. It supports cautious chatbot function/quality, privacy, safety, evidence-provenance, accessibility, escalation, and end-user-evaluation requirements, but not chatbot effectiveness, caregiver burden reduction, clinical safety, RAG/LLM effectiveness, or current app-market claims.
 - These sources complete the narrowed dementia/ADRD caregiver Tier 1 branch in the updated core reference plan. AHRQ 2020 remains a future potential reference only and is skipped for now because it is over 500 pages.
 
-Part 6 SCI caregiver integrated sources:
+Current SCI caregiver integrated sources:
 
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Behaviour Research and Therapy randomized trial of individualized problem-solving training delivered by monthly videoconferencing for SCI caregivers.
 - `2009_elliott_brief-problem-solving-training-sci-caregivers`: Journal of Clinical Psychology randomized trial of brief problem-solving training plus education for recent-onset SCI caregivers.
@@ -359,9 +369,9 @@ Source-backed SCI caregiver notes:
 - Smith 2016 supports SCI caregiving service structure, formal/informal care, care hours, functional predictors, caregiver/attendant training, and service-quality gaps. It excluded caregiver burden studies and should not be used as the primary caregiver burden synthesis.
 - Conti 2019 supports SCI secondary-condition burden mechanisms, especially bladder dysfunction, UTIs, pressure injuries, chronic pain, functional independence, care hours, and caregiving duration. It is cross-sectional correlational evidence, not causal or intervention-effectiveness evidence.
 - Espino 2022 supports SCI caregiver protective-factor and unmet-needs logic around coping/problem-solving orientation, social support, respite, system navigation, caregiver mental/physical health red flags, and shared future planning. Its caregiver profiles are exploratory, not validated triage categories.
-- None of the Part 6 SCI caregiver sources are AI-agent, smart-home, autonomous care, or SCI disease-background evidence. Source 22 remains the NINDS SCI website for disease-background checks only.
+- None of these SCI caregiver sources are AI-agent, smart-home, autonomous care, or SCI disease-background evidence. Source 22 remains the NINDS SCI website for disease-background checks only.
 
-Part 7 cancer caregiver integrated sources:
+Current cancer caregiver integrated sources:
 
 - `2019_ugalde_cancer-caregiver-interventions-implementation-potential`: Psycho-Oncology systematic review appraising cancer caregiver intervention studies for implementation potential using Proctor implementation outcomes. Use as broad cancer caregiver implementation-readiness evidence, especially for acceptability, adoption, appropriateness, feasibility, fidelity, cost, caregiver co-design gaps, high-need targeting, eligible-caregiver enrollment gaps, staff training, delivery-resource reporting, and translation-to-practice limits.
 - Do not treat Ugalde 2019 as gynecological-cancer-specific effectiveness evidence, AI-agent evidence, smart-home evidence, mHealth effectiveness evidence, autonomous-care evidence, cancer-treatment evidence, or proof that acceptability or completion equals effectiveness. Its PDF extraction was usable for narrative sections, but long table details should be checked manually before exact included-study claims.
@@ -406,7 +416,7 @@ Source-backed AI method notes:
 - Do not treat either source as healthcare, caregiving, condition-specific, clinical-safety, usability, equity, or intervention-effectiveness evidence.
 - Health-related RAG/ReAct systems need curated source corpora, privacy controls, access control, audit logs, human confirmation, source review, clinical decision boundaries, and RE-AIM-style evaluation before real-world use.
 
-Part 2 integrated sources:
+Current CareBuddy integrated sources:
 
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: Innovation in Aging conference abstract on CareBuddy as a modular multi-agent conversational AI for Alzheimer's care and assistance.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: JMIR Aging development and mixed-methods usability/acceptability study of CareBuddy as a mobile care ecosystem for dementia caregivers.

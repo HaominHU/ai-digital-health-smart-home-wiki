@@ -3,7 +3,7 @@ title: Query Wiki Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-05-18
+last_updated: 2026-06-17
 ---
 
 # Query Wiki Workflow
@@ -34,7 +34,8 @@ Use this workflow for:
 7. Include privacy, security, and human oversight considerations when relevant.
 8. Answer the user's question with file references when useful.
 9. If the answer creates durable knowledge, ask whether to file it back into the wiki unless the user already requested a durable output.
-10. If files are updated, update `INDEX.md` if needed and append a `query` entry to `LOG.md`.
+10. If the query reveals stale overview, synthesis, workflow, index, or memory content, state that clearly and ask whether to update it unless the user already requested a durable check or fix.
+11. If files are updated, update `INDEX.md` if needed and append a `query` entry to `LOG.md`.
 
 ## Answer Standards
 

@@ -3,7 +3,7 @@ title: Caregiver System Core Reference Plan
 type: reference_plan
 status: draft
 privacy: private
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 evidence_status: planning_only
 ---
 
@@ -21,13 +21,15 @@ Use it to connect staged ingest batches, source numbers, missing-source decision
 - `planned`: Local source is available or expected for future preview-first ingest.
 - `skipped_for_now`: Intentionally not included in the immediate ingest batch.
 - `future`: Important core source family, but not currently in this staged batch.
+- `background_only`: Web/background source marker; not a local PDF ingest target.
 
-## Ingest Batch Connection
+## Current Integrated Coverage
 
-- Initial and early core sources: Hu abstract/dissertation, Setiawan 2019, Schulz/Sherwood, Schulz 2020, NASEM 2016, Van Houtven 2011, Mohammed 2023, Hartnett 2016, Glasgow 2001, Lewis 2020, Yao 2023, and CareBuddy sources are already integrated where applicable.
-- Part 3 included stress-process and broad digital caregiver intervention sources such as Aneshensel/Avison 2015, Schulz/Sherwood 2008, Graven 2021, and Zhai 2023.
-- Part 4 closed the first dementia intervention block with REACH II/REACH VA, COPE, Savvy Caregiver, Tele-Savvy, and Walter/Pinquart 2020.
-- Part 5 closed the narrowed dementia caregiver block with Cheng 2020, Bressan 2020, and Ruggiano 2021. AHRQ 2020 remains a future potential reference but is skipped for now because the report is too long for the current staged ingest.
+The currently integrated Tier 1 lane covers foundational caregiver theory and systems framing, broad digital caregiver support, dementia/ADRD caregiver intervention and needs evidence, SCI caregiver evidence, gynecologic cancer and broader cancer caregiver evidence, and selected AI-agent architecture/evaluation references.
+
+Already integrated early/core sources include Hu abstract/dissertation, Setiawan 2019, Schulz/Sherwood 2008, Schulz 2020, NASEM 2016, Van Houtven 2011, Mohammed 2023, Hartnett 2016, Glasgow 2001, Lewis 2020, Yao 2023, CareBuddy sources, Aneshensel/Avison 2015, Graven 2021, Zhai 2023, REACH II/REACH VA, COPE, Savvy Caregiver, Tele-Savvy, Walter/Pinquart 2020, Cheng 2020, Bressan 2020, Ruggiano 2021, Elliott 2008, Elliott/Berry 2009, Smith 2016, Conti 2019, Espino 2022, Ugalde 2019, Becque 2023, Campbell 2024, and Dave 2024.
+
+AHRQ 2020 remains a future potential dementia-care reference but is skipped for now because the report is over 500 pages and not practical for the current staged ingest.
 
 ## Numbering Model
 
@@ -90,7 +92,7 @@ Future potential reference:
 | Mohammed et al. 2023, experiences of SCI caregivers | Current qualitative evidence on SCI caregiver burden. | integrated; source 19 |
 | Conti et al. 2019, SCI caregiver burden | Psychological and physical burden in SCI caregivers. | integrated; source 20 |
 | Espino et al. 2022, SCI coping, social support, problem solving | Coping/problem-solving and support factors for SCI caregivers. | integrated; source 21 |
-| NINDS spinal cord injury knowledge website | Supplemental disease-background knowledge for SCI pathology, symptoms, rehabilitation, and complications when needed. This is source 22 in the planning list, but there is no local PDF to ingest. Check `https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury` only when disease knowledge is needed; do not treat it as caregiver intervention evidence. | future background check only; no PDF ingest |
+| NINDS spinal cord injury knowledge website | Supplemental disease-background knowledge for SCI pathology, symptoms, rehabilitation, and complications when needed. See source-specific boundary notes below. | background_only; source 22; no PDF ingest |
 
 ## 5. Gynecologic Cancer and Cancer Caregiver Evidence
 
@@ -100,23 +102,14 @@ Future potential reference:
 | Becque et al. 2023, supportive interventions for family caregivers of advanced cancer patients | Advanced cancer caregiver support taxonomy and outcome-domain mapping. | integrated; source 24 |
 | Campbell et al. 2024, needs of patients with gynecologic cancer and their caregivers | Direct gynecologic cancer patient-caregiver formative mHealth design evidence. | integrated; source 25 |
 | Hartnett et al. 2016, end-stage ovarian cancer caregiver burden | Advanced/end-stage gynecologic cancer burden. | integrated; source 26 |
-| NCI PDQ 2025, family caregivers professional page | Authoritative cancer caregiver framework and current clinical background. This is source 27 in the planning list, but there is no local PDF to ingest. Check `https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com` only when cancer caregiver background or framework knowledge is needed; do not treat it as a PDF ingest source. | future background check only; no PDF ingest |
+| NCI PDQ 2025, family caregivers professional page | Authoritative cancer caregiver framework and current clinical background. See source-specific boundary notes below. | background_only; source 27; no PDF ingest |
 | Dave et al. 2024, unmet needs of caregivers of patients with cancer | Broad cancer caregiver unmet-needs and patient advocacy ecosystem framing. | integrated; source 28 |
 
-## Part 7 Pre-Ingest Notes
+## Source-Specific Boundary Notes
 
-- Part 7 should not look for or create a source 27 PDF. Source 27 is the NCI PDQ family caregiver professional page at `https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`.
-- Use source 27 only as a cancer caregiver background, framework, or clinical-context check when needed.
-- Do not include source 27 in a Part 7 PDF ingest batch, and do not treat it as local PDF evidence unless a later reviewed source directly supports those claims.
+Source 22 is the NINDS spinal cord injury knowledge website at `https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`. Do not look for or create a source 22 PDF. Use it only as SCI disease-background context when needed; do not treat it as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence.
 
-## Part 7 Completed Sources
-
-Preview-first ingest was completed for this source after the user's direct approval on 2026-06-11:
-
-- Source 23: `sources/papers/cg_system_core/23_ugalde_A systematic review of cancer caregiver interventions  Appraising the potential for.pdf`
-- Source 24: `sources/papers/cg_system_core/24_becque_2023_supportive_interention_caregiver_advanced_cancer.pdf`
-- Source 25: `sources/papers/cg_system_core/25_campbell_2024_needs_mHealth_self_management_focus_group.pdf`
-- Source 28: `sources/papers/cg_system_core/28_dave_2024_Identifying and addressing the needs of caregivers of patients with cancer  evidence on interventions and the role of patient advocacy groups.pdf`
+Source 27 is the NCI PDQ family caregiver professional page at `https://www.cancer.gov/about-cancer/coping/family-friends/family-caregivers-hp-pdq?utm_source=chatgpt.com`. Do not look for or create a source 27 PDF. Use it only as cancer caregiver background, framework, or clinical-context knowledge when needed; do not treat it as local PDF evidence, intervention-effectiveness evidence, AI evidence, digital health evidence, or smart-home evidence unless a later reviewed source directly supports that role.
 
 Keep source 23 bounded to broad cancer caregiver intervention implementation-readiness evidence using Proctor implementation outcomes. It supports claims about acceptability, adoption, appropriateness, feasibility, fidelity, cost, reach/enrollment gaps, caregiver co-design gaps, workforce/training/resource reporting, and translation-to-practice limits. It is not gynecological-cancer-specific effectiveness evidence, AI-agent evidence, smart-home evidence, mHealth effectiveness evidence, autonomous-care evidence, or cancer-treatment evidence.
 
@@ -136,37 +129,3 @@ Keep source 28 bounded to broad cancer caregiver unmet-needs and patient advocac
 | Glasgow et al., RE-AIM | Reach, effectiveness, adoption, implementation, and maintenance. | integrated; grouped source 29c |
 | Damschroder et al., CFIR | Implementation determinants and context. | future |
 | CONSORT-AI / SPIRIT-AI | AI clinical trial and reporting rigor. | future |
-
-## Part 5 Completed Sources
-
-Preview-first ingest was completed for these sources after the user's direct instruction on 2026-06-07:
-
-- Source 13: `sources/papers/cg_system_core/13_cheng_2020_meta_review_dementia_caregivers.pdf`
-- Source 14: `sources/papers/cg_system_core/14_bressan_2020_dementia_caregiver_needs_mixed_method.pdf`
-- Source 15: `sources/papers/cg_system_core/15_ruggiano_2021_chatbots_dementia_patients_caregivers.pdf`
-
-Do not treat AHRQ 2020 as a missing immediate part 5 source. It remains only a future potential reference.
-
-## Part 6 Pre-Ingest Notes
-
-- Part 6 should not look for a source 22 PDF. Source 22 is the NINDS spinal cord injury knowledge website at `https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury`.
-- Use source 22 only as a disease-background knowledge check when SCI pathology, symptoms, rehabilitation, complications, or other medical background context is needed.
-- Do not include source 22 in the Part 6 PDF ingest batch, and do not treat it as caregiver-specific, intervention-effectiveness, digital health, AI, or smart-home evidence unless a later reviewed source directly supports those claims.
-
-## Part 6 Completed Sources
-
-Preview-first ingest was completed for these sources after the user's direct approvals on 2026-06-10 and 2026-06-11:
-
-- Source 16: `sources/papers/cg_system_core/16_elliot_2008_problem_solving_video_conference.pdf`
-- Source 17: `sources/papers/cg_system_core/17_Elliott_2009_brief problem‐solving training for family caregivers of persons with recent‐onset spinal.pdf`
-- Source 18: `sources/papers/cg_system_core/18_smith_2016_caregiving_sci_systematic_review.pdf`
-- Source 20: `sources/papers/cg_system_core/20_conti_2019_secondary_conditions_caregiver_sci.pdf`
-- Source 21: `sources/papers/cg_system_core/21_espino_2022_coping_socialsupport_wellbeing_caregiver_sci.pdf`
-
-Keep sources 16 and 17 bounded to SCI caregiver problem-solving intervention evidence. Source 16 is telehealth/videoconferencing delivery evidence with high-attrition and mechanism limits. Source 17 is brief PST plus education evidence for dysfunctional problem-solving style, not caregiver depression effectiveness.
-
-Source 18 is SCI caregiving service-structure evidence. It should be used for formal/informal care, care hours, functional predictors, training, and service-quality gaps, not as the main SCI caregiver burden synthesis.
-
-Source 20 is SCI caregiver burden-mechanism evidence. It supports associations between care-recipient physical secondary conditions, functional independence, caregiving hours or duration, and caregiver burden dimensions. It is cross-sectional and correlational, not causal or intervention-effectiveness evidence.
-
-Source 21 is SCI caregiver coping, social-support, unmet-needs, and well-being evidence. It supports stratified assessment and support design around problem-solving orientation, social support, respite, system navigation, caregiver health red flags, and future planning. Its caregiver profiles are exploratory, not validated clinical triage categories.

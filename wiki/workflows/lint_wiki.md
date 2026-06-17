@@ -3,7 +3,7 @@ title: Lint Wiki Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-06-17
 ---
 
 # Lint Wiki Workflow
@@ -31,6 +31,10 @@ Health-check the research wiki so it stays accurate, source-tracked, privacy-awa
 - Missing `LOG.md` entries for meaningful changes.
 - Orphan pages under `wiki/`.
 - Duplicate pages or overlapping concepts.
+- Topic pages duplicating full source summaries instead of linking to evidence pages.
+- Stale overview, synthesis, domain-map, reference-plan, workflow, command, index, or memory pages after later ingests.
+- `wiki/overview/domain_map.md` missing major later evidence anchors or trying to serve as a complete evidence synthesis.
+- `wiki/overview/caregiver_system_core_sota_synthesis.md` not reflecting later relevant caregiver-system ingests.
 - Inconsistent YAML frontmatter.
 - Generated outputs that should be digested back into the wiki.
 - Missing citation-memory records for citation-bearing evidence sources.
@@ -47,12 +51,14 @@ Health-check the research wiki so it stays accurate, source-tracked, privacy-awa
 4. Check privacy and healthcare decision boundaries.
 5. Check conceptual distinctions.
 6. Check citation-memory records under `wiki/references/items/` against citation-bearing evidence pages.
-7. Check cross-links and orphan pages.
-8. Check whether raw sources under `sources/` should be retained, moved, or removed after successful digestion.
-9. Report findings first, ordered by severity.
-10. Fix only the issues the user asked to fix, unless the lint task explicitly authorizes fixes.
-11. Do not delete raw sources automatically; flag them for user review.
-12. Append a `lint` entry to `LOG.md` when the lint pass changes files or creates a durable report.
+7. Check overview and synthesis freshness against `LOG.md`, `INDEX.md`, and recent evidence pages.
+8. Check knowledge ownership boundaries: evidence pages vs citation records vs overview/synthesis pages vs topic pages vs design patterns vs research questions.
+9. Check cross-links and orphan pages.
+10. Check whether raw sources under `sources/` should be retained, moved, or removed after successful digestion.
+11. Report findings first, ordered by severity.
+12. Fix only the issues the user asked to fix, unless the lint task explicitly authorizes fixes.
+13. Do not delete raw sources automatically; flag them for user review.
+14. Append a `lint` entry to `LOG.md` when the lint pass changes files or creates a durable report.
 
 ## Suggested Commands
 
@@ -62,6 +68,7 @@ rg -n "TODO|TBD|unknown|missing|gap|needs source|source needed" .
 rg -n "diagnose|treatment|recommend|PHI|participant|patient|clinical" .
 rg -n "normal aging|aging issue|caregiver|care recipient|evidence type" wiki
 rg -n "citation_status|export_ready|Original Citation|RIS Export" wiki/references wiki/templates
+rg -n "last_updated:|domain_map|synthesis|reference_plan|Part [0-9]|next planned|living" AGENTS.md INDEX.md MEMORY.md LOG.md wiki
 ```
 
 ## Required LOG.md Update

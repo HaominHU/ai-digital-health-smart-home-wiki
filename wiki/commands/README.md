@@ -3,7 +3,7 @@ title: Command Templates
 type: command_index
 status: ready
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-06-17
 ---
 
 # Command Templates
@@ -36,4 +36,8 @@ Use them instead of repeating long setup prompts. Long prompts are for major arc
 3. Generate research/design prompt if needed.
 4. Use citation-supported brainstorming when moving from an idea to a manuscript-specific Zotero/EndNote collection.
 5. File durable synthesis back into the wiki when useful.
-6. Run lint periodically.
+6. Run lint periodically, including stale living overviews, synthesis pages, reference plans, workflow files, index, and memory.
+
+## Maintenance Guardrail
+
+When ingesting or linting, check whether `wiki/overview/domain_map.md`, `wiki/overview/caregiver_system_core_sota_synthesis.md`, relevant reference plans, `INDEX.md`, `MEMORY.md`, and workflow or command files need updates. Update affected pages in the same turn, or log an explicit deferral in `LOG.md`.
