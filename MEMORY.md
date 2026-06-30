@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-17
+last_updated: 2026-06-30
 ---
 
 # Research Wiki Memory
@@ -38,6 +38,13 @@ The wiki must not act as a clinical decision-maker, diagnostic system, treatment
 - `INDEX.md` is the content-oriented map.
 - `LOG.md` is the chronological timeline.
 - `MEMORY.md` is the compressed current-state digest.
+
+Assistant infrastructure baseline:
+
+- `AGENTS.md` is the canonical Codex project contract. `CLAUDE.md` exists as a Claude-compatible import/pointer to `AGENTS.md`; avoid duplicating parallel guidance.
+- Keep always-loaded guidance concise and durable. Put repeatable procedures in `wiki/workflows/` and short triggers in `wiki/commands/`; consider `.agents/skills/` only for stable reusable workflows that need progressive disclosure, scripts, examples, or references.
+- Do not treat Codex `.rules` files as a `.claude/rules/` equivalent for path-scoped content instructions; Codex rules are for command approval/sandbox policy. Use nested `AGENTS.md` or `AGENTS.override.md` only when a subtree truly needs stable different guidance.
+- Hooks are for deterministic lifecycle enforcement or audit, not semantic research judgment. Subagents are for explicitly requested or bounded noisy exploration, review, log analysis, or summarization.
 
 Knowledge ownership baseline:
 
@@ -104,6 +111,11 @@ Recommended raw source ID and filename pattern:
 `YYYY-MM-DD_author-or-org_short-title.ext`
 
 Periodic lint checks should flag locally stored raw sources that may be removable after their contents have been well digested into the wiki. Do not delete raw sources automatically.
+
+Health-check trigger distinction:
+
+- When the user says "health check" without "repo", run the wiki knowledge lint in `wiki/workflows/lint_wiki.md`: contradictions, stale claims, structural gaps, knowledge gaps, source tracking, privacy, citation memory, conceptual consistency, and stale overview/synthesis checks.
+- When the user says "repo health check", run `wiki/workflows/repo_health_check.md`: git/worktree status, staged/unstaged/untracked/ignored files, local-only artifact boundaries, branch/upstream state, and publication hygiene. Then ask whether to commit and push; do not commit or push without explicit confirmation.
 
 ## Citation Management Baseline
 

@@ -35,7 +35,7 @@ Prompt generation: research + design + specs
         ↓
 Outputs: briefs, prompts, and durable query answers
         ↓
-Lint: source tracking + privacy + conceptual consistency + future RAG
+Health check: contradictions + stale claims + structural gaps + knowledge gaps
 ```
 
 This project explores how a domain-specific research Wiki can support ongoing scholarship and design reasoning without turning raw notes, study observations, or early ideas into unsupported evidence.
@@ -57,7 +57,8 @@ Core operations:
 
 - **Ingest:** integrate papers, abstracts, reports, documentation, conference notes, presentation notes, and quick research ideas into durable Wiki pages.
 - **Query:** read the index and relevant Wiki pages to generate source-aware answers, comparisons, concept maps, evidence briefs, or research gaps.
-- **Lint:** periodically check for unsupported claims, missing source tracking, weak evidence labels, privacy risks, conceptual conflation, stale paths, and future RAG readiness.
+- **Health check:** periodically run the Karpathy-style wiki knowledge lint for contradictions, stale claims, structural gaps, knowledge gaps, source tracking, weak evidence labels, privacy risks, conceptual conflation, stale paths, and future RAG readiness.
+- **Repo health check:** check repository/worktree/git hygiene and publication safety, then ask whether to commit and push.
 - **Generate prompts:** produce AI-ready research, writing, design, coding-plan, or specification prompts grounded in accumulated Wiki knowledge.
 - **Citation-supported brainstorming:** use wiki citation memory to suggest citations for a manuscript idea, assess coverage quality, optionally supplement with searched external candidate citations, generate an AI feed prompt, and prepare separate Zotero/EndNote-compatible RIS content.
 
@@ -131,7 +132,11 @@ Generate a design/spec prompt for [system idea] using the wiki.
 ```
 
 ```text
-Lint the wiki for missing sources, privacy risks, and conceptual conflation.
+Health check
+```
+
+```text
+Repo health check
 ```
 
 For a paper, report, dissertation, formal document, or other major source, Codex should create an ingest preview first under `outputs/ingest_previews/`, then wait for review before updating the wiki.
@@ -144,6 +149,7 @@ Useful command recipe files:
 - `wiki/commands/quick_note.md`
 - `wiki/commands/ask_wiki.md`
 - `wiki/commands/lint_wiki.md`
+- `wiki/commands/repo_health_check.md`
 - `wiki/commands/generate_research_prompt.md`
 - `wiki/commands/generate_design_spec_prompt.md`
 

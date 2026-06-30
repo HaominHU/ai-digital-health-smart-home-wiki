@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-17
+last_updated: 2026-06-30
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -237,11 +237,16 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/technologies/ai_driven_digital_health.md`
 - `wiki/technologies/smart_home_technologies.md`
 
+## Environment Pages
+
+- `wiki/environments/home.md`
+
 ## Workflows
 
 - `wiki/workflows/ingest_source.md`
 - `wiki/workflows/query_wiki.md`
-- `wiki/workflows/lint_wiki.md`
+- `wiki/workflows/lint_wiki.md`: Default `health check`; Karpathy-style wiki knowledge lint for contradictions, stale claims, structural gaps, knowledge gaps, source tracking, privacy, and conceptual consistency.
+- `wiki/workflows/repo_health_check.md`: `repo health check`; repository/worktree/git hygiene before asking whether to commit and push.
 - `wiki/workflows/generate_research_prompt.md`
 - `wiki/workflows/generate_design_spec_prompt.md`
 - `wiki/workflows/citation_supported_brainstorming.md`
@@ -252,7 +257,8 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/commands/ingest_source.md`
 - `wiki/commands/quick_note.md`
 - `wiki/commands/ask_wiki.md`
-- `wiki/commands/lint_wiki.md`
+- `wiki/commands/lint_wiki.md`: Default `health check`.
+- `wiki/commands/repo_health_check.md`: `repo health check`.
 - `wiki/commands/generate_research_prompt.md`
 - `wiki/commands/generate_design_spec_prompt.md`
 - `wiki/commands/citation_supported_brainstorming.md`

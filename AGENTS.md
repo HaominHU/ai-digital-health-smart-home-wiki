@@ -278,6 +278,29 @@ Recommended types:
 
 The user manually handles commits and git management. Do not commit, push, or manage branches unless the user explicitly asks.
 
+## 10.1 Assistant Infrastructure and Context Design
+
+Treat this repo as an agent-readable research operating system. Keep always-loaded instructions durable, concise, and operational; move lower-frequency procedures into workflows, command templates, or skills.
+
+Claude Code and Codex use different names for similar assistant-infrastructure surfaces. For this repo:
+
+- `AGENTS.md` is the canonical Codex project contract. `CLAUDE.md` may import or point to `AGENTS.md` for Claude Code compatibility, but duplicated parallel guidance should be avoided.
+- Directory-specific Codex guidance should use nested `AGENTS.md` or `AGENTS.override.md` when a stable subtree truly needs different rules. Do not invent a `.claude/rules/` equivalent for Codex path rules.
+- Codex `.rules` files are for command approval and sandbox policy, not for wiki content or path-scoped writing guidance.
+- Repeatable workflows belong in `wiki/workflows/` and short user-facing triggers belong in `wiki/commands/`.
+- Reusable agent procedures that need progressive disclosure, examples, scripts, or supporting references may become Codex skills under `.agents/skills/` when the workflow is stable enough to justify it.
+- MCP or connector tools should be used only when live external data or an external action is required.
+- Hooks are for deterministic enforcement or audit at lifecycle points, such as command policy, lightweight validation, or privacy checks. Do not put semantic research judgment or long-running wiki workflows into hooks.
+- Subagents are for explicitly requested or clearly bounded noisy work such as broad read-only exploration, parallel review, log analysis, or summarization. Avoid parallel write-heavy wiki edits unless the user explicitly asks for that workflow and conflict handling is clear.
+
+Context hygiene rules:
+
+- Keep `AGENTS.md` focused on rules that should apply in nearly every session.
+- Keep command output concise when running checks; prefer targeted `rg`, bounded file reads, and summarized test/lint output.
+- For long or multi-phase work, preserve handoff state in the maintained wiki, `LOG.md`, `MEMORY.md`, or an explicit output file rather than relying on chat memory.
+- If a recurring correction is repo-governing, update `AGENTS.md`, `MEMORY.md`, or the relevant workflow after user confirmation.
+- If a recurring correction is task-specific, update the relevant workflow or command template instead of bloating the root instruction file.
+
 ## 11. Core Operations
 
 ### Ingest
@@ -298,11 +321,22 @@ If a query produces durable synthesis, ask whether to file it back into the wiki
 
 ### Lint
 
-Periodically check for stale claims, missing source tracking, weak evidence labels, broken links, orphan pages, duplicate concepts, unsupported claims, privacy risks, conceptual conflation, and stale living overviews or synthesis pages after later ingests.
+When the user says "health check" without the word "repo", run the Karpathy-style wiki knowledge lint workflow. This means checking the maintained wiki itself, not preparing a commit or push.
+
+The default health check must include:
+
+- Contradictions: conflicting claims, incompatible evidence interpretations, or opposing data points across compiled pages.
+- Stale claims: older assertions superseded, narrowed, or contradicted by newer ingested sources.
+- Structural gaps: orphan pages, weak cross-links, missing backlinks, stale index entries, and broken routing between interrelated concepts.
+- Knowledge gaps: important recurring concepts that lack dedicated pages, missing source coverage, and areas that may require external search before stronger claims can be made.
+
+Also periodically check for missing source tracking, weak evidence labels, broken links, duplicate concepts, unsupported claims, privacy risks, conceptual conflation, and stale living overviews or synthesis pages after later ingests.
 
 Also check whether locally stored raw sources should still be retained. If a source has been well digested into the wiki and does not need to remain locally stored, flag it for the user's review rather than deleting it automatically.
 
 Also check for citation-bearing evidence sources that lack reference records, original citation text, evidence labels, or export-readiness status.
+
+When the user says "repo health check", run repository/worktree health checks instead of the wiki knowledge lint by default. A repo health check includes git status, staged/unstaged/untracked files, ignored local-only artifacts, branch/remotes, and obvious infrastructure hygiene. After a repo health check, ask the user whether to commit and push; do not commit or push without explicit confirmation.
 
 ### Generate Downstream Prompts
 

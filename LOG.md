@@ -452,3 +452,15 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Ran a deep scan of overview, synthesis, reference-plan, workflow, command, memory, index, evidence, and topic pages for old workflow contamination and knowledge conflicts.
 - Files touched: `wiki/overview/domain_map.md`, `wiki/overview/caregiver_system_core_sota_synthesis.md`, `wiki/evidence/bressan_2020_dementia_caregiver_needs_mixed_method_review.md`, `INDEX.md`, `MEMORY.md`, `outputs/lint_reports/2026-06-17_deep_overview_conflict_compliance_check.md`, `LOG.md`.
 - Notes: Converted `domain_map.md` from a partial evidence map into a routing/governance page, removed remaining current-state `part` wording from memory and Bressan evidence, and found no direct knowledge conflicts around source 22/source 27 boundaries, aging-vs-disease, AI evidence, smart-home effectiveness, or mHealth effectiveness claims.
+
+## [2026-06-30] workflow | Separated wiki and repo health checks
+
+- Summary: Updated assistant-infrastructure guidance so `health check` means the Karpathy-style wiki knowledge lint, while `repo health check` means repository/worktree/git hygiene followed by confirmation before commit and push.
+- Files touched: `AGENTS.md`, `wiki/workflows/lint_wiki.md`, `wiki/workflows/repo_health_check.md`, `wiki/commands/lint_wiki.md`, `wiki/commands/repo_health_check.md`, `wiki/commands/README.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: Added Claude Code/Codex infrastructure mapping grounded in documented equivalents: `AGENTS.md` as the canonical Codex project contract, `CLAUDE.md` as a compatibility pointer, workflows and commands for repo-specific operations, Codex `.rules` only for command approval/sandbox policy, hooks for deterministic enforcement, and subagents for explicitly requested or bounded noisy work.
+
+## [2026-06-30] lint | Resolved wiki health-check validation findings
+
+- Summary: Fixed stale README health-check wording, added the repo health command to the user-facing command list, and listed the maintained home environment page in the index.
+- Files touched: `README.md`, `INDEX.md`, `LOG.md`.
+- Notes: This resolved the issues found when validating the new `health check` semantics. No maintained-wiki orphan pages or missing frontmatter issues were found in the validation pass.
