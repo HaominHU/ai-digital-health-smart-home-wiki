@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-06-10
+last_updated: 2026-07-02
 ---
 
 # AI-Driven Digital Health
@@ -54,6 +54,8 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Neurorehabilitation analytics should treat brain-health markers, systemic-health measures, sensory status, network metrics, lesion characteristics, and longitudinal outcomes as distinct data layers. AI support may help stratify trials or map trajectories, but prediction, causal inference, and clinical decision-making must remain separate.
 - `2026_kingsada_preferences-digital-health-technologies`: Patient-facing digital health design should account for patient preferences around cost, privacy, convenience, ease of use, data security, personalization, clinician connection, and hybrid digital/in-person support. This is adoption and preference evidence, not AI safety or effectiveness evidence.
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Use as telehealth delivery evidence for remote SCI caregiver coaching, not as AI-agent or smart-home evidence.
+- `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Use as conceptual rationale for GenAI as bounded, human-supervised interactional infrastructure for meaning-centered care in later life. It supports design attention to dignity, life review, narrative fidelity, user-controlled sharing, escalation, and governance, not effectiveness claims.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: Use as caregiver telehealth utilization evidence and caregiver-inclusive digital health access rationale, not as AI-specific evidence.
 
 ## Evidence
 
@@ -77,3 +79,5 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Lecture-note evidence for biomarker-aware neurorehabilitation framing; use for design and trial-stratification rationale, not AI effectiveness or clinical decision support evidence.
 - `2026_kingsada_preferences-digital-health-technologies`: Scoping-review evidence on patient preferences for eHealth, telehealth, telemedicine, and mHealth; use for preference-sensitive adoption and HTA rationale, not clinical effectiveness or caregiver outcome evidence.
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver videoconferencing RCT; use as remote delivery and evaluation-boundary evidence, not AI evidence.
+- `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Perspective article proposing a Sensing-Narrating-Connecting-Governing framework for GenAI-supported meaning-centered care in later life; use as conceptual AI interaction and governance evidence.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: HINTS6 telehealth utilization study among U.S. adults aged 50+; use for caregiver digital health access and multi-participant telehealth rationale, not AI effectiveness.

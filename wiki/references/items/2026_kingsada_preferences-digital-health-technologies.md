@@ -24,7 +24,7 @@ doi: 10.1186/s13561-026-00792-2
 url: https://doi.org/10.1186/s13561-026-00792-2
 zotero_key:
 endnote_record_number:
-source_file: sources/papers/monthly_pubmed/kingsada_2026_preferences_dh_scope_review.pdf
+source_file: sources/papers/monthly_pubmed/adoption_preferences_and_equity/kingsada_2026_preferences_dh_scope_review.pdf
 source_lane: monthly_pubmed
 related_evidence_pages:
   - wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md
@@ -44,7 +44,7 @@ caregiving_challenges: []
 care_recipient_needs: [autonomy, privacy, access]
 writing_roles: [patient-preference evidence, digital health adoption rationale, HTA rationale, preference-methods rationale, privacy-security design rationale]
 tags: [reference, digital-health, patient-preferences, hta, monthly-pubmed]
-last_updated: 2026-06-04
+last_updated: 2026-07-02
 ---
 
 # Preferences Towards Digital Health Technologies

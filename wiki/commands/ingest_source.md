@@ -22,7 +22,7 @@ Read `AGENTS.md`, `MEMORY.md`, `INDEX.md`, and `wiki/workflows/ingest_source.md`
 
 Identify source context, evidence type, privacy level, and whether human review is required.
 
-For major sources, create an ingest preview under `outputs/ingest_previews/` and ask for confirmation before updating wiki pages.
+For major sources, create an ingest preview under `outputs/ingest_previews/` and ask for confirmation before updating wiki pages. Do not treat a broad request to "ingest" as preview approval; pause until the user explicitly approves the specific preview or explicitly waives preview review for that turn.
 
 For short low-risk notes, update the relevant wiki pages directly if source context is clear.
 

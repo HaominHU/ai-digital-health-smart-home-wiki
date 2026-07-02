@@ -4,13 +4,13 @@ type: evidence_summary
 status: ready
 privacy: private
 source_id: 2026_kingsada_preferences-digital-health-technologies
-source_file: sources/papers/monthly_pubmed/kingsada_2026_preferences_dh_scope_review.pdf
+source_file: sources/papers/monthly_pubmed/adoption_preferences_and_equity/kingsada_2026_preferences_dh_scope_review.pdf
 source_lane: monthly_pubmed
 reference_item: wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md
 evidence_type: published evidence
 source_type: scoping review
 tags: [digital-health, patient-preferences, scoping-review, health-economics, hta]
-last_updated: 2026-06-04
+last_updated: 2026-07-02
 ---
 
 # Kingsada 2026 Evidence on Preferences Towards Digital Health Technologies
@@ -99,4 +99,4 @@ For patient-facing or caregiver-adjacent systems, this source supports preferenc
 
 ## Source Citation
 
-- `2026_kingsada_preferences-digital-health-technologies`: Kingsada A, Briones-Piedrafita S, Rapp T, Sicsic J. Preferences towards digital health technologies: a scoping review. Health Economics Review. 2026. DOI: `10.1186/s13561-026-00792-2`. Source file: `sources/papers/monthly_pubmed/kingsada_2026_preferences_dh_scope_review.pdf`.
+- `2026_kingsada_preferences-digital-health-technologies`: Kingsada A, Briones-Piedrafita S, Rapp T, Sicsic J. Preferences towards digital health technologies: a scoping review. Health Economics Review. 2026. DOI: `10.1186/s13561-026-00792-2`. Source file: `sources/papers/monthly_pubmed/adoption_preferences_and_equity/kingsada_2026_preferences_dh_scope_review.pdf`.

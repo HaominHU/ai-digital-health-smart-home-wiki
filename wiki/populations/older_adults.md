@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-06-04
+last_updated: 2026-07-02
 ---
 
 # Older Adults
@@ -31,6 +31,8 @@ Caregiving need among older adults should be linked to functional limitation, co
 - Font size, contrast, and interaction accessibility in digital health tools.
 - Reach and access barriers in intervention delivery, including technology access, transportation, scheduling, referrals, and sustained engagement.
 - Preference-sensitive digital health design, including simplicity, clear explanation, privacy, data security, clinical support, cost, and face-to-face fallback when needed.
+- Meaning, dignity, continuity of self, loneliness, legacy, and relational connection when designing late-life GenAI or conversational support.
+- Aging-in-place smart-home support that distinguishes functional decline, chronic disease, disability, cognitive impairment, and home-environment mismatch from normal aging.
 
 ## Evidence
 
@@ -48,6 +50,9 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `2003_hepburn_savvy-caregiver-transportable-program` and `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Savvy and Tele-Savvy support dementia caregiver training and mastery for later-life dementia contexts, bounded to dementia caregiving rather than age alone.
 - `2020_walter-pinquart_dementia-caregiver-interventions-meta-analysis`: Dementia caregiver intervention effects are relevant to older-adult caregiving because dementia often occurs in later life, but disease and aging should remain conceptually separate.
 - `2026_kingsada_preferences-digital-health-technologies`: Older-adult patient preference evidence for digital health is limited but suggests attention to simple, clearly explained, tailored tools, multimodal education, initial face-to-face interaction, privacy, comfort, and clinical support. Use this as patient-preference context, not as caregiver evidence or evidence that chronic disease is normal aging.
+- `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: A conceptual GenAI perspective argues that late-life mental health support should attend to meaning, dignity, continuity of self, loneliness, and legacy while preserving human supervision, consent, privacy, accessibility, and escalation pathways.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: A systematic review of smart-home technologies for adults aged 65+ supports aging-in-place design around monitoring, safety, independence, chronic disease support, and caregiver/family reassurance, but the evidence is heterogeneous and should not be treated as normal-aging evidence.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: A HINTS6 study of adults aged 50+ found informal caregivers were more likely to receive telehealth, while the oldest adults had lower odds of telehealth receipt; use as older-caregiver access evidence, not proof of telehealth effectiveness.
 
 ## Related Pages
 
@@ -64,3 +69,6 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `wiki/evidence/hepburn_2022_telesavvy_online_dementia_caregiver_program.md`
 - `wiki/evidence/walter_pinquart_2020_dementia_caregiver_interventions_meta_analysis.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
+- `wiki/evidence/chen_2026_generative_ai_meaning_centered_care_later_life.md`
+- `wiki/evidence/zhai_2026_smart_home_technologies_ageing_in_place.md`
+- `wiki/evidence/mahmood_2026_telehealth_informal_caregivers.md`

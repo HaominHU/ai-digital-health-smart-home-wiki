@@ -5,12 +5,13 @@ status: ready
 privacy: private
 source_id: 2020_bressan_dementia-caregiver-needs-mixed-method-review
 source_file: sources/papers/cg_system_core/14_bressan_2020_dementia_caregiver_needs_mixed_method.pdf
+reference_item: wiki/references/items/2020_bressan_dementia-caregiver-needs-mixed-method-review.md
 evidence_type: published evidence
 source_type: mixed-method systematic review
 conditions: [dementia]
 populations: [family caregivers]
 tags: [dementia, caregiver-needs, mixed-method-review, home-care]
-last_updated: 2026-06-07
+last_updated: 2026-07-02
 ---
 
 # Bressan 2020 Dementia Caregiver Needs Mixed-Method Review

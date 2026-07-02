@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -27,7 +27,7 @@ The wiki is designed as a Markdown knowledge middleware layer: readable by human
 
 - `sources/papers/`: Published papers and paper notes. Purpose-specific paper lanes can be added under this folder as new source groups emerge.
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
-- `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add another hierarchy later only if volume or workflow needs justify it.
+- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, and `smart_home_and_ambient_care/`; revise if future papers repeatedly conflict with this taxonomy.
 - `sources/reports/`: Reports, dissertations, white papers, and formal documents.
 - `sources/abstracts/`: Abstracts and short publication records.
 - `sources/conference_notes/`: Conference notes and session takeaways.
@@ -103,6 +103,9 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/koroshetz_2026_neuroscience_takeaways_sci_translation.md`
 - `wiki/evidence/fridriksson_2026_brain_health_aphasia_recovery.md`
 - `wiki/evidence/kingsada_2026_preferences_digital_health_technologies.md`
+- `wiki/evidence/chen_2026_generative_ai_meaning_centered_care_later_life.md`
+- `wiki/evidence/zhai_2026_smart_home_technologies_ageing_in_place.md`
+- `wiki/evidence/mahmood_2026_telehealth_informal_caregivers.md`
 
 ## Citation Memory
 
@@ -141,6 +144,9 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs.md`
 - `wiki/references/items/2024_dave_cancer-caregiver-needs-patient-advocacy-groups.md`
 - `wiki/references/items/2026_kingsada_preferences-digital-health-technologies.md`
+- `wiki/references/items/2026-06-16_chen_generative-ai-meaning-centered-care-later-life.md`
+- `wiki/references/items/2026-06-24_zhai_smart-home-technologies-ageing-in-place.md`
+- `wiki/references/items/2026-06-16_mahmood_telehealth-informal-caregivers.md`
 
 ## Templates
 

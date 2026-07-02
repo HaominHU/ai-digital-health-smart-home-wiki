@@ -5,12 +5,13 @@ status: ready
 privacy: private
 source_id: 2020_cheng_meta-review-dementia-caregiver-interventions
 source_file: sources/papers/cg_system_core/13_cheng_2020_meta_review_dementia_caregivers.pdf
+reference_item: wiki/references/items/2020_cheng_meta-review-dementia-caregiver-interventions.md
 evidence_type: published evidence
 source_type: meta-review
 conditions: [dementia]
 populations: [family caregivers]
 tags: [dementia, caregiver-interventions, meta-review, outcomes]
-last_updated: 2026-06-07
+last_updated: 2026-07-02
 ---
 
 # Cheng 2020 Meta-Review of Dementia Caregiver Interventions

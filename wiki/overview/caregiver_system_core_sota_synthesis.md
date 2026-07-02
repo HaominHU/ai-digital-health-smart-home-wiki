@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-06-17
+last_updated: 2026-07-02
 scope: cg_system_core
 ---
 
@@ -16,6 +16,8 @@ scope: cg_system_core
 This page is the living general-knowledge synthesis of the current integrated `cg_system_core` evidence. It is for the wiki owner as a research-state map: what the caregiver-system section currently knows, what should be kept in mind when citing the literature, and what design or research directions can be envisioned from the accumulated wiki.
 
 This is not a clinical recommendation, treatment guide, grant section, manuscript section, or task-specific output. It should be revised after future relevant article ingests, especially when new caregiver intervention trials, implementation studies, AI-enabled caregiver systems, smart-home caregiving studies, or condition-specific evidence are added.
+
+Adjacent monthly PubMed additions now extend the broader wiki outside the `cg_system_core` lane: Chen and Jin 2026 adds conceptual GenAI interaction and governance rationale for meaning-centered care in later life; Zhai et al. 2026 adds direct smart-home aging-in-place systematic review evidence; Mahmood et al. 2026 adds U.S. national survey evidence on telehealth use among middle-aged and older informal caregivers. Use the dedicated evidence pages for source-level detail and keep these sources distinct from the staged `cg_system_core` reference plan unless they are later promoted into that lane.
 
 ## Umbrella Frame
 
@@ -99,6 +101,8 @@ The `cg_system_core` evidence repeatedly points to several reusable caregiver-sy
 
 Telehealth has the strongest broad caregiver intervention base among digital modalities in the current core. Graven 2021 synthesizes RCTs across chronic conditions, with telephone, web, and combined delivery modes. In SCI, Elliott 2008 supports videoconference-delivered problem-solving support, while Elliott and Berry 2009 supports brief problem-solving plus education around recent-onset SCI transition. In dementia, Tele-Savvy supports online synchronous/asynchronous psychoeducation effects on depression, perceived stress, reactions to behaviors, and mastery.
 
+Mahmood 2026, from the monthly PubMed lane, should be treated separately as telehealth utilization evidence among U.S. informal caregivers aged 50+, not as intervention-effectiveness evidence.
+
 Mechanism: remote access, repeated contact, coaching, psychoeducation, problem solving, and reduced travel burden.
 
 Challenge response: geographically dispersed caregivers, transition-period uncertainty, limited access to in-person caregiver programs, and need for scalable skills training.
@@ -139,6 +143,8 @@ Boundary: advocacy and peer-support framing should not be overread as interventi
 
 The wiki now has two different AI evidence layers. First, caregiver-facing AI system evidence: Ruggiano 2021 reviews dementia chatbot functions and quality but does not show caregiver outcome effectiveness. CareBuddy sources provide dementia caregiver mHealth usability/acceptability and abstract-level multi-agent design evidence, not clinical effectiveness. Hu's abstracts and dissertation provide design rationale for generative AI as an adaptive support layer. Second, technical method sources: Lewis 2020 RAG and Yao 2023 ReAct are architecture references for retrieval-grounded generation and reasoning-plus-action orchestration.
 
+Chen and Jin 2026, from the monthly PubMed lane, adds a conceptual GenAI care-interaction frame for older adults: meaning-centered care should preserve dignity, narrative provenance, user control, human supervision, escalation, and governance. It is not deployed-system or outcome evidence.
+
 Mechanism: source-grounded answers, structured task support, adaptive prompts, resource retrieval, conversational guidance, tool orchestration, and inspectable action paths.
 
 Challenge response: information overload, resource lookup, pre-clinic preparation, caregiver task planning, and condition-tailored education.
@@ -149,11 +155,13 @@ Boundary: AI method papers are not caregiver evidence. RAG and ReAct justify pos
 
 Smart-home evidence is currently more design rationale than effectiveness evidence in the core. NASEM 2016 and Schulz 2020 identify remote monitoring, sensing, telehealth, assistive technology, and linked tools as caregiver-support opportunities. Hu's dissertation includes cameras, GPS, sensors, intelligent agents, and caregiver concerns around cost, setup burden, reliability, and learning curve. CareBuddy adds location monitoring for wandering as dementia caregiver mHealth design rationale.
 
+Zhai et al. 2026, from the monthly PubMed lane, now provides direct smart-home systematic review evidence for aging in place. It supports monitoring, safety, independence, chronic disease support, caregiver/family reassurance, and implementation constraints, while preserving strong limits around heterogeneity and context-specific effectiveness.
+
 Mechanism: passive or semi-passive awareness, location support, environmental fit, reminders, and linked caregiver notification.
 
 Challenge response: safety awareness, wandering/location concern, secondary-complication routines, remote caregiver awareness, and care-recipient independence support.
 
-Boundary: the core does not yet contain strong smart-home effectiveness evidence. Treat smart-home claims as design and implementation logic unless future smart-home-specific studies are ingested.
+Boundary: `cg_system_core` itself still has limited smart-home effectiveness evidence. Use Zhai et al. 2026 as an adjacent monthly PubMed smart-home review, and keep claims bounded by its heterogeneous included studies and implementation limits.
 
 ## Condition-Specific Synthesis
 

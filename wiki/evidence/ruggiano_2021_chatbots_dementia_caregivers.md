@@ -5,13 +5,14 @@ status: ready
 privacy: private
 source_id: 2021_ruggiano_chatbots-dementia-caregivers
 source_file: sources/papers/cg_system_core/15_ruggiano_2021_chatbots_dementia_patients_caregivers.pdf
+reference_item: wiki/references/items/2021_ruggiano_chatbots-dementia-caregivers.md
 evidence_type: published evidence
 source_type: systematic review
 conditions: [dementia]
 populations: [family caregivers, older adults]
 technologies: [chatbots, conversational agents, voice assistants, mobile apps]
 tags: [dementia, chatbots, conversational-agents, caregiver-support, ai]
-last_updated: 2026-06-07
+last_updated: 2026-07-02
 ---
 
 # Ruggiano 2021 Chatbots for Dementia Patients and Caregivers

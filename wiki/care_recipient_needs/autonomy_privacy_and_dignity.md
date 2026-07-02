@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-06-11
+last_updated: 2026-07-02
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -40,6 +40,8 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Care recipients of SCI caregivers receiving PST reported social-functioning gains, supporting separate measurement of care-recipient outcomes when caregiver interventions are evaluated. This should not be treated as direct evidence of care-recipient preference or autonomy.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`: SCI dyads discussed care-recipient independence, adaptive coping, and shared future care planning. Use this as dyadic planning evidence, not as justification for caregiver override, surveillance, or collapsing care-recipient autonomy into caregiver support.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer patients and caregivers wanted private spaces and control over what information is shared with the other dyad member and other family members. Dyadic apps should preserve both patient and caregiver autonomy.
+- `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: GenAI-supported life review and meaning-centered care should preserve user agency, distinguish user words from AI-generated text, avoid false memories, support user control over sharing, and keep human review and escalation pathways explicit.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: Smart-home monitoring for aging in place can support safety and independence but raises privacy, surveillance, consent, and household data-governance concerns that should be separated from caregiver reassurance.
 
 ## Design Implications
 
@@ -52,6 +54,8 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - For dementia chatbots, do not assume that ease of use for a caregiver or successful command completion means the person with dementia understands, consents to, or benefits from the interaction.
 - For SCI caregiver systems, support shared future planning and care-recipient independence while preserving separate consent, autonomy, and preference fields.
 - For gynecologic cancer dyadic apps, support patient-only, caregiver-only, dyadic, and family-sharing modes with explicit consent, granular permissions, and revocable access.
+- For GenAI narrative support, preserve provenance of personal words, allow users to review or delete summaries, and require explicit consent before sharing biographical material with family, caregivers, clinicians, or community workers.
+- For smart-home systems, treat passive sensing, location, activity, sleep, and inferred behavior data as sensitive care-recipient and household data, not merely caregiver convenience data.
 
 ## Related Pages
 

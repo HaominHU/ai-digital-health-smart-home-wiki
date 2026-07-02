@@ -45,7 +45,7 @@ The structure follows the Karpathy-style LLM Wiki pattern in a research-specific
 - `sources/` is the immutable raw source layer.
 - `sources/papers/` can contain purpose-specific paper lanes as source groups emerge.
 - `sources/papers/cg_system_core/` is an example lane for the ongoing numbered core citation set for caregiver system-design ingest.
-- `sources/papers/monthly_pubmed/` is an example flat storage lane for monthly PubMed pushes before triage and integration.
+- `sources/papers/monthly_pubmed/` is a storage lane for monthly PubMed pushes before triage and integration, currently organized by provisional topic-lens subfolders: adoption/preferences/equity, AI interaction and decision support, caregiving support systems, and smart home/ambient care.
 - `wiki/` is the maintained Markdown knowledge layer.
 - `wiki/references/` is the knowledge-level citation-memory layer.
 - `AGENTS.md` is the schema/control layer for Codex behavior.
@@ -139,7 +139,7 @@ Health check
 Repo health check
 ```
 
-For a paper, report, dissertation, formal document, or other major source, Codex should create an ingest preview first under `outputs/ingest_previews/`, then wait for review before updating the wiki.
+For a paper, report, dissertation, formal document, or other major source, Codex should create an ingest preview first under `outputs/ingest_previews/`, then wait for explicit review approval before updating the wiki. A broad request to "ingest" means prepare the source and preview, not integrate into maintained wiki pages, unless preview approval is explicit.
 
 For a short low-risk note, Codex may integrate it directly if source context is clear.
 

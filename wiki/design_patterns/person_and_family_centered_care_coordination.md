@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-centered-care, care-coordination, shared-access, design-pattern]
-last_updated: 2026-06-11
+last_updated: 2026-07-02
 ---
 
 # Person and Family-Centered Care Coordination
@@ -23,6 +23,7 @@ Design care coordination workflows that recognize family caregivers as care part
 - `2003_hepburn_savvy-caregiver-transportable-program`: Savvy supports training caregivers for a dementia caregiving role while requiring facilitator fidelity and organizational support.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer dyadic mHealth design should support both private and shared use, because patients and caregivers each wanted control over what information is shared.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregiver support should recognize caregiver identity, include caregivers in care-team communication when appropriate, and connect caregivers with advocacy, navigation, financial, and counseling resources.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: Telehealth platforms can support family/caregiver participation in appointments, but designs should make participation, information sharing, and after-visit coordination explicit rather than assuming caregiver access.
 
 ## Technology Components
 
@@ -35,6 +36,7 @@ Design care coordination workflows that recognize family caregivers as care part
 - Private patient and caregiver spaces.
 - Granular family-sharing controls.
 - Advocacy-group and community-resource referral pathways.
+- Multi-participant telehealth visit controls and after-visit summary sharing.
 
 ## Design Constraints
 
@@ -43,6 +45,7 @@ Design care coordination workflows that recognize family caregivers as care part
 - Provider-facing systems should avoid assuming caregiver capacity without assessment.
 - Family-centered workflows should not assume all patient-caregiver dyads want the same level of information sharing.
 - Resource navigation should distinguish passive resource lists from closed-loop referral and eligibility support.
+- Telehealth workflows should distinguish inviting a caregiver into a visit from giving that caregiver ongoing access to records, messages, summaries, or care plans.
 
 ## Related Pages
 
@@ -54,3 +57,4 @@ Design care coordination workflows that recognize family caregivers as care part
 - `wiki/evidence/hepburn_2003_savvy_caregiver_transportable_program.md`
 - `wiki/evidence/campbell_2024_gynecologic_cancer_caregiver_mhealth_self_management_needs.md`
 - `wiki/evidence/dave_2024_cancer_caregiver_needs_patient_advocacy_groups.md`
+- `wiki/evidence/mahmood_2026_telehealth_informal_caregivers.md`

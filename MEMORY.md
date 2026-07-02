@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # Research Wiki Memory
@@ -96,6 +96,7 @@ Raw source files may be stored locally under `sources/`, but they are ignored by
 
 Commit/publish guardrail for ingest previews:
 
+- Major-source ingest requires explicit preview review and approval before maintained-wiki integration. A broad request to "ingest" authorizes source storage and preview preparation only; do not treat it as approval to update wiki pages unless the user explicitly approves the specific preview or waives review for that turn.
 - Do not stage or push `outputs/ingest_previews/` files by default. The user has corrected this error twice. Ingest previews are local-only working artifacts unless the user explicitly asks to publish or track specific preview files in that turn.
 - During caregiver-source ingest commit/push, stage maintained wiki files, evidence pages, citation-memory records, `INDEX.md`, `MEMORY.md`, `LOG.md`, and reference-plan updates, but leave ignored preview artifacts untracked.
 - Do not use `git add -f outputs/ingest_previews/...` unless the user explicitly requests it. Before committing, run `git status --short --ignored` and verify preview files appear as ignored (`!!`), not staged.
@@ -103,7 +104,7 @@ Commit/publish guardrail for ingest previews:
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
-- `sources/papers/monthly_pubmed/`: Example lane for flat monthly PubMed push storage before triage, selection, preview, or integration. Add a date or topic sub-hierarchy later only when needed.
+- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, and `smart_home_and_ambient_care/`. Assign by the paper's primary contribution and revise when future papers repeatedly conflict with the taxonomy.
 - Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
 
 Recommended raw source ID and filename pattern:
@@ -135,8 +136,11 @@ The `sources/papers/cg_system_core/` lane uses `wiki/references/cg_system_core_r
 
 Current lane status:
 
-- No current non-ingested paper remains in `sources/papers/monthly_pubmed/`.
+- Current monthly PubMed source organization uses provisional topic-lens subfolders rather than a flat folder.
 - `2026_kingsada_preferences-digital-health-technologies`: Kingsada et al. 2026 Health Economics Review scoping review on patient preferences toward digital health technologies has been previewed and integrated from the monthly PubMed lane.
+- `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Chen and Jin 2026 Frontiers in Psychiatry perspective on GenAI as interactional infrastructure for meaning-centered care in later life has been integrated from the monthly PubMed lane. Use as conceptual AI interaction, dignity, life-review, and governance rationale, not as effectiveness evidence.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: Zhai et al. 2026 Australasian Journal on Ageing systematic review on smart home technologies for ageing in place has been integrated from the monthly PubMed lane. Use as direct smart-home evidence with heterogeneity and implementation limits.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: Mahmood et al. 2026 Frontiers in Public Health HINTS6 study on telehealth utilization among middle-aged and older informal caregivers has been integrated from the monthly PubMed lane. Use as caregiver telehealth utilization evidence, not intervention-effectiveness evidence.
 - SCI caregiver sources 16-18 and 20-21 and gynecologic/cancer caregiver sources 23-25 and 28 have already been integrated; do not describe them as future ingest targets without rechecking the live reference plan.
 - Sources 22 and 27 are background-only web sources, not local PDF ingest targets.
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [smart-home, sensing, caregiving, technology-lens]
-last_updated: 2026-06-01
+last_updated: 2026-07-02
 ---
 
 # Smart Home Technologies
@@ -31,6 +31,7 @@ Track privacy in the home, consent among multiple household members, passive sen
 - `2023_zhai_digital-health-interventions-support-family-caregivers`: The digital health review includes wearable, telehealth, and assistive/telecare context relevant to smart-home-adjacent design, but it should not be treated as direct smart-home effectiveness evidence.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct can inform speculative reasoning-plus-action orchestration patterns, but should not be used to justify autonomous home actions or safety-critical automation.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes GPS location monitoring for wandering, Google Maps location display, navigation to last detected location, and battery reminders; this supports location-safety design rationale, not proof of safety effectiveness.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: A systematic review of 30 recent smart-home studies for adults aged 65+ provides direct smart-home evidence across physiological monitoring, functional/emergency detection, safety, social interaction, cognitive support, chronic disease support, caregiver/family reassurance, and implementation barriers.
 
 ## Design Implications
 
@@ -41,3 +42,4 @@ Track privacy in the home, consent among multiple household members, passive sen
 - Use RE-AIM-style questions to test whether smart-home systems are accessible, adoptable, maintainable, and feasible in routine home contexts.
 - If AI agents interact with smart-home devices, constrain actions through explicit permissions, audit logs, human confirmation, and emergency boundaries.
 - Treat GPS/location monitoring as privacy-sensitive care-recipient data requiring consent, role boundaries, access control, and clear escalation expectations.
+- For aging-in-place smart-home systems, prioritize integrated functions that fit everyday care routines while explicitly evaluating privacy, cost, reliability, digital literacy, caregiver/family response burden, and long-term outcomes.

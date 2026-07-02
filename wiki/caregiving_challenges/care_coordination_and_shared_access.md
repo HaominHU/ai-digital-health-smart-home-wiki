@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-06-11
+last_updated: 2026-07-02
 ---
 
 # Care Coordination and Shared Access
@@ -42,6 +42,7 @@ Reusable caregiving challenge hub for coordinating care tasks, sharing informati
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregivers need recognition as care-team members, appropriate access to information, structured clinician communication, telehealth participation, and navigation support from health systems and patient advocacy groups.
 - `2021_graven_telehealth-interventions-family-caregivers-chronic-conditions`: Telehealth can provide an avenue for caregivers to discuss support needs between scheduled health care visits.
 - `2023_zhai_digital-health-interventions-support-family-caregivers`: Digital health interventions can support interactive communication and caregiver-care recipient relationships, but shared access and communication functions still require privacy and role-boundary design.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: U.S. informal caregivers aged 50+ were more likely than non-caregivers to receive telehealth and more often cited the ability to include family or other caregivers in appointments, supporting multi-participant visit and after-visit coordination design.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct provides technical rationale for stepwise tool use and inspectable action traces, but it should only inform speculative coordination support under strict action-space limits.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes care planning, centralized provider messaging, QR code multi-caregiver coordination, telemedicine links, care center transfer workflows, provider interface, and moderator interface for dementia caregiver support.
 - `2025_hasan_carebuddy-multi-agent-conversational-ai-alzheimers`: The abstract reports specialized agents for appointment scheduling and reminders, coordinated by a central orchestrator.
@@ -92,6 +93,7 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`.
 
 ## Design Implications
 
@@ -108,6 +110,7 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - For advanced cancer caregiver support, decide whether coordination should be individual, dyadic, family-oriented, or peer/group-oriented before designing shared tasks or access.
 - For gynecologic cancer dyadic apps, avoid universal sharing defaults; support separate private spaces, explicit sharing choices, and revocable access for patients, caregivers, and other family members.
 - For broad cancer caregiver navigation, distinguish resource lists from closed-loop referral, eligibility support, financial assistance, legal/employment guidance, and patient advocacy group linkage.
+- For caregiver-inclusive telehealth, support explicit multi-participant workflows, scheduling convenience, role clarity, visit summaries, and after-visit information sharing without assuming caregivers should automatically receive all care-recipient information.
 
 ## Gaps
 

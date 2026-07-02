@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-06-11
+last_updated: 2026-07-02
 ---
 
 # Monitoring and Safety Awareness
@@ -24,6 +24,7 @@ Reusable caregiving challenge hub for awareness of safety, risk, daily status, a
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: SCI secondary conditions such as bladder dysfunction, UTIs, pressure injuries, and chronic pain were associated with caregiver burden dimensions, making monitoring and prevention routines caregiver workload issues as well as care-recipient health issues.
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy includes GPS location monitoring for wandering, Google Maps display of the last detected location, navigation to the tracked location, and battery reminders for the tracker.
 - `2010_gitlin_cope-dementia-home-based-intervention`: COPE included home safety, patient capability assessment, medication review, and screening for treatable medical conditions, supporting safety awareness without relying on passive sensing.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: A smart-home systematic review found that monitoring, functional/emergency detection, and safety functions can support aging in place and caregiver/family reassurance, but heterogeneous evidence and implementation barriers limit broad effectiveness claims.
 
 ## Care Recipient Connection
 
@@ -45,6 +46,7 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 - `2010_gitlin_cope-dementia-home-based-intervention`.
 - `2016_smith_caregiving-services-sci-systematic-review`.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`.
 
 ## Design Implications
 
@@ -54,3 +56,4 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 - For location tracking, explicitly handle care-recipient consent, access permissions, data retention, and caregiver escalation expectations.
 - For SCI secondary-condition support, separate caregiver/attendant knowledge and monitoring responsibilities from autonomous clinical decision-making.
 - For SCI secondary-condition monitoring, track caregiver workload and burden dimensions rather than assuming more vigilance is always acceptable or beneficial.
+- For smart-home alerts and monitoring, define who receives alerts, who is responsible for response, how false positives/negatives are handled, and whether the system reduces or increases caregiver vigilance burden.

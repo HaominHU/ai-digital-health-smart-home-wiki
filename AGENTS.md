@@ -170,7 +170,7 @@ Paper source organization:
 
 - `sources/papers/`: Published paper source layer. Purpose-specific paper lanes may be added under this folder as new source groups emerge.
 - `sources/papers/cg_system_core/`: Example purpose-specific lane for the ongoing key citation set for caregiver system-design evidence ingest. This is the current lane for numbered caregiver-system core papers and related background-only source markers. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map instead of relying on old part numbers in chat context.
-- `sources/papers/monthly_pubmed/`: Example purpose-specific lane for monthly PubMed push papers before they are selected, prioritized, or integrated. Keep this folder flat for now; add a date or topic sub-hierarchy later only when volume justifies it.
+- `sources/papers/monthly_pubmed/`: Example purpose-specific lane for monthly PubMed push papers before they are selected, prioritized, or integrated. Use provisional topic-lens subfolders: `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, and `smart_home_and_ambient_care/`. Assign by the paper's primary contribution, not every theme it touches; revisit the taxonomy when future papers conflict with these categories.
 - Papers that remain directly under `sources/papers/` are legacy, standalone, or not yet assigned to one of the purpose-specific lanes.
 
 Use this default source ID and raw filename convention:
@@ -211,7 +211,9 @@ If evidence is missing, mark it clearly as a gap.
 
 ## 8. Human Review Rules
 
-For major sources such as papers, reports, dissertations, formal documentation, policy documents, or important files, produce an ingest preview before updating the wiki.
+For major sources such as papers, reports, dissertations, formal documentation, policy documents, or important files, produce an ingest preview and wait for explicit user approval of that preview before updating the wiki.
+
+Do not infer preview approval from broad wording such as "ingest this paper", "start ingesting", or a task list that includes ingest as a later step. Treat those requests as authorization to store or reference the source and prepare a preview, not as authorization to integrate the source into maintained wiki pages. Only skip the approval pause when the user explicitly says they have reviewed and approved the specific preview, or explicitly waives preview review for that turn.
 
 For short quick notes or personal takeaways, automatic updates are acceptable if source context is clear and risk is low. Still log the source and mark the evidence type clearly.
 
@@ -227,7 +229,7 @@ Core folders:
 
 - `sources/`: Raw source layer. Preserve source files and source notes. Do not modify after saving except to add separate metadata files.
 - `sources/papers/cg_system_core/`: Example purpose-specific lane for numbered caregiver system-design core citation papers in the ongoing staged ingest.
-- `sources/papers/monthly_pubmed/`: Example purpose-specific lane for flat monthly PubMed push paper storage before triage or ingest.
+- `sources/papers/monthly_pubmed/`: Example purpose-specific lane for monthly PubMed push paper storage before triage or ingest, organized by provisional topic-lens subfolders when papers accumulate.
 - `wiki/`: Maintained research wiki layer.
 - `outputs/`: Generated artifacts such as ingest previews, evidence briefs, research prompts, design prompts, spec prompts, query answers, and lint reports.
 - `private_notes/`: Sensitive scratch space and private working notes.
@@ -307,7 +309,7 @@ Context hygiene rules:
 
 Read a source or note, preserve the raw source, extract source-backed knowledge, produce a preview when needed, and update relevant wiki pages.
 
-Major sources require an ingest preview before wiki updates.
+Major sources require an ingest preview and explicit user approval before wiki updates.
 
 For citation-bearing sources, create or update the relevant Markdown citation-memory record under `wiki/references/items/` and mark whether the record is ready for RIS export.
 

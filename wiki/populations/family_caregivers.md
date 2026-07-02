@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-06-11
+last_updated: 2026-07-02
 ---
 
 # Family Caregivers
@@ -50,6 +50,7 @@ Primary population focus for this wiki.
 - Advanced cancer caregiver supportive-intervention needs that distinguish individual caregiver, patient-caregiver dyad, family, and peer-group support formats, as well as psycho-emotional, social, daily-functioning, physical, spiritual, and quality-of-life outcomes.
 - Gynecologic cancer caregiver mHealth design needs around curated information, symptom-urgency self-triage, trajectory-tailored support, expert/peer interaction, private spaces, and granular sharing controls.
 - Broad cancer caregiver unmet needs across informational, relationship/communication, emotional, and practical/financial domains, including patient advocacy group resource and navigation support.
+- Telehealth access and use among middle-aged and older informal caregivers, including convenience, multi-participant visit support, and coordinated after-visit information.
 
 ## Evidence
 
@@ -84,6 +85,8 @@ Primary population focus for this wiki.
 - `2020_cheng_meta-review-dementia-caregiver-interventions`: The meta-review supports dementia caregiver intervention taxonomy and outcome-matching logic, with depression more consistently modifiable than burden, anxiety, or social support.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: The mixed-method review anchors dementia caregiver needs around being supported, receiving accessible and personalized information, being trained to manage changes, and finding balance.
 - `2021_ruggiano_chatbots-dementia-caregivers`: The systematic review supports cautious chatbot design and evaluation requirements for dementia caregivers and people with dementia, while noting no peer-reviewed outcome evidence for included apps.
+- `2026-06-16_mahmood_telehealth-informal-caregivers`: A HINTS6 study found that U.S. informal caregivers aged 50+ were more likely than non-caregivers to receive telehealth services and more often valued convenience and including family or other caregivers in appointments. Use as utilization evidence, not telehealth effectiveness evidence.
+- `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: A smart-home systematic review reports caregiver/family reassurance as one potential benefit of ageing-in-place technologies, while implementation barriers and caregiver response burden require careful tracking.
 
 ## Related Pages
 
