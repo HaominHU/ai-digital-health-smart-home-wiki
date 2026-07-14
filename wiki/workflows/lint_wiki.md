@@ -3,7 +3,7 @@ title: Wiki Health Check Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-06-30
+last_updated: 2026-07-14
 ---
 
 # Wiki Health Check Workflow
@@ -52,6 +52,8 @@ Use `wiki/workflows/repo_health_check.md` only when the user says "repo health c
 - `wiki/overview/caregiver_system_core_sota_synthesis.md` not reflecting later relevant caregiver-system ingests.
 - Inconsistent YAML frontmatter.
 - Generated outputs that should be digested back into the wiki.
+- Generated outputs whose tracked/local-only status conflicts with `outputs/README.md`.
+- Tracked lint reports that contain only routine no-change output, or meaningful durable outputs that are missing `INDEX.md` routing or a `LOG.md` entry.
 - Missing citation-memory records for citation-bearing evidence sources.
 - Reference records missing original citation text, source IDs, evidence type, or export-readiness status.
 - RIS exports that appear to contain invented or incomplete metadata.
@@ -73,10 +75,11 @@ Use `wiki/workflows/repo_health_check.md` only when the user says "repo health c
 11. Check overview and synthesis freshness against `LOG.md`, `INDEX.md`, and recent evidence pages.
 12. Check knowledge ownership boundaries: evidence pages vs citation records vs overview/synthesis pages vs topic pages vs design patterns vs research questions.
 13. Check whether raw sources under `sources/` should be retained, moved, or removed after successful digestion.
-14. Report findings first, ordered by severity.
-15. Fix only the issues the user asked to fix, unless the lint task explicitly authorizes fixes.
-16. Do not delete raw sources automatically; flag them for user review.
-17. Append a `lint` entry to `LOG.md` when the lint pass changes files or creates a durable report.
+14. Check generated outputs against `outputs/README.md`: local-only boundaries, intentional durability, privacy safety, index routing, and log coverage.
+15. Report findings first, ordered by severity.
+16. Fix only the issues the user asked to fix, unless the lint task explicitly authorizes fixes.
+17. Do not delete raw sources automatically; flag them for user review.
+18. Append a `lint` entry to `LOG.md` when the lint pass changes files or creates a durable report.
 
 ## Suggested Commands
 

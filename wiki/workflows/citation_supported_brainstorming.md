@@ -3,7 +3,7 @@ title: Citation-Supported Brainstorming Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-07-14
 ---
 
 # Citation-Supported Brainstorming Workflow
@@ -107,6 +107,7 @@ Ask for missing context only when needed. Useful context includes:
 13. If requested, create separate RIS exports under `outputs/citation_exports/`:
    - `YYYY-MM-DD_topic_wiki-citations.ris`
    - `YYYY-MM-DD_topic_external-candidates.ris`
+   - Treat generated exports as local-only by default; track a specific export only when the user explicitly asks to preserve or publish it.
 14. Append a `prompt`, `query`, or `output` entry to `LOG.md` when creating durable files.
 
 ## Output Structure

@@ -3,7 +3,7 @@ title: Citation-Supported Brainstorming Command
 type: command
 status: ready
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-07-14
 ---
 
 # Citation-Supported Brainstorming
@@ -36,4 +36,4 @@ Produce:
 
 Do not invent citations, DOIs, author lists, venues, findings, or study details.
 
-Save durable prompt or RIS files only when the user asks for files or when the result is explicitly meant to be preserved under `outputs/`. Use `wiki/templates/citation_supported_brainstorming_output_template.md` for durable Markdown outputs.
+Save durable prompt files only when the user asks for files or when the result is explicitly meant to be preserved under `outputs/`. Use `wiki/templates/citation_supported_brainstorming_output_template.md` for durable Markdown outputs. Generated RIS files are local-only by default; track a specific export only when the user explicitly asks to preserve or publish it.

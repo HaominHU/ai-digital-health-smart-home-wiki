@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-07-02
+last_updated: 2026-07-14
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -150,21 +150,32 @@ Raw sources should be treated as immutable.
 
 ## Templates
 
+- `wiki/templates/caregiving_challenge_template.md`
+- `wiki/templates/condition_template.md`
+- `wiki/templates/evidence_brief_template.md`
 - `wiki/templates/reference_item_template.md`
+- `wiki/templates/research_question_template.md`
+- `wiki/templates/source_record_template.md`
+- `wiki/templates/technology_template.md`
 - `wiki/templates/citation_supported_brainstorming_output_template.md`
 
 ## Outputs
 
-- `outputs/ingest_previews/`: Human-review previews before major source integration.
-- `outputs/evidence_briefs/`: Evidence summaries generated from the wiki.
-- `outputs/research_prompts/`: AI-ready research and writing prompts.
-- `outputs/design_prompts/`: AI-ready design prompts.
-- `outputs/spec_prompts/`: AI-ready system or study specification prompts.
-- `outputs/query_answers/`: Durable answers worth preserving outside chat.
-- `outputs/lint_reports/`: Wiki health-check reports.
+- `outputs/README.md`: Canonical output durability, ignore, indexing, and publication policy.
+- `outputs/ingest_previews/`: Local-only human-review previews before major source integration.
+- `outputs/_scratch/`: Local-only temporary generated work.
+- `outputs/evidence_briefs/`: Trackable when an evidence summary is intentionally durable and reusable.
+- `outputs/evidence_briefs/2026-07-14_agentic-family-caregiver-support_design-evidence-brief.md`: Maintained-wiki-only design evidence brief for agentic family caregiver support.
+- `outputs/research_prompts/`: Trackable when an AI-ready research or writing prompt is intentionally durable.
+- `outputs/design_prompts/`: Trackable when an AI-ready design prompt is intentionally durable.
+- `outputs/spec_prompts/`: Trackable when an AI-ready system or study specification prompt is intentionally durable.
+- `outputs/query_answers/`: Trackable answers deliberately preserved outside chat.
+- `outputs/query_answers/2026-07-14_agentic-cg-support_readme_cross-check.md`: Cross-check of the external agentic caregiver-support README against maintained-wiki evidence.
+- `outputs/lint_reports/`: Trackable health-check reports that preserve meaningful findings, fixes, decisions, or residual risks.
 - `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`: Structure, knowledge, logic, and workflow check that updated the domain map and added living overview/synthesis maintenance guardrails.
 - `outputs/lint_reports/2026-06-17_deep_overview_conflict_compliance_check.md`: Deep overview and knowledge-conflict compliance scan focused on old workflow contamination.
-- `outputs/citation_exports/`: Generated Zotero/EndNote-compatible citation exports, usually RIS.
+- `outputs/lint_reports/2026-07-14_output-policy-knowledge-structure-health-check.md`: Output-policy, knowledge-consistency, structural-routing, source-tracking, privacy, and artifact-boundary validation.
+- `outputs/citation_exports/`: Regenerable Zotero/EndNote-compatible citation exports, usually RIS; generated export files are local-only by default.
 
 ## Privacy-Sensitive Space
 

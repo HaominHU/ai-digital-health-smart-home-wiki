@@ -159,7 +159,7 @@ Default citation storage and export:
 
 - Store canonical citation-memory records as Markdown under `wiki/references/items/`.
 - Use `wiki/templates/reference_item_template.md` for new citation records.
-- Treat `outputs/citation_exports/` as the generated export layer.
+- Treat `outputs/citation_exports/` as a regenerable, local-only-by-default export layer. Track a specific export only when the user explicitly asks to preserve or publish it.
 - Use RIS as the default Zotero/EndNote-compatible export format unless the user requests another format.
 - Do not store topic-specific RIS files as canonical citation memory.
 - Do not invent citations, authors, venues, DOIs, URLs, dates, or bibliographic fields.
@@ -233,6 +233,15 @@ Core folders:
 - `wiki/`: Maintained research wiki layer.
 - `outputs/`: Generated artifacts such as ingest previews, evidence briefs, research prompts, design prompts, spec prompts, query answers, and lint reports.
 - `private_notes/`: Sensitive scratch space and private working notes.
+
+Output durability rule:
+
+- Do not ignore all of `outputs/`; some generated Markdown artifacts are durable research records.
+- Keep `outputs/ingest_previews/`, `outputs/_scratch/`, and generated files under `outputs/citation_exports/` local-only by default.
+- Track evidence briefs, research/design/spec prompts, query answers, and lint reports only when they are intentionally durable, privacy-safe, and useful beyond the current chat or run.
+- A lint report is worth tracking when it records meaningful findings, fixes, decisions, or residual risks. Routine no-change checks can remain in chat and need no report file.
+- When a durable output is tracked, route it from `INDEX.md` when useful and record its creation in `LOG.md`.
+- Use `outputs/README.md` as the detailed output-storage and publication policy.
 
 Wiki folders:
 

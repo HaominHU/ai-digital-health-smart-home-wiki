@@ -482,3 +482,21 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Fixed stale README health-check wording, added the repo health command to the user-facing command list, and listed the maintained home environment page in the index.
 - Files touched: `README.md`, `INDEX.md`, `LOG.md`.
 - Notes: This resolved the issues found when validating the new `health check` semantics. No maintained-wiki orphan pages or missing frontmatter issues were found in the validation pass.
+
+## [2026-07-14] workflow | Defined selective output durability policy
+
+- Summary: Established a canonical output policy that keeps ingest previews, scratch work, and generated citation exports local-only by default while allowing privacy-safe briefs, prompts, query answers, and meaningful lint reports to be tracked deliberately.
+- Files touched: `.gitignore`, `AGENTS.md`, `README.md`, `INDEX.md`, `MEMORY.md`, `outputs/README.md`, `outputs/citation_exports/README.md`, `wiki/workflows/lint_wiki.md`, `wiki/workflows/repo_health_check.md`, `wiki/workflows/citation_supported_brainstorming.md`, `wiki/commands/lint_wiki.md`, `wiki/commands/repo_health_check.md`, `wiki/commands/citation_supported_brainstorming.md`, `LOG.md`.
+- Notes: Do not ignore the whole `outputs/` tree. Track an output only when it is intentionally durable, privacy-safe, and useful beyond the current run; log it and route it from `INDEX.md` when navigation is useful.
+
+## [2026-07-14] lint | Validated output policy and wiki knowledge structure
+
+- Summary: Ran the wiki health check across knowledge boundaries, evidence metadata, citation memory, navigation, privacy markers, living governance surfaces, source retention, and generated-output publication boundaries.
+- Files touched: `wiki/evidence/hartnett_2016_caregiver_burden_end_stage_ovarian_cancer.md`, `wiki/evidence/mohammed_2023_sci_family_caregiver_experiences_ghana.md`, `wiki/evidence/nasem_2016_families_caring_aging_america.md`, `wiki/evidence/schulz_2020_family_caregiving_older_adults.md`, `wiki/evidence/van_houtven_2011_caregiver_intervention_framework.md`, `wiki/evidence/setiawan_2019_adaptive_mhealth_self_management.md`, `wiki/caregiving_challenges/caregiver_self_care_and_health_tracking.md`, `wiki/design_patterns/ai_assisted_pre_clinic_preparation.md`, `outputs/lint_reports/2026-07-14_output-policy-knowledge-structure-health-check.md`, `INDEX.md`, `MEMORY.md`, `LOG.md`.
+- Notes: No critical maintained-wiki contradiction, broken citation-record target, missing indexed reference item, or obvious PHI exposure was found. Fixed five missing evidence-type labels, one missing evidence-to-reference backlink, six missing template index entries, and two weak incoming design-pattern links. Two concurrently created durable outputs were routed from `INDEX.md`; publication validation added only their missing `last_updated` metadata. Citation-memory backfill remains for three AMIA submission abstracts and one dissertation; no bibliographic fields were invented.
+
+## [2026-07-14] output | Wiki-inspired evidence brief and agentic caregiver README cross-check
+
+- Summary: Generated an independent, maintained-wiki-only evidence brief for a next-generation agentic family caregiver support system, then evaluated the external read-only `agentic-cg-support` README against that brief for evidence accuracy, design alignment, retrieval-study validity, clinical boundaries, privacy, and implementation priorities.
+- Files touched: `outputs/evidence_briefs/2026-07-14_agentic-family-caregiver-support_design-evidence-brief.md`, `outputs/query_answers/2026-07-14_agentic-cg-support_readme_cross-check.md`, `LOG.md`.
+- Notes: No external sources were searched and no files in `agentic-cg-support` were changed. The review supports modular condition-aware and source-grounded caregiver support while treating multi-agent superiority, AI-wiki versus RAG performance, and health-data compliance as unproven. No maintained overview or synthesis update was needed because this task applied existing wiki knowledge to an external design rather than adding new evidence or durable domain synthesis.

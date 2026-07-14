@@ -188,6 +188,14 @@ Raw source storage rules:
 - Periodic lint checks should flag locally stored raw sources that may be removable after successful wiki digestion.
 - Do not delete raw source files automatically.
 
+Output durability rules:
+
+- See `outputs/README.md` for the full output policy.
+- Keep ingest previews, `outputs/_scratch/`, and generated citation exports local-only by default.
+- Track briefs, prompts, query answers, and lint reports only when they are intentionally durable, privacy-safe, and useful beyond the current chat or run.
+- Save meaningful lint reports that document findings, fixes, decisions, or residual risks; routine no-change checks do not need a report file.
+- Do not ignore the entire `outputs/` tree because selected generated Markdown files are part of the wiki's reusable research and audit history.
+
 Release-safe public subset rule:
 
 - Extract only blank templates, generic workflows, sanitized examples, and non-private instructions.
@@ -220,14 +228,16 @@ wiki/workflows/                   Repeatable research Wiki workflows
 wiki/commands/                    Reusable short Codex command templates
 wiki/templates/                   Reusable page templates
 
-outputs/ingest_previews/          Human-review previews before major source integration
+outputs/README.md                 Output durability and publication policy
+outputs/ingest_previews/          Local-only human-review previews before major source integration
+outputs/_scratch/                 Local-only temporary generated work
 outputs/evidence_briefs/          Generated evidence summaries
 outputs/research_prompts/         AI-ready research and writing prompts
 outputs/design_prompts/           AI-ready design prompts
 outputs/spec_prompts/             AI-ready system or study specification prompts
 outputs/query_answers/            Durable answers worth preserving outside chat
 outputs/lint_reports/             Wiki health-check reports
-outputs/citation_exports/         Generated Zotero/EndNote-compatible exports, usually RIS
+outputs/citation_exports/         Local-only-by-default Zotero/EndNote exports, usually RIS
 
 sources/papers/                   Published papers and paper notes
 sources/reports/                  Reports, dissertations, white papers, and formal documents
@@ -282,4 +292,4 @@ These pages are scaffolds, not evidence summaries. Source-backed claims should b
 
 ---
 
-*Private research Wiki | Last updated: May 2026*
+*Private research Wiki | Last updated: July 2026*

@@ -4,11 +4,12 @@ type: evidence_summary
 status: ready
 privacy: private
 evidence_status: has_sources
+evidence_type: formal report
 source_id: 2016_nasem_families-caring-for-an-aging-america
 source_file: sources/papers/cg_system_core/05_families_caring_for_an_aging_america_2016.pdf
 reference_item: wiki/references/items/2016_nasem_families-caring-for-an-aging-america.md
 tags: [family-caregiving, older-adults, policy, LTSS, caregiver-assessment]
-last_updated: 2026-05-26
+last_updated: 2026-07-14
 ---
 
 # National Academies 2016 Families Caring for an Aging America
@@ -58,4 +59,3 @@ This report anchors the wiki's older-adult caregiving policy and systems layer. 
 ## Source
 
 - `2016_nasem_families-caring-for-an-aging-america`: National Academies of Sciences, Engineering, and Medicine. Families Caring for an Aging America. Washington, DC: The National Academies Press; 2016. DOI: `10.17226/23606`. Source file: `sources/papers/cg_system_core/05_families_caring_for_an_aging_america_2016.pdf`.
-

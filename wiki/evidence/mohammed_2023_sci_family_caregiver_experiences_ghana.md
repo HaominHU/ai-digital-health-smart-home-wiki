@@ -4,11 +4,12 @@ type: evidence_summary
 status: ready
 privacy: private
 evidence_status: has_sources
+evidence_type: published qualitative evidence
 source_id: 2023-04-21_mohammed_sci-family-caregiver-experiences-ghana
 source_file: sources/papers/cg_system_core/19_mohammed_sci_family_caregiver_experiences_2023.pdf
 reference_item: wiki/references/items/2023-04-21_mohammed_sci-family-caregiver-experiences-ghana.md
 tags: [spinal-cord-injury, family-caregivers, Ghana, qualitative]
-last_updated: 2026-05-26
+last_updated: 2026-07-14
 ---
 
 # Mohammed 2023 SCI Family Caregiver Experiences in Ghana
@@ -50,4 +51,3 @@ This source provides SCI-specific caregiver evidence and should not be diluted i
 ## Source
 
 - `2023-04-21_mohammed_sci-family-caregiver-experiences-ghana`: Mohammed RS, Boateng EA, Amponsah AK, Kyei-Dompim J, Laari TT. Experiences of family caregivers of people with spinal cord injury at the neurosurgical units of the Komfo Anokye Teaching Hospital, Ghana. PLOS ONE. 2023;18(4):e0284436. DOI: `10.1371/journal.pone.0284436`. Source file: `sources/papers/cg_system_core/19_mohammed_sci_family_caregiver_experiences_2023.pdf`.
-

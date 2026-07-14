@@ -3,7 +3,7 @@ title: Citation Export Outputs
 type: output_index
 status: ready
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-07-14
 ---
 
 # Citation Export Outputs
@@ -11,6 +11,8 @@ last_updated: 2026-05-22
 This folder stores generated citation export files for Zotero or EndNote, usually in RIS format.
 
 These files are outputs, not canonical citation memory. The canonical citation-memory records live under `wiki/references/items/`.
+
+Generated export files are regenerable and local-only by default. Keep this README and `.gitkeep` tracked, but track a specific RIS or other export only when the user explicitly asks to preserve or publish that exact file. Before tracking an export, confirm that its metadata is complete, its evidence status is clear, and it contains no sensitive or private material that should remain local.
 
 Use filenames like:
 

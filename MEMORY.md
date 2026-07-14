@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-07-02
+last_updated: 2026-07-14
 ---
 
 # Research Wiki Memory
@@ -30,10 +30,10 @@ The wiki must not act as a clinical decision-maker, diagnostic system, treatment
 
 - Raw sources live under `sources/` and are treated as immutable.
 - Maintained wiki pages live under `wiki/`.
-- Generated previews, briefs, prompts, and reports live under `outputs/`.
+- Generated previews, briefs, prompts, and reports live under `outputs/`; `outputs/README.md` governs which artifacts remain local and which may become durable tracked records.
 - Sensitive scratch notes live under `private_notes/`.
 - Citation-memory records live under `wiki/references/items/`.
-- Zotero/EndNote-compatible citation exports live under `outputs/citation_exports/`.
+- Zotero/EndNote-compatible citation exports live under `outputs/citation_exports/` and are regenerable, local-only artifacts by default.
 - `AGENTS.md` governs agent behavior.
 - `INDEX.md` is the content-oriented map.
 - `LOG.md` is the chronological timeline.
@@ -101,6 +101,13 @@ Commit/publish guardrail for ingest previews:
 - During caregiver-source ingest commit/push, stage maintained wiki files, evidence pages, citation-memory records, `INDEX.md`, `MEMORY.md`, `LOG.md`, and reference-plan updates, but leave ignored preview artifacts untracked.
 - Do not use `git add -f outputs/ingest_previews/...` unless the user explicitly requests it. Before committing, run `git status --short --ignored` and verify preview files appear as ignored (`!!`), not staged.
 
+Selective output durability baseline:
+
+- Do not ignore the entire `outputs/` tree. Durable, privacy-safe Markdown evidence briefs, prompts, query answers, and meaningful lint reports may be tracked when they are deliberately preserved for reuse, audit history, or project handoff.
+- Keep `outputs/ingest_previews/`, `outputs/_scratch/`, and generated citation exports under `outputs/citation_exports/` local-only by default. Track a specific normally local-only artifact only after an explicit user request covering that path.
+- Routine no-change lint runs do not need a report file. Track a lint report when it preserves meaningful findings, fixes, decisions, or residual risks.
+- Add durable outputs to `INDEX.md` when they need navigation and always record created durable outputs in `LOG.md`.
+
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
@@ -155,6 +162,14 @@ A useful next step is either the next genuinely unintegrated `cg_system_core` br
 - `wiki/overview/domain_map.md` had become stale after later ingests because its evidence section still listed only two early anchors. It is now a routing and governance page, not a partial evidence synthesis.
 - Future ingest and lint work must check stale living overview/synthesis pages and knowledge ownership boundaries, especially evidence pages vs topic pages vs overview pages vs reference plans vs design patterns.
 - `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md` records the structure, knowledge, logic, and workflow findings.
+
+2026-07-14 output-policy and wiki health check:
+
+- `outputs/README.md` now owns the selective output durability policy. Ingest previews, scratch work, and generated citation exports remain local-only by default; privacy-safe briefs, prompts, query answers, and meaningful lint reports may be tracked deliberately.
+- The validation found no direct maintained-wiki knowledge conflicts, broken citation-record targets, missing indexed reference items, or obvious PHI/identifier exposure.
+- Low-cost structural fixes added five missing evidence-type labels, restored the Setiawan evidence-to-reference backlink, indexed all templates, and added incoming links to two weakly connected design patterns.
+- Citation-memory backfill remains for the three 2026-05-18 AMIA submission abstracts and the caregiver mHealth dissertation. Do not invent publication status or canonical citation text; use reviewed source metadata when this backlog is addressed.
+- `outputs/lint_reports/2026-07-14_output-policy-knowledge-structure-health-check.md` records scope, fixes, limits, and residual risks.
 
 Background-only source boundary:
 

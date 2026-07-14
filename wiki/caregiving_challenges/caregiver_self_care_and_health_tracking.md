@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-06-11
+last_updated: 2026-07-14
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -111,5 +111,6 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 
 ## Related Pages
 
+- `wiki/design_patterns/ai_and_wearable_augmented_caregiver_support.md`
 - `wiki/populations/family_caregivers.md`
 - `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`

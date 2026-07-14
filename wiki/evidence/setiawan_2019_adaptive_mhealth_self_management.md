@@ -5,8 +5,9 @@ status: draft
 privacy: private
 evidence_type: published evidence
 source_ids: [2019-04-25_setiawan_adaptive-mhealth-self-management]
+reference_item: wiki/references/items/2019-04-25_setiawan_adaptive-mhealth-self-management.md
 tags: [mhealth, self-management, chronic-conditions, disability, spinal-cord-injury, caregiver-app, clinician-portal]
-last_updated: 2026-05-18
+last_updated: 2026-07-14
 ---
 
 # Setiawan 2019 Evidence on Adaptive mHealth Self-Management

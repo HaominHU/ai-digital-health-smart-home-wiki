@@ -4,11 +4,12 @@ type: evidence_summary
 status: ready
 privacy: private
 evidence_status: has_sources
+evidence_type: published evidence
 source_id: 2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions
 source_file: sources/papers/cg_system_core/06_van_houtven_organizing_framework_2011.pdf
 reference_item: wiki/references/items/2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions.md
 tags: [caregiver-interventions, evaluation, outcomes, framework]
-last_updated: 2026-05-26
+last_updated: 2026-07-14
 ---
 
 # Van Houtven 2011 Caregiver Intervention Framework
@@ -46,4 +47,3 @@ This source should guide intervention evaluation logic across future ingests. A 
 ## Source
 
 - `2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions`: Van Houtven CH, Voils CI, Weinberger M. An organizing framework for informal caregiver interventions: detailing caregiving activities and caregiver and care recipient outcomes to optimize evaluation efforts. BMC Geriatrics. 2011;11:77. DOI: `10.1186/1471-2318-11-77`. Source file: `sources/papers/cg_system_core/06_van_houtven_organizing_framework_2011.pdf`.
-

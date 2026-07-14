@@ -3,7 +3,7 @@ title: Wiki Health Check Command
 type: command
 status: ready
 privacy: private
-last_updated: 2026-06-30
+last_updated: 2026-07-14
 ---
 
 # Wiki Health Check
@@ -30,7 +30,7 @@ Run the Karpathy-style wiki knowledge lint:
 - Structural gaps such as orphan pages, missing backlinks, weak cross-references, and stale index entries.
 - Knowledge gaps such as repeated concepts without dedicated pages or areas requiring external search.
 
-Also check source tracking, privacy and security risks, evidence labels, conceptual consistency, knowledge ownership boundaries, overlapping concepts, stale overview/synthesis/domain-map/reference-plan/workflow/index/memory entries, and future RAG readiness.
+Also check source tracking, privacy and security risks, evidence labels, conceptual consistency, knowledge ownership boundaries, overlapping concepts, stale overview/synthesis/domain-map/reference-plan/workflow/index/memory entries, output durability against `outputs/README.md`, and future RAG readiness.
 
 Report findings first, ordered by severity.
 

@@ -18,5 +18,13 @@ private_notes/**
 # Ingest previews
 outputs/ingest_previews/**
 
+# Local generated work
+outputs/_scratch/**
+
+# Regenerable citation exports
+outputs/citation_exports/**
+!outputs/citation_exports/.gitkeep
+!outputs/citation_exports/README.md
+
 # Local OS/editor noise
 .DS_Store

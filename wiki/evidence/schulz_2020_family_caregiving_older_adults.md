@@ -4,11 +4,12 @@ type: evidence_summary
 status: ready
 privacy: private
 evidence_status: has_sources
+evidence_type: published evidence
 source_id: 2020_schulz_family-caregiving-for-older-adults
 source_file: sources/papers/cg_system_core/04_schulz_family_caregiving_for_older_adults_2020.pdf
 reference_item: wiki/references/items/2020_schulz_family-caregiving-for-older-adults.md
 tags: [family-caregiving, older-adults, caregiver-stress, interventions]
-last_updated: 2026-05-26
+last_updated: 2026-07-14
 ---
 
 # Schulz 2020 Family Caregiving for Older Adults
@@ -46,4 +47,3 @@ This source supports a broad older-adult caregiver foundation. It should be used
 ## Source
 
 - `2020_schulz_family-caregiving-for-older-adults`: Schulz R, Beach SR, Czaja SJ, Martire LM, Monin JK. Family Caregiving for Older Adults. Annual Review of Psychology. 2020;71:635-659. DOI: `10.1146/annurev-psych-010419-050754`. Source file: `sources/papers/cg_system_core/04_schulz_family_caregiving_for_older_adults_2020.pdf`.
-

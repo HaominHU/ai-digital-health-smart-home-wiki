@@ -3,7 +3,7 @@ title: Repo Health Check Workflow
 type: workflow
 status: ready
 privacy: private
-last_updated: 2026-06-30
+last_updated: 2026-07-14
 ---
 
 # Repo Health Check Workflow
@@ -29,7 +29,7 @@ This workflow does not replace the wiki knowledge health check. If the user asks
 1. Read `AGENTS.md`, `MEMORY.md`, `INDEX.md`, and `LOG.md`.
 2. Run `git status --short --branch`.
 3. Run `git status --short --ignored` before any commit recommendation.
-4. Verify `outputs/ingest_previews/` and raw `sources/` artifacts remain local-only unless the user explicitly asked to publish them in this turn.
+4. Verify raw `sources/`, `outputs/ingest_previews/`, `outputs/_scratch/`, and generated `outputs/citation_exports/` artifacts remain local-only unless the user explicitly asked to publish exact paths in this turn.
 5. Check staged changes with `git diff --cached --stat` and `git diff --cached --name-status` when files are staged.
 6. Check unstaged changes with `git diff --stat` and targeted diffs when needed.
 7. Check untracked files and decide whether they are maintained wiki files, generated outputs, local-only artifacts, or unrelated scratch files.
@@ -42,9 +42,13 @@ This workflow does not replace the wiki knowledge health check. If the user asks
 By default, do not stage or publish:
 
 - `outputs/ingest_previews/`
+- `outputs/_scratch/`
+- generated files under `outputs/citation_exports/`
 - raw source files under `sources/`
 - sensitive or identifiable material under `private_notes/`
 - generated scratch files that are not meant as maintained wiki artifacts
+
+Other generated output folders are selectively trackable. Before recommending them for staging, verify that each file is intentionally durable, privacy-safe, useful beyond the current run, logged in `LOG.md`, and routed from `INDEX.md` when navigation is useful. Meaningful lint reports may be tracked; routine no-change lint output should normally remain in chat.
 
 If the user explicitly asks to publish a normally local-only artifact, confirm the exact file paths and privacy/source rationale before staging.
 

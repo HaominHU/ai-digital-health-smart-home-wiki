@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, pre-clinic-preparation, spinal-cord-injury, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-07-14
 ---
 
 # AI-Assisted Pre-Clinic Preparation
@@ -62,6 +62,7 @@ Use AI to help care recipients organize concerns, generate questions, prepare po
 
 ## Related Pages
 
+- `wiki/design_patterns/care_recipient_style_prompting_for_empathy.md`
 - `wiki/care_recipient_needs/pre_clinic_preparation_and_advocacy.md`
 - `wiki/conditions/spinal_cord_injury.md`
 - `wiki/technologies/ai_driven_digital_health.md`
