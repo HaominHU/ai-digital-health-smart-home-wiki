@@ -92,6 +92,15 @@ Default behavior:
 
 The user manually handles commits and git management.
 
+Commit messages follow the Haomin Hu-style standard:
+
+- Default shape: `[:emoji: ]type(scope): subject`.
+- First line is 72 characters or less.
+- Subject uses present-tense imperative wording, starts lowercase, and has no final period.
+- Use an applicable type such as `docs`, `update`, `fix`, `feat`, `refactor`, `test`, `chore`, `config`, `build`, `deps`, `security`, `performance`, or another listed repo-approved type.
+- Documentation-only commits include `[ci skip]` in the title.
+- Issue or pull-request references go after the first line.
+
 Raw source files may be stored locally under `sources/`, but they are ignored by git by default. The tracked wiki should preserve source-derived knowledge through source IDs, source context, evidence labels, and durable Markdown synthesis.
 
 Commit/publish guardrail for ingest previews:

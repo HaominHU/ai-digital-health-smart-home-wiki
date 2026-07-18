@@ -500,3 +500,9 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Generated an independent, maintained-wiki-only evidence brief for a next-generation agentic family caregiver support system, then evaluated the external read-only `agentic-cg-support` README against that brief for evidence accuracy, design alignment, retrieval-study validity, clinical boundaries, privacy, and implementation priorities.
 - Files touched: `outputs/evidence_briefs/2026-07-14_agentic-family-caregiver-support_design-evidence-brief.md`, `outputs/query_answers/2026-07-14_agentic-cg-support_readme_cross-check.md`, `LOG.md`.
 - Notes: No external sources were searched and no files in `agentic-cg-support` were changed. The review supports modular condition-aware and source-grounded caregiver support while treating multi-agent superiority, AI-wiki versus RAG performance, and health-data compliance as unproven. No maintained overview or synthesis update was needed because this task applied existing wiki knowledge to an external design rather than adding new evidence or durable domain synthesis.
+
+## [2026-07-18] workflow | Updated git commit message standard
+
+- Summary: Added the repo commit message standard derived from Haomin Hu's Git commit message guide to the governing instructions, durable memory, repo health workflow, and repo health command.
+- Files touched: `AGENTS.md`, `MEMORY.md`, `wiki/workflows/repo_health_check.md`, `wiki/commands/repo_health_check.md`, `wiki/commands/README.md`, `LOG.md`.
+- Notes: Future commits should use `[:emoji: ]type(scope): subject`, keep the first line at 72 characters or less, use present-tense imperative wording, keep the subject lowercase with no final period, place issue or pull-request references after the first line, and include `[ci skip]` in documentation-only commit titles.

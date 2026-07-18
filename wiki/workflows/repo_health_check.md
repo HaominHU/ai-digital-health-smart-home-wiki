@@ -3,7 +3,7 @@ title: Repo Health Check Workflow
 type: workflow
 status: ready
 privacy: private
-last_updated: 2026-07-14
+last_updated: 2026-07-18
 ---
 
 # Repo Health Check Workflow
@@ -34,8 +34,42 @@ This workflow does not replace the wiki knowledge health check. If the user asks
 6. Check unstaged changes with `git diff --stat` and targeted diffs when needed.
 7. Check untracked files and decide whether they are maintained wiki files, generated outputs, local-only artifacts, or unrelated scratch files.
 8. Check branch and upstream status with `git branch --show-current` and `git status --short --branch`.
-9. Report issues first, ordered by commit/push risk.
-10. If no blocking issue remains, ask the user whether to commit and push. Do not commit or push without explicit confirmation.
+9. If a commit is likely, draft and validate a commit title against the commit message standard below.
+10. Report issues first, ordered by commit/push risk.
+11. If no blocking issue remains, ask the user whether to commit and push. Do not commit or push without explicit confirmation.
+
+## Commit Message Standard
+
+When the user explicitly confirms a commit, use the repo commit style derived from Haomin Hu's Git commit message guide.
+
+Default shape:
+
+```text
+[:emoji: ]type(scope): subject
+
+body
+
+footer
+```
+
+Required checks:
+
+- Keep the first line at 72 characters or less.
+- Use present-tense, imperative wording in the subject and body.
+- Start the subject in lowercase and do not end it with a period.
+- Use an applicable type such as `new`, `feat`, `update`, `fix`, `security`, `performance`, `improvement`, `breaking`, `deprecated`, `i18n`, `a11y`, `refactor`, `docs`, `example`, `test`, `deps`, `config`, `build`, `release`, `wip`, or `chore`.
+- Include `[ci skip]` in the title when the commit changes only documentation or wiki prose.
+- Put issue or pull-request references after the first line, not in the subject unless the user explicitly asks.
+- Use a body when the motivation, previous behavior, or publication boundary needs explanation.
+- Use `NOTE:` footer entries for notable operational constraints or follow-up warnings.
+
+Examples:
+
+```text
+:pencil: docs(workflow): update repo health commit standard [ci skip]
+
+:bug: fix(lint): handle missing evidence backlinks
+```
 
 ## Local-Only Artifact Guardrail
 
@@ -71,6 +105,7 @@ Report:
 - Non-blocking warnings.
 - Local-only artifacts verified as ignored or unstaged.
 - Files that appear ready for commit.
+- Draft commit title when commit-ready, validated against the commit message standard.
 - Whether a separate wiki health check is still needed.
 - A direct question asking whether to commit and push if the repo is ready.
 

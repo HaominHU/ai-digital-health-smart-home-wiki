@@ -289,6 +289,18 @@ Recommended types:
 
 The user manually handles commits and git management. Do not commit, push, or manage branches unless the user explicitly asks.
 
+Git commit message standard:
+
+- Follow the repo commit style derived from Haomin Hu's Git commit message guide.
+- Use this shape by default: `[:emoji: ]type(scope): subject`.
+- Keep the first line at 72 characters or less.
+- Use present-tense, imperative wording, such as `add`, `update`, `fix`, or `move`.
+- Start the subject in lowercase and do not end it with a period.
+- Use an applicable type such as `new`, `feat`, `update`, `fix`, `security`, `performance`, `improvement`, `breaking`, `deprecated`, `i18n`, `a11y`, `refactor`, `docs`, `example`, `test`, `deps`, `config`, `build`, `release`, `wip`, or `chore`.
+- For documentation-only commits, include `[ci skip]` in the commit title.
+- Put issue or pull-request references after the first line. Use the body to explain motivation and the previous behavior when helpful.
+- Do not use commit-message formatting to bypass repo health checks, local-only artifact rules, or explicit user confirmation for commit and push.
+
 ## 10.1 Assistant Infrastructure and Context Design
 
 Treat this repo as an agent-readable research operating system. Keep always-loaded instructions durable, concise, and operational; move lower-frequency procedures into workflows, command templates, or skills.

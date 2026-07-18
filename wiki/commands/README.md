@@ -25,7 +25,7 @@ Use them instead of repeating long setup prompts. Long prompts are for major arc
 - `wiki/commands/quick_note.md`: Add a short idea, takeaway, meeting note, or personal research thought.
 - `wiki/commands/ask_wiki.md`: Answer a question using the maintained wiki.
 - `wiki/commands/lint_wiki.md`: Default `health check`; run the Karpathy-style wiki knowledge lint for contradictions, stale claims, structural gaps, knowledge gaps, source tracking, privacy, and conceptual consistency.
-- `wiki/commands/repo_health_check.md`: Run only for `repo health check`; check repository/worktree/git hygiene and then ask whether to commit and push.
+- `wiki/commands/repo_health_check.md`: Run only for `repo health check`; check repository/worktree/git hygiene, validate the commit message standard when commit-ready, and then ask whether to commit and push.
 - `wiki/commands/generate_research_prompt.md`: Generate an evidence-aware research or writing prompt.
 - `wiki/commands/generate_design_spec_prompt.md`: Generate a system design, research prototype, or spec prompt.
 - `wiki/commands/citation_supported_brainstorming.md`: Suggest citations from wiki citation memory, generate an AI feed prompt, and prepare Zotero/EndNote-compatible RIS content.
