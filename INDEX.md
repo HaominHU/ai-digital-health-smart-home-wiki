@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -27,7 +27,7 @@ The wiki is designed as a Markdown knowledge middleware layer: readable by human
 
 - `sources/papers/`: Published papers and paper notes. Purpose-specific paper lanes can be added under this folder as new source groups emerge.
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
-- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, and `smart_home_and_ambient_care/`; revise if future papers repeatedly conflict with this taxonomy.
+- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Screened but withdrawn papers are retained under `deferred_or_out_of_scope/`; revise the taxonomy if future papers repeatedly conflict with it.
 - `sources/reports/`: Reports, dissertations, white papers, and formal documents.
 - `sources/abstracts/`: Abstracts and short publication records.
 - `sources/conference_notes/`: Conference notes and session takeaways.
@@ -106,6 +106,12 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/chen_2026_generative_ai_meaning_centered_care_later_life.md`
 - `wiki/evidence/zhai_2026_smart_home_technologies_ageing_in_place.md`
 - `wiki/evidence/mahmood_2026_telehealth_informal_caregivers.md`
+- `wiki/evidence/ding_2026_wearable_healthcare_bibliometric_landscape.md`
+- `wiki/evidence/fritz_2026_community_in_the_loop_smart_home_monitoring.md`
+- `wiki/evidence/hong_2026_caregiver_activation_concept_analysis.md`
+- `wiki/evidence/kolakowski_2026_digital_health_intrinsic_capacity_feasibility.md`
+- `wiki/evidence/pemberton_2026_smart_home_connected_care_adoption.md`
+- `wiki/evidence/richter_2026_llm_physician_patient_communication.md`
 
 ## Citation Memory
 
@@ -147,6 +153,16 @@ Raw sources should be treated as immutable.
 - `wiki/references/items/2026-06-16_chen_generative-ai-meaning-centered-care-later-life.md`
 - `wiki/references/items/2026-06-24_zhai_smart-home-technologies-ageing-in-place.md`
 - `wiki/references/items/2026-06-16_mahmood_telehealth-informal-caregivers.md`
+- `wiki/references/items/2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth.md`
+- `wiki/references/items/2026-05-18_hu_chatgpt-health-sci-preclinic-preparation.md`
+- `wiki/references/items/2026-05-18_hu_raynaud-phenomenon-mhealth-usability.md`
+- `wiki/references/items/2026-05-18_hu_dissertation-family-caregiver-mhealth-app.md`
+- `wiki/references/items/2026-07-31_ding_wearable-healthcare-bibliometric-analysis.md`
+- `wiki/references/items/2026-07-23_fritz_community-in-the-loop-smart-home-monitoring.md`
+- `wiki/references/items/2026-07-24_hong_caregiver-activation-concept-analysis.md`
+- `wiki/references/items/2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility.md`
+- `wiki/references/items/2026-07-15_pemberton_smart-home-connected-care-adoption.md`
+- `wiki/references/items/2026-07-31_richter_llm-physician-patient-communication-review.md`
 
 ## Templates
 
@@ -172,6 +188,7 @@ Raw sources should be treated as immutable.
 - `outputs/query_answers/`: Trackable answers deliberately preserved outside chat.
 - `outputs/query_answers/2026-07-14_agentic-cg-support_readme_cross-check.md`: Cross-check of the external agentic caregiver-support README against maintained-wiki evidence.
 - `outputs/lint_reports/`: Trackable health-check reports that preserve meaningful findings, fixes, decisions, or residual risks.
+- `outputs/lint_reports/2026-08-06_knowledge-structure-health-check.md`: Knowledge and structure health check that resolved legacy evidence metadata and citation-memory gaps and recorded residual evidence needs.
 - `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`: Structure, knowledge, logic, and workflow check that updated the domain map and added living overview/synthesis maintenance guardrails.
 - `outputs/lint_reports/2026-06-17_deep_overview_conflict_compliance_check.md`: Deep overview and knowledge-conflict compliance scan focused on old workflow contamination.
 - `outputs/lint_reports/2026-07-14_output-policy-knowledge-structure-health-check.md`: Output-policy, knowledge-consistency, structural-routing, source-tracking, privacy, and artifact-boundary validation.
@@ -191,6 +208,8 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/concepts/caregiving_as_chronic_stress_exposure.md`: Frames caregiving as potential chronic stress exposure while preserving variation and positive caregiving meanings.
 - `wiki/concepts/caregiving_activities_vs_outcomes.md`: Separates caregiving activities from caregiver and care-recipient outcomes.
 - `wiki/concepts/reach_adoption_implementation_maintenance.md`: Uses RE-AIM to track reach, efficacy, adoption, implementation, and maintenance for intervention evaluation.
+- `wiki/concepts/caregiver_activation.md`: Treats caregiver activation as dynamic readiness across capabilities, autonomy, resilience, self-efficacy, and communication.
+- `wiki/concepts/digital_distress.md`: Tracks stress arising from intrusive, confusing, unreliable, poorly personalized, or responsibility-blurring care technology.
 
 ## Initial Population Pages
 
@@ -253,6 +272,7 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 
 - `wiki/technologies/ai_driven_digital_health.md`
 - `wiki/technologies/smart_home_technologies.md`
+- `wiki/technologies/wearable_health_technologies.md`
 
 ## Environment Pages
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -42,6 +42,9 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer patients and caregivers wanted private spaces and control over what information is shared with the other dyad member and other family members. Dyadic apps should preserve both patient and caregiver autonomy.
 - `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: GenAI-supported life review and meaning-centered care should preserve user agency, distinguish user words from AI-generated text, avoid false memories, support user control over sharing, and keep human review and escalation pathways explicit.
 - `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: Smart-home monitoring for aging in place can support safety and independence but raises privacy, surveillance, consent, and household data-governance concerns that should be separated from caregiver reassurance.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Some withdrawals and qualitative findings involved privacy, invasiveness, confusion, and trust, supporting digital-distress assessment and meaningful monitoring choice.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Shared adoption and caregiver-mediated use support granular permissions, transparent logs, and role clarity rather than blanket family access.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Perceived empathy should not be used to override informed choice or conceal uncertainty, incorrect content, or unclear authorship.
 
 ## Design Implications
 
@@ -56,9 +59,12 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - For gynecologic cancer dyadic apps, support patient-only, caregiver-only, dyadic, and family-sharing modes with explicit consent, granular permissions, and revocable access.
 - For GenAI narrative support, preserve provenance of personal words, allow users to review or delete summaries, and require explicit consent before sharing biographical material with family, caregivers, clinicians, or community workers.
 - For smart-home systems, treat passive sensing, location, activity, sleep, and inferred behavior data as sensitive care-recipient and household data, not merely caregiver convenience data.
+- Make monitoring purpose, access, retention, revocation, pause controls, non-alert meaning, and response responsibility understandable and revisable.
+- Preserve provenance so users can distinguish their own words, clinician communication, caregiver input, and AI-generated text.
 
 ## Related Pages
 
+- `wiki/concepts/digital_distress.md`
 - `wiki/care_recipient_needs/pre_clinic_preparation_and_advocacy.md`
 - `wiki/technologies/ai_driven_digital_health.md`
 - `wiki/design_patterns/person_and_family_centered_care_coordination.md`

@@ -4,9 +4,13 @@ type: evidence_brief
 status: draft
 privacy: private
 evidence_type: dissertation
+source_id: 2026-05-18_hu_dissertation-family-caregiver-mhealth-app
 source_ids: [2026-05-18_hu_dissertation-family-caregiver-mhealth-app]
+source_file: sources/papers/Hu_ETD_241205_submission.pdf
+source_type: doctoral dissertation
+reference_item: wiki/references/items/2026-05-18_hu_dissertation-family-caregiver-mhealth-app.md
 tags: [family-caregivers, mhealth, chronic-conditions, disability, spinal-cord-injury, gynecological-cancer]
-last_updated: 2026-05-18
+last_updated: 2026-08-06
 ---
 
 # Dissertation Evidence on Multi-Component mHealth Support for Family Caregivers

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 scope: cg_system_core
 ---
 
@@ -17,7 +17,7 @@ This page is the living general-knowledge synthesis of the current integrated `c
 
 This is not a clinical recommendation, treatment guide, grant section, manuscript section, or task-specific output. It should be revised after future relevant article ingests, especially when new caregiver intervention trials, implementation studies, AI-enabled caregiver systems, smart-home caregiving studies, or condition-specific evidence are added.
 
-Adjacent monthly PubMed additions now extend the broader wiki outside the `cg_system_core` lane: Chen and Jin 2026 adds conceptual GenAI interaction and governance rationale for meaning-centered care in later life; Zhai et al. 2026 adds direct smart-home aging-in-place systematic review evidence; Mahmood et al. 2026 adds U.S. national survey evidence on telehealth use among middle-aged and older informal caregivers. Use the dedicated evidence pages for source-level detail and keep these sources distinct from the staged `cg_system_core` reference plan unless they are later promoted into that lane.
+Adjacent monthly PubMed additions extend the broader wiki outside the `cg_system_core` lane. Earlier additions include Chen and Jin 2026 on meaning-centered GenAI, Zhai et al. 2026 on smart-home aging-in-place evidence, and Mahmood et al. 2026 on caregiver telehealth use. The August 2026 batch adds Ding on the wearable-health research landscape; Fritz on community-in-the-loop ambient monitoring and digital distress; Hong on caregiver activation; Kolakowski on healthy-aging platform feasibility; Pemberton on shared, caregiver-mediated connected-care adoption; and Richter on perceived empathy and safety limits in written LLM communication. Use the dedicated evidence pages for source-level detail and keep these sources distinct from the staged `cg_system_core` reference plan unless they are later promoted into that lane.
 
 ## Umbrella Frame
 
@@ -73,6 +73,7 @@ For the wiki owner's research, this means digital systems should be explicit abo
 
 Design implications:
 
+- Use caregiver activation as a dynamic assessment and tailoring lens across capabilities, autonomy, resilience, self-efficacy, and communication. Low activation should signal unmet support conditions, not caregiver blame.
 - Match intervention mechanisms to outcomes instead of assuming all caregiver interventions should reduce global burden.
 - Treat proximal changes such as knowledge, preparedness, mastery, coping, self-efficacy, or coordination as distinct from distal outcomes such as health status, utilization, safety, or sustained quality of life.
 - Preserve dyadic ethics: caregiver support can become intrusive if it weakens care-recipient autonomy, over-monitors private behavior, or routes information to family members without consent and role clarity.
@@ -94,6 +95,7 @@ The `cg_system_core` evidence repeatedly points to several reusable caregiver-sy
 - Time burden and engagement fatigue: caregivers often cannot explore complex apps, complete long modules, or sustain high-burden digital routines.
 - Privacy, autonomy, and dyadic boundaries: family access, location monitoring, private caregiver spaces, and shared patient-caregiver spaces require granular controls.
 - Implementation burden: caregiver interventions fail if they are not reachable, adoptable by services, maintainable, affordable, culturally usable, and compatible with workflows.
+- Digital distress: intrusive, confusing, unreliable, poorly personalized, or culturally and linguistically mismatched technology can create stress, especially when human and technical responsibilities are unclear.
 
 ## Digital Health Intervention Landscape
 
@@ -145,6 +147,8 @@ The wiki now has two different AI evidence layers. First, caregiver-facing AI sy
 
 Chen and Jin 2026, from the monthly PubMed lane, adds a conceptual GenAI care-interaction frame for older adults: meaning-centered care should preserve dignity, narrative provenance, user control, human supervision, escalation, and governance. It is not deployed-system or outcome evidence.
 
+Richter et al. 2026 adds a narrow early evidence signal that written LLM responses were often rated more empathic than physician responses in selected studies. Perceived empathy must remain separate from authentic empathy, accuracy, harmful omission, trust, safety, relationship quality, and clinical benefit; supportive tone can mask subtle error.
+
 Mechanism: source-grounded answers, structured task support, adaptive prompts, resource retrieval, conversational guidance, tool orchestration, and inspectable action paths.
 
 Challenge response: information overload, resource lookup, pre-clinic preparation, caregiver task planning, and condition-tailored education.
@@ -156,6 +160,10 @@ Boundary: AI method papers are not caregiver evidence. RAG and ReAct justify pos
 Smart-home evidence is currently more design rationale than effectiveness evidence in the core. NASEM 2016 and Schulz 2020 identify remote monitoring, sensing, telehealth, assistive technology, and linked tools as caregiver-support opportunities. Hu's dissertation includes cameras, GPS, sensors, intelligent agents, and caregiver concerns around cost, setup burden, reliability, and learning curve. CareBuddy adds location monitoring for wandering as dementia caregiver mHealth design rationale.
 
 Zhai et al. 2026, from the monthly PubMed lane, now provides direct smart-home systematic review evidence for aging in place. It supports monitoring, safety, independence, chronic disease support, caregiver/family reassurance, and implementation constraints, while preserving strong limits around heterogeneity and context-specific effectiveness.
+
+Fritz et al. 2026 adds feasibility and implementation evidence for a community-in-the-loop model in low-income, multilingual housing. The human response layer, language-concordant contact, explainable rules, alert workload, non-emergency boundary, and digital distress are part of the intervention. Pemberton et al. 2026 adds that connected-care adoption is shared and caregiver-mediated, with relational value alongside permission, setup, reliability, and dependency concerns.
+
+Ding et al. 2026 maps 12,812 wearable-healthcare articles and supports wearables as a distinct technology lens increasingly connected to telemedicine, IoMT, EHRs, AI, rehabilitation, cost, and quality of life. It is bibliometric landscape evidence, not wearable effectiveness evidence.
 
 Mechanism: passive or semi-passive awareness, location support, environmental fit, reminders, and linked caregiver notification.
 
@@ -225,7 +233,7 @@ The current state of the wiki suggests a caregiver system architecture that is c
 
 The strongest evidence areas are broad caregiver burden and stress-process framing, dementia caregiver intervention taxonomy, dementia caregiver needs, telehealth delivery for caregivers, SCI caregiver service/burden/coping mechanisms, cancer caregiver implementation-readiness, and gynecologic cancer formative mHealth design needs.
 
-The weaker evidence areas are AI-enabled caregiver effectiveness, smart-home caregiving effectiveness, long-term adoption and maintenance, equity and marginalized caregiver inclusion, implementation cost and workforce fit, and direct comparative evidence for adaptive or agentic caregiver systems.
+The weaker evidence areas are AI-enabled caregiver effectiveness, smart-home caregiving effectiveness, validated caregiver-activation measurement across contexts, long-term adoption and maintenance, equity and marginalized caregiver inclusion, implementation cost and workforce fit, and direct comparative evidence for adaptive or agentic caregiver systems.
 
 Common overclaims to avoid:
 
@@ -247,6 +255,8 @@ Promising directions:
 - A bounded agent layer for low-risk tasks such as appointment preparation, resource lookup, checklist generation, caregiver self-care prompts, and draft communication, with human confirmation before action.
 - Dyadic privacy and sharing controls that allow patient-only, caregiver-only, shared, and clinician-facing spaces.
 - Condition-aware assessment and triage logic that routes support by caregiver burden, task load, coping/problem-solving orientation, social support, secondary-condition risk, financial strain, and care trajectory.
+- Activation-aware tailoring that assesses capabilities, autonomy, resilience, self-efficacy, communication, burden, and system support without shifting professional responsibility.
+- Community-in-the-loop monitoring that makes staffing, language access, alert ownership, non-alert meaning, consent, and digital-distress mitigation explicit.
 - Implementation evaluation that measures reach, adoption partners, fidelity, delivery burden, cost, maintenance, and equity rather than stopping at usability or acceptability.
 
 The owner's strongest near-term citation backbone for writing or design justification is:
@@ -267,6 +277,7 @@ Useful update triggers:
 - New caregiver intervention trials, especially with long-term outcomes.
 - New AI-enabled caregiver system evaluations with real caregiver or dyad outcomes.
 - Smart-home caregiving studies with safety, privacy, adoption, or burden outcomes.
+- Caregiver-activation studies that validate measures, test change over time, and examine mediation without caregiver blame.
 - Equity, accessibility, cultural tailoring, rural access, language access, and low-resource caregiver evidence.
 - Implementation studies that report workforce, cost, fidelity, adoption, penetration, or maintenance.
 
@@ -279,6 +290,9 @@ Useful update triggers:
 - `wiki/conditions/gynecological_cancer.md`
 - `wiki/technologies/ai_driven_digital_health.md`
 - `wiki/technologies/smart_home_technologies.md`
+- `wiki/technologies/wearable_health_technologies.md`
+- `wiki/concepts/caregiver_activation.md`
+- `wiki/concepts/digital_distress.md`
 - `wiki/concepts/caregiving_as_chronic_stress_exposure.md`
 - `wiki/concepts/caregiving_activities_vs_outcomes.md`
 - `wiki/concepts/reach_adoption_implementation_maintenance.md`

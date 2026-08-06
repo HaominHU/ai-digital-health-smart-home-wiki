@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [pre-clinic-preparation, self-advocacy, care-recipient, spinal-cord-injury]
-last_updated: 2026-05-27
+last_updated: 2026-08-06
 ---
 
 # Pre-Clinic Preparation and Advocacy
@@ -28,6 +28,8 @@ Care recipients may need help preparing questions, organizing concerns, drafting
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: The abstract describes pre-clinic preparation as a critical but underserved need for individuals with spinal cord injury, who may face complex, multi-system health challenges and need to advocate for their needs during brief clinical encounters.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG can inform technical architecture for grounding preparation outputs in retrieved source context, but is not health-context effectiveness evidence.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct can inform stepwise source lookup and draft preparation patterns, but should not be used for autonomous clinical decision-making.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Caregiver activation includes communication, collaboration, help seeking, and advocacy readiness, but caregiver autonomy does not authorize unsupported clinical decisions.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Early evidence on written LLM communication supports separating empathic presentation from accuracy, safety, and clinical utility; prepared questions or messages require human review.
 
 ## Technology Support Lens
 
@@ -41,6 +43,7 @@ Care recipients may need help preparing questions, organizing concerns, drafting
 - Treat prompts written in care-recipient style as a human-centered design variable, not just a technical formatting detail.
 - Require care-recipient review and consent before sharing AI-generated questions, summaries, or portal-message drafts.
 - Keep retrieved sources and proposed actions visible enough for review without exposing private scratch reasoning.
+- Show evidence provenance and uncertainty, and explicitly check that supportive tone has not hidden factual error or overconfident advice.
 
 ## Gaps
 

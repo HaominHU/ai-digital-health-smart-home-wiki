@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Older Adults
@@ -33,6 +33,9 @@ Caregiving need among older adults should be linked to functional limitation, co
 - Preference-sensitive digital health design, including simplicity, clear explanation, privacy, data security, clinical support, cost, and face-to-face fallback when needed.
 - Meaning, dignity, continuity of self, loneliness, legacy, and relational connection when designing late-life GenAI or conversational support.
 - Aging-in-place smart-home support that distinguishes functional decline, chronic disease, disability, cognitive impairment, and home-environment mismatch from normal aging.
+- Multi-device healthy-aging platform burden, country and setting variation, connectivity, onboarding, graph comprehension, and accessibility.
+- Community-in-the-loop ambient monitoring that preserves language access, trusted human response, consent, and clear responsibility boundaries.
+- Shared smart-home adoption involving family or other support people without treating age alone as the reason for monitoring.
 
 ## Evidence
 
@@ -54,7 +57,16 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: A systematic review of smart-home technologies for adults aged 65+ supports aging-in-place design around monitoring, safety, independence, chronic disease support, and caregiver/family reassurance, but the evidence is heterogeneous and should not be treated as normal-aging evidence.
 - `2026-06-16_mahmood_telehealth-informal-caregivers`: A HINTS6 study of adults aged 50+ found informal caregivers were more likely to receive telehealth, while the oldest adults had lower odds of telehealth receipt; use as older-caregiver access evidence, not proof of telehealth effectiveness.
 
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: A small mixed-methods study among low-income adults aged 50+ with multimorbidity supports feasibility and implementation lessons for ambient monitoring plus community health worker and nurse response; it does not establish effectiveness or diagnostic safety.
+- `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: A short multicountry pilot found moderate usability with substantial country variation and barriers involving connectivity, device burden, interface complexity, and training. It does not establish health benefit or AI performance.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: A UK deployment analysis supports shared, caregiver-mediated adoption and relational value while leaving causal effectiveness and broad representativeness unresolved.
+
 ## Related Pages
+
+- `wiki/concepts/digital_distress.md`
+- `wiki/evidence/fritz_2026_community_in_the_loop_smart_home_monitoring.md`
+- `wiki/evidence/kolakowski_2026_digital_health_intrinsic_capacity_feasibility.md`
+- `wiki/evidence/pemberton_2026_smart_home_connected_care_adoption.md`
 
 - `wiki/concepts/aging_vs_disease.md`
 - `wiki/concepts/multimorbidity_and_overlapping_needs.md`

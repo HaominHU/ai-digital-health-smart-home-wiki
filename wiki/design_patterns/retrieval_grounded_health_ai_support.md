@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [rag, source-grounding, ai, digital-health, design-pattern]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Retrieval-Grounded Health AI Support
@@ -22,6 +22,7 @@ Use retrieval-augmented generation to ground AI support in a curated source base
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: CareBuddy uses a RAG-supported chatbot with internal Q&A content, external sources, confidence thresholds, empathetic context generation, and urgent/sensitive-case routing to helpline resources.
 - `2021_ruggiano_chatbots-dementia-caregivers`: Dementia chatbot reviews show why source provenance, content vetting, privacy statements, safe disclaimers, dialog failure handling, and end-user evaluation are necessary before treating conversational support as reliable health knowledge support.
 - `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Meaning-centered GenAI support should preserve narrative provenance, distinguish user-authored wording from AI-generated text, avoid false memories, and route existential or relational concerns through human review and escalation.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Early written-response evidence shows that perceived empathy can be high even when subtle harmful errors remain, so grounding, accuracy review, safety checks, and clinician oversight must be evaluated separately from tone.
 
 ## Relevant Uses
 
@@ -44,6 +45,7 @@ Use retrieval-augmented generation to ground AI support in a curated source base
 - Define confidence thresholds, out-of-scope behavior, and escalation pathways for urgent or sensitive queries.
 - Do not treat retrieval-grounding, chatbot availability, or scripted dialog as evidence of caregiver or clinical outcome effectiveness.
 - For narrative or life-review support, preserve the user's wording and meaning; do not let fluent generated summaries overwrite, fabricate, or over-interpret personal history.
+- Test whether retrieved evidence actually supports each claim and whether supportive wording masks contradiction, omission, or unsafe action.
 
 ## Evidence
 
@@ -53,6 +55,7 @@ Use retrieval-augmented generation to ground AI support in a curated source base
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`.
 - `2021_ruggiano_chatbots-dementia-caregivers`.
 - `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`.
+- `2026-07-31_richter_llm-physician-patient-communication-review`.
 
 ## Gaps
 

@@ -8,8 +8,9 @@ evidence_type: published evidence
 source_id: 2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer
 source_file: sources/papers/cg_system_core/26_hartnett_caregiver_burden_end_stage_ovarian_cancer_2016.pdf
 reference_item: wiki/references/items/2016-04_hartnett_caregiver-burden-end-stage-ovarian-cancer.md
+source_type: descriptive cross-sectional pilot study
 tags: [ovarian-cancer, gynecological-cancer, caregiver-burden, oncology-nursing]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # Hartnett 2016 Caregiver Burden in End-Stage Ovarian Cancer

@@ -45,7 +45,7 @@ The structure follows the Karpathy-style LLM Wiki pattern in a research-specific
 - `sources/` is the immutable raw source layer.
 - `sources/papers/` can contain purpose-specific paper lanes as source groups emerge.
 - `sources/papers/cg_system_core/` is an example lane for the ongoing numbered core citation set for caregiver system-design ingest.
-- `sources/papers/monthly_pubmed/` is a storage lane for monthly PubMed pushes before triage and integration, currently organized by provisional topic-lens subfolders: adoption/preferences/equity, AI interaction and decision support, caregiving support systems, and smart home/ambient care.
+- `sources/papers/monthly_pubmed/` is a storage lane for monthly PubMed pushes before triage and integration, currently organized by provisional topic-lens subfolders: adoption/preferences/equity, AI interaction and decision support, caregiving support systems, smart home/ambient care, and wearables/remote monitoring. Screened papers withdrawn from ingest are retained separately under `deferred_or_out_of_scope/`.
 - `wiki/` is the maintained Markdown knowledge layer.
 - `wiki/references/` is the knowledge-level citation-memory layer.
 - `AGENTS.md` is the schema/control layer for Codex behavior.

@@ -4,9 +4,13 @@ type: evidence_brief
 status: draft
 privacy: private
 evidence_type: conference takeaway
+source_id: 2026-05-18_hu_raynaud-phenomenon-mhealth-usability
 source_ids: [2026-05-18_hu_raynaud-phenomenon-mhealth-usability]
+source_file: sources/abstracts/202605_AMIA_Hu_Raynaud_Usability_resubmit_poster.pdf
+source_type: conference submission abstract
+reference_item: wiki/references/items/2026-05-18_hu_raynaud-phenomenon-mhealth-usability.md
 tags: [raynaud-phenomenon, systemic-sclerosis, mhealth, usability, accessibility]
-last_updated: 2026-05-18
+last_updated: 2026-08-06
 ---
 
 # Raynaud mHealth Usability for Systemic Sclerosis-Associated Raynaud Phenomenon

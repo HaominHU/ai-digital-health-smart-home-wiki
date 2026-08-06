@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [home, smart-home, caregiving]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Home Environment
@@ -44,6 +44,8 @@ The home is a primary setting for caregiving, smart home technologies, monitorin
 - `2017_nichols_reach-dementia-caregiver-healthcare-costs`: REACH VA suggests integrated home-based primary care context may matter for dementia caregiver intervention cost and adoption logic.
 - `2003_hepburn_savvy-caregiver-transportable-program` and `2022_hepburn_telesavvy-online-dementia-caregiver-program`: Savvy and Tele-Savvy show that dementia caregiver role training can be transported into community or remote formats, but delivery format changes reach and access constraints.
 - `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: Recent smart-home evidence positions the home as a site for physiological monitoring, daily-activity monitoring, functional/emergency detection, chronic disease support, social interaction, and cognitive support, with implementation constrained by privacy, cost, reliability, digital literacy, and fit with everyday routines.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Low-income housing, multilingual communication, internet access, community partnerships, and trusted human response were integral to ambient-monitoring implementation; the home system was not an emergency service.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Connected-care use in the home involved shared adoption, caregiver access, passive monitoring, reassurance, privacy concerns, and setup or reliability work.
 
 ## Design Implications
 
@@ -60,3 +62,6 @@ The home is a primary setting for caregiving, smart home technologies, monitorin
 - For gynecologic cancer mHealth, distinguish home/community self-management support from autonomous clinical triage or smart-home sensing.
 - For broad cancer caregiving, home support design should include practical task burden, transportation, paperwork, treatment adherence, symptom management, and advocacy-resource linkage.
 - For smart-home aging-in-place designs, distinguish passive monitoring, active prompting, emergency detection, social/robotic interaction, and care coordination because these functions have different evidence strength, privacy risks, and response-workflow demands.
+- Treat connectivity, housing infrastructure, household routines, language, privacy, visitors, and multi-user consent as part of system performance.
+- Provide a visible way to pause monitoring, correct rules, revoke access, review logs, contact a trusted person, and understand what the system cannot detect.
+- Budget and evaluate the human response layer rather than treating community workers, nurses, caregivers, or family members as free infrastructure.

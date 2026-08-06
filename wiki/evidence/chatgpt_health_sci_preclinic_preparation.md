@@ -4,9 +4,13 @@ type: evidence_brief
 status: draft
 privacy: private
 evidence_type: conference takeaway
+source_id: 2026-05-18_hu_chatgpt-health-sci-preclinic-preparation
 source_ids: [2026-05-18_hu_chatgpt-health-sci-preclinic-preparation]
+source_file: sources/abstracts/Hu_poster_abstract_ChatGPT_ChatGPTHealth_Comparison_submit.pdf
+source_type: conference submission abstract
+reference_item: wiki/references/items/2026-05-18_hu_chatgpt-health-sci-preclinic-preparation.md
 tags: [spinal-cord-injury, ai, pre-clinic-preparation, llm, privacy]
-last_updated: 2026-05-18
+last_updated: 2026-08-06
 ---
 
 # ChatGPT Health and ChatGPT for SCI Pre-Clinic Preparation Without Connected Records

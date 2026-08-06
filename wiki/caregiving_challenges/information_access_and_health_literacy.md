@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-06-11
+last_updated: 2026-08-06
 ---
 
 # Information Access and Health Literacy
@@ -95,6 +95,10 @@ To be further source-backed.
 - `2022_espino_coping-social-support-caregiver-wellbeing-sci`.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
+
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Insufficient caregiving proficiency, fragmented information, communication gaps, and digital or AI skill demands are antecedents of caregiver activation. Support should build readiness without treating low activation as caregiver fault.
+- `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: Connectivity, interface complexity, graph interpretation, device overload, repetitive questionnaires, and training needs constrained a multicountry healthy-aging pilot.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Empathic writing style can coexist with subtle harmful error; health-literacy adaptation must be evaluated separately from accuracy, safety, and clinician review.
 
 ## Design Implications
 

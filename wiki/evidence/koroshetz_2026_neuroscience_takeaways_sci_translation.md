@@ -4,12 +4,13 @@ type: evidence_brief
 status: draft
 privacy: private
 evidence_type: presentation takeaway
+source_id: 2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation
 source_ids:
   - 2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation
 source_file: sources/presentation_notes/2026-06-03_koroshetz_neuroscience-take-home-points-sci-translation.md
 source_type: lecture notes
 tags: [spinal-cord-injury, neuroscience, rehabilitation-research, neuroengineering, clinical-trials, presentation-takeaway]
-last_updated: 2026-06-03
+last_updated: 2026-08-06
 ---
 
 # Koroshetz 2026 Neuroscience Takeaways Translated to SCI

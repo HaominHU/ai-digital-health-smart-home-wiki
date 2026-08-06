@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # Research Wiki Memory
@@ -120,7 +120,7 @@ Selective output durability baseline:
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
-- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, and `smart_home_and_ambient_care/`. Assign by the paper's primary contribution and revise when future papers repeatedly conflict with the taxonomy.
+- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Assign by the paper's primary contribution. Retain screened but withdrawn sources under `deferred_or_out_of_scope/` rather than mixing them into active topic folders or deleting them.
 - Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
 
 Recommended raw source ID and filename pattern:
@@ -153,6 +153,13 @@ The `sources/papers/cg_system_core/` lane uses `wiki/references/cg_system_core_r
 Current lane status:
 
 - Current monthly PubMed source organization uses provisional topic-lens subfolders rather than a flat folder.
+- The August 2026 monthly PubMed batch has completed the preview-approval-integration workflow. Ding, Fritz, Hong, Kolakowski, Pemberton, and Richter are integrated with evidence pages and RIS-ready citation-memory records. Talotta remains preserved under `deferred_or_out_of_scope/` without maintained-wiki evidence or citation-memory representation because it is rheumatoid-arthritis-specific and contains no Raynaud evidence.
+- `2026-07-31_ding_wearable-healthcare-bibliometric-analysis`: Use as a large wearable-healthcare field map with preserved scale, cluster, burst, and internal-consistency details; do not use bibliometric prominence as clinical effectiveness evidence.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Use as feasibility and implementation evidence for ambient sensing plus a tiered human response network in low-income, multilingual settings. The source introduces digital distress and does not establish diagnostic accuracy or effectiveness.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Caregiver activation is now a cross-wiki assessment and tailoring concept spanning care capabilities, autonomy, resilience, self-efficacy, and communication. Low activation must not be framed as blame or permission to shift professional responsibility.
+- `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: Use as short-term healthy-aging platform feasibility and usability evidence with country variation, device burden, connectivity, and training limits; it does not validate AI performance or health benefit.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Use as shared, caregiver-mediated smart-home adoption evidence with relational value, permissions, reliability, and setup implications; not effectiveness evidence.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Use as narrow early evidence on perceived empathy in written LLM communication while keeping accuracy, safety, trust, authentic empathy, relationship quality, and clinical outcomes separate.
 - `2026_kingsada_preferences-digital-health-technologies`: Kingsada et al. 2026 Health Economics Review scoping review on patient preferences toward digital health technologies has been previewed and integrated from the monthly PubMed lane.
 - `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Chen and Jin 2026 Frontiers in Psychiatry perspective on GenAI as interactional infrastructure for meaning-centered care in later life has been integrated from the monthly PubMed lane. Use as conceptual AI interaction, dignity, life-review, and governance rationale, not as effectiveness evidence.
 - `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: Zhai et al. 2026 Australasian Journal on Ageing systematic review on smart home technologies for ageing in place has been integrated from the monthly PubMed lane. Use as direct smart-home evidence with heterogeneity and implementation limits.
@@ -160,11 +167,11 @@ Current lane status:
 - SCI caregiver sources 16-18 and 20-21 and gynecologic/cancer caregiver sources 23-25 and 28 have already been integrated; do not describe them as future ingest targets without rechecking the live reference plan.
 - Sources 22 and 27 are background-only web sources, not local PDF ingest targets.
 
-Monthly PubMed integrated source:
+Monthly PubMed preference-method anchor:
 
 - `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
 
-A useful next step is either the next genuinely unintegrated `cg_system_core` branch from the reference plan or a future monthly PubMed triage when new monthly papers arrive. A later lint/source-status pass should also check citation export readiness, orphan pages, stale overviews/syntheses, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+A useful next step is the next genuinely unintegrated `cg_system_core` branch from the reference plan or a later lint/source-status pass checking citation export readiness, orphan pages, stale overviews/syntheses, evidence limits, and whether ignored preview/source artifacts should be retained locally.
 
 2026-06-17 structure/workflow check:
 
@@ -177,7 +184,7 @@ A useful next step is either the next genuinely unintegrated `cg_system_core` br
 - `outputs/README.md` now owns the selective output durability policy. Ingest previews, scratch work, and generated citation exports remain local-only by default; privacy-safe briefs, prompts, query answers, and meaningful lint reports may be tracked deliberately.
 - The validation found no direct maintained-wiki knowledge conflicts, broken citation-record targets, missing indexed reference items, or obvious PHI/identifier exposure.
 - Low-cost structural fixes added five missing evidence-type labels, restored the Setiawan evidence-to-reference backlink, indexed all templates, and added incoming links to two weakly connected design patterns.
-- Citation-memory backfill remains for the three 2026-05-18 AMIA submission abstracts and the caregiver mHealth dissertation. Do not invent publication status or canonical citation text; use reviewed source metadata when this backlog is addressed.
+- Citation-memory backfill for the three 2026-05-18 AMIA submission abstracts and the caregiver mHealth dissertation was completed during the 2026-08-06 health check. The dissertation record is RIS-ready. The three abstract records remain explicitly incomplete and not export-ready until acceptance or publication status, final venue, date, pages, DOI, and URL are verified.
 - `outputs/lint_reports/2026-07-14_output-policy-knowledge-structure-health-check.md` records scope, fixes, limits, and residual risks.
 
 Background-only source boundary:

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-centered-care, care-coordination, shared-access, design-pattern]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Person and Family-Centered Care Coordination
@@ -24,6 +24,9 @@ Design care coordination workflows that recognize family caregivers as care part
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Gynecologic cancer dyadic mHealth design should support both private and shared use, because patients and caregivers each wanted control over what information is shared.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Broad cancer caregiver support should recognize caregiver identity, include caregivers in care-team communication when appropriate, and connect caregivers with advocacy, navigation, financial, and counseling resources.
 - `2026-06-16_mahmood_telehealth-informal-caregivers`: Telehealth platforms can support family/caregiver participation in appointments, but designs should make participation, information sharing, and after-visit coordination explicit rather than assuming caregiver access.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Care autonomy includes initiating and organizing care while knowing when professional collaboration is needed; communication links capability and self-efficacy.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Tiered alert response shows how care recipients, support people, community workers, and nurses can share roles when escalation and non-emergency boundaries are explicit.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Smart-home adoption is shared and caregiver-mediated, requiring configuration, alert, access, and troubleshooting roles to be negotiated.
 
 ## Technology Components
 
@@ -37,6 +40,8 @@ Design care coordination workflows that recognize family caregivers as care part
 - Granular family-sharing controls.
 - Advocacy-group and community-resource referral pathways.
 - Multi-participant telehealth visit controls and after-visit summary sharing.
+- Tiered alert routing with named owners, response-time expectations, language preferences, and bypass-to-urgent-help rules.
+- Monitoring pause, rule-correction, non-alert explanation, and access-revocation controls.
 
 ## Design Constraints
 
@@ -46,6 +51,7 @@ Design care coordination workflows that recognize family caregivers as care part
 - Family-centered workflows should not assume all patient-caregiver dyads want the same level of information sharing.
 - Resource navigation should distinguish passive resource lists from closed-loop referral and eligibility support.
 - Telehealth workflows should distinguish inviting a caregiver into a visit from giving that caregiver ongoing access to records, messages, summaries, or care plans.
+- Do not treat caregivers, community workers, or nurses as unbounded response capacity; staffing, workload, and cost are implementation outcomes.
 
 ## Related Pages
 

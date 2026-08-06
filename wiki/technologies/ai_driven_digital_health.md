@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # AI-Driven Digital Health
@@ -30,6 +30,9 @@ Track data minimization, consent, access control, auditability, bias, human over
 
 ## Design Implications
 
+- Separate supportive communication quality from factual accuracy, clinical safety, trust, and outcomes; fluent or empathic tone must not conceal harmful error.
+- Treat an `AI-driven` label as a claim requiring component-level evaluation, including model purpose, accuracy, calibration, workflow, human review, and failure handling.
+- When AI consumes wearable, smart-home, or caregiver data, define provenance, permissions, missing-data behavior, response ownership, and revocation.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: Generative AI for caregiver mHealth may be most appropriate as an adaptive support layer rather than a standalone chatbot.
 - The source identifies three possible AI layers for family caregiver apps: agentic interaction for proactive engagement, adaptive content for personalized education, and emotional/social support for check-ins, peer connection, and resource navigation.
 - Named implementation directions include context-sensitive prompts, retrieval-augmented generation, large language models, multimodal AI, peer matching, and dynamic resource directories.
@@ -59,6 +62,9 @@ Track data minimization, consent, access control, auditability, bias, human over
 
 ## Evidence
 
+- `2026-07-31_richter_llm-physician-patient-communication-review`: A systematic review and meta-analysis found higher perceived empathy ratings for written LLM responses in selected early studies, with substantial heterogeneity and no evidence of real longitudinal relationship benefit, safety, or improved outcomes.
+- `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: The CAREUP pilot supports feasibility and usability learning for a multi-component platform but did not evaluate its claimed AI accuracy, safety, or decision quality.
+- `2026-07-31_ding_wearable-healthcare-bibliometric-analysis`: Bibliometric evidence indicates growing AI, IoMT, telemedicine, and EHR integration in wearable-health research; it is field-direction evidence, not effectiveness evidence.
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`: AMIA abstract deriving future generative AI design recommendations from iterative human-centered design and evaluation of the iMHere Family Caregiver App. Generative AI was proposed, not implemented or evaluated in the current app.
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: AMIA abstract comparing source-reported ChatGPT and ChatGPT Health interfaces for SCI pre-clinic preparation without connected health records. Product/model details are source-reported and may change over time.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Dissertation evidence supports AI/GenAI as future work for caregiver mHealth, especially intelligent reminders and personalized support. It does not evaluate deployed GenAI features.

@@ -4,9 +4,13 @@ type: evidence_brief
 status: draft
 privacy: private
 evidence_type: conference takeaway
+source_id: 2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth
 source_ids: [2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth]
+source_file: sources/abstracts/Hu_podium_abstract_User_centered_design_family_caregiver_AI_vision_submit.pdf
+source_type: conference submission abstract
+reference_item: wiki/references/items/2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth.md
 tags: [family-caregivers, generative-ai, mhealth, human-centered-design]
-last_updated: 2026-05-18
+last_updated: 2026-08-06
 ---
 
 # Human-Centered Design Recommendations for Generative AI in Family Caregiver mHealth

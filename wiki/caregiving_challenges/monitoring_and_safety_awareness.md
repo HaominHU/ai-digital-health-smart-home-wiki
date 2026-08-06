@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Monitoring and Safety Awareness
@@ -47,6 +47,9 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 - `2016_smith_caregiving-services-sci-systematic-review`.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`.
 - `2026-06-24_zhai_smart-home-technologies-ageing-in-place`.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: A community-linked prototype converted 37 million readings into 4,719 alerts and 1,060 human contacts, while 93% required no action. Use as feasibility and workflow evidence, not diagnostic accuracy or effectiveness evidence; absence of an alert did not establish stability.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Passive connected care may reduce repeated checking and provide reassurance, but adoption and responsibility are shared. Reliability, privacy, cost, dependency, and fail-safe behavior remain central.
+- `2026-07-31_ding_wearable-healthcare-bibliometric-analysis`: Wearable-healthcare research increasingly connects monitoring with telemedicine, IoMT, EHRs, and AI, but bibliometric prominence does not establish sensing validity or clinical usefulness.
 
 ## Design Implications
 
@@ -57,3 +60,5 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 - For SCI secondary-condition support, separate caregiver/attendant knowledge and monitoring responsibilities from autonomous clinical decision-making.
 - For SCI secondary-condition monitoring, track caregiver workload and burden dimensions rather than assuming more vigilance is always acceptable or beneficial.
 - For smart-home alerts and monitoring, define who receives alerts, who is responsible for response, how false positives/negatives are handled, and whether the system reduces or increases caregiver vigilance burden.
+- State what a non-alert means, who must respond, and when users should bypass the system for urgent help.
+- Track `digital distress`, including irrelevant alerts, missed changes, intrusiveness, confusion, and unclear responsibility.

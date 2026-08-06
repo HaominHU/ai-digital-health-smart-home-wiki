@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: routing_map
 tags: [domain-map, digital-health, smart-home, caregiving]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Domain Map
@@ -38,7 +38,7 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 - `wiki/overview/domain_map.md`: Top-level architecture and routing map for the whole wiki.
 - `wiki/overview/caregiver_system_core_sota_synthesis.md`: Living synthesis for the `cg_system_core` caregiver-system evidence lane.
 - `wiki/references/cg_system_core_reference_plan.md`: Planning/status map for staged `cg_system_core` sources. This is planning-only, not source-backed evidence by itself.
-- `sources/papers/monthly_pubmed/`: Provisional topic-lens source folders for monthly PubMed pushes. Current categories are adoption/preferences/equity, AI interaction and decision support, caregiving support systems, and smart home/ambient care; revise when future papers repeatedly conflict with this taxonomy.
+- `sources/papers/monthly_pubmed/`: Provisional topic-lens source folders for monthly PubMed pushes. Current active categories are adoption/preferences/equity, AI interaction and decision support, caregiving support systems, smart home/ambient care, and wearables/remote monitoring. Screened but withdrawn papers are retained under `deferred_or_out_of_scope/`; revise the taxonomy when future papers repeatedly conflict with it.
 
 ## Primary Populations
 
@@ -64,6 +64,13 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 
 - AI-driven digital health.
 - Smart home technologies.
+- Wearable health technologies.
+
+## Cross-Cutting Concepts
+
+- Caregiver activation -> `wiki/concepts/caregiver_activation.md`.
+- Digital distress -> `wiki/concepts/digital_distress.md`.
+- Aging versus disease -> `wiki/concepts/aging_vs_disease.md`.
 
 ## Knowledge Routing
 

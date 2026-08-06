@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-time-burden, engagement, mhealth, caregiving]
-last_updated: 2026-06-11
+last_updated: 2026-08-06
 ---
 
 # Caregiver Time Burden and Engagement
@@ -94,6 +94,10 @@ To be further source-backed.
 - `2019_ugalde_cancer-caregiver-interventions-implementation-potential`.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
+
+- `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: Device overload, repetitive questionnaires, connectivity, interface complexity, and training demands can turn a multi-component platform into additional work.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Community health workers responded to most escalated alerts and completed substantial follow-up work, so monitoring evaluations must measure transferred workforce and caregiver burden.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Passive monitoring may reduce repeated checking, but onboarding, troubleshooting, alert response, and shared-access management remain work that must be assigned and measured.
 
 ## Design Implications
 

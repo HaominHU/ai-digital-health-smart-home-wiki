@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Care Coordination and Shared Access
@@ -94,6 +94,10 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
 - `2026-06-16_mahmood_telehealth-informal-caregivers`.
+
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Communication and collaboration connect caregiver capabilities, autonomy, and self-efficacy; autonomy includes knowing when professional help is needed.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Tiered escalation to support people, community health workers, and nurses shows that alert routing, language-concordant contact, and response ownership are part of the monitoring intervention.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Connected-care adoption is shared and caregiver-mediated, supporting shared dashboards with granular permissions, logs, and explicit configuration and response roles.
 
 ## Design Implications
 

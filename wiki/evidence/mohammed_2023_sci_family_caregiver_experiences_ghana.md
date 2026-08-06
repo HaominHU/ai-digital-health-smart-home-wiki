@@ -8,8 +8,9 @@ evidence_type: published qualitative evidence
 source_id: 2023-04-21_mohammed_sci-family-caregiver-experiences-ghana
 source_file: sources/papers/cg_system_core/19_mohammed_sci_family_caregiver_experiences_2023.pdf
 reference_item: wiki/references/items/2023-04-21_mohammed_sci-family-caregiver-experiences-ghana.md
+source_type: qualitative descriptive phenomenology study
 tags: [spinal-cord-injury, family-caregivers, Ghana, qualitative]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # Mohammed 2023 SCI Family Caregiver Experiences in Ghana

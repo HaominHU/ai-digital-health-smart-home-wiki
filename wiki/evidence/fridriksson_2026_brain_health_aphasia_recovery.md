@@ -4,12 +4,13 @@ type: evidence_brief
 status: draft
 privacy: private
 evidence_type: presentation takeaway
+source_id: 2026-06-03_fridriksson_brain-health-aphasia-recovery
 source_ids:
   - 2026-06-03_fridriksson_brain-health-aphasia-recovery
 source_file: sources/presentation_notes/2026-06-03_fridriksson_brain-health-aphasia-recovery.md
 source_type: lecture notes
 tags: [chronic-conditions, disability, neurorehabilitation, aphasia, stroke, brain-health, biomarkers, presentation-takeaway]
-last_updated: 2026-06-03
+last_updated: 2026-08-06
 ---
 
 # Fridriksson 2026 Brain Health and Aphasia Recovery Lecture Notes

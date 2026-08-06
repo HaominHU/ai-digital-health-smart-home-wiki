@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-06-11
+last_updated: 2026-08-06
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -33,6 +33,11 @@ How should caregiver-support interventions, including digital health and smart h
 - `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`: Adds advanced cancer caregiver questions about matching intervention target group, support component, delivery mode, and outcome dimension.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`: Adds questions about evaluating dyadic gynecologic cancer mHealth designs that support self-triage, private spaces, controlled sharing, and expert/peer support.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`: Adds questions about evaluating cancer caregiver advocacy-resource linkage, caregiver identity recognition, telehealth access, and practical/financial support.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Adds caregiver activation as a possible dynamic assessment, tailoring, process, or mediator construct, while exposing measure-validity and causal gaps.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Adds implementation questions about alert burden, human response capacity, language access, digital distress, non-alert meaning, and responsibility boundaries.
+- `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: Adds questions about country variation, device burden, accessibility exclusions, digital literacy, and distinguishing AI labels from AI evaluation.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Adds shared-adoption, caregiver-mediated configuration, permissions, reliability, and relational-value questions.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Adds outcome-separation questions for empathy, accuracy, trust, safety, relationship quality, and clinical benefit.
 
 ## Open Subquestions
 
@@ -53,6 +58,11 @@ How should caregiver-support interventions, including digital health and smart h
 - For advanced cancer caregivers, when should support target the individual caregiver, the patient-caregiver dyad, the family, or peer groups, and which outcome dimensions should each format be expected to affect?
 - For gynecologic cancer mHealth, how should studies evaluate symptom-urgency confidence, privacy confidence, controlled sharing, and caregiver-only/private support without drifting into autonomous clinical triage?
 - Do advocacy-resource and patient-advocacy-group referrals improve caregiver navigation completion, financial relief, emotional support access, or caregiver outcomes compared with passive resource lists?
+- Which caregiver-activation dimensions are valid across populations and cultures, sensitive to change, and predictive of support needs without blaming caregivers or shifting clinical responsibility?
+- Does caregiver activation mediate intervention effects, and how does it interact with burden, structural access, caregiver health, professional collaboration, and digital literacy?
+- For smart-home monitoring, who performs alert review and follow-up, what workload and cost are transferred, what does a non-alert mean, and how should digital distress be measured?
+- How should shared smart-home adoption and multi-user consent be evaluated when care recipients, caregivers, relatives, vendors, and care teams have different goals and access needs?
+- How should LLM studies separately evaluate perceived empathy, factual accuracy, harmful omission, trust, clinician workload, relationship quality, and patient or caregiver outcomes?
 
 ## Related Pages
 

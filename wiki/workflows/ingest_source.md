@@ -3,7 +3,7 @@ title: Ingest Source Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Ingest Source Workflow
@@ -50,7 +50,7 @@ Raw source files may be stored locally under `sources/`, but they are ignored by
 For paper sources, preserve the purpose-specific lane when assigning or updating source paths. New purpose-specific folders may be created under `sources/papers/` when a stable new source group emerges.
 
 - Use `sources/papers/cg_system_core/` for the ongoing numbered caregiver system-design core citation ingest. Check `wiki/references/cg_system_core_reference_plan.md` for the live staged-ingest status, integrated sources, future sources, and background-only source markers.
-- Use `sources/papers/monthly_pubmed/` for monthly PubMed push papers before triage, prioritization, preview, or integration. Use the current provisional topic-lens subfolders when storing selected papers: `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, and `smart_home_and_ambient_care/`. Assign by the paper's primary contribution, not every secondary theme; revise the taxonomy when future monthly papers create repeated conflicts.
+- Use `sources/papers/monthly_pubmed/` for monthly PubMed push papers before triage, prioritization, preview, or integration. Use the current provisional topic-lens subfolders when storing selected papers: `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Assign by the paper's primary contribution, not every secondary theme. Retain screened but withdrawn sources under `deferred_or_out_of_scope/` instead of deleting them or routing them as active evidence; revise the taxonomy when future monthly papers create repeated conflicts.
 - Use top-level `sources/papers/` only for legacy papers, standalone papers, or papers not yet assigned to a purpose-specific lane.
 
 Use this default source ID and filename convention for raw files and source references:

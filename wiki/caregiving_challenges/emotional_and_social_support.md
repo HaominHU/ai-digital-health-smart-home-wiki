@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-06-11
+last_updated: 2026-08-06
 ---
 
 # Emotional and Social Support
@@ -93,6 +93,11 @@ To be further source-backed.
 - `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
+
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Resilience and self-efficacy are activation dimensions shaped by burden, resources, collaboration, and support; they should not be reduced to individual toughness.
+- `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: Alone, Trust, and Human Connection were central themes, and participants often preferred language-concordant human calls over automated messages.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: Peace of mind, connectedness, independence, and reduced family worry were perceived-value themes, but they are not substitutes for effectiveness or safety outcomes.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Higher perceived empathy ratings for written LLM responses do not establish authentic empathy, trust, accuracy, or relationship benefit.
 
 ## Design Implications
 

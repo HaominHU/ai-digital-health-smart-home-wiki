@@ -8,8 +8,9 @@ evidence_type: formal report
 source_id: 2016_nasem_families-caring-for-an-aging-america
 source_file: sources/papers/cg_system_core/05_families_caring_for_an_aging_america_2016.pdf
 reference_item: wiki/references/items/2016_nasem_families-caring-for-an-aging-america.md
+source_type: consensus report
 tags: [family-caregiving, older-adults, policy, LTSS, caregiver-assessment]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # National Academies 2016 Families Caring for an Aging America

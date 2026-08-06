@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -90,6 +90,9 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
+
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Care capabilities include caregiver self-care competence alongside care-management competence; activation assessment should therefore include caregiver health maintenance, emotional regulation, stress management, and support seeking.
+- `2026-07-31_ding_wearable-healthcare-bibliometric-analysis`: Wearables are an expanding monitoring lens, but the bibliometric review does not show that wearable tracking improves caregiver health or reduces burden.
 
 ## Design Implications
 

@@ -506,3 +506,33 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Added the repo commit message standard derived from Haomin Hu's Git commit message guide to the governing instructions, durable memory, repo health workflow, and repo health command.
 - Files touched: `AGENTS.md`, `MEMORY.md`, `wiki/workflows/repo_health_check.md`, `wiki/commands/repo_health_check.md`, `wiki/commands/README.md`, `LOG.md`.
 - Notes: Future commits should use `[:emoji: ]type(scope): subject`, keep the first line at 72 characters or less, use present-tense imperative wording, keep the subject lowercase with no final period, place issue or pull-request references after the first line, and include `[ci skip]` in documentation-only commit titles.
+
+## [2026-08-06] architecture | Extended monthly PubMed source routing
+
+- Summary: Added `wearables_and_remote_monitoring/` as an active monthly PubMed topic lens and `deferred_or_out_of_scope/` as a non-topic retention folder for screened sources withdrawn from ingest.
+- Files touched: `sources/papers/monthly_pubmed/`, `AGENTS.md`, `README.md`, `INDEX.md`, `MEMORY.md`, `wiki/workflows/ingest_source.md`, `wiki/overview/domain_map.md`, `LOG.md`.
+- Notes: Active topic assignment remains based on each paper's primary contribution. Deferred sources are retained locally without being represented as maintained evidence, citation memory, or active topic coverage.
+
+## [2026-08-06] ingest | Previewed August 2026 monthly PubMed batch
+
+- Summary: Renamed and reorganized seven monthly PubMed PDFs and created a pending batch ingest preview. Recommended integrating Ding, Fritz, Hong, Kolakowski, Pemberton, and Richter; recommended withdrawing Talotta from maintained-wiki ingest because it contains no Raynaud-specific evidence and is otherwise rheumatoid-arthritis-specific.
+- Files touched: `sources/papers/monthly_pubmed/`, `outputs/ingest_previews/2026-08-06_monthly-pubmed-august-2026_batch-preview.md`, `LOG.md`.
+- Notes: Source types include a bibliometric review, two smart-home mixed-methods studies, a caregiver concept analysis, a digital-health feasibility pilot, and an LLM communication systematic review/meta-analysis. Privacy level is private/non-sensitive published evidence. Review status is pending explicit user approval before maintained-wiki integration. The preview remains local-only as required. Talotta remains preserved under `deferred_or_out_of_scope/` and has no proposed evidence or citation-memory record. No source-backed overview or synthesis update was made because the batch remains at preview stage; the batch preview records the required post-approval updates.
+
+## [2026-08-06] ingest | Integrated approved August 2026 monthly PubMed batch
+
+- Summary: After explicit approval of the batch preview, integrated Ding, Fritz, Hong, Kolakowski, Pemberton, and Richter into maintained evidence, citation memory, topic synthesis, design, research-question, overview, navigation, and memory layers. Added dedicated hubs for wearable health technologies, caregiver activation, and digital distress.
+- Files touched: six new `wiki/evidence/` pages, six new `wiki/references/items/` records, `wiki/technologies/wearable_health_technologies.md`, `wiki/concepts/caregiver_activation.md`, `wiki/concepts/digital_distress.md`, relevant population/condition/challenge/need/technology/environment/design/research-question pages, `wiki/overview/caregiver_system_core_sota_synthesis.md`, `wiki/overview/domain_map.md`, `outputs/ingest_previews/2026-08-06_monthly-pubmed-august-2026_batch-preview.md`, `INDEX.md`, `MEMORY.md`, and `LOG.md`.
+- Notes: All six citation-memory records are marked RIS export-ready. Ding is retained as bibliometric landscape evidence with necessary scale, cluster, burst, and internal-consistency details rather than clinical-effectiveness evidence. Hong's caregiver activation construct is integrated as dynamic assessment and tailoring knowledge without caregiver blame or responsibility transfer. Talotta remains locally preserved under `deferred_or_out_of_scope/` and has no evidence page or citation-memory record because the approved disposition was withdrawal from maintained-wiki ingest.
+
+## [2026-08-06] lint | Validated knowledge structure after monthly ingest
+
+- Summary: Ran the full wiki knowledge and structure health check after the approved August monthly PubMed ingest. Resolved legacy evidence frontmatter gaps and completed citation-memory backfill for three AMIA submission abstracts and the family caregiver mHealth dissertation.
+- Files touched: twelve legacy `wiki/evidence/` pages, four new `wiki/references/items/` records, `outputs/lint_reports/2026-08-06_knowledge-structure-health-check.md`, `INDEX.md`, `MEMORY.md`, and `LOG.md`.
+- Notes: No blocking contradiction, stale August-ingest state, broken documented path, unindexed maintained page, conceptual conflation, or obvious PHI exposure remains. The dissertation citation record is RIS-ready. The three AMIA submission records remain intentionally incomplete and not export-ready until final publication metadata are verified. Fridriksson and Koroshetz remain lecture-note evidence without paper-style citation records.
+
+## [2026-08-06] lint | Validated repository publication health
+
+- Summary: Verified the complete August ingest and health-check change set for commit and push safety on `main` tracking `origin/main`.
+- Files touched: `LOG.md`.
+- Notes: The publication set contains maintained Markdown wiki, citation-memory, workflow, navigation, memory, and one meaningful lint-report artifact. Raw `sources/` files, ingest previews, scratch outputs, generated citation exports, and ignored system files remain unstaged and local-only. No pre-existing staged changes or unrelated untracked scratch files were found. Validated commit title: `:books: docs(pubmed): ingest August papers and refresh wiki [ci skip]`.

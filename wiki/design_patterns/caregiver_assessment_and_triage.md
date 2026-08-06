@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-assessment, triage, care-coordination, design-pattern]
-last_updated: 2026-06-11
+last_updated: 2026-08-06
 ---
 
 # Caregiver Assessment and Triage
@@ -38,6 +38,7 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`: Dementia caregiver assessment should cover support, tailored information, training/education needs, balance, respite, financial/legal support, medical/mental-health help, and changing needs across the disease trajectory.
 - `2020_cheng_meta-review-dementia-caregiver-interventions`: Dementia caregiver triage should map assessed needs to specific intervention mechanisms and outcome targets rather than assuming all support should reduce burden.
 - `2021_ruggiano_chatbots-dementia-caregivers`: Chatbot triage requires scope limits, privacy review, safe disclaimers, evidence provenance, failure handling, and referral/escalation pathways.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Caregiver activation adds a dynamic readiness model spanning care capabilities, autonomy, resilience, self-efficacy, and communication. Low activation should trigger contextual support, not blame or responsibility transfer.
 
 ## Technology Components
 
@@ -65,6 +66,7 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Dementia caregiver fields for behavior-response confidence, mastery, active training needs, schedule fit, technology access, and capacity for home-based or synchronous intervention participation.
 - Dementia trajectory fields for caregiver support, information, training, balance, legal/financial planning, respite, and acceptance of help.
 - Chatbot readiness fields for digital access, voice/text interaction fit, privacy expectations, urgency/safety risk, and need for human support.
+- Caregiver-activation fields that keep capabilities, autonomy, resilience, self-efficacy, communication, burden, and system support distinct.
 
 ## Design Constraints
 
@@ -73,9 +75,11 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Care-recipient consent, autonomy, and privacy must shape what caregiver data are collected and shared.
 - Escalation pathways require human review and clear responsibility boundaries.
 - Match triage recommendations to evidence-supported mechanisms and label chatbot support as information or navigation support unless outcome evidence is available.
+- Do not collapse activation into a single universal score; candidate measures have cross-cultural and factor-structure limits.
 
 ## Related Pages
 
+- `wiki/concepts/caregiver_activation.md`
 - `wiki/design_patterns/person_and_family_centered_care_coordination.md`
 - `wiki/caregiving_challenges/care_coordination_and_shared_access.md`
 - `wiki/caregiving_challenges/caregiver_self_care_and_health_tracking.md`

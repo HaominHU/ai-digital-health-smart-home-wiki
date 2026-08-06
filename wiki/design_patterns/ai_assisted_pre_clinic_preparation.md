@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, pre-clinic-preparation, spinal-cord-injury, design-pattern]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # AI-Assisted Pre-Clinic Preparation
@@ -19,6 +19,8 @@ Use AI to help care recipients organize concerns, generate questions, prepare po
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`: In an exploratory SCI pre-clinic preparation evaluation, a source-reported health-focused ChatGPT interface provided more structured support for caregiver tools, portal message drafts, and multi-deliverable outputs than standard ChatGPT when no records were connected.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`: RAG supports a technical architecture for grounding generated preparation materials in retrieved source context.
 - `2023_yao_react-reasoning-acting-language-models`: ReAct supports a technical architecture for stepwise source lookup, reasoning, and draft preparation through bounded tool use.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Written LLM responses were often rated more empathic in early studies, but perceived empathy is not evidence of accuracy, trust, safety, or clinical benefit.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: Caregiver activation supports attention to communication, collaboration, help seeking, and advocacy readiness while preserving professional responsibility.
 
 ## Relevant Populations
 
@@ -46,12 +48,15 @@ Use AI to help care recipients organize concerns, generate questions, prepare po
 - Avoid requiring EHR or wearable linkage unless privacy, consent, security, and trust implications have been reviewed.
 - Require human review before portal messages, care-team communication, or clinical questions are sent.
 - Keep retrieved sources and action logs available for review.
+- Evaluate supportive tone, evidence support, factual accuracy, completeness, and action safety as separate dimensions.
 
 ## Evidence
 
 - `2026-05-18_hu_chatgpt-health-sci-preclinic-preparation`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
+- `2026-07-31_richter_llm-physician-patient-communication-review`.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`.
 
 ## Gaps
 

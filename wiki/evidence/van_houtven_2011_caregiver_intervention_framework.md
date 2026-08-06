@@ -8,8 +8,9 @@ evidence_type: published evidence
 source_id: 2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions
 source_file: sources/papers/cg_system_core/06_van_houtven_organizing_framework_2011.pdf
 reference_item: wiki/references/items/2011-11-22_van-houtven_organizing-framework-informal-caregiver-interventions.md
+source_type: organizing framework and structured review
 tags: [caregiver-interventions, evaluation, outcomes, framework]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # Van Houtven 2011 Caregiver Intervention Framework

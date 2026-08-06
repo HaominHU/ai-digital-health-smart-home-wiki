@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-07-02
+last_updated: 2026-08-06
 ---
 
 # Family Caregivers
@@ -51,6 +51,8 @@ Primary population focus for this wiki.
 - Gynecologic cancer caregiver mHealth design needs around curated information, symptom-urgency self-triage, trajectory-tailored support, expert/peer interaction, private spaces, and granular sharing controls.
 - Broad cancer caregiver unmet needs across informational, relationship/communication, emotional, and practical/financial domains, including patient advocacy group resource and navigation support.
 - Telehealth access and use among middle-aged and older informal caregivers, including convenience, multi-participant visit support, and coordinated after-visit information.
+- Caregiver activation as dynamic readiness across care capabilities, autonomy, resilience, self-efficacy, communication, collaboration, self-care, and help seeking.
+- Shared adoption and governance of smart-home monitoring, including who configures the system, receives alerts, interprets data, responds, troubleshoots, and controls access.
 
 ## Evidence
 
@@ -87,9 +89,13 @@ Primary population focus for this wiki.
 - `2021_ruggiano_chatbots-dementia-caregivers`: The systematic review supports cautious chatbot design and evaluation requirements for dementia caregivers and people with dementia, while noting no peer-reviewed outcome evidence for included apps.
 - `2026-06-16_mahmood_telehealth-informal-caregivers`: A HINTS6 study found that U.S. informal caregivers aged 50+ were more likely than non-caregivers to receive telehealth services and more often valued convenience and including family or other caregivers in appointments. Use as utilization evidence, not telehealth effectiveness evidence.
 - `2026-06-24_zhai_smart-home-technologies-ageing-in-place`: A smart-home systematic review reports caregiver/family reassurance as one potential benefit of ageing-in-place technologies, while implementation barriers and caregiver response burden require careful tracking.
+- `2026-07-24_hong_caregiver-activation-concept-analysis`: A concept analysis defines caregiver activation through care capabilities, autonomy, resilience, and self-efficacy. Use it for longitudinal assessment and support tailoring, not caregiver blame or responsibility transfer.
+- `2026-07-15_pemberton_smart-home-connected-care-adoption`: A selected UK deployment sample indicates that connected-care adoption is shared and caregiver-mediated, with relational value and multi-user permission needs. Use as adoption evidence, not effectiveness evidence.
+- `2026-07-31_richter_llm-physician-patient-communication-review`: Early written-response studies suggest higher perceived empathy ratings for LLM outputs, but perceived empathy is separate from accuracy, safety, trust, and outcomes; caregiver-facing health communication still requires grounding and human review.
 
 ## Related Pages
 
+- `wiki/concepts/caregiver_activation.md`
 - `wiki/concepts/caregiver_vs_care_recipient_needs.md`
 - `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`
 - `wiki/caregiving_challenges/information_access_and_health_literacy.md`

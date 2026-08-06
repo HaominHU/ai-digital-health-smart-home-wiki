@@ -8,8 +8,9 @@ evidence_type: published evidence
 source_id: 2020_schulz_family-caregiving-for-older-adults
 source_file: sources/papers/cg_system_core/04_schulz_family_caregiving_for_older_adults_2020.pdf
 reference_item: wiki/references/items/2020_schulz_family-caregiving-for-older-adults.md
+source_type: narrative review
 tags: [family-caregiving, older-adults, caregiver-stress, interventions]
-last_updated: 2026-07-14
+last_updated: 2026-08-06
 ---
 
 # Schulz 2020 Family Caregiving for Older Adults
