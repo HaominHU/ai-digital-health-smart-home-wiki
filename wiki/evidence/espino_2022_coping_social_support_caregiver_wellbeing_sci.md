@@ -10,7 +10,7 @@ reference_item: wiki/references/items/2022_espino_coping-social-support-caregive
 evidence_type: published evidence
 source_type: mixed methods study
 tags: [spinal-cord-injury, caregiver-wellbeing, coping, social-support, mixed-methods]
-last_updated: 2026-06-11
+last_updated: 2026-09-03
 ---
 
 # Espino 2022 Coping Social Support and SCI Caregiver Well-Being
@@ -53,6 +53,10 @@ This study supports stratified SCI caregiver support. It suggests caregiver syst
 - VA supports may not generalize to non-VA systems.
 - The profile analysis is exploratory and should guide screening/design hypotheses rather than serve as a validated triage model.
 - This source is not AI, smart-home, autonomous care, or digital intervention-effectiveness evidence.
+
+## Related Synthesis
+
+- `wiki/caregiving_challenges/formal_service_access_and_respite.md`: Reusable hub for respite and supplemental-care access; this study contributes SCI needs context rather than service-effectiveness evidence.
 
 ## Source Citation
 

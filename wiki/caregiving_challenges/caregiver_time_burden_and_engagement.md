@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-time-burden, engagement, mhealth, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Caregiver Time Burden and Engagement
@@ -21,6 +21,7 @@ Reusable caregiving challenge hub for cases where caregiver time limits, competi
 ## Relevant Conditions
 
 - Cross-condition challenge.
+- Dementia.
 - May apply to spinal cord injury when broad neurological-condition caregiver evidence is relevant and no specific non-SCI condition is named.
 - Gynecological cancer.
 
@@ -117,6 +118,12 @@ To be further source-backed.
 ## Gaps
 
 - The source does not evaluate implemented generative AI or long-term engagement outcomes.
+
+## Interaction Burden and Access to Relief
+
+AlzCare's manual entry and ambiguous controls illustrate how an integrated app may still add work; Aliviado's progress feedback, tailoring, and journaling are engagement design choices, not sustained-use findings. Test task time, assistance needed, fatigue, and withdrawal in daily care. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+Digital engagement cannot substitute for time away from care. Chamberlin's respite-search and service-receipt findings strengthen the need to measure actual relief and access constraints; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
 
 ## Related Pages
 

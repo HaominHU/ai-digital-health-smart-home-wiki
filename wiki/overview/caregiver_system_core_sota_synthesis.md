@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 scope: cg_system_core
 ---
 
@@ -20,6 +20,8 @@ This is not a clinical recommendation, treatment guide, grant section, manuscrip
 Adjacent monthly PubMed additions extend the broader wiki outside the `cg_system_core` lane. Earlier additions include Chen and Jin 2026 on meaning-centered GenAI, Zhai et al. 2026 on smart-home aging-in-place evidence, and Mahmood et al. 2026 on caregiver telehealth use. The August 2026 batch adds Ding on the wearable-health research landscape; Fritz on community-in-the-loop ambient monitoring and digital distress; Hong on caregiver activation; Kolakowski on healthy-aging platform feasibility; Pemberton on shared, caregiver-mediated connected-care adoption; and Richter on perceived empathy and safety limits in written LLM communication. Use the dedicated evidence pages for source-level detail and keep these sources distinct from the staged `cg_system_core` reference plan unless they are later promoted into that lane.
 
 ## Umbrella Frame
+
+The September 2026 monthly PubMed batch further extends the adjacent evidence layer: AlzCare and Aliviado add dementia caregiver app design and recommendation-contestability evidence; Chamberlin adds rural caregiver service-access context; Hwang and Tong add older-adult observational digital-inclusion evidence. These additions do not change the staged core reference-plan status or establish AI, smart-home, or caregiver outcome effectiveness.
 
 The current core evidence frames family caregiving as a chronic condition management problem that sits across individuals, dyads, households, care teams, and service systems. The caregiver is not only an informal helper. The caregiver may be a care coordinator, health-literacy translator, symptom observer, medication or treatment supporter, transportation manager, financial navigator, emotional support person, hands-on personal-care worker, backup system when formal services are thin, and a person with their own health risks.
 
@@ -121,6 +123,8 @@ Challenge response: fragmented caregiving tasks, changing needs over time, limit
 
 Boundary: formative design, feasibility, usability, and acceptability are not the same as effectiveness.
 
+AlzCare and Aliviado now add specific dementia mHealth design anchors alongside this intervention literature. Integrated practical tools, caregiver self-monitoring, tailored language, and flexible symptom priorities are supported as design requirements. AlzCare's short usability evaluation and Aliviado's coproduction process do not establish sustained engagement or benefit, and proposed features must remain distinct from implemented ones. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
 ### Web-Based Psychoeducation and Skills Training
 
 Dementia has the strongest tradition here. Savvy Caregiver supports manualized caregiver role training and transportability; COPE supports home-based dyadic training, environmental tailoring, activity support, and medical review; Tele-Savvy supports online delivery of dementia caregiver psychoeducation; REACH II/REACH VA add implementation and cost logic. Cheng 2020 and Walter/Pinquart 2020 synthesize this intervention family and caution against one-size-fits-all claims.
@@ -150,6 +154,8 @@ Chen and Jin 2026, from the monthly PubMed lane, adds a conceptual GenAI care-in
 Richter et al. 2026 adds a narrow early evidence signal that written LLM responses were often rated more empathic than physician responses in selected studies. Perceived empathy must remain separate from authentic empathy, accuracy, harmful omission, trust, safety, relationship quality, and clinical benefit; supportive tone can mask subtle error.
 
 Mechanism: source-grounded answers, structured task support, adaptive prompts, resource retrieval, conversational guidance, tool orchestration, and inspectable action paths.
+
+Aliviado adds formative evidence for explaining machine-learning recommendations when they differ from caregiver priorities and preserving the option to disagree. This is human-centered decision-support evidence, not a generative-AI performance evaluation or validation of clinical triage. AlzCare's deprioritized AI-chat idea should not be counted as evaluated AI functionality.
 
 Challenge response: information overload, resource lookup, pre-clinic preparation, caregiver task planning, and condition-tailored education.
 
@@ -229,6 +235,16 @@ What to keep in mind: Campbell 2024 is formative qualitative design evidence, no
 
 ## Cross-Cutting State of the Research
 
+### Access, Use, and Human Support
+
+The September evidence sharpens two implementation distinctions. First, material access, connectivity, skills, practical assistance, actual use, and outcomes are separate constructs. Hwang and Tong motivate this layered model but do not validate a causal sequence: their older-adult observational findings cannot be converted into caregiver effects, dementia evidence, or device-based prevention claims. Tong's mixed device ownership data complement, rather than replace, direct smart-home deployment evidence. See `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
+Second, service interest and searching do not guarantee receipt. Chamberlin's older-veteran caregiver survey is consistent with rural access barriers despite similar interest, but does not identify the mechanism or test a referral tool. Evaluate completed support and acceptable respite, not only information views or referrals sent; keep workforce, eligibility, transport, and local availability as explicit questions. See `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+
+Neither access finding supersedes the prior caregiver intervention trials. They add implementation and generalizability constraints, while effectiveness remains intervention-, population-, and outcome-specific.
+
+### Overall Evidence Balance
+
 The current state of the wiki suggests a caregiver system architecture that is condition-aware but not condition-siloed. Many caregiver challenges recur across conditions: information overload, task coordination, emotional strain, time burden, skill gaps, monitoring uncertainty, and fragmented services. But the reasons and design priorities differ by condition. Dementia emphasizes behavioral symptoms, supervision, mastery, and long trajectories. SCI emphasizes sudden disability, functional dependence, secondary complications, physical care, and transition/future planning. Gynecological cancer emphasizes treatment and symptom uncertainty, advanced illness, financial/practical strain, and dyadic information sharing.
 
 The strongest evidence areas are broad caregiver burden and stress-process framing, dementia caregiver intervention taxonomy, dementia caregiver needs, telehealth delivery for caregivers, SCI caregiver service/burden/coping mechanisms, cancer caregiver implementation-readiness, and gynecologic cancer formative mHealth design needs.
@@ -239,6 +255,8 @@ Common overclaims to avoid:
 
 - "Digital health works for caregivers" without naming modality, mechanism, population, and outcome.
 - "Caregiver satisfaction means effectiveness."
+- "Device ownership means meaningful use, or causes better mental health."
+- "A directory or automated referral solves lack of local human-service capacity."
 - "AI method papers support clinical caregiver care."
 - "Dementia caregiving evidence generalizes to all chronic conditions."
 - "Cancer caregiver review evidence is gynecological-cancer-specific evidence."
@@ -293,6 +311,13 @@ Useful update triggers:
 - `wiki/technologies/wearable_health_technologies.md`
 - `wiki/concepts/caregiver_activation.md`
 - `wiki/concepts/digital_distress.md`
+- `wiki/concepts/digital_inclusion_and_supported_use.md`
+- `wiki/caregiving_challenges/formal_service_access_and_respite.md`
+- `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`
+- `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`
+- `wiki/evidence/chamberlin_2026_rural_urban_caregiver_service_access.md`
+- `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md`
+- `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md`
 - `wiki/concepts/caregiving_as_chronic_stress_exposure.md`
 - `wiki/concepts/caregiving_activities_vs_outcomes.md`
 - `wiki/concepts/reach_adoption_implementation_maintenance.md`

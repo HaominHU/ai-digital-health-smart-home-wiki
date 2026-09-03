@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [smart-home, sensing, caregiving, technology-lens]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Smart Home Technologies
@@ -21,6 +21,10 @@ Smart home technologies may support monitoring, safety, automation, communicatio
 ## Privacy, Security, and Safety Concerns
 
 Track privacy in the home, consent among multiple household members, passive sensing risks, re-identification, data retention, access control, and false reassurance.
+
+## Ownership Evidence Versus Smart-Home System Evidence
+
+Tong includes cameras and speakers alongside monitors, wearables, and assistive devices. Its ownership associations do not evaluate ambient sensing, integrated home workflows, actual use, or response services. Use it for function/context matching and inclusion limits, not smart-home effectiveness or claims that care devices cause harm. See `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`. Primary source storage remains adoption/preferences/equity; this page preserves the smart-home connection.
 
 ## Evidence
 

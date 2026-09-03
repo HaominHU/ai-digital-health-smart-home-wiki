@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Care Coordination and Shared Access
@@ -119,6 +119,12 @@ Shared access can help caregivers coordinate support, but it can also create pri
 ## Gaps
 
 - The dissertation supports design criteria and pilot usability/acceptability/feasibility, not effectiveness of shared-access models.
+
+## Coordination Beyond Shared Records
+
+AlzCare's centralized tasks and Aliviado's requested multi-caregiver/multi-recipient features support role-specific coordination design, not demonstrated coordination benefit. Record whether features are planned, implemented, or evaluated, and make permissions and revocation explicit. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+Shared information is not completed access to help. `wiki/caregiving_challenges/formal_service_access_and_respite.md` now owns interest/search/receipt distinctions and closed-loop service-navigation questions grounded in Chamberlin's survey.
 
 ## Related Pages
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [home, smart-home, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Home Environment
@@ -23,6 +23,10 @@ The home is a primary setting for caregiving, smart home technologies, monitorin
 - Privacy among household members.
 - Caregiver workload.
 - Technology installation and maintenance burden.
+
+## Connected Access and Human Service Capacity
+
+Hwang distinguishes having a device from having home internet and practical assistance, but does not test a home digital intervention. Chamberlin distinguishes caregiver interest/search from service receipt in older-veteran households. Together they motivate evaluating connectivity, assistance, local workforce, and completed access separately, without assuming an app resolves missing support. See `wiki/concepts/digital_inclusion_and_supported_use.md` and `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
 
 ## Evidence
 

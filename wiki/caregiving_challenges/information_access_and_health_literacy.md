@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Information Access and Health Literacy
@@ -119,6 +119,12 @@ To be further source-backed.
 ## Gaps
 
 - The abstract does not evaluate RAG or LLM-generated education in deployment.
+
+## From Understandable Information to Usable Support
+
+Aliviado care partners requested tailored terminology, current evidence, and explanations when recommended BPSD priorities differed from their own. This supports understandable, contestable information design, not validated algorithmic advice; see `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+A readable directory is not a completed referral. Service receipt and navigation belong to `wiki/caregiving_challenges/formal_service_access_and_respite.md`; digital access, skills, and assisted use belong to `wiki/concepts/digital_inclusion_and_supported_use.md`. Those adjacent constructs should not be collapsed into health literacy.
 
 ## Related Pages
 

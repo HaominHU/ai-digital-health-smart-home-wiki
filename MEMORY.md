@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Research Wiki Memory
@@ -152,6 +152,13 @@ The `sources/papers/cg_system_core/` lane uses `wiki/references/cg_system_core_r
 
 Current lane status:
 
+- The September 2026 monthly PubMed five-paper preview was explicitly approved and integrated on 2026-09-03. Almeida, Chamberlin, Fernandez Cajavilca, Hwang, and Tong now have evidence pages and RIS-ready citation records. Hwang's exact publication date and Almeida's final volume/issue/pages remain unverified optional metadata; do not fabricate them for export.
+- AlzCare and Aliviado add dementia caregiver app design, short-session usability, and coproduction evidence, not effectiveness. Preserve implemented-versus-planned functionality and caregiver-versus-care-recipient evaluation distinctions. Aliviado's recommendation explanations and caregiver disagreement are design requirements, not algorithm safety validation.
+- Chamberlin adds older-US-veteran caregiver service-access context: similar rural/urban interest does not guarantee equal receipt. Do not infer causes or that a digital referral tool closes the gap.
+- Hwang and Tong add older-adult observational inclusion evidence, not caregiver intervention effects. Hwang excluded diagnosed and suspected dementia; Tong measured heterogeneous device ownership, not actual use or integrated smart-home performance.
+- `wiki/concepts/digital_inclusion_and_supported_use.md` now owns access/connectivity/skills/assistance/use/outcome distinctions. `wiki/caregiving_challenges/formal_service_access_and_respite.md` owns service-access and respite pathways. Neither is a validated causal model.
+- Tong remains under adoption/preferences/equity by primary contribution, with smart-home and wearable cross-links. The user reviewed and accepted this borderline routing; it is not a reason to duplicate the PDF or relabel it as a direct smart-home system evaluation.
+
 - Current monthly PubMed source organization uses provisional topic-lens subfolders rather than a flat folder.
 - The August 2026 monthly PubMed batch has completed the preview-approval-integration workflow. Ding, Fritz, Hong, Kolakowski, Pemberton, and Richter are integrated with evidence pages and RIS-ready citation-memory records. Talotta remains preserved under `deferred_or_out_of_scope/` without maintained-wiki evidence or citation-memory representation because it is rheumatoid-arthritis-specific and contains no Raynaud evidence.
 - `2026-07-31_ding_wearable-healthcare-bibliometric-analysis`: Use as a large wearable-healthcare field map with preserved scale, cluster, burst, and internal-consistency details; do not use bibliometric prominence as clinical effectiveness evidence.
@@ -172,6 +179,13 @@ Monthly PubMed preference-method anchor:
 - `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
 
 A useful next step is the next genuinely unintegrated `cg_system_core` branch from the reference plan or a later lint/source-status pass checking citation export readiness, orphan pages, stale overviews/syntheses, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+
+September 2026 health-check state:
+
+- The maintained wiki has 185 pages, 53 evidence summaries, and 51 citation records (48 RIS-ready). The two lecture-note exceptions and three incomplete AMIA records remain intentional.
+- Chamberlin's receipt comparisons apply to 226 searchers, not all 511 respondents; more rural respite searching does not establish a respite-receipt difference.
+- Hwang's table/narrative and confidence-limit reporting discrepancies are preserved as source limitations; verify before precision-dependent quantitative reuse. Only one of nine moderated-mediation contrasts was significant. These issues do not establish or negate a causal effect because the design is observational.
+- `outputs/lint_reports/2026-09-03_knowledge-and-repo-health-check.md` records the semantic scope, structural validation, source caveats, residual evidence needs, and publication boundaries. Raw sources remain retained and local-only.
 
 2026-06-17 structure/workflow check:
 

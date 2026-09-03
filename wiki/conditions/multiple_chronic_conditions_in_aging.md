@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [multimorbidity, chronic-conditions, aging, condition-overlay]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Multiple Chronic Conditions in Aging
@@ -33,6 +33,10 @@ Track interactions among aging-related functional decline, chronic disease, disa
 - Ambient monitoring may add value when it has a clearly staffed human response pathway, explicit non-emergency boundaries, individualized rules, and consent.
 - Multi-component healthy-aging tools should minimize device and questionnaire burden and distinguish intrinsic capacity from chronic disease, disability, and treatment effects.
 - Shared dashboards and alerts require granular permissions and clear responsibility for follow-up.
+
+## Device Function and Confounding by Need
+
+Tong's sample included many older adults reporting chronic disease, but this is not a multimorbidity-specific intervention evaluation. Device ownership and depressive-symptom associations differed by device function; care need and functional limitation may influence both ownership and outcomes. Do not infer that a device helps or harms people with multiple conditions from these associations. See `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Evidence
 

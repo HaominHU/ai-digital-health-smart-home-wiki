@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, reliability, data-capture, cache, design-pattern]
-last_updated: 2026-06-01
+last_updated: 2026-09-03
 ---
 
 # Real-World Reliability for mHealth Data Capture
@@ -70,6 +70,10 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 
 - The abstract describes trial feedback as naturalistic validation of usability themes, not as a second formal usability evaluation.
 - Larger real-world studies are still needed.
+
+## Prototype Claims and End-to-End Verification
+
+AlzCare's described but unimplemented real-time sensing and location functions make feature maturity an explicit reliability issue. Test collection, synchronization, missingness, alerts, and human follow-up end to end before making real-world safety claims. Distinguish demonstration success from independent use in unstable networks or daily care. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
 
 ## Related Pages
 

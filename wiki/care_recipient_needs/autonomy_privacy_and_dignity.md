@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -61,6 +61,10 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 - For smart-home systems, treat passive sensing, location, activity, sleep, and inferred behavior data as sensitive care-recipient and household data, not merely caregiver convenience data.
 - Make monitoring purpose, access, retention, revocation, pause controls, non-alert meaning, and response responsibility understandable and revisable.
 - Preserve provenance so users can distinguish their own words, clinician communication, caregiver input, and AI-generated text.
+
+## Caregiver-Facing Design Is Not Care-Recipient Validation
+
+AlzCare's shared reminiscence and caregiver-supported use raise dyadic possibilities, but people living with dementia were not clearly represented as evaluators. Aliviado's caregiver choice over symptom priorities does not by itself establish care-recipient agreement or consent. Preserve separate preferences and consent processes, especially for clinical records, location, and multi-user access. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 ## Related Pages
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [wearables, remote-monitoring, biosensors, smart-textiles, digital-health]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Wearable Health Technologies
@@ -47,6 +47,10 @@ Wearable health technologies are body-worn or body-adjacent devices that collect
 - Direct caregiver and care-recipient outcome evidence for specific wearable-supported workflows.
 - Clinical validity and fairness across conditions, ages, disabilities, skin tones, body types, and home contexts.
 - Long-term adherence, response burden, cost-effectiveness, governance, and workflow sustainability.
+
+## Ownership Is Not Wear Adherence or Benefit
+
+Tong's mixed device taxonomy includes smart bandwatches and other monitoring devices, but ownership does not establish wear time, sensor validity, meaningful use, or caregiver benefit. Device-specific associations should not be generalized to wearable-supported care workflows. See `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Related Pages
 

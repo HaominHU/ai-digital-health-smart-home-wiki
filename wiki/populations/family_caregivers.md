@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Family Caregivers
@@ -92,6 +92,12 @@ Primary population focus for this wiki.
 - `2026-07-24_hong_caregiver-activation-concept-analysis`: A concept analysis defines caregiver activation through care capabilities, autonomy, resilience, and self-efficacy. Use it for longitudinal assessment and support tailoring, not caregiver blame or responsibility transfer.
 - `2026-07-15_pemberton_smart-home-connected-care-adoption`: A selected UK deployment sample indicates that connected-care adoption is shared and caregiver-mediated, with relational value and multi-user permission needs. Use as adoption evidence, not effectiveness evidence.
 - `2026-07-31_richter_llm-physician-patient-communication-review`: Early written-response studies suggest higher perceived empathy ratings for LLM outputs, but perceived empathy is separate from accuracy, safety, trust, and outcomes; caregiver-facing health communication still requires grounding and human review.
+
+## Dementia App Design and Formal Service Access
+
+AlzCare and Aliviado add caregiver-facing design evidence for practical organization, self-monitoring, tailored language, and caregiver-priority-sensitive support. Neither establishes long-term engagement, caregiver benefit, or care-recipient safety. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+Service access also depends on what happens after interest or search. Chamberlin's older-veteran caregiver survey identifies rural receipt disparities without establishing their causes or testing a digital remedy. Keep service availability and caregiver willingness separate; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
 
 ## Related Pages
 

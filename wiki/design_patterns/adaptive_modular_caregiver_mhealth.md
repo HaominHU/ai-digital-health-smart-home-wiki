@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-06-11
+last_updated: 2026-09-03
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -51,6 +51,7 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 ## Relevant Conditions
 
 - Cross-condition caregiver support.
+- Dementia.
 - Spinal cord injury.
 - Gynecological cancer.
 
@@ -134,6 +135,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - Needs advanced-cancer-specific testing of whether modular digital delivery preserves the benefits of supportive interventions without increasing caregiver workload or losing face-to-face relational support.
 - Needs gynecologic cancer mHealth testing with more diverse, rural, lower-resource, and lower-digital-literacy samples.
 - Needs evaluation of whether advocacy-resource navigation produces completed referrals, reduced burden, financial relief, or better caregiver outcomes.
+
+## Dementia Modules and Implementation Maturity
+
+AlzCare combines task organization, cognitive activities, records, and caregiver self-monitoring; Aliviado combines BPSD priorities, tailored resources, and reflective support. These support modular design choices, not superiority over simpler tools. Track each module as proposed, implemented, usability-tested, or outcome-evaluated; test configuration and entry burden with actual users. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 ## Related Pages
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-centered-care, care-coordination, shared-access, design-pattern]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Person and Family-Centered Care Coordination
@@ -52,6 +52,10 @@ Design care coordination workflows that recognize family caregivers as care part
 - Resource navigation should distinguish passive resource lists from closed-loop referral and eligibility support.
 - Telehealth workflows should distinguish inviting a caregiver into a visit from giving that caregiver ongoing access to records, messages, summaries, or care plans.
 - Do not treat caregivers, community workers, or nurses as unbounded response capacity; staffing, workload, and cost are implementation outcomes.
+
+## Supported Use and Closed-Loop Navigation
+
+Practical digital help should have an agreed scope, access limits, and workload budget; access or ownership alone is not an outcome. Caregiver-priority disagreement with an algorithm should remain visible and reviewable, as motivated by Aliviado. Service navigation should confirm suitability and receipt, while preserving offline options and local capacity limits. These are design implications, not tested pathway effects. See `wiki/concepts/digital_inclusion_and_supported_use.md`, `wiki/caregiving_challenges/formal_service_access_and_respite.md`, and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 ## Related Pages
 

@@ -10,7 +10,7 @@ reference_item: wiki/references/items/2016_smith_caregiving-services-sci-systema
 evidence_type: published evidence
 source_type: systematic review
 tags: [spinal-cord-injury, caregiving-services, informal-care, systematic-review, training]
-last_updated: 2026-06-11
+last_updated: 2026-09-03
 ---
 
 # Smith 2016 Caregiving Services in SCI Systematic Review
@@ -54,6 +54,10 @@ This review should function as the SCI caregiving-services backbone. It helps th
 - Heterogeneity prevented specific clinical recommendations.
 - Caregiver burden and caregiver lived experience were excluded by design.
 - This is not AI, smart-home, mHealth, autonomous care, or SCI disease-background evidence.
+
+## Related Synthesis
+
+- `wiki/caregiving_challenges/formal_service_access_and_respite.md`: Reusable service-access hub; preserve this review's SCI scope and exclusion of caregiver burden evidence.
 
 ## Source Citation
 

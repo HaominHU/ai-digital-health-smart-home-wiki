@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Monitoring and Safety Awareness
@@ -35,6 +35,10 @@ Monitoring can support safety and unmet-need detection, but it can also affect p
 Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital tools may support awareness and coordination, but effectiveness and safety claims require technology-specific evidence.
 
 - `2025-12-30_malhotra_carebuddy-mobile-care-ecosystem-dementia-caregiving`: GPS monitoring is a dementia-specific safety feature in CareBuddy, but the source reports usability/acceptability rather than safety outcome effectiveness.
+
+## Implemented Versus Proposed Monitoring
+
+AlzCare describes abnormal-value flags and geolocation-related support, but real-time physiological and location functions were not implemented in the evaluated version. Do not represent planned functions as tested safety systems. Separate manual reports, sensor data, flags, and human response; validate false alerts, missed alerts, non-alert meaning, consent, and response ownership before deployment. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
 
 ## Evidence
 

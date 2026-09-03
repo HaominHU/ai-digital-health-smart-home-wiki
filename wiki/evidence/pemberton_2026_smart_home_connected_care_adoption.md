@@ -10,7 +10,7 @@ reference_item: wiki/references/items/2026-07-15_pemberton_smart-home-connected-
 evidence_type: published evidence
 source_type: mixed-methods adoption study
 tags: [smart-home, connected-care, adoption, older-adults, caregivers, passive-monitoring]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Pemberton 2026 Smart Home Connected Care Adoption
@@ -47,5 +47,7 @@ Connected-care adoption is dyadic or networked. Design must identify who install
 - Model results and qualitative themes should not be generalized to all connected-care systems or populations.
 
 ## Source Citation
+
+The shared-adoption findings also inform `wiki/concepts/digital_inclusion_and_supported_use.md`, while remaining distinct from actual-use and outcome evidence.
 
 - `2026-07-15_pemberton_smart-home-connected-care-adoption`: Pemberton L, Carter M, Mehandjiev N. Adoption and Use of a Smart Home Connected Care System by Older Adults: Mixed Methods Study. JMIR Aging. 2026;9:e76012. DOI: `10.2196/76012`.

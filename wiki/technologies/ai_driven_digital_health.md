@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # AI-Driven Digital Health
@@ -59,6 +59,12 @@ Track data minimization, consent, access control, auditability, bias, human over
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: Use as telehealth delivery evidence for remote SCI caregiver coaching, not as AI-agent or smart-home evidence.
 - `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Use as conceptual rationale for GenAI as bounded, human-supervised interactional infrastructure for meaning-centered care in later life. It supports design attention to dignity, life review, narrative fidelity, user-controlled sharing, escalation, and governance, not effectiveness claims.
 - `2026-06-16_mahmood_telehealth-informal-caregivers`: Use as caregiver telehealth utilization evidence and caregiver-inclusive digital health access rationale, not as AI-specific evidence.
+
+## Component-Level Evidence and Human Choice
+
+Aliviado uses a machine-learning BPSD-prioritization component; care partners wanted an explanation and the ability to retain their own priority when recommendations differed. This is formative human-centered evidence, not validation of model accuracy, safety, subgroup performance, or generative AI. See `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+AlzCare considered but deprioritized AI chat and should not be cited as AI-effectiveness evidence; see `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`. Access and digital skills remain implementation prerequisites to test rather than assumed benefits of AI; see `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Evidence
 

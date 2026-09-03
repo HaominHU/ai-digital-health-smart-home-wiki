@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-assessment, triage, care-coordination, design-pattern]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Caregiver Assessment and Triage
@@ -76,6 +76,10 @@ Identify caregivers, assess their risks, needs, strengths, preferences, capacity
 - Escalation pathways require human review and clear responsibility boundaries.
 - Match triage recommendations to evidence-supported mechanisms and label chatbot support as information or navigation support unless outcome evidence is available.
 - Do not collapse activation into a single universal score; candidate measures have cross-cultural and factor-structure limits.
+
+## Priority Disagreement and Scoring Boundaries
+
+Aliviado's formative evidence supports preserving caregiver-stated priorities and explaining algorithmic disagreement. AlzCare's burden scoring supports a self-monitoring feature description, not a validated automated triage workflow. Distinguish symptom priority, caregiver distress, urgent clinical risk, and referral need; require human oversight and explicit escalation rather than turning a score or ranking into a care decision. See `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md` and `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
 
 ## Related Pages
 

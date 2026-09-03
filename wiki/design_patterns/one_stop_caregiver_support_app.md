@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-support, mhealth, multi-component, design-pattern]
-last_updated: 2026-05-28
+last_updated: 2026-09-03
 ---
 
 # One-Stop Caregiver Support App
@@ -26,6 +26,7 @@ Consolidate caregiver self-care tools, caregiving education, reminders, resource
 ## Relevant Conditions
 
 - Cross-condition caregiver support.
+- Dementia.
 - Spinal cord injury.
 - Gynecological cancer.
 
@@ -56,6 +57,10 @@ Consolidate caregiver self-care tools, caregiving education, reminders, resource
 
 - Effectiveness and sustained real-world adoption remain to be tested.
 - Long-term engagement and caregiver outcome effects remain to be tested for CareBuddy.
+
+## Integrated Features and Real-World Burden
+
+AlzCare adds a concrete integrated prototype with practical organization, cognitive activities, and caregiver self-monitoring. Its short evaluation does not establish workload reduction, independent dementia use, or the safety of planned sensing/location functions. Test whether consolidation simplifies daily care, rather than using feature count or high usability ratings as proof. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
 
 ## Related Pages
 

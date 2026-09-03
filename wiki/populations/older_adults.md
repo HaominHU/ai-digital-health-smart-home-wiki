@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Older Adults
@@ -60,6 +60,12 @@ Caregiving need among older adults should be linked to functional limitation, co
 - `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: A small mixed-methods study among low-income adults aged 50+ with multimorbidity supports feasibility and implementation lessons for ambient monitoring plus community health worker and nurse response; it does not establish effectiveness or diagnostic safety.
 - `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: A short multicountry pilot found moderate usability with substantial country variation and barriers involving connectivity, device burden, interface complexity, and training. It does not establish health benefit or AI performance.
 - `2026-07-15_pemberton_smart-home-connected-care-adoption`: A UK deployment analysis supports shared, caregiver-mediated adoption and relational value while leaving causal effectiveness and broad representativeness unresolved.
+
+## Digital Inclusion and Service Context
+
+Connected access, literacy, practical assistance, device function, and actual use should be distinguished; `wiki/concepts/digital_inclusion_and_supported_use.md` owns this synthesis. Hwang's South Korean and Tong's Chinese studies are observational older-adult evidence, not caregiver effects. Hwang excluded diagnosed and suspected dementia; Tong measured ownership rather than use. See `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md` and `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md`.
+
+For older veterans receiving family care, caregiver service interest did not guarantee receipt. This is population-specific access context, not evidence that age alone creates need; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
 
 ## Related Pages
 

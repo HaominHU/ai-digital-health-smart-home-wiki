@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -63,6 +63,15 @@ How should caregiver-support interventions, including digital health and smart h
 - For smart-home monitoring, who performs alert review and follow-up, what workload and cost are transferred, what does a non-alert mean, and how should digital distress be measured?
 - How should shared smart-home adoption and multi-user consent be evaluated when care recipients, caregivers, relatives, vendors, and care teams have different goals and access needs?
 - How should LLM studies separately evaluate perceived empathy, factual accuracy, harmful omission, trust, clinician workload, relationship quality, and patient or caregiver outcomes?
+
+## New Testable Gaps from App Design and Access Evidence
+
+- Do integrated dementia apps reduce workload and improve outcomes in daily care after promising short-session usability or co-design findings? Separate actual caregivers from professional evaluators and include lower digital-skill users. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+- When caregiver and algorithm priorities differ, what explanations support informed disagreement without automation bias, missed urgency, or added burden? Test accuracy, calibration, subgroup performance, and escalation separately from satisfaction. See `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+- Which digital-plus-human navigation pathways improve service receipt, acceptable respite, waiting time, and caregiver outcomes in rural and non-veteran settings? See `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+- Does practical assistance improve meaningful use without dependency or hidden supporter workload? Separate cognition, function, baseline need, access, ownership, actual use, and outcomes in longitudinal or experimental designs. See `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
+These are research questions and speculative intervention directions; the September observational studies do not establish the proposed causal effects.
 
 ## Related Pages
 

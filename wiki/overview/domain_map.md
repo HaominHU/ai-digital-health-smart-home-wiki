@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: routing_map
 tags: [domain-map, digital-health, smart-home, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Domain Map
@@ -70,6 +70,8 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 
 - Caregiver activation -> `wiki/concepts/caregiver_activation.md`.
 - Digital distress -> `wiki/concepts/digital_distress.md`.
+- Digital inclusion and supported use -> `wiki/concepts/digital_inclusion_and_supported_use.md`; separates access, connectivity, skills, assistance, use, and outcomes.
+- Formal service access and respite -> `wiki/caregiving_challenges/formal_service_access_and_respite.md`; separates interest, search, referral, and actual receipt of human support.
 - Aging versus disease -> `wiki/concepts/aging_vs_disease.md`.
 
 ## Knowledge Routing

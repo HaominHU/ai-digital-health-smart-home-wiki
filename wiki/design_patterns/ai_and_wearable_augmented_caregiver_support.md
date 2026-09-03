@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: speculative_design_direction
 tags: [ai, generative-ai, wearables, caregiver-support, design-pattern]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # AI and Wearable-Augmented Caregiver Support
@@ -58,6 +58,10 @@ Use AI, generative AI, and wearable devices to augment caregiver support through
 - Needs safety, privacy, and usability testing with caregivers and care recipients.
 - Needs clarity about which data are collected, who can access them, and how recommendations are reviewed.
 - Needs caregiver and care-recipient outcome evidence for specific wearable-supported workflows; bibliometric attention is insufficient.
+
+## Function Matching Does Not Establish Augmentation Benefit
+
+Tong's older-adult ownership associations motivate hypotheses about matching devices to function and support needs. They do not evaluate caregiver augmentation, AI, actual use, or a combined wearable intervention. Preserve the speculative status of this pattern and test data validity, sustained use, consent, assistance workload, and outcomes separately. See `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Related Pages
 

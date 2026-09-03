@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [falls, aging, condition-overlay]
-last_updated: 2026-05-26
+last_updated: 2026-09-03
 ---
 
 # Falls and General Aging Issues
@@ -29,6 +29,10 @@ Falls may reflect general aging, disease-specific impairment, treatment side eff
 ## Technology Support Opportunities
 
 - Smart home or monitoring technologies may be relevant to home safety and functional-risk awareness, but these sources do not provide direct fall-prevention technology effectiveness evidence.
+
+## Frailty and Digital Inclusion Boundary
+
+Hwang examines prefrail/frail status and digital access, literacy, and practical support in a cognitively selected South Korean sample. This adds an observational functional-vulnerability context, not fall-prevention effectiveness or evidence that frailty is normal aging. No fall outcome was evaluated. See `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Evidence
 

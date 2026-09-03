@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: emerging_single_source
 tags: [digital-distress, smart-home, digital-equity, privacy, trust, implementation]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Digital Distress
@@ -34,6 +34,10 @@ Assess distress, privacy comfort, perceived surveillance, alert comprehension, t
 ## Evidence Boundary
 
 The construct currently rests on one source in this wiki. Its dimensions, measures, prevalence, discriminant validity, and transferability across smart homes, wearables, portals, telehealth, and AI systems need further study.
+
+## Adjacent Evidence Does Not Validate This Construct
+
+Digital exclusion, low literacy, functional mismatch, and digital distress may overlap, but they are different constructs. Hwang and Tong inform `wiki/concepts/digital_inclusion_and_supported_use.md`; neither directly measures or validates digital distress. Tong's higher depressive-symptom association for care devices must not be relabeled technology-caused distress. The single-source construct boundary above therefore remains unchanged.
 
 ## Related Pages
 

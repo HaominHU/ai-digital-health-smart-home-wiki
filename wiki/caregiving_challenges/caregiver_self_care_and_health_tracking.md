@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -111,6 +111,10 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 ## Gaps
 
 - The dissertation reports usability, acceptability, and feasibility; it does not establish health outcome effects.
+
+## Self-Monitoring Without Outcome Overclaims
+
+AlzCare includes caregiver burden questionnaires and history; Aliviado's design process prioritizes stress support, self-monitoring, and reflective journaling. These are caregiver-facing design findings, not evidence that scores or journaling improve health. Keep caregiver records private by default, offer low-effort use, and define human support routes for concerning reports. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 ## Related Pages
 

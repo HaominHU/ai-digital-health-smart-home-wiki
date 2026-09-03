@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -113,7 +113,23 @@ Raw sources should be treated as immutable.
 - `wiki/evidence/pemberton_2026_smart_home_connected_care_adoption.md`
 - `wiki/evidence/richter_2026_llm_physician_patient_communication.md`
 
+September 2026 monthly PubMed evidence:
+
+- `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`: Integrated dementia caregiver app design and short-session usability, not effectiveness.
+- `wiki/evidence/chamberlin_2026_rural_urban_caregiver_service_access.md`: Older-veteran caregiver interest, search, and service-receipt disparities.
+- `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`: Participatory BPSD support design and contestable priorities, not algorithm validation.
+- `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md`: Observational digital access, literacy, practical support, and frailty context.
+- `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md`: Function-specific ownership associations, not smart-home effectiveness.
+
 ## Citation Memory
+
+September citation records:
+
+- `wiki/references/items/2026-08-27_almeida_alzcare-dementia-caregiver-app.md`
+- `wiki/references/items/2026-08-29_chamberlin_rural-urban-caregiver-service-access.md`
+- `wiki/references/items/2026-08-27_fernandez-cajavilca_aliviado-dementia-caregiver-app-design.md`
+- `wiki/references/items/2026-09-03_hwang_digital-access-literacy-frailty.md`
+- `wiki/references/items/2026-08-06_tong_smart-device-ownership-depressive-symptoms.md`
 
 - `wiki/references/README.md`: Citation-memory policy and Zotero/EndNote export boundary.
 - `wiki/references/cg_system_core_reference_plan.md`: Planning-only map for the caregiver system core reference backbone, staged ingest batches, source roles, and deferred/skipped sources.
@@ -188,6 +204,7 @@ Raw sources should be treated as immutable.
 - `outputs/query_answers/`: Trackable answers deliberately preserved outside chat.
 - `outputs/query_answers/2026-07-14_agentic-cg-support_readme_cross-check.md`: Cross-check of the external agentic caregiver-support README against maintained-wiki evidence.
 - `outputs/lint_reports/`: Trackable health-check reports that preserve meaningful findings, fixes, decisions, or residual risks.
+- `outputs/lint_reports/2026-09-03_knowledge-and-repo-health-check.md`: September source-denominator/reporting caveats, knowledge/structure validation, residual gaps, and pre-commit publication review.
 - `outputs/lint_reports/2026-08-06_knowledge-structure-health-check.md`: Knowledge and structure health check that resolved legacy evidence metadata and citation-memory gaps and recorded residual evidence needs.
 - `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`: Structure, knowledge, logic, and workflow check that updated the domain map and added living overview/synthesis maintenance guardrails.
 - `outputs/lint_reports/2026-06-17_deep_overview_conflict_compliance_check.md`: Deep overview and knowledge-conflict compliance scan focused on old workflow contamination.
@@ -210,6 +227,7 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/concepts/reach_adoption_implementation_maintenance.md`: Uses RE-AIM to track reach, efficacy, adoption, implementation, and maintenance for intervention evaluation.
 - `wiki/concepts/caregiver_activation.md`: Treats caregiver activation as dynamic readiness across capabilities, autonomy, resilience, self-efficacy, and communication.
 - `wiki/concepts/digital_distress.md`: Tracks stress arising from intrusive, confusing, unreliable, poorly personalized, or responsibility-blurring care technology.
+- `wiki/concepts/digital_inclusion_and_supported_use.md`: Separates material access, connectivity, skills, practical assistance, meaningful use, and outcomes.
 
 ## Initial Population Pages
 
@@ -228,6 +246,8 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/conditions/gynecological_cancer.md`
 
 ## Caregiving Challenge Hubs
+
+- `wiki/caregiving_challenges/formal_service_access_and_respite.md`: Tracks interest, search, referral, eligibility, receipt, and sustainable access to human support.
 
 - `wiki/caregiving_challenges/monitoring_and_safety_awareness.md`
 - `wiki/caregiving_challenges/caregiver_time_burden_and_engagement.md`

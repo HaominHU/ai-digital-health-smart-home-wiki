@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Emotional and Social Support
@@ -21,6 +21,7 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 ## Relevant Conditions
 
 - Cross-condition challenge.
+- Dementia.
 - Gynecological cancer.
 - May apply to spinal cord injury when broad neurological-condition caregiver evidence is relevant and no specific non-SCI condition is named.
 
@@ -118,6 +119,12 @@ To be further source-backed.
 ## Gaps
 
 - The abstract identifies unmet needs and design directions but does not evaluate AI-mediated emotional or peer support.
+
+## Caregiver Support and Older-Adult Outcomes
+
+Aliviado's co-design priorities include stress-management resources and reflective self-monitoring, but caregiver emotional outcomes were not evaluated; see `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`. Access to human caregiver support may also be constrained despite expressed interest; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+
+Tong's depressive-symptom associations concern older adults, not their caregivers, and Hwang's practical-support finding is not an emotional-support intervention effect. Keep those adjacent inclusion findings in `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Related Pages
 

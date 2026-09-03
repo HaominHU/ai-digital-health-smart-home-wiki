@@ -3,7 +3,7 @@ title: Reference and Citation Memory
 type: reference_index
 status: draft
 privacy: private
-last_updated: 2026-05-22
+last_updated: 2026-09-03
 ---
 
 # Reference and Citation Memory
@@ -58,4 +58,4 @@ Keep wiki citations and searched external candidate citations in separate export
 
 ## Current Status
 
-The existing wiki already stores source IDs and some original citation text in evidence pages, but it did not previously have a dedicated reference-management layer or RIS export workflow. Existing source citations should be backfilled into `wiki/references/items/` as sources are revisited or when a citation-supported brainstorming output needs them.
+The citation-memory layer is established. After the September 2026 ingest, all 51 citation-bearing evidence sources have canonical item records; two additional evidence pages represent user-provided lecture takeaways rather than formal citation-bearing sources. The three AMIA submission records remain incomplete and not export-ready pending final publication or acceptance metadata. The other 48 records are RIS-ready; missing optional metadata is disclosed in each record, including Hwang's exact publication date and Almeida's final volume/issue/pages. Generated RIS files remain local-only by default.

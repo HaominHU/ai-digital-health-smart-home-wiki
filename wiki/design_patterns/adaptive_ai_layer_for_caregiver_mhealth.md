@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [generative-ai, mhealth, family-caregivers, adaptive-support, design-pattern]
-last_updated: 2026-05-27
+last_updated: 2026-09-03
 ---
 
 # Adaptive AI Layer for Caregiver mHealth
@@ -27,6 +27,7 @@ Use generative AI as an adaptive support layer within caregiver mHealth rather t
 ## Relevant Conditions
 
 - Cross-condition caregiver support.
+- Dementia.
 - Gynecological cancer.
 - Spinal cord injury, when broad neurological-condition caregiver evidence is relevant and no specific non-SCI condition is named.
 
@@ -56,6 +57,10 @@ Use generative AI as an adaptive support layer within caregiver mHealth rather t
 
 - Needs implementation and evaluation evidence for generative AI features.
 - Needs safety, privacy, and escalation validation before use with vulnerable populations.
+
+## Explainable and Contestable Prioritization
+
+Aliviado care partners requested a clear rationale when machine-learning symptom priorities differed from their own, with the option to retain their choice. Apply this as human-centered design rationale for user-facing explanations, uncertainty, disagreement, and reviewable priorities; it is not evidence for generative AI performance. Clinical-risk routing still requires separately reviewed safeguards and human oversight. See `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 ## Related Pages
 

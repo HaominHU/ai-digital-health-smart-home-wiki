@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [aging, disease, disability, conceptual-distinction]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Aging vs Disease
@@ -24,6 +24,10 @@ Do not treat a condition as normal aging simply because it is common among older
 - Gynecological cancer among older adults is a disease condition that may be age-associated or more prevalent with aging.
 - Acquired spinal cord injury in a younger adult should not be treated as the same problem as aging-related mobility or spinal function decline.
 - Falls can result from aging-related functional decline, disease-specific impairment, treatment side effects, medication burden, home environment mismatch, or multiple interacting causes.
+
+## Frailty and Mental-Health Outcomes
+
+Hwang's prefrail/frail outcome is a clinical/functional construct, not normal aging; its association with access and literacy is not a causal explanation of frailty. Tong's depressive-symptom score is an outcome measure, not a clinical depression diagnosis or an inevitable feature of later life. Neither study establishes caregiver effects. See `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md`, `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md`, and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Evidence
 

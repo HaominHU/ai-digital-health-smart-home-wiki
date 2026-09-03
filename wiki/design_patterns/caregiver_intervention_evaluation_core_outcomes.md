@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, evaluation, outcomes, design-pattern]
-last_updated: 2026-06-11
+last_updated: 2026-09-03
 ---
 
 # Caregiver Intervention Evaluation Core Outcomes
@@ -90,6 +90,12 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 - For advanced cancer caregiver interventions, do not treat broad supportive-care benefits as gynecological-cancer-specific effects, digital delivery evidence, or proof that one intervention format is best across all outcome dimensions.
 - For gynecologic cancer mHealth, do not infer outcome benefit from formative focus group interest or desired features.
 - For broad cancer caregiver advocacy support, do not infer effectiveness from resource availability or patient advocacy group mission statements without outcome or implementation evaluation.
+
+## Evaluation Mode and Completed Access
+
+AlzCare's mixed hands-on and researcher-demonstrated sessions should not be treated as equivalent independent use, and its high SUS is not evidence of benefit. Aliviado's co-design outcomes are separate from usability, sustained engagement, BPSD outcomes, and algorithm safety. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+Add actual caregiver participation, digital-skill range, implemented feature coverage, recommendation disagreement, and real-world use to the evaluation plan. For navigation, measure service receipt and reasons for failed access rather than referral counts alone; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
 
 ## Related Pages
 

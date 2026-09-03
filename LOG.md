@@ -536,3 +536,27 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Verified the complete August ingest and health-check change set for commit and push safety on `main` tracking `origin/main`.
 - Files touched: `LOG.md`.
 - Notes: The publication set contains maintained Markdown wiki, citation-memory, workflow, navigation, memory, and one meaningful lint-report artifact. Raw `sources/` files, ingest previews, scratch outputs, generated citation exports, and ignored system files remain unstaged and local-only. No pre-existing staged changes or unrelated untracked scratch files were found. Validated commit title: `:books: docs(pubmed): ingest August papers and refresh wiki [ci skip]`.
+
+## [2026-09-03] ingest | Previewed September 2026 monthly PubMed batch
+
+- Summary: Renamed and reorganized five monthly PubMed PDFs and created a pending batch ingest preview. Recommended integrating all five papers: Almeida, Chamberlin, Fernandez Cajavilca, Hwang, and Tong.
+- Files touched: `sources/papers/monthly_pubmed/`, `outputs/ingest_previews/2026-09-03_monthly-pubmed-september-2026_batch-preview.md`, `LOG.md`.
+- Notes: Source types include two dementia caregiver app design studies, one national caregiver service-access survey, and two observational older-adult digital-inclusion studies. Privacy level is private/non-sensitive published evidence. Review status is pending explicit user approval before maintained-wiki integration. The preview remains local-only as required. No citation-memory, evidence, topic, overview, synthesis, index, or memory page was updated because the batch remains at preview stage; the preview records the proposed post-approval updates and evidence boundaries.
+
+## [2026-09-03] ingest | Integrated approved September monthly PubMed batch
+
+- Summary: Integrated the explicitly approved Almeida, Chamberlin, Fernandez Cajavilca, Hwang, and Tong papers into five evidence pages, five RIS-ready citation-memory records, and focused topic/design updates. Added digital inclusion/supported use and formal service access/respite hubs.
+- Files touched: `wiki/evidence/`, `wiki/references/items/`, `wiki/concepts/`, `wiki/caregiving_challenges/`, relevant population/condition/need/technology/environment/design/research-question pages, both living overview pages, `wiki/references/README.md`, `INDEX.md`, `MEMORY.md`, the local-only September preview, and `LOG.md`.
+- Notes: All five are published evidence and only aggregate findings/generalized design themes were integrated. Preserve design/usability versus effectiveness, ownership versus use, rural/veteran and national-context limits, and caregiver versus care-recipient outcomes. Hwang's exact publication date and Almeida's final volume/issue/pages remain unverified optional metadata. The user accepted Tong's adoption/equity routing with smart-home/wearable cross-links. Both living overview owners were updated; no core reference-plan update was needed because the sources remain in the monthly PubMed lane. No workflow or command change was needed. Raw PDFs remain unchanged and local-only. The user also authorized health checks and conditional commit/push.
+
+## [2026-09-03] lint | Validated September knowledge and source boundaries
+
+- Summary: Scanned all 185 wiki pages, 53 evidence pages, and 51 citation records; reviewed new-source claims against affected synthesis and adjacent evidence. Clarified Chamberlin's 226-searcher receipt denominator and nonsignificant respite-receipt difference; documented Hwang's reporting discrepancies and single significant moderation contrast.
+- Files touched: New evidence/reference/hub pages, `wiki/references/README.md`, `outputs/lint_reports/2026-09-03_knowledge-and-repo-health-check.md`, `INDEX.md`, `MEMORY.md`, and `LOG.md`.
+- Notes: YAML, source/reference mapping, canonical citation uniqueness, local paths, index routing, and obvious-identifier checks passed. Forty-eight citation records are RIS-ready; three AMIA submissions remain incomplete. Six index-routed template pages and two lecture-note reference exceptions are intentional. No blocking compiled-knowledge issue remains; source-level numerical uncertainty and broader research gaps are retained in the durable report. No raw source is recommended for deletion.
+
+## [2026-09-03] lint | Validated September repository publication set
+
+- Summary: Reviewed staged/unstaged/untracked/ignored files and verified `main` tracks `origin/main`; a live remote check matched the starting local revision. Prepared the maintained Markdown ingest and meaningful health-check report for the user's authorized commit/push.
+- Files touched: `LOG.md` and the durable health-check report.
+- Notes: No pre-existing staged changes or unrelated tracked edits were present. Raw sources, previews, scratch work, generated exports, private notes, and OS artifacts remain outside publication. Commit title: `:books: docs(pubmed): ingest September papers and audit wiki [ci skip]`. The source caveats are explicitly bounded and require no decision before publishing the wiki synthesis; actual commit/push success is reported in the task handoff.

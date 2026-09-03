@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiving-trajectory, adaptive-content, health-literacy, design-pattern]
-last_updated: 2026-06-07
+last_updated: 2026-09-03
 ---
 
 # Trajectory-Sensitive Caregiver Content
@@ -58,6 +58,10 @@ Adapt caregiver-facing information to the caregiver's trajectory stage, experien
 ## Gaps
 
 - The source proposes future AI-supported adaptive content but does not evaluate deployed generative AI content adaptation.
+
+## Caregiver Priorities and Changing Use Roles
+
+AlzCare's feedback suggests caregiver-supported use may become more realistic as dementia progresses. Aliviado supports personalized terms and flexible symptom priorities, with current evidence and multilingual support requested. Use these as design requirements to test over time, not validated longitudinal adaptation. Preserve user choice and reviewed source provenance. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 ## Related Pages
 

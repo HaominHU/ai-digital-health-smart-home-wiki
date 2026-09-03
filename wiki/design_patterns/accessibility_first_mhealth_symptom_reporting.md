@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [accessibility, mhealth, symptom-reporting, dexterity, design-pattern]
-last_updated: 2026-06-04
+last_updated: 2026-09-03
 ---
 
 # Accessibility-First mHealth Symptom Reporting
@@ -56,6 +56,10 @@ Design mHealth symptom-reporting tools around accessibility constraints from the
 ## Gaps
 
 - The source does not establish clinical effectiveness or long-term adherence outcomes.
+
+## Supported Use as an Additional Design Layer
+
+Hwang's observational findings motivate testing practical assistance alongside accessible interfaces; they do not show that training prevents frailty or improves symptom reporting. Preserve independent use where feasible and avoid default proxy access. AlzCare's high-confidence evaluator sample also shows why accessibility evaluation needs lower-literacy and higher-support end users. See `wiki/concepts/digital_inclusion_and_supported_use.md` and `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
 
 ## Related Pages
 

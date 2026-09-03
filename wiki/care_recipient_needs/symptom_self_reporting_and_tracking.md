@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [symptom-tracking, self-reporting, care-recipient, mhealth]
-last_updated: 2026-05-18
+last_updated: 2026-09-03
 ---
 
 # Symptom Self-Reporting and Tracking
@@ -38,6 +38,10 @@ Care recipients may need accessible tools for reporting symptoms, severity, dura
 
 - The source reports usability and refinement, not clinical effectiveness.
 - Caregiver involvement is not a primary focus of this source.
+
+## Boundary Between Self-Report and Caregiver Observation
+
+The dementia app studies add caregiver-entered health information and BPSD observations, not validated independent symptom self-report by people living with dementia. Keep the reporter, assistance provided, observed versus inferred content, and care-recipient perspective distinct in records and evaluation. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`. Their findings do not replace the condition-specific self-report evidence above.
 
 ## Related Pages
 

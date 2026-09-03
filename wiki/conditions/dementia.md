@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [dementia, caregiving, condition-overlay]
-last_updated: 2026-06-07
+last_updated: 2026-09-03
 ---
 
 # Dementia
@@ -48,6 +48,12 @@ Dementia in later life should not be treated as normal aging, even though it is 
 - Technology support can include caregiver training, monitoring support, care coordination, social support, self-care support, source-grounded chatbot assistance, and provider-connected mHealth. Current CareBuddy evidence supports usability/acceptability and design rationale, not clinical effectiveness.
 - Online and home-based caregiver interventions can support education, mastery, behavior-management response, activity engagement, and care coordination. These should remain caregiver or dyadic support evidence, not dementia disease-modification claims.
 - Dementia chatbot support should be evaluated for evidence provenance, accessible dialog, privacy/security, safe disclaimers, escalation pathways, caregiver-skills content, and end-user outcomes. App-store feature reviews or usability impressions should not be treated as caregiver burden, clinical safety, or care-recipient outcome evidence.
+
+## Recent App Design Evidence and Limits
+
+AlzCare adds integrated task, cognitive-activity, and caregiver self-monitoring design with high short-session usability ratings, but a digitally confident mixed evaluator sample and unimplemented sensing/location functions limit inference. Aliviado adds participatory design evidence for BPSD priorities, reflective journaling, tailored terms, and the ability to question algorithmic recommendations. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+These studies extend design requirements rather than demonstrating burden reduction, BPSD improvement, or safe autonomous triage. Caregiver reports are not care-recipient self-report, and proxy usability is not evidence of care-recipient consent or benefit. Hwang's digital-access/frailty study should not be imported as direct dementia evidence because it excluded diagnosed and suspected dementia.
 
 ## Evidence
 

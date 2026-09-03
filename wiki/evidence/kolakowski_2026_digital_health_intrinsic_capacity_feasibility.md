@@ -10,7 +10,7 @@ reference_item: wiki/references/items/2026-07-28_kolakowski_digital-health-intri
 evidence_type: published evidence
 source_type: multicountry feasibility study
 tags: [digital-health, intrinsic-capacity, older-adults, caregivers, usability, healthy-aging]
-last_updated: 2026-08-06
+last_updated: 2026-09-03
 ---
 
 # Kolakowski 2026 Digital Health Intrinsic Capacity Feasibility
@@ -50,5 +50,7 @@ A foundational WHO source is still needed before the wiki makes stronger claims 
 - The study supports feasibility and usability, not effectiveness, sustained adoption, clinical benefit, or AI performance.
 
 ## Source Citation
+
+This feasibility evidence also informs `wiki/concepts/digital_inclusion_and_supported_use.md`; the hub does not upgrade usability or support needs into health-effectiveness evidence.
 
 - `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: Kolakowski M, Lupica A, Ben Bader S, et al. A Multidimensional Digital Health Platform to Support Intrinsic Capacity and Healthy Aging: Pilot Feasibility Study. JMIR Aging. 2026;9:e79862. DOI: `10.2196/79862`.
