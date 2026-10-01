@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-management, secondary-complications, chronic-conditions, disability, mhealth]
-last_updated: 2026-06-11
+last_updated: 2026-10-01
 ---
 
 # Self-Management and Secondary Complication Prevention
@@ -32,6 +32,10 @@ People with chronic conditions and disabilities may need long-term self-manageme
 - `2026-06-03_fridriksson_brain-health-aphasia-recovery`: Lecture notes suggest that rehabilitation response after stroke-related aphasia may be shaped by systemic factors such as diabetes, hypertension, glycemic control, and hearing loss, plus brain-health and network metrics. Use as neurorehabilitation framing, not as evidence that any self-management intervention changes aphasia outcomes.
 - `2016_smith_caregiving-services-sci-systematic-review`: In SCI caregiving service studies, functional independence and IADL capacity were associated with care hours, and training evidence focused partly on secondary health condition knowledge. Use as support-needs and training rationale, not as disease-background or intervention-effectiveness evidence.
 - `2019_conti_secondary-conditions-caregiver-burden-sci`: In a cross-sectional SCI dyad study, bladder dysfunction, UTIs, pressure injuries, chronic pain, and functional independence were associated with caregiver burden dimensions, supporting dyadic secondary-condition prevention and self-management support.
+
+## Medication Support Across the Full Journey
+
+Long maps digital support across prescription, pickup, storage, daily routine, and refill, finding sparse coverage outside daily routines. Evaluate accessible operation, understandable reminders, user-controlled intensity, human support, and clinical-workflow integration as distinct components. The derived framework needs validation and is not evidence that every proposed feature improves adherence or prevents complications. Family support and caregiver workload must be measured separately; medication changes remain subject to professional review. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
 
 ## Design Implications
 

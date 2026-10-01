@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [digital-inclusion, digital-literacy, supported-use, equity, older-adults]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Digital Inclusion and Supported Use
@@ -33,6 +33,12 @@ The following is a research framework inferred across sources, not a validated c
 6. Outcomes: measure actual use, workload, autonomy, participation, and intended health or care outcomes separately.
 
 Do not assume each stage causes the next. Digital navigators, coaching, low-bandwidth alternatives, and function-matched devices are design hypotheses to test. Supporter workload and cost must be measured rather than assigned to family members by default.
+
+## Fit and Implementation Across Layers
+
+Liu's older-adult study operationalizes perceived fit across physical, community, social, and digital conditions, while Batchelor's guideline development adds staff, provider, and client implementation perspectives. Long's review links individual, technical, social, and program factors to five derived design dimensions. This extends the inclusion framework to technology demands and organizational support; it does not validate a causal sequence from access to better health. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`, `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`, and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
+
+Assess readiness, ability, preference, access, actual use, and benefit separately. Client ownership does not establish health-tool use, and staff confidence does not establish client acceptance. Setup, training, and continuing assistance should be resourced and evaluated without assigning the work to family members by default.
 
 ## Population and Safety Boundaries
 

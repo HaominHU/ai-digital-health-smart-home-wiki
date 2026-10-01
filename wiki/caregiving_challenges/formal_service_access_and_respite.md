@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregivers, formal-services, respite, rural-access, implementation, equity]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Formal Service Access and Respite
@@ -38,6 +38,10 @@ These are inferred research and implementation requirements, not proven service 
 ## Privacy and Decision Boundary
 
 Collect only the information required for navigation. Confirm consent before referrals or information sharing, restrict access, record revocation and retention rules, and avoid storing unnecessary medical or financial details. Eligibility information must be current and reviewed by the relevant service; this wiki does not determine benefits, clinical urgency, or treatment. Urgent situations require established human escalation routes, not routine directory workflows.
+
+## Technology Within Formal Home Care
+
+Batchelor adds a provider and workforce implementation lens: digital support depends on training, technical help, infrastructure, workflow, and client choice. Its guidelines were refined through one provider and a smart-glasses case, without testing service receipt, respite, workforce savings, or caregiver outcomes. Use this as context for evaluating human-service capacity; include family carers directly before assigning them new tasks. See `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md` and `wiki/environments/home.md`.
 
 ## Knowledge Gaps
 

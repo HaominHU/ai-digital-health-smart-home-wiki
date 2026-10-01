@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [smart-home, sensing, caregiving, technology-lens]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Smart Home Technologies
@@ -26,6 +26,12 @@ Track privacy in the home, consent among multiple household members, passive sen
 
 Tong includes cameras and speakers alongside monitors, wearables, and assistive devices. Its ownership associations do not evaluate ambient sensing, integrated home workflows, actual use, or response services. Use it for function/context matching and inclusion limits, not smart-home effectiveness or claims that care devices cause harm. See `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`. Primary source storage remains adoption/preferences/equity; this page preserves the smart-home connection.
 
+## Architecture, Environmental Fit, and Evidence
+
+El-Saboni's scoping review organizes foundational, connected, and intelligent architectures while identifying gaps between sensing, workflow integration, and sustained deployment. Its maturity stages are conceptual; increasing connectivity or analytics does not establish clinical readiness. Broad outcome claims require checking the underlying studies. See `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md`.
+
+Liu treats digital support as part of a wider person-environment relationship: monitoring and interaction may provide resources while operation, comprehension, trust, and maintenance create demands. The study measures older-adult satisfaction in Chinese urban communities, rather than evaluated smart-home benefit. This complements deployment evidence without replacing it; see `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
 ## Evidence
 
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: The dissertation identifies web cameras, GPS, sensors, and intelligent agents as technologies relevant to smart home care and caregiver monitoring/support. Co-design participants also raised concerns about smart home device cost, learning curve, insufficient support, and reliability.
@@ -43,7 +49,7 @@ Tong includes cameras and speakers alongside monitors, wearables, and assistive 
 
 - Treat smart home and intelligent-agent support as part of a broader caregiver support ecosystem, not only as passive monitoring.
 - Include cost, setup burden, learning curve, reliability, and multi-user consent in smart home caregiving design.
-- Do not cite these general caregiving sources as proof of smart home effectiveness; use them for design rationale and implementation concerns until technology-specific studies are ingested.
+- Use general caregiving sources for design rationale and implementation concerns. Evaluate effectiveness through the technology-specific evidence pages, with each source's population, design, and outcome limits preserved.
 - Keep digital health, telehealth, wearable, assistive technology, and smart-home evidence categories distinct unless a source explicitly evaluates a smart-home intervention.
 - Use RE-AIM-style questions to test whether smart-home systems are accessible, adoptable, maintainable, and feasible in routine home contexts.
 - If AI agents interact with smart-home devices, constrain actions through explicit permissions, audit logs, human confirmation, and emergency boundaries.

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # AI-Driven Digital Health
@@ -65,6 +65,10 @@ Track data minimization, consent, access control, auditability, bias, human over
 Aliviado uses a machine-learning BPSD-prioritization component; care partners wanted an explanation and the ability to retain their own priority when recommendations differed. This is formative human-centered evidence, not validation of model accuracy, safety, subgroup performance, or generative AI. See `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 AlzCare considered but deprioritized AI chat and should not be cited as AI-effectiveness evidence; see `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`. Access and digital skills remain implementation prerequisites to test rather than assumed benefits of AI; see `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
+## Architecture and Framework Validation
+
+El-Saboni's intelligent-home taxonomy maps adaptive analytics but supplies no validated clinical readiness score. Long's age-friendly framework derives design directions across heterogeneous medication-support evidence; it does not validate AI interaction or automated medication advice. Allheeib's privacy architecture proposes future machine learning without implementing or evaluating it. Technical categories, conceptual promises, and clinical evidence must remain separate. See `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md`, `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`, and `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.
 
 ## Evidence
 

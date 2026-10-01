@@ -3,7 +3,7 @@ title: Ingest Source Workflow
 type: workflow
 status: draft
 privacy: private
-last_updated: 2026-08-06
+last_updated: 2026-10-01
 ---
 
 # Ingest Source Workflow
@@ -11,6 +11,8 @@ last_updated: 2026-08-06
 ## Purpose
 
 Process a source into the research wiki without losing source separation, evidence labeling, privacy boundaries, or conceptual distinctions.
+
+Use `wiki/commands/README.md` for the available short command entry points, including the source-ingest trigger.
 
 Use this workflow for:
 

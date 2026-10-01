@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: routing_map
 tags: [domain-map, digital-health, smart-home, caregiving]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Domain Map
@@ -54,10 +54,10 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 
 - Spinal cord injury.
 - Dementia.
-- Falls and general aging issues.
+- Falls and general aging issues -> `wiki/conditions/falls_and_aging.md`.
 - Multiple chronic conditions in aging.
 - Systemic sclerosis-associated Raynaud phenomenon.
-- Postpartum women.
+- Postpartum women -> `wiki/conditions/postpartum_women.md`; scaffold awaiting source-backed coverage.
 - Gynecological cancer.
 
 ## Primary Technology Lenses
@@ -73,6 +73,10 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 - Digital inclusion and supported use -> `wiki/concepts/digital_inclusion_and_supported_use.md`; separates access, connectivity, skills, assistance, use, and outcomes.
 - Formal service access and respite -> `wiki/caregiving_challenges/formal_service_access_and_respite.md`; separates interest, search, referral, and actual receipt of human support.
 - Aging versus disease -> `wiki/concepts/aging_vs_disease.md`.
+
+## Home Support and Implementation Routing
+
+Use `wiki/environments/home.md` for the relationship among household/community fit, technology demands, human assistance, and formal provider capacity. Use `wiki/concepts/digital_inclusion_and_supported_use.md` for access, readiness, skills, and sustained use; `wiki/caregiving_challenges/care_coordination_and_shared_access.md` for workflow and permissions; and `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md` for medication self-management. Source-specific review counts, instrument properties, and conceptual hypotheses remain in evidence pages. This routing keeps older-adult, family-carer, and formal-workforce knowledge distinct while allowing cross-topic synthesis.
 
 ## Knowledge Routing
 

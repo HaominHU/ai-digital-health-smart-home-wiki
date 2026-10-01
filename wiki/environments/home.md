@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [home, smart-home, caregiving]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Home Environment
@@ -27,6 +27,14 @@ The home is a primary setting for caregiving, smart home technologies, monitorin
 ## Connected Access and Human Service Capacity
 
 Hwang distinguishes having a device from having home internet and practical assistance, but does not test a home digital intervention. Chamberlin distinguishes caregiver interest/search from service receipt in older-veteran households. Together they motivate evaluating connectivity, assistance, local workforce, and completed access separately, without assuming an app resolves missing support. See `wiki/concepts/digital_inclusion_and_supported_use.md` and `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+
+## Fit Across Household, Community, and Provider
+
+The October sources extend the home model beyond device installation. Liu connects perceived fit to housing/community conditions, social resources, and digital demands; Batchelor adds formal workforce readiness, provider support, and client choice; Long maps medication support across prescription, pickup, storage, daily routine, and refill. Together they motivate evaluating the whole use context, while their methods do not establish a shared causal mechanism or family-caregiver benefit. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`, `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`, and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
+
+El-Saboni's review maps sensing and infrastructure integration but leaves clinical readiness and sustained response workflows uncertain. Use `wiki/technologies/smart_home_technologies.md` for that technology lens and `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md` for the source limits.
+
+For research designs, measure task completion, assistance requests, user choice, connectivity failures, staff and family workload, and sustained use separately. Environmental changes, supported use, and medication support are intervention directions to test. Detailed source methods and limitations remain on the evidence pages.
 
 ## Evidence
 

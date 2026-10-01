@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Older Adults
@@ -66,6 +66,10 @@ Caregiving need among older adults should be linked to functional limitation, co
 Connected access, literacy, practical assistance, device function, and actual use should be distinguished; `wiki/concepts/digital_inclusion_and_supported_use.md` owns this synthesis. Hwang's South Korean and Tong's Chinese studies are observational older-adult evidence, not caregiver effects. Hwang excluded diagnosed and suspected dementia; Tong measured ownership rather than use. See `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md` and `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md`.
 
 For older veterans receiving family care, caregiver service interest did not guarantee receipt. This is population-specific access context, not evidence that age alone creates need; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+
+## Person-Environment Fit and Medication Support
+
+Liu's urban empty-nest sample connects satisfaction to functional, relational, community, and digital conditions; empty-nest status includes people living with a spouse and should not be equated with living alone. Long's medication-support review exposes limited evidence for people living alone, with frailty/cognitive impairment, or in low-resource settings. Design and evaluation should assess individual capacities and support context rather than treating older adults as a uniform group. Both sources primarily concern care recipients; neither establishes caregiver burden reduction. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md` and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
 
 ## Related Pages
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Care Coordination and Shared Access
@@ -125,6 +125,12 @@ Shared access can help caregivers coordinate support, but it can also create pri
 AlzCare's centralized tasks and Aliviado's requested multi-caregiver/multi-recipient features support role-specific coordination design, not demonstrated coordination benefit. Record whether features are planned, implemented, or evaluated, and make permissions and revocation explicit. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 Shared information is not completed access to help. `wiki/caregiving_challenges/formal_service_access_and_respite.md` now owns interest/search/receipt distinctions and closed-loop service-navigation questions grounded in Chamberlin's survey.
+
+## Provider Implementation and Conceptual Access Models
+
+Batchelor's home aged-care guidelines identify staff support, connectivity, workload, client preferences, and organizational culture as implementation concerns. Family carers were not directly sampled, so applying the checklist to family coordination requires direct carer participation and evaluation. See `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`.
+
+Allheeib proposes role-specific education, communication, and clinical-data access, including family updates. This is a conceptual direction for permissions and governance; it does not establish safer sharing or coordination outcomes. Verify roles, minimize access, make revocation usable, and test responsibility handoffs with actual participants. See `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.
 
 ## Related Pages
 

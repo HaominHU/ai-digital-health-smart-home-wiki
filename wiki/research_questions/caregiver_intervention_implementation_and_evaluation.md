@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -72,6 +72,16 @@ How should caregiver-support interventions, including digital health and smart h
 - Does practical assistance improve meaningful use without dependency or hidden supporter workload? Separate cognition, function, baseline need, access, ownership, actual use, and outcomes in longitudinal or experimental designs. See `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 These are research questions and speculative intervention directions; the September observational studies do not establish the proposed causal effects.
+
+## Home Fit, Medication Journey, and Governance Gaps
+
+- Can representative home-system evaluations distinguish architectural capability from sensing validity, accepted monitoring, human response workload, and sustained outcomes? See `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md`.
+- How do observed use, assistance needs, participation, and autonomy relate longitudinally to perceived person-environment fit? Replicate the measurement structure across housing, cities, rural contexts, and cultures before transferring subgroup estimates. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`.
+- Does use of home aged-care implementation guidance improve adoption, fidelity, workload, cost, and client outcomes across providers? Include family carers directly and measure who acquires new support duties. See `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`.
+- Which role and consent models produce understandable, revocable sharing across care transitions? Test security, cross-provider failures, accessibility, literacy, and response ownership separately. See `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.
+- Which medication stages need digital support beyond daily reminders, and which designs sustain use among people living alone, with cognitive/functional impairment, or in low-resource settings? Use validated usability and adherence measures, compare reminder intensity, and measure family workload and clinical integration. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
+
+These are research questions. The October sources do not establish caregiver intervention effectiveness, validated emergency routing, or safe autonomous medication decisions.
 
 ## Related Pages
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [accessibility, mhealth, symptom-reporting, dexterity, design-pattern]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Accessibility-First mHealth Symptom Reporting
@@ -66,3 +66,7 @@ Hwang's observational findings motivate testing practical assistance alongside a
 - `wiki/care_recipient_needs/symptom_self_reporting_and_tracking.md`
 - `wiki/populations/people_with_chronic_conditions_and_disabilities.md`
 - `wiki/populations/older_adults.md`
+
+## Transfer From Medication-Support Design
+
+Long's review derives perceptibility, comprehensibility, operability, emotional warmth, and security/interoperability dimensions for older users of medication technology. Accessible presentation, usable controls, manageable reminder intensity, consented human support, and privacy can inform symptom-reporting designs as an extrapolation to test. The framework is not validated for symptom reporting or specific priority conditions, and human-like encouragement is not proof of AI benefit. Use task-based and standardized usability evaluation alongside sustained use and workload measures. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.

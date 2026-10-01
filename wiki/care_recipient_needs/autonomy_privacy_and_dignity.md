@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -65,6 +65,12 @@ AI systems that offer preparation, messaging, or advocacy support may increase c
 ## Caregiver-Facing Design Is Not Care-Recipient Validation
 
 AlzCare's shared reminiscence and caregiver-supported use raise dyadic possibilities, but people living with dementia were not clearly represented as evaluators. Aliviado's caregiver choice over symptom priorities does not by itself establish care-recipient agreement or consent. Preserve separate preferences and consent processes, especially for clinical records, location, and multi-user access. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+## Fit, Client Choice, and Authorized Sharing
+
+Liu makes older adults' subjective environmental fit visible, and Batchelor's guidelines include client preferences and suitability of technology. These support attending to choice and technology demands, while leaving effects on autonomy untested. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md` and `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`.
+
+Allheeib's differentiated data access is a conceptual governance model. Communication messages and alerts can reveal sensitive health information even when categorized as less sensitive than clinical records. Minimize disclosure, verify recipients, support revocation, and assess consent comprehension; role membership alone is insufficient authorization. See `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.
 
 ## Related Pages
 

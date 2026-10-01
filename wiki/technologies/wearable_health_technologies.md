@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [wearables, remote-monitoring, biosensors, smart-textiles, digital-health]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Wearable Health Technologies
@@ -41,6 +41,10 @@ Wearable health technologies are body-worn or body-adjacent devices that collect
 
 - `2026-07-31_ding_wearable-healthcare-bibliometric-analysis`: A 12,812-article bibliometric analysis maps a rapidly expanding and increasingly connected wearable-healthcare field. It identifies research structure and emerging directions, not clinical effectiveness.
 - `2026-05-18_hu_dissertation-family-caregiver-mhealth-app`: Wearable integration and passive monitoring were proposed as future directions for reducing caregiver manual reporting burden; this remains a speculative design direction until evaluated.
+
+## Wearables Within Home Care Systems
+
+El-Saboni maps wearable biosensors alongside ambient and specialized home sensors. Signal performance, interoperable transfer, interpretation, human follow-up, adoption, and outcomes require separate evaluation. The broad scoping synthesis does not establish caregiver burden reduction or clinical readiness for a particular wearable. See `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md` and `wiki/technologies/smart_home_technologies.md`.
 
 ## Gaps
 

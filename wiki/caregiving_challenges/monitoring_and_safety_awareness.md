@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Monitoring and Safety Awareness
@@ -39,6 +39,10 @@ Smart home, remote monitoring, sensing, telehealth, and caregiver-facing digital
 ## Implemented Versus Proposed Monitoring
 
 AlzCare describes abnormal-value flags and geolocation-related support, but real-time physiological and location functions were not implemented in the evaluated version. Do not represent planned functions as tested safety systems. Separate manual reports, sensor data, flags, and human response; validate false alerts, missed alerts, non-alert meaning, consent, and response ownership before deployment. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
+
+## Monitoring Capability and Human Response
+
+El-Saboni's broad smart-home review reinforces the need to evaluate sensor quality, interpretation, permissions, and response workflows separately. Technical maturity does not establish safe escalation or a reduction in family vigilance. Research should measure false alerts, missed events, non-alert understanding, maintenance, and response workload before claiming monitoring benefit. See `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md` and `wiki/design_patterns/real_world_reliability_for_mhealth_data_capture.md`.
 
 ## Evidence
 

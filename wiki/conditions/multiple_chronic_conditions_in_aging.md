@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [multimorbidity, chronic-conditions, aging, condition-overlay]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Multiple Chronic Conditions in Aging
@@ -37,6 +37,10 @@ Track interactions among aging-related functional decline, chronic disease, disa
 ## Device Function and Confounding by Need
 
 Tong's sample included many older adults reporting chronic disease, but this is not a multimorbidity-specific intervention evaluation. Device ownership and depressive-symptom associations differed by device function; care need and functional limitation may influence both ownership and outcomes. Do not infer that a device helps or harms people with multiple conditions from these associations. See `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
+## Medication Journey and Support Burden
+
+Long's review of older adults with chronic diseases identifies uneven digital support across prescription, pickup, storage, daily routine, and refill. It motivates studying regimen complexity, literacy, access, reminder burden, and human support together. The review is broader than multimorbidity and does not establish a multimorbidity-specific effect, polypharmacy safety, or caregiver benefit. Medication management requires professional oversight; digital reminders do not authorize dose or treatment changes. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md` and `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md`.
 
 ## Evidence
 

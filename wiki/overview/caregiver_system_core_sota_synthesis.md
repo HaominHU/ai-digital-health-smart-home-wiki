@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 scope: cg_system_core
 ---
 
@@ -242,6 +242,14 @@ The September evidence sharpens two implementation distinctions. First, material
 Second, service interest and searching do not guarantee receipt. Chamberlin's older-veteran caregiver survey is consistent with rural access barriers despite similar interest, but does not identify the mechanism or test a referral tool. Evaluate completed support and acceptable respite, not only information views or referrals sent; keep workforce, eligibility, transport, and local availability as explicit questions. See `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
 
 Neither access finding supersedes the prior caregiver intervention trials. They add implementation and generalizability constraints, while effectiveness remains intervention-, population-, and outcome-specific.
+
+### Home Technology Fit and Evidence Layers
+
+The October batch adds implementation constraints around the caregiver architecture. Across the home and digital-inclusion owners, technology fit depends on personal capacity, household/community conditions, assistance, and provider workflows. Satisfaction, architectural complexity, technical availability, usable access, sustained use, and outcomes remain separate. See `wiki/environments/home.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
+Evidence roles differ: smart-home and medication scoping reviews map technologies and gaps; person-environment research measures older-adult associations; home aged-care guideline development supplies client and workforce input; privacy-aware communication proposes unvalidated governance. The medication map includes secondary reviews, so its counts are not independent primary evidence. These sources do not change the effectiveness conclusions of the prior caregiver trials and do not establish reduced family burden. Batchelor lacks direct family-carer sampling; caregiver participation, workload, consent, and escalation must be evaluated explicitly. Detailed limits are owned by `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md`, `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`, `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`, `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`, and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
+
+For the system-design agenda, evaluate the full support pathway: setup and task practice, continued assistance, medication tasks beyond reminders, understandable permissions, technical recovery, and staffed response. These are evidence-informed research directions requiring population-specific validation; see `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`.
 
 ### Overall Evidence Balance
 

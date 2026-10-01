@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -121,6 +121,15 @@ September 2026 monthly PubMed evidence:
 - `wiki/evidence/hwang_2026_digital_access_literacy_frailty.md`: Observational digital access, literacy, practical support, and frailty context.
 - `wiki/evidence/tong_2026_smart_device_ownership_depressive_symptoms.md`: Function-specific ownership associations, not smart-home effectiveness.
 
+
+October 2026 monthly PubMed evidence:
+
+- `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md`: Maps smart-home sensing, architecture, applications, and implementation gaps. Use for technology and evaluation rationale; the proposed maturity taxonomy does not establish clinical readiness or caregiver benefit.
+- `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`: Studies perceived fit across home, community, social, and digital environments. It measures older-adult satisfaction and conditional associations, not technology effectiveness or caregiver outcomes.
+- `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`: Develops an implementation checklist for Australian in-home aged care. It adds client, workforce, and organizational context, while family carers were not directly sampled and implementation outcomes remain untested.
+- `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`: A published conceptual proposal for communication, education, and role-based governance. Its hypotheses and scenarios do not establish usability, security, compliance, care coordination, or caregiver outcome gains.
+- `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`: Maps medication-support technologies, older-user barriers, and age-friendly design directions. The review offers a framework and evidence-gap map without validating the framework or estimating a pooled intervention effect.
+
 ## Citation Memory
 
 September citation records:
@@ -180,6 +189,15 @@ September citation records:
 - `wiki/references/items/2026-07-15_pemberton_smart-home-connected-care-adoption.md`
 - `wiki/references/items/2026-07-31_richter_llm-physician-patient-communication-review.md`
 
+
+October 2026 monthly PubMed citation records (RIS-ready):
+
+- `wiki/references/items/2026-09-30_el-saboni_technology-enhanced-healthcare-smart-homes.md`
+- `wiki/references/items/2026-09-24_liu_person-environment-fit-aging-in-place.md`
+- `wiki/references/items/2026-09-16_batchelor_digital-technology-in-home-aged-care-guidelines.md`
+- `wiki/references/items/2026-09-15_allheeib_privacy-aware-health-communication-framework.md`
+- `wiki/references/items/2026-09-30_long_age-friendly-medication-adherence-dht-review.md`
+
 ## Templates
 
 - `wiki/templates/caregiving_challenge_template.md`
@@ -204,6 +222,7 @@ September citation records:
 - `outputs/query_answers/`: Trackable answers deliberately preserved outside chat.
 - `outputs/query_answers/2026-07-14_agentic-cg-support_readme_cross-check.md`: Cross-check of the external agentic caregiver-support README against maintained-wiki evidence.
 - `outputs/lint_reports/`: Trackable health-check reports that preserve meaningful findings, fixes, decisions, or residual risks.
+- `outputs/lint_reports/2026-10-01_knowledge-and-repo-health-check.md`: October evidence-boundary review, stale wording and navigation fixes, residual research/metadata gaps, pending source triage, and publication review.
 - `outputs/lint_reports/2026-09-03_knowledge-and-repo-health-check.md`: September source-denominator/reporting caveats, knowledge/structure validation, residual gaps, and pre-commit publication review.
 - `outputs/lint_reports/2026-08-06_knowledge-structure-health-check.md`: Knowledge and structure health check that resolved legacy evidence metadata and citation-memory gaps and recorded residual evidence needs.
 - `outputs/lint_reports/2026-06-17_wiki_structure_knowledge_workflow_check.md`: Structure, knowledge, logic, and workflow check that updated the domain map and added living overview/synthesis maintenance guardrails.

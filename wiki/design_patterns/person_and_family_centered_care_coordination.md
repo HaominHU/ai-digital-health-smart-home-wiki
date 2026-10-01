@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-centered-care, care-coordination, shared-access, design-pattern]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Person and Family-Centered Care Coordination
@@ -68,3 +68,9 @@ Practical digital help should have an agreed scope, access limits, and workload 
 - `wiki/evidence/campbell_2024_gynecologic_cancer_caregiver_mhealth_self_management_needs.md`
 - `wiki/evidence/dave_2024_cancer_caregiver_needs_patient_advocacy_groups.md`
 - `wiki/evidence/mahmood_2026_telehealth_informal_caregivers.md`
+
+## Implementation Participation and Data Permissions
+
+Batchelor's provider-oriented checklist can structure implementation planning, but direct family-carer participation remains absent. Include carers, clients, staff, and providers separately when testing shared workflows, and measure consent, workload, preferences, and implementation outcomes. See `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`.
+
+**Speculative design direction:** Allheeib's conceptual access model motivates separate education, communication, and clinical-record permissions with verified roles, minimum necessary disclosure, revocation, and audit logs. Its proposed cloud distribution and automatic emergency routing have no empirical safety or resilience validation. Evaluate handoffs and escalation under human oversight before deployment. See `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.

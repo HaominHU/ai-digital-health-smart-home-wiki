@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Information Access and Health Literacy
@@ -125,6 +125,10 @@ To be further source-backed.
 Aliviado care partners requested tailored terminology, current evidence, and explanations when recommended BPSD priorities differed from their own. This supports understandable, contestable information design, not validated algorithmic advice; see `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 A readable directory is not a completed referral. Service receipt and navigation belong to `wiki/caregiving_challenges/formal_service_access_and_respite.md`; digital access, skills, and assisted use belong to `wiki/concepts/digital_inclusion_and_supported_use.md`. Those adjacent constructs should not be collapsed into health literacy.
+
+## Communication and Literacy as Testable Outcomes
+
+Allheeib conceptually connects understandable education, interactive clinician/pharmacist communication, and source credibility to health literacy. Those proposed mechanisms require user evaluation; privacy controls alone do not demonstrate literacy gains. Measure comprehension, communication, misinformation handling, and caregiver versus care-recipient outcomes separately. See `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.
 
 ## Related Pages
 

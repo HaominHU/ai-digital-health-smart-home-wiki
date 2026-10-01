@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, reliability, data-capture, cache, design-pattern]
-last_updated: 2026-09-03
+last_updated: 2026-10-01
 ---
 
 # Real-World Reliability for mHealth Data Capture
@@ -74,6 +74,10 @@ Design mHealth data-capture systems to remain reliable during everyday context c
 ## Prototype Claims and End-to-End Verification
 
 AlzCare's described but unimplemented real-time sensing and location functions make feature maturity an explicit reliability issue. Test collection, synchronization, missingness, alerts, and human follow-up end to end before making real-world safety claims. Distinguish demonstration success from independent use in unstable networks or daily care. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
+
+## Home Integration and Organizational Fallback
+
+El-Saboni maps gaps across sensor reliability, interoperability, clinical integration, and sustained operation. Batchelor's participatory work adds locally relevant training, troubleshooting help, and backup systems. These are evidence-informed implementation constraints, not validated guarantees. Test failure recovery, missing-data visibility, permissions, alert handoffs, human response capacity, and ongoing support cost in the intended setting. See `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md` and `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`.
 
 ## Related Pages
 

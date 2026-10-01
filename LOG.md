@@ -560,3 +560,27 @@ Logging rule: if the work changes wiki source content, generated outputs, archit
 - Summary: Reviewed staged/unstaged/untracked/ignored files and verified `main` tracks `origin/main`; a live remote check matched the starting local revision. Prepared the maintained Markdown ingest and meaningful health-check report for the user's authorized commit/push.
 - Files touched: `LOG.md` and the durable health-check report.
 - Notes: No pre-existing staged changes or unrelated tracked edits were present. Raw sources, previews, scratch work, generated exports, private notes, and OS artifacts remain outside publication. Commit title: `:books: docs(pubmed): ingest September papers and audit wiki [ci skip]`. The source caveats are explicitly bounded and require no decision before publishing the wiki synthesis; actual commit/push success is reported in the task handoff.
+
+## [2026-10-01] ingest | Previewed October 2026 monthly PubMed batch
+
+- Summary: Read the five `oct_` PDFs and created a pending batch ingest preview. Recommended integrating El-Saboni, Liu, Batchelor, Allheeib, and Long with source-specific evidence limits; Allheeib is conceptual rather than empirically validated.
+- Files touched: `outputs/ingest_previews/2026-10-01_monthly-pubmed-october-2026_batch-preview.md`, `LOG.md`.
+- Notes: The five supplied PDFs remain unchanged at their original paths. They are published, non-sensitive sources; the preview is private and local-only. No evidence, citation-memory, topic, overview, synthesis, index, or memory page was updated because explicit review of this specific preview is pending. The preview identifies proposed living-overview updates and distinguishes care-recipient, caregiver, and formal-workforce evidence.
+
+## [2026-10-01] ingest | Integrated approved October monthly PubMed batch
+
+- Summary: After the user approved the specific preview with "Go ahead to ingest", integrated El-Saboni, Liu, Batchelor, Allheeib, and Long into five evidence pages and five RIS-ready citation-memory records, with focused topic, design, research-question, and living-overview updates.
+- Files touched: `sources/papers/monthly_pubmed/`, five new `wiki/evidence/` pages, five new `wiki/references/items/` records, relevant population/condition/challenge/need/technology/environment/concept/design/research-question pages, both living overview pages, `wiki/references/README.md`, `INDEX.md`, `MEMORY.md`, the local October preview, and `LOG.md`.
+- Notes: All five PDF moves preserve SHA-256 hashes. The source limits distinguish review mapping, observational satisfaction, guideline development, and conceptual hypotheses from effectiveness. Long includes 19 secondary reviews among 60 sources; Batchelor lacks direct family-carer participation and has preserved reporting inconsistencies; Allheeib has no empirical implementation or security validation. Both living overviews were updated. No core reference-plan, command, or workflow change was needed because the sources use the established monthly lane. Raw sources, previews, and scratch work remain ignored and local-only. Targeted ingest validation checks frontmatter, citation metadata, source/reference pairs, topic backlinks, index routing, hashes, privacy, and whitespace; the current totals are 195 wiki pages, 58 evidence pages, and 56 citation records (53 RIS-ready). No commit or push was requested.
+
+## [2026-10-01] lint | Validated October knowledge and navigation
+
+- Summary: Checked all 195 wiki pages, 58 evidence pages, and 56 citation records; reviewed October claims against affected syntheses and adjacent evidence. Corrected stale smart-home future-ingest wording and strengthened routes for falls/aging, postpartum, SCI lecture evidence, and command entry points.
+- Files touched: `wiki/technologies/smart_home_technologies.md`, `wiki/overview/domain_map.md`, `wiki/conditions/spinal_cord_injury.md`, `wiki/workflows/ingest_source.md`, `outputs/lint_reports/2026-10-01_knowledge-and-repo-health-check.md`, `INDEX.md`, `MEMORY.md`, and `LOG.md`.
+- Notes: No blocking contradiction, stale living overview, missing source/reference pair, broken checked path, orphan knowledge page, or obvious participant identifier remains. Fifty-three citations are RIS-ready; three AMIA records, two lecture exceptions, and six index-only templates are intentional. Residual evidence/metadata gaps and the unassigned Nallo PDF awaiting preview-based triage are recorded in the report. No raw-source deletion is recommended.
+
+## [2026-10-01] lint | Validated October repository publication set
+
+- Summary: Reviewed staged/unstaged/untracked/ignored files and verified a live remote match for `main` tracking `origin/main`. Prepared the maintained Markdown ingest and durable health-check report for the user's explicitly authorized conditional commit and push.
+- Files touched: `LOG.md` and the durable health-check report.
+- Notes: No unrelated tracked changes or pre-existing staged changes were found. Raw sources, previews, scratch files, generated citation exports, private notes, and OS artifacts remain outside publication. Commit title: `:books: docs(pubmed): ingest October papers and audit wiki [ci skip]`. Source caveats and pending intake are bounded, with no unresolved publication blocker. The chat handoff records actual commit/push success.
