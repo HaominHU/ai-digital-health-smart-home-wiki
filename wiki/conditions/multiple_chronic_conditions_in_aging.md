@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [multimorbidity, chronic-conditions, aging, condition-overlay]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Multiple Chronic Conditions in Aging
@@ -41,6 +41,10 @@ Tong's sample included many older adults reporting chronic disease, but this is 
 ## Medication Journey and Support Burden
 
 Long's review of older adults with chronic diseases identifies uneven digital support across prescription, pickup, storage, daily routine, and refill. It motivates studying regimen complexity, literacy, access, reminder burden, and human support together. The review is broader than multimorbidity and does not establish a multimorbidity-specific effect, polypharmacy safety, or caregiver benefit. Medication management requires professional oversight; digital reminders do not authorize dose or treatment changes. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md` and `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md`.
+
+## Literacy Assessment in Chronic-Disease Contexts
+
+Tu's CHD cohort includes people with additional chronic diseases, but it is not a dedicated multimorbidity study or an intervention evaluation. Its reported literacy profiles motivate assessing information, interaction, and application needs alongside condition and treatment demands. They do not establish that more conditions cause lower literacy, that profile-tailored support improves disease management, or that relatives should provide the missing support. Preserve nonuser exclusions, reporting caveats, and the separation of disease from normal aging; see `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md`.
 
 ## Evidence
 

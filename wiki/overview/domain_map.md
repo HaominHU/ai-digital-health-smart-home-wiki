@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: routing_map
 tags: [domain-map, digital-health, smart-home, caregiving]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Domain Map
@@ -39,6 +39,12 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 - `wiki/overview/caregiver_system_core_sota_synthesis.md`: Living synthesis for the `cg_system_core` caregiver-system evidence lane.
 - `wiki/references/cg_system_core_reference_plan.md`: Planning/status map for staged `cg_system_core` sources. This is planning-only, not source-backed evidence by itself.
 - `sources/papers/monthly_pubmed/`: Provisional topic-lens source folders for monthly PubMed pushes. Current active categories are adoption/preferences/equity, AI interaction and decision support, caregiving support systems, smart home/ambient care, and wearables/remote monitoring. Screened but withdrawn papers are retained under `deferred_or_out_of_scope/`; revise the taxonomy when future papers repeatedly conflict with it.
+
+## Source Provenance and Shared Synthesis
+
+`sources/papers/alacarte/` holds papers discovered through posts, LinkedIn, links, or other ad hoc encounters. Keep this provenance separate from `sources/papers/monthly_pubmed/`, while reusing topic-lens subfolder names where relevant. Create categories as needed, assign one primary location, and keep one canonical evidence/reference pair per source.
+
+Source lanes record discovery or purpose; they are not separate knowledge silos or evidence-quality grades. Papers from either lane contribute to shared topic owners, such as `wiki/concepts/digital_inclusion_and_supported_use.md`, and to this wiki's living synthesis when relevant. The research article is the evidence source; any discovery post is context unless separately reviewed. See `sources/README.md` and `wiki/workflows/ingest_source.md` for storage and integration procedures.
 
 ## Primary Populations
 

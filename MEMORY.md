@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Research Wiki Memory
@@ -121,6 +121,7 @@ Paper sources now support a purpose-specific layer under `sources/papers/`. New 
 
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
 - `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Assign by the paper's primary contribution. Retain screened but withdrawn sources under `deferred_or_out_of_scope/` rather than mixing them into active topic folders or deleting them.
+- `sources/papers/alacarte/`: Ad hoc paper discoveries from posts, LinkedIn, links, and other encounters. Preserve the source lane while reusing the monthly lane's topic category names as needed; the first paper is under `adoption_preferences_and_equity/`. The wiki synthesizes both lanes through shared topic owners, with one canonical evidence/reference pair per source. Discovery channel is provenance, not an evidence-quality grade; do not invent a particular post or URL.
 - Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
 
 Recommended raw source ID and filename pattern:
@@ -152,10 +153,12 @@ The `sources/papers/cg_system_core/` lane uses `wiki/references/cg_system_core_r
 
 Current lane status:
 
+- The October a la carte preview for Tu was explicitly approved and integrated on 2026-10-23. The article-in-press CHD survey adds reported-literacy heterogeneity within existing device users, with nonuser exclusions and reporting discrepancies retained. Profile-based support is untested; caregiver outcomes and observed task performance were not established. The paper stays in `alacarte`, while its interpretation is integrated with monthly PubMed evidence in the shared digital-inclusion and self-management pages.
+- Current totals after the a la carte ingest: 197 wiki pages, 59 evidence pages, 57 citation records, and 54 RIS-ready records. Tu's exact publication date and final bibliographic fields remain unknown; the source ID uses the ingest date. Both living overviews, source storage documentation, workflow, index, and citation status were updated. The core reference plan is unchanged. Raw source bytes, preview, and extraction remain local-only.
 - The October 2026 five-paper preview was approved with "Go ahead to ingest" and integrated on 2026-10-01. El-Saboni, Liu, Batchelor, Allheeib, and Long now have evidence pages and RIS-ready citation records. Raw PDFs were routed to the approved topic folders with SHA-256 hashes preserved; the preview and scratch files remain local-only.
 - October evidence roles: El-Saboni maps smart-home architecture and evaluation gaps; Liu measures person-environment satisfaction in Chinese urban empty-nest older adults; Batchelor develops home aged-care implementation guidance without direct family-carer sampling; Allheeib proposes unvalidated privacy/communication architecture; Long maps older-adult medication-support evidence, including 19 secondary reviews within 60 sources. None establishes reduced family-caregiver burden or autonomous care safety.
 - Both living overviews and the relevant topic/design/research-question owners were refreshed. The source limitations remain on evidence pages, including Batchelor's reporting inconsistencies, the reviews' lack of quality weighting, and Liu's external-validation gap. The core reference plan remains unchanged because the batch uses the existing monthly lane.
-- The October knowledge and repository health checks found no remaining publication blocker after stale smart-home wording and navigation fixes. Current totals: 195 wiki pages, 58 evidence pages, 56 citation records, and 53 RIS-ready records. The durable audit is `outputs/lint_reports/2026-10-01_knowledge-and-repo-health-check.md`; it records research/metadata gaps and the unassigned Nallo PDF awaiting triage. The ingest workflow gained a command-overview route. The user authorized commit and push conditional on these checks passing.
+- The October 1 knowledge and repository health checks found no remaining publication blocker after stale smart-home wording and navigation fixes. Totals at that checkpoint: 195 wiki pages, 58 evidence pages, 56 citation records, and 53 RIS-ready records. The durable audit is `outputs/lint_reports/2026-10-01_knowledge-and-repo-health-check.md`; it records research/metadata gaps and the unassigned Nallo PDF awaiting triage. The ingest workflow gained a command-overview route. The user authorized commit and push for that checkpoint conditional on those checks passing.
 
 - The September 2026 monthly PubMed five-paper preview was explicitly approved and integrated on 2026-09-03. Almeida, Chamberlin, Fernandez Cajavilca, Hwang, and Tong now have evidence pages and RIS-ready citation records. Hwang's exact publication date and Almeida's final volume/issue/pages remain unverified optional metadata; do not fabricate them for export.
 - AlzCare and Aliviado add dementia caregiver app design, short-session usability, and coproduction evidence, not effectiveness. Preserve implemented-versus-planned functionality and caregiver-versus-care-recipient evaluation distinctions. Aliviado's recommendation explanations and caregiver disagreement are design requirements, not algorithm safety validation.
@@ -185,7 +188,11 @@ Monthly PubMed preference-method anchor:
 
 A useful next step is the next genuinely unintegrated `cg_system_core` branch from the reference plan or a later lint/source-status pass checking citation export readiness, orphan pages, stale overviews/syntheses, evidence limits, and whether ignored preview/source artifacts should be retained locally.
 
-October 2026 ingest validation state:
+October 23, 2026 a la carte ingest validation state:
+
+- The maintained wiki has 197 pages, 59 evidence pages, and 57 citation records (54 RIS-ready). Targeted integration checks cover the new pair, known citation fields, source paths and unchanged PDF hash, topic backlinks, index routing, evidence labels, and whitespace. Unknown article-in-press metadata remains omitted. The two lecture-note exceptions and three incomplete AMIA records remain intentional; this is not a new full semantic wiki health check.
+
+October 1, 2026 monthly ingest validation state:
 
 - The maintained wiki has 195 pages, 58 evidence pages, and 56 citation records (53 RIS-ready). The two lecture-note exceptions and three incomplete AMIA submission records remain intentional. Targeted integration checks cover the five new source/reference pairs, topic backlinks, index routing, PDF hashes, metadata, and evidence boundaries; this was not a full wiki knowledge lint.
 

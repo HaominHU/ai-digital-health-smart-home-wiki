@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [digital-inclusion, digital-literacy, supported-use, equity, older-adults]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Digital Inclusion and Supported Use
@@ -39,6 +39,12 @@ Do not assume each stage causes the next. Digital navigators, coaching, low-band
 Liu's older-adult study operationalizes perceived fit across physical, community, social, and digital conditions, while Batchelor's guideline development adds staff, provider, and client implementation perspectives. Long's review links individual, technical, social, and program factors to five derived design dimensions. This extends the inclusion framework to technology demands and organizational support; it does not validate a causal sequence from access to better health. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`, `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`, and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
 
 Assess readiness, ability, preference, access, actual use, and benefit separately. Client ownership does not establish health-tool use, and staff confidence does not establish client acceptance. Setup, training, and continuing assistance should be resourced and evaluated without assigning the work to family members by default.
+
+## Literacy Within Existing Users
+
+Tu's CHD survey adds variation in reported information acquisition/evaluation, interaction, and application among people who can already use digital devices. This complements access and fit evidence from other source lanes: device use does not establish literacy, and reported literacy does not establish observed task performance or sustained benefit. Its sample-derived profiles require external replication, classification-uncertainty handling, and comparison with continuous scores before being used for support matching. The study excluded nonusers and did not test tailored education, family assistance, or clinical outcomes. Source reporting caveats remain in `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md`.
+
+**Design hypothesis:** evaluate task performance and support needs alongside self-report, include people unable to use current devices, and measure the effects of assistance rather than assigning it from profile labels. Profiles should not become fixed identities, automatic access restrictions, or reasons to blame users for structural barriers.
 
 ## Population and Safety Boundaries
 

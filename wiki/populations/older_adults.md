@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Older Adults
@@ -70,6 +70,10 @@ For older veterans receiving family care, caregiver service interest did not gua
 ## Person-Environment Fit and Medication Support
 
 Liu's urban empty-nest sample connects satisfaction to functional, relational, community, and digital conditions; empty-nest status includes people living with a spouse and should not be equated with living alone. Long's medication-support review exposes limited evidence for people living alone, with frailty/cognitive impairment, or in low-resource settings. Design and evaluation should assess individual capacities and support context rather than treating older adults as a uniform group. Both sources primarily concern care recipients; neither establishes caregiver burden reduction. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md` and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
+
+## Literacy Heterogeneity and Selection
+
+Tu's community CHD survey finds variation in reported digital health literacy within an already device-using sample. It adds a selection warning to the broader inclusion evidence: nonusers and people unable to participate because of substantial sensory or illness-related limitations were excluded. Do not transfer its profile proportions to all older adults or treat self-reported literacy as demonstrated performance, clinical benefit, or family-caregiver capacity. See `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Related Pages
 

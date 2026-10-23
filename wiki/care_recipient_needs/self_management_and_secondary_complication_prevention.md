@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-management, secondary-complications, chronic-conditions, disability, mhealth]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Self-Management and Secondary Complication Prevention
@@ -36,6 +36,10 @@ People with chronic conditions and disabilities may need long-term self-manageme
 ## Medication Support Across the Full Journey
 
 Long maps digital support across prescription, pickup, storage, daily routine, and refill, finding sparse coverage outside daily routines. Evaluate accessible operation, understandable reminders, user-controlled intensity, human support, and clinical-workflow integration as distinct components. The derived framework needs validation and is not evidence that every proposed feature improves adherence or prevents complications. Family support and caregiver workload must be measured separately; medication changes remain subject to professional review. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
+
+## Literacy and Self-Management Are Separate Outcomes
+
+Tu measures reported digital health literacy among older adults with CHD who already use devices. Its proposed profile-tailored education is a hypothesis, not evidence of improved adherence, self-management performance, or complication prevention. Assess observed tasks and support requirements separately, include nonusers when evaluating reach, and measure consented helper workload if a design introduces shared support. See `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Design Implications
 

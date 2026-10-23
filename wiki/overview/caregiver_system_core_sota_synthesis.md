@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 scope: cg_system_core
 ---
 
@@ -250,6 +250,10 @@ The October batch adds implementation constraints around the caregiver architect
 Evidence roles differ: smart-home and medication scoping reviews map technologies and gaps; person-environment research measures older-adult associations; home aged-care guideline development supplies client and workforce input; privacy-aware communication proposes unvalidated governance. The medication map includes secondary reviews, so its counts are not independent primary evidence. These sources do not change the effectiveness conclusions of the prior caregiver trials and do not establish reduced family burden. Batchelor lacks direct family-carer sampling; caregiver participation, workload, consent, and escalation must be evaluated explicitly. Detailed limits are owned by `wiki/evidence/el_saboni_2026_technology_enhanced_healthcare_smart_homes.md`, `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md`, `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`, `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`, and `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
 
 For the system-design agenda, evaluate the full support pathway: setup and task practice, continued assistance, medication tasks beyond reminders, understandable permissions, technical recovery, and staffed response. These are evidence-informed research directions requiring population-specific validation; see `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`.
+
+### Literacy Assessment Across Source Lanes
+
+The October a la carte addition extends the same digital-inclusion synthesis as the monthly PubMed evidence. Tu's older-adult CHD study concerns reported literacy among existing device users; it supports distinguishing literacy from access and observed performance while leaving nonuser needs and intervention response unresolved. For caregiver-system design, tailored support is a hypothesis requiring measurement of family or paid-helper work and care-recipient autonomy. It does not add direct caregiver-effectiveness evidence. Detailed study and reporting limits remain in `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md`; reusable interpretation belongs in `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ### Overall Evidence Balance
 

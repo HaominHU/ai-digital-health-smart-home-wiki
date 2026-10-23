@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -28,6 +28,7 @@ The wiki is designed as a Markdown knowledge middleware layer: readable by human
 - `sources/papers/`: Published papers and paper notes. Purpose-specific paper lanes can be added under this folder as new source groups emerge.
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered key citation set for caregiver system-design evidence ingest. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
 - `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Screened but withdrawn papers are retained under `deferred_or_out_of_scope/`; revise the taxonomy if future papers repeatedly conflict with it.
+- `sources/papers/alacarte/`: Ad hoc discoveries from posts, LinkedIn, links, and other encounters. Preserve the discovery lane while reusing relevant topic categories; knowledge is synthesized with other lanes in shared wiki pages. See `sources/README.md`.
 - `sources/reports/`: Reports, dissertations, white papers, and formal documents.
 - `sources/abstracts/`: Abstracts and short publication records.
 - `sources/conference_notes/`: Conference notes and session takeaways.
@@ -130,6 +131,10 @@ October 2026 monthly PubMed evidence:
 - `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`: A published conceptual proposal for communication, education, and role-based governance. Its hypotheses and scenarios do not establish usability, security, compliance, care coordination, or caregiver outcome gains.
 - `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`: Maps medication-support technologies, older-user barriers, and age-friendly design directions. The review offers a framework and evidence-gap map without validating the framework or estimating a pooled intervention effect.
 
+October 2026 a la carte evidence:
+
+- `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md`: Reported literacy profiles among device-using older adults with CHD, with nonuser exclusions, source reporting caveats, and untested support-tailoring implications. Integrated with the shared digital-inclusion synthesis.
+
 ## Citation Memory
 
 September citation records:
@@ -197,6 +202,10 @@ October 2026 monthly PubMed citation records (RIS-ready):
 - `wiki/references/items/2026-09-16_batchelor_digital-technology-in-home-aged-care-guidelines.md`
 - `wiki/references/items/2026-09-15_allheeib_privacy-aware-health-communication-framework.md`
 - `wiki/references/items/2026-09-30_long_age-friendly-medication-adherence-dht-review.md`
+
+October 2026 a la carte citation record (RIS-ready for the supplied article-in-press version):
+
+- `wiki/references/items/2026-10-23_tu_digital-health-literacy-profiles-coronary-heart-disease.md`
 
 ## Templates
 

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -82,6 +82,14 @@ These are research questions and speculative intervention directions; the Septem
 - Which medication stages need digital support beyond daily reminders, and which designs sustain use among people living alone, with cognitive/functional impairment, or in low-resource settings? Use validated usability and adherence measures, compare reminder intensity, and measure family workload and clinical integration. See `wiki/evidence/long_2026_age_friendly_medication_adherence_dht_review.md`.
 
 These are research questions. The October sources do not establish caregiver intervention effectiveness, validated emergency routing, or safe autonomous medication decisions.
+
+## Literacy Profiles and Support Matching
+
+- Do reported-literacy profiles improve prediction of observed task difficulty or response to support beyond continuous scores and task-based assessment? Independently replicate profiles and account for classification uncertainty before operational use.
+- How does inclusion of nonusers and people with sensory, cognitive, functional, or connectivity barriers change the apparent support needs and reach of digital interventions?
+- If family or paid helpers provide assistance, does tailoring improve sustained use and autonomy, and who gains or loses work? Measure older-adult outcomes, family workload, paid-support time, and cost separately.
+
+These are hypotheses prompted by `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md` and the shared inclusion synthesis. Tu's cross-sectional CHD study does not test these mechanisms, directly measure family support, or establish caregiver benefit.
 
 ## Related Pages
 

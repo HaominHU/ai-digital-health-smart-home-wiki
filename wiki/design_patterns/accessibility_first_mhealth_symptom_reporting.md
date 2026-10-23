@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [accessibility, mhealth, symptom-reporting, dexterity, design-pattern]
-last_updated: 2026-10-01
+last_updated: 2026-10-23
 ---
 
 # Accessibility-First mHealth Symptom Reporting
@@ -60,6 +60,10 @@ Design mHealth symptom-reporting tools around accessibility constraints from the
 ## Supported Use as an Additional Design Layer
 
 Hwang's observational findings motivate testing practical assistance alongside accessible interfaces; they do not show that training prevents frailty or improves symptom reporting. Preserve independent use where feasible and avoid default proxy access. AlzCare's high-confidence evaluator sample also shows why accessibility evaluation needs lower-literacy and higher-support end users. See `wiki/concepts/digital_inclusion_and_supported_use.md` and `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md`.
+
+## Assessment Before Tailoring
+
+**Design hypothesis:** combine observed task assessment with reported literacy before choosing interface or human-support options. Tu's older-adult CHD profiles show reported-literacy variation among existing users, while excluding nonusers; they do not validate symptom-reporting adaptations or an automatic support-routing algorithm. Test whether profiles add value beyond continuous scores and task performance, and include people with accessibility needs omitted by the source. See `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Related Pages
 
