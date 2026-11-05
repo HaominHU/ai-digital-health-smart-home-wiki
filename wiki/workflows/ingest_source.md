@@ -110,6 +110,7 @@ For short quick notes or personal takeaways:
 13. Update `INDEX.md` if pages or summaries changed.
 14. Update `MEMORY.md` after major milestones, workflow decisions, or significant wiki growth.
 15. Append a concise `ingest` entry to `LOG.md`.
+16. After verification, clean up disposable batch scripts, failed downloads, duplicate download copies, extracted text, renderings, and temporary commit/check files when no longer needed. Preserve canonical raw sources, unique bibliographic provenance, reviewed previews, meaningful audit reports, and pending-source handoff information. Verify canonical source hashes before removing duplicate scratch copies; log meaningful cleanup. Do not retain batch-specific scripts as long-term tooling by default or delete canonical raw sources automatically.
 
 ## Knowledge Ownership Check
 
