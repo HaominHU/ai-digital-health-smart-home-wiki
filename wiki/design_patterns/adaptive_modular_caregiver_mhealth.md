@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [mhealth, adaptive-design, modular-design, family-caregivers, design-pattern]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Adaptive Modular Caregiver mHealth
@@ -123,6 +123,10 @@ Build caregiver mHealth systems as modular app suites that combine general careg
 - `2023_becque_supportive-interventions-family-caregivers-advanced-cancer`.
 - `2024_campbell_gynecologic-cancer-caregiver-mhealth-self-management-needs`.
 - `2024_dave_cancer-caregiver-needs-patient-advocacy-groups`.
+
+## Need-Specific Modules and Stakeholder Priorities
+
+Wang motivates separating emotional, relational, informational, and practical caregiver needs instead of treating every module as a burden-reduction intervention. Xianheng motivates eliciting older-user, family-caregiver, and provider requirements separately, but its inconsistent sensitivity scores cannot define firm feature priorities. **Untested design direction:** offer need-matched optional modules and negotiate role-specific services; prospectively test usability, workload, autonomy, and outcomes. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md` and `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
 
 ## Gaps
 

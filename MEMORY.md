@@ -3,7 +3,7 @@ title: Research Wiki Memory
 type: memory
 status: draft
 privacy: private
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Research Wiki Memory
@@ -120,7 +120,7 @@ Selective output durability baseline:
 Paper sources now support a purpose-specific layer under `sources/papers/`. New source groups may get their own folders when a stable purpose emerges.
 
 - `sources/papers/cg_system_core/`: Example lane for the ongoing numbered caregiver system-design core citation set. Use `wiki/references/cg_system_core_reference_plan.md` as the live status map for integrated, planned, skipped, future, and background-only sources.
-- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Assign by the paper's primary contribution. Retain screened but withdrawn sources under `deferred_or_out_of_scope/` rather than mixing them into active topic folders or deleting them.
+- `sources/papers/monthly_pubmed/`: Example lane for monthly PubMed push storage before triage, selection, preview, or integration. Current provisional topic-lens folders are `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, `wearables_and_remote_monitoring/`, and `self_management_and_psychosocial_support/`. Assign by the paper's primary contribution. Retain screened but withdrawn sources under `deferred_or_out_of_scope/` rather than mixing them into active topic folders or deleting them.
 - `sources/papers/alacarte/`: Ad hoc paper discoveries from posts, LinkedIn, links, and other encounters. Preserve the source lane while reusing the monthly lane's topic category names as needed; the first paper is under `adoption_preferences_and_equity/`. The wiki synthesizes both lanes through shared topic owners, with one canonical evidence/reference pair per source. Discovery channel is provenance, not an evidence-quality grade; do not invent a particular post or URL.
 - Top-level `sources/papers/` can still contain legacy, standalone, or not-yet-assigned papers.
 
@@ -153,8 +153,11 @@ The `sources/papers/cg_system_core/` lane uses `wiki/references/cg_system_core_r
 
 Current lane status:
 
+- The November 2026 six-article monthly PubMed preview was explicitly approved with "Go ahead to ingest" and integrated on 2026-11-05. Current totals: 209 wiki pages, 65 evidence pages, 63 citation records, and 60 RIS-ready records. Wang/Silva inform dementia caregiver needs/literacy; Nyamathi is formative persona/DAM evidence; Vandelli is proxy-trust/adoption context; Xianheng is exploratory requirements evidence with numerical reporting cautions; Svendsen is adjacent patient-only trial evidence with no statistically significant overall app advantage at 18 months.
+- Five publisher PDFs and Nyamathi’s full-text PMC JATS XML remain local-only with verified hashes. Svendsen moved unchanged into the approved `monthly_pubmed/self_management_and_psychosocial_support/` category. Original intake metadata remains an immutable snapshot; a separate integration receipt records current paths. PMIDs 42981790, 42981698, and 42949683 remain pending manual retrieval and later preview; no withdrawal is assumed. Both living overviews and mapped owners were updated; the core reference plan remains unchanged.
+
 - The October a la carte preview for Tu was explicitly approved and integrated on 2026-10-23. The article-in-press CHD survey adds reported-literacy heterogeneity within existing device users, with nonuser exclusions and reporting discrepancies retained. Profile-based support is untested; caregiver outcomes and observed task performance were not established. The paper stays in `alacarte`, while its interpretation is integrated with monthly PubMed evidence in the shared digital-inclusion and self-management pages.
-- Current totals after the a la carte ingest: 197 wiki pages, 59 evidence pages, 57 citation records, and 54 RIS-ready records. Tu's exact publication date and final bibliographic fields remain unknown; the source ID uses the ingest date. Both living overviews, source storage documentation, workflow, index, and citation status were updated. The core reference plan is unchanged. Raw source bytes, preview, and extraction remain local-only.
+- Historical totals after the October a la carte ingest: 197 wiki pages, 59 evidence pages, 57 citation records, and 54 RIS-ready records. Tu's exact publication date and final bibliographic fields remain unknown; the source ID uses the ingest date. Both living overviews, source storage documentation, workflow, index, and citation status were updated. The core reference plan is unchanged. Raw source bytes, preview, and extraction remain local-only.
 - The October 2026 five-paper preview was approved with "Go ahead to ingest" and integrated on 2026-10-01. El-Saboni, Liu, Batchelor, Allheeib, and Long now have evidence pages and RIS-ready citation records. Raw PDFs were routed to the approved topic folders with SHA-256 hashes preserved; the preview and scratch files remain local-only.
 - October evidence roles: El-Saboni maps smart-home architecture and evaluation gaps; Liu measures person-environment satisfaction in Chinese urban empty-nest older adults; Batchelor develops home aged-care implementation guidance without direct family-carer sampling; Allheeib proposes unvalidated privacy/communication architecture; Long maps older-adult medication-support evidence, including 19 secondary reviews within 60 sources. None establishes reduced family-caregiver burden or autonomous care safety.
 - Both living overviews and the relevant topic/design/research-question owners were refreshed. The source limitations remain on evidence pages, including Batchelor's reporting inconsistencies, the reviews' lack of quality weighting, and Liu's external-validation gap. The core reference plan remains unchanged because the batch uses the existing monthly lane.
@@ -187,6 +190,10 @@ Monthly PubMed preference-method anchor:
 - `2026_kingsada_preferences-digital-health-technologies`: Broad patient-preference scoping review for digital health technologies, including eHealth, telehealth, telemedicine, and mHealth. Use as patient-preference, adoption, HTA/reimbursement, preference-methods, older-adult digital health preference, and privacy/security design rationale. Do not use as caregiver-specific evidence, intervention-effectiveness evidence, AI-agent evidence, or smart-home effectiveness evidence.
 
 A useful next step is the next genuinely unintegrated `cg_system_core` branch from the reference plan or a later lint/source-status pass checking citation export readiness, orphan pages, stale overviews/syntheses, evidence limits, and whether ignored preview/source artifacts should be retained locally.
+
+November 5, 2026 knowledge and publication validation state:
+
+- The structural/citation scan covers 209 wiki pages, 65 evidence pages, and 63 citation records (60 RIS-ready), with no blocking errors. Semantic review covers the new/affected and adjacent knowledge plus global contradiction/staleness/gap scans. Fixed two stale care-recipient connection placeholders and current category/count wording; source limitations remain labeled. The durable audit is `outputs/lint_reports/2026-11-05_knowledge-and-repo-health-check.md`. Three unavailable November articles remain pending; raw sources and previews remain local-only. The user explicitly authorized commit/push conditional on checks passing.
 
 October 23, 2026 a la carte ingest validation state:
 

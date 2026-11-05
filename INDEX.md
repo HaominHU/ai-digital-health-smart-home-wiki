@@ -3,7 +3,7 @@ title: AI Digital Health and Smart Home Wiki Index
 type: index
 status: draft
 privacy: private
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # AI Digital Health and Smart Home Wiki Index
@@ -135,6 +135,15 @@ October 2026 a la carte evidence:
 
 - `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md`: Reported literacy profiles among device-using older adults with CHD, with nonuser exclusions, source reporting caveats, and untested support-tailoring implications. Integrated with the shared digital-inclusion synthesis.
 
+November 2026 monthly PubMed evidence:
+
+- `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md`: Maps distinct dementia caregiver mental-health needs to technology classes. This conceptual synthesis informs need coverage and outcome selection; it does not validate a triage instrument or establish comparative technology effects.
+- `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md`: Documents seeking, understanding, communicating, and assessing information in Alzheimer family caregiving. Information availability and formal education did not remove practical information difficulties in this selected sample.
+- `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md`: Evaluates stakeholders’ perceptions of fictional composite personas and daily activity maps for dementia technology design. Ratings inform formative design and requested contextual detail; they do not establish robot performance or care outcomes.
+- `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`: Provides adjacent patient-only evidence on long-term app-delivered stress management: neither intervention showed a statistically significant overall advantage over usual care at 18 months. This is not caregiver or gynecological-cancer evidence and not an equivalence result.
+- `wiki/evidence/vandelli_2026_trust_digital_health_remote_older_adults.md`: Separates favorable attitudes and willingness from low reported digital-health use among older adults in remote Italian areas. Trust is inferred from adoption-related proxies, rather than measured with a validated multidimensional trust instrument.
+- `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`: Provides exploratory multi-stakeholder requirements for smart-home care platforms, including family interest in service-status visibility. Numerical sensitivity rankings, category tallies, and age-bin definitions have internal inconsistencies and should not determine firm design priorities.
+
 ## Citation Memory
 
 September citation records:
@@ -206,6 +215,15 @@ October 2026 monthly PubMed citation records (RIS-ready):
 October 2026 a la carte citation record (RIS-ready for the supplied article-in-press version):
 
 - `wiki/references/items/2026-10-23_tu_digital-health-literacy-profiles-coronary-heart-disease.md`
+
+November 2026 monthly PubMed citation records (RIS-ready):
+
+- `wiki/references/items/2026-10-29_wang_mental-health-technology-needs-dementia-caregivers.md`
+- `wiki/references/items/2026-10-26_silva_health-literacy-alzheimer-family-caregivers.md`
+- `wiki/references/items/2026-10-28_nyamathi_personas-daily-activity-maps-dementia.md`
+- `wiki/references/items/2026-11-04_svendsen_digital-stress-management-breast-cancer.md`
+- `wiki/references/items/2026-07-30_vandelli_trust-digital-health-remote-older-adults.md`
+- `wiki/references/items/2026-10-20_xianheng_smart-home-care-platform-requirements-kano.md`
 
 ## Templates
 
@@ -347,3 +365,7 @@ Do not store identifiable participant data, PHI, clinical records, or raw sensit
 - `wiki/commands/generate_research_prompt.md`
 - `wiki/commands/generate_design_spec_prompt.md`
 - `wiki/commands/citation_supported_brainstorming.md`
+
+## November 2026 Health Check
+
+- `outputs/lint_reports/2026-11-05_knowledge-and-repo-health-check.md`: Records integration fixes, evidence boundaries, citation/navigation/privacy checks, residual knowledge gaps, source retention, and repository publication scope.

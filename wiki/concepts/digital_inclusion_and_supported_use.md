@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [digital-inclusion, digital-literacy, supported-use, equity, older-adults]
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Digital Inclusion and Supported Use
@@ -53,6 +53,12 @@ Tu's CHD survey adds variation in reported information acquisition/evaluation, i
 - Preserve independent use where feasible; needing assistance is not permission for blanket proxy access.
 - Assistance requires granular consent, minimum necessary access, revocation, secure storage, and auditable sharing. Avoid exposing credentials or sensitive household and health data to informal helpers.
 - Digital exclusion and digital distress can coexist but are not interchangeable. Hwang and Tong did not directly validate a digital-distress measure.
+
+## Attitudes, Information Appraisal, and Sustained Use
+
+Silva adds that digital participation can coexist with difficulty understanding and evaluating health information. Vandelli adds favorable perceived usefulness/willingness alongside low reported use; its latent classes infer trust from adoption-related proxies, not a validated trust scale. Xianheng excludes smartphone nonusers and people unable to complete surveys, limiting inclusive requirements claims. See `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md`, `wiki/evidence/vandelli_2026_trust_digital_health_remote_older_adults.md`, and `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
+
+As **adjacent patient-only evidence**, Svendsen distinguishes 18-month intervention access from active use and outcomes: median active days during months 6-18 were zero, and neither app had a statistically significant overall advantage over usual care. These different populations/designs do not establish a causal chain from readiness to use to benefit. See `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`.
 
 ## Open Questions
 

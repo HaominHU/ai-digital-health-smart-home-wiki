@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [generative-ai, mhealth, family-caregivers, adaptive-support, design-pattern]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Adaptive AI Layer for Caregiver mHealth
@@ -52,6 +52,10 @@ Use generative AI as an adaptive support layer within caregiver mHealth rather t
 - `2026-05-18_hu_hcd-generative-ai-family-caregiver-mhealth`.
 - `2020_lewis_retrieval-augmented-generation-knowledge-intensive-nlp`.
 - `2023_yao_react-reasoning-acting-language-models`.
+
+## Context and Emotional Coverage Require Validation
+
+Wang identifies limited relational, compassion-fatigue, and sustained emotional support coverage in caregiver technology. Nyamathi adds favorable stakeholder perceptions of contextual persona/DAM artifacts for care-recipient-facing SAR design, not caregiver AI efficacy. **Untested design directions:** use minimum necessary, source-labeled context and consented continuity, with explicit human escalation. Do not infer crisis-management safety, authentic empathy, reduced burnout, or clinical benefit from these studies. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md` and `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md`.
 
 ## Gaps
 

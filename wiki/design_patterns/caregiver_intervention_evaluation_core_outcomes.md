@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, evaluation, outcomes, design-pattern]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Caregiver Intervention Evaluation Core Outcomes
@@ -96,6 +96,10 @@ Evaluate caregiver interventions by specifying the intervention target, caregivi
 AlzCare's mixed hands-on and researcher-demonstrated sessions should not be treated as equivalent independent use, and its high SUS is not evidence of benefit. Aliviado's co-design outcomes are separate from usability, sustained engagement, BPSD outcomes, and algorithm safety. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 Add actual caregiver participation, digital-skill range, implemented feature coverage, recommendation disagreement, and real-world use to the evaluation plan. For navigation, measure service receipt and reasons for failed access rather than referral counts alone; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+
+## Need Coverage and Long-Term Outcomes
+
+Wang supports selecting specific emotional/relational outcomes rather than relying only on global burden. As an **adjacent patient-only methods example**, Svendsen found no statistically significant overall advantage of either stress-management app over usual care at 18 months, despite prolonged access. Separate access, active use, completion, primary outcomes, and exploratory subgroup findings. The trial does not evaluate caregivers or establish equivalence. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md` and `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`.
 
 ## Related Pages
 

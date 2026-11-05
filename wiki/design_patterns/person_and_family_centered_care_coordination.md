@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-centered-care, care-coordination, shared-access, design-pattern]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Person and Family-Centered Care Coordination
@@ -56,6 +56,10 @@ Design care coordination workflows that recognize family caregivers as care part
 ## Supported Use and Closed-Loop Navigation
 
 Practical digital help should have an agreed scope, access limits, and workload budget; access or ownership alone is not an outcome. Caregiver-priority disagreement with an algorithm should remain visible and reviewable, as motivated by Aliviado. Service navigation should confirm suitability and receipt, while preserving offline options and local capacity limits. These are design implications, not tested pathway effects. See `wiki/concepts/digital_inclusion_and_supported_use.md`, `wiki/caregiving_challenges/formal_service_access_and_respite.md`, and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
+
+## Represent the Person Separately From Proxy Accounts
+
+Nyamathi’s formative persona/DAM evaluation motivates distinguishing a person’s preferences, routines, and context from caregiver/professional interpretations. **Design hypothesis:** support source-labeled, consented contributions and direct care-recipient participation where appropriate; evaluate comprehension and workload. Composite artifacts and stakeholder interest do not authorize blanket proxy access, collection of real care profiles, or automated care decisions. See `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md`.
 
 ## Related Pages
 

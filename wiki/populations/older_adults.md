@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [older-adults, aging]
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Older Adults
@@ -74,6 +74,10 @@ Liu's urban empty-nest sample connects satisfaction to functional, relational, c
 ## Literacy Heterogeneity and Selection
 
 Tu's community CHD survey finds variation in reported digital health literacy within an already device-using sample. It adds a selection warning to the broader inclusion evidence: nonusers and people unable to participate because of substantial sensory or illness-related limitations were excluded. Do not transfer its profile proportions to all older adults or treat self-reported literacy as demonstrated performance, clinical benefit, or family-caregiver capacity. See `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
+
+## Readiness and Requirements Have Sampling Boundaries
+
+Vandelli describes remote-area Italian older adults with favorable digital-health attitudes despite low reported use; inferred trust is proxy-based and cross-sectional. Xianheng elicits smart-home requirements among urban smartphone-capable older adults while excluding nonusers and people unable to complete surveys. These sources cannot define universal older-adult preferences, causal aging trajectories, dementia needs, or intervention benefit. See `wiki/evidence/vandelli_2026_trust_digital_health_remote_older_adults.md` and `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
 
 ## Related Pages
 

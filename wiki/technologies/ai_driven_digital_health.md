@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [ai, digital-health, technology-lens]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # AI-Driven Digital Health
@@ -97,3 +97,7 @@ El-Saboni's intelligent-home taxonomy maps adaptive analytics but supplies no va
 - `2008_elliott_problem-solving-videoconferencing-sci-caregivers`: SCI caregiver videoconferencing RCT; use as remote delivery and evaluation-boundary evidence, not AI evidence.
 - `2026-06-16_chen_generative-ai-meaning-centered-care-later-life`: Perspective article proposing a Sensing-Narrating-Connecting-Governing framework for GenAI-supported meaning-centered care in later life; use as conceptual AI interaction and governance evidence.
 - `2026-06-16_mahmood_telehealth-informal-caregivers`: HINTS6 telehealth utilization study among U.S. adults aged 50+; use for caregiver digital health access and multi-participant telehealth rationale, not AI effectiveness.
+
+## Persona Artifacts Are Formative Design Evidence
+
+Nyamathi evaluates stakeholders’ perceptions of fictional personas and daily activity maps intended to inform dementia SAR/conversational-AI development. The adapted scale lacks population-specific validation, ratings show ceiling effects, and persons with dementia did not participate. This informs contextual design inputs; it does not test AI/robot performance, clinical reasoning, or care outcomes. See `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md`.

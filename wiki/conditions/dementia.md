@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [dementia, caregiving, condition-overlay]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Dementia
@@ -73,3 +73,7 @@ These studies extend design requirements rather than demonstrating burden reduct
 - `2020_cheng_meta-review-dementia-caregiver-interventions`.
 - `2020_bressan_dementia-caregiver-needs-mixed-method-review`.
 - `2021_ruggiano_chatbots-dementia-caregivers`.
+
+## Caregiver Literacy and Contextual Design
+
+Silva adds information-comprehension/appraisal needs in a selected family-caregiver sample. Nyamathi adds favorable perceptions of fictional persona/DAM design artifacts among 15 stakeholders, including only two family caregivers and no persons with dementia. Context-rich design and direct care-recipient participation need evaluation; neither source establishes reduced agitation, falls, or caregiver burden. See `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md` and `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md`.

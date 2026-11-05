@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-management, secondary-complications, chronic-conditions, disability, mhealth]
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Self-Management and Secondary Complication Prevention
@@ -51,6 +51,10 @@ Tu measures reported digital health literacy among older adults with CHD who alr
 - In neurorehabilitation contexts, biomarker tracking should distinguish monitoring or stratification from validated intervention targets.
 - For SCI, reducing unnecessary caregiving hours may require care-recipient independence support and secondary-condition prevention, but intervention evidence remains limited.
 - SCI secondary-condition support should evaluate both care-recipient health/function outcomes and caregiver workload or burden dimensions.
+
+## Patient Psychosocial Self-Management
+
+As adjacent patient-only evidence, Svendsen evaluated cognitive-behavioral and mindfulness stress-management apps with brief telephone support in selected Norwegian breast-cancer patients. Neither showed a statistically significant overall advantage over usual care at 18 months. Extended access, completion, and exploratory subgroup patterns are distinct from overall benefit. The study does not establish secondary-complication prevention, caregiver outcomes, gynecological-cancer effects, or AI effectiveness. See `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`.
 
 ## Gaps
 

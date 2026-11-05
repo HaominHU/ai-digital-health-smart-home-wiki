@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: routing_map
 tags: [domain-map, digital-health, smart-home, caregiving]
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Domain Map
@@ -38,7 +38,7 @@ This wiki studies AI-driven digital health and smart home technologies for careg
 - `wiki/overview/domain_map.md`: Top-level architecture and routing map for the whole wiki.
 - `wiki/overview/caregiver_system_core_sota_synthesis.md`: Living synthesis for the `cg_system_core` caregiver-system evidence lane.
 - `wiki/references/cg_system_core_reference_plan.md`: Planning/status map for staged `cg_system_core` sources. This is planning-only, not source-backed evidence by itself.
-- `sources/papers/monthly_pubmed/`: Provisional topic-lens source folders for monthly PubMed pushes. Current active categories are adoption/preferences/equity, AI interaction and decision support, caregiving support systems, smart home/ambient care, and wearables/remote monitoring. Screened but withdrawn papers are retained under `deferred_or_out_of_scope/`; revise the taxonomy when future papers repeatedly conflict with it.
+- `sources/papers/monthly_pubmed/`: Provisional topic-lens source folders for monthly PubMed pushes. Current active categories are adoption/preferences/equity, AI interaction and decision support, caregiving support systems, smart home/ambient care, wearables/remote monitoring, and self-management/psychosocial support. Screened but withdrawn papers are retained under `deferred_or_out_of_scope/`; revise the taxonomy when future papers repeatedly conflict with it.
 
 ## Source Provenance and Shared Synthesis
 
@@ -97,3 +97,7 @@ This page is a routing and governance map, not an evidence synthesis. Use these 
 - Gaps and future study ideas -> `wiki/research_questions/`.
 
 Maintenance rule: update this page when the wiki architecture, ownership model, priority domain scope, or living overview set changes. Do not add source-by-source evidence bullets here; route those to the owner pages above.
+
+## Patient Self-Management Source Routing
+
+The monthly PubMed lane also uses `self_management_and_psychosocial_support/` for patient self-management and psychosocial-intervention papers whose primary contribution does not fit existing categories. Route patient outcomes through `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md` and methodological transfer questions through `wiki/research_questions/caregiver_intervention_implementation_and_evaluation.md`. Preserve patient/caregiver outcome distinctions; a storage category does not add a priority condition or imply caregiver effectiveness. See `sources/README.md`.

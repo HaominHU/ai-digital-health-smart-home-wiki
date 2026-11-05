@@ -20,7 +20,7 @@ Default policy:
 - `papers/monthly_pubmed/`: papers received through monthly PubMed pushes.
 - `papers/alacarte/`: papers encountered through posts, LinkedIn, links, or other ad hoc discovery. This lane begins with the October 2026 ingest.
 
-Keep monthly PubMed and a la carte provenance separate, while reusing the same topic-lens folder names where appropriate: `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, and `wearables_and_remote_monitoring/`. Create a category only when needed and assign each paper by its primary contribution. Keep screened but withdrawn items under the lane's `deferred_or_out_of_scope/` when needed; do not duplicate a PDF across lanes or topic folders.
+Keep monthly PubMed and a la carte provenance separate, while reusing the same topic-lens folder names where appropriate: `adoption_preferences_and_equity/`, `ai_interaction_and_decision_support/`, `caregiving_support_systems/`, `smart_home_and_ambient_care/`, `wearables_and_remote_monitoring/`, and `self_management_and_psychosocial_support/`. Create a category only when needed and assign each paper by its primary contribution. Keep screened but withdrawn items under the lane's `deferred_or_out_of_scope/` when needed; do not duplicate a PDF across lanes or topic folders.
 
 The maintained wiki synthesizes across all source lanes through shared topic pages, with one canonical evidence page and citation-memory record per paper. Discovery channel does not determine evidence quality. The article supplies research evidence; a post that led to it is discovery context unless separately reviewed. Do not invent an exact post, URL, or discovery date.
 
@@ -41,3 +41,7 @@ Examples:
 ```
 
 If exact publication date is unknown, use the available source date under the ingest workflow, or the ingest date when no usable source date is available, and record the date basis. For article-in-press papers, do not substitute acceptance or PDF-creation dates for publication dates. Keep ingest month separate from publication date and leave unknown bibliographic fields empty.
+
+## Patient Self-Management and Psychosocial Support
+
+Use `sources/papers/monthly_pubmed/self_management_and_psychosocial_support/` for patient-facing self-management and psychosocial-intervention papers when those are the primary contribution. The category begins with the November 2026 Svendsen stress-management trial. Do not force patient-only evidence into a caregiver or AI category, infer caregiver outcomes, or relabel breast cancer as gynecological cancer. Keep one canonical source/evidence/reference set, and record ingest month separately from publication date. The same category name may be reused in another discovery lane when needed.

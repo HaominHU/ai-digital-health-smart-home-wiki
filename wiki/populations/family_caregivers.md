@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [family-caregivers, caregiving]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Family Caregivers
@@ -98,6 +98,10 @@ Primary population focus for this wiki.
 AlzCare and Aliviado add caregiver-facing design evidence for practical organization, self-monitoring, tailored language, and caregiver-priority-sensitive support. Neither establishes long-term engagement, caregiver benefit, or care-recipient safety. See `wiki/evidence/almeida_2026_alzcare_dementia_caregiver_app.md` and `wiki/evidence/fernandez_cajavilca_2026_aliviado_caregiving_app_design.md`.
 
 Service access also depends on what happens after interest or search. Chamberlin's older-veteran caregiver survey identifies rural receipt disparities without establishing their causes or testing a digital remedy. Keep service availability and caregiver willingness separate; see `wiki/caregiving_challenges/formal_service_access_and_respite.md`.
+
+## Dementia Need Coverage and Information Mediation
+
+Wang maps distinct dementia caregiver needs across technology classes; Silva describes family mediation of seeking, understanding, communicating, and assessing disease information. Both add need/design context rather than intervention effectiveness. Silva recruited a small, largely higher-educated support-group sample whose care recipients used private services; Wang’s qualitative sources mainly involved online English-speaking caregivers. Preserve those inclusion boundaries. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md` and `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md`.
 
 ## Related Pages
 

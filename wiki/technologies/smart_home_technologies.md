@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [smart-home, sensing, caregiving, technology-lens]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Smart Home Technologies
@@ -58,3 +58,7 @@ Liu treats digital support as part of a wider person-environment relationship: m
 - Design monitoring as a sociotechnical response service: specify alert logic, non-alert meaning, response ownership, staffing, language access, escalation, and urgent-help boundaries.
 - Assess and mitigate `digital distress` caused by intrusiveness, confusion, unreliable or poorly personalized alerts, cultural or language mismatch, and unclear responsibility.
 - Treat adoption as shared across care recipients, caregivers, family, and service teams while preserving granular consent, access revocation, audit logs, and private spaces.
+
+## Exploratory Multi-Stakeholder Requirements
+
+Xianheng adds older-user, family-caregiver, and provider requirements for smart-home care service platforms, including service visibility and operational simplicity. Retrospective alignment with deployed platform descriptions is not prospective validation. Internal sensitivity-score/category/age-bin inconsistencies mean numerical rankings should not determine firm priorities. The smartphone-capable sample excludes important nonuser and disability groups. See `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.

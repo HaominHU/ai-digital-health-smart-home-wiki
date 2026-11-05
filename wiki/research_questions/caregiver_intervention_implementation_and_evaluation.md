@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [caregiver-interventions, implementation, evaluation, research-questions]
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Caregiver Intervention Implementation and Evaluation
@@ -90,6 +90,13 @@ These are research questions. The October sources do not establish caregiver int
 - If family or paid helpers provide assistance, does tailoring improve sustained use and autonomy, and who gains or loses work? Measure older-adult outcomes, family workload, paid-support time, and cost separately.
 
 These are hypotheses prompted by `wiki/evidence/tu_2026_digital_health_literacy_profiles_coronary_heart_disease.md` and the shared inclusion synthesis. Tu's cross-sectional CHD study does not test these mechanisms, directly measure family support, or establish caregiver benefit.
+
+## Context, Trust, and Sustained Support
+
+- Can contextual persona/DAM design improve outcomes after direct care-recipient participation and adapted-scale validation, beyond favorable stakeholder ratings? See `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md`.
+- Which validated measures distinguish initial trust, experience-based trust, practical ability, and actual adoption? Vandelli motivates longitudinal testing, not fixed trust identities. See `wiki/evidence/vandelli_2026_trust_digital_health_remote_older_adults.md`.
+- Do need-matched psychosocial modules benefit caregivers in direct trials? Svendsen’s patient-only null overall result and exploratory subgroups cannot answer that transfer question. See `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`.
+- How can requirements studies include nonusers and people with substantial disability, report reproducible scoring, and prospectively test platform/workload outcomes? Xianheng’s numerical reporting limits make independent verification essential. See `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
 
 ## Related Pages
 

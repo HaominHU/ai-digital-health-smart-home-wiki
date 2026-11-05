@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [aging, disease, disability, conceptual-distinction]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Aging vs Disease
@@ -35,3 +35,7 @@ Hwang's prefrail/frail outcome is a clinical/functional construct, not normal ag
 - `2020_schulz_family-caregiving-for-older-adults`: The review frames older-adult caregiving in relation to chronic illness, disability, dementia, multimorbidity, and care complexity rather than treating later-life conditions as normal aging.
 - `2026-07-28_kolakowski_digital-health-intrinsic-capacity-feasibility`: The CAREUP pilot operationalizes intrinsic-capacity-oriented healthy-aging support, but intrinsic capacity should not be used as a synonym for chronic disease, disability, treatment effects, or caregiver capacity. A foundational WHO source remains an evidence gap.
 - `2026-07-23_fritz_community-in-the-loop-smart-home-monitoring`: The study included adults aged 50+ with poverty and multimorbidity because community partners observed earlier care complexity in marginalized communities, reinforcing that need must be attributed to function, disease, disability, environment, and structural context rather than chronological age alone.
+
+## Reported Misattribution in Dementia Caregiving
+
+Silva includes caregiver accounts interpreting dementia symptoms as normal aging before understanding the disease context. This is a reported misconception and education gap, not evidence that dementia is normal aging. Its qualitative sample cannot establish the prevalence of that misconception. See `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md`.

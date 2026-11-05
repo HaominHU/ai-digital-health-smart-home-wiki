@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [monitoring, safety, caregiving]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Monitoring and Safety Awareness
@@ -70,3 +70,7 @@ El-Saboni's broad smart-home review reinforces the need to evaluate sensor quali
 - For smart-home alerts and monitoring, define who receives alerts, who is responsible for response, how false positives/negatives are handled, and whether the system reduces or increases caregiver vigilance burden.
 - State what a non-alert means, who must respond, and when users should bypass the system for urgent help.
 - Track `digital distress`, including irrelevant alerts, missed changes, intrusiveness, confusion, and unclear responsibility.
+
+## From Desired Alerts to Evaluated Support
+
+Xianheng reports emergency/alert needs but does not validate sensing accuracy, human response, or safety outcomes. Wang proposes linking monitoring to coaching or human support, without establishing burnout prevention. **Design hypothesis:** evaluate alert usefulness, response ownership, caregiver workload, and outcomes separately; monitoring must not become an autonomous care decision-maker. See `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md` and `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md`.

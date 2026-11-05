@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: source_backed_synthesis
 tags: [caregiver-system-core, family-caregiving, digital-health, sota-synthesis]
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 scope: cg_system_core
 ---
 
@@ -337,3 +337,11 @@ Useful update triggers:
 - `wiki/design_patterns/caregiver_assessment_and_triage.md`
 - `wiki/design_patterns/caregiver_intervention_evaluation_core_outcomes.md`
 - `wiki/design_patterns/retrieval_grounded_health_ai_support.md`
+
+## November 2026 Adjacent Evidence
+
+The November monthly lane adds more specific caregiver need coverage and clearer limits on transferring design evidence into outcome claims. Wang separates emotional/relational needs that global burden measures may conceal, while Silva shows that access to online information does not ensure practical comprehension or appraisal. These complement the existing stress-process and caregiver-training anchors; they do not establish a new effective intervention. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md`, `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md`, `wiki/caregiving_challenges/emotional_and_social_support.md`, and `wiki/caregiving_challenges/information_access_and_health_literacy.md`.
+
+Nyamathi’s contextual persona/DAM ratings and Xianheng’s multi-party service requirements motivate participatory, role-aware design. The former does not test AI/robot outcomes; the latter has substantial numerical reporting inconsistencies and excludes important digitally/functionally excluded groups. Contextual personalization, service visibility, and human escalation remain design hypotheses with consent, workload, and safety requirements. See `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md` and `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
+
+Vandelli separates favorable adoption-related attitudes from actual reported use among remote-area older adults. Svendsen supplies **indirect patient-only trial evidence**, with no statistically significant overall app advantage at 18 months; it does not evaluate caregivers or gynecological cancer. Across these sources, access, readiness, formative ratings, active use, and benefit remain distinct rather than a demonstrated causal chain. See `wiki/evidence/vandelli_2026_trust_digital_health_remote_older_adults.md`, `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`, and `wiki/concepts/digital_inclusion_and_supported_use.md`. The numbered core reference plan remains unchanged.

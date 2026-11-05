@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [care-coordination, shared-access, caregiving, privacy]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Care Coordination and Shared Access
@@ -115,6 +115,10 @@ Shared access can help caregivers coordinate support, but it can also create pri
 - For gynecologic cancer dyadic apps, avoid universal sharing defaults; support separate private spaces, explicit sharing choices, and revocable access for patients, caregivers, and other family members.
 - For broad cancer caregiver navigation, distinguish resource lists from closed-loop referral, eligibility support, financial assistance, legal/employment guidance, and patient advocacy group linkage.
 - For caregiver-inclusive telehealth, support explicit multi-participant workflows, scheduling convenience, role clarity, visit summaries, and after-visit information sharing without assuming caregivers should automatically receive all care-recipient information.
+
+## Family Dynamics and Service Visibility
+
+Wang identifies unequal task allocation and relationship strain that shared calendars alone may not resolve. Xianheng reports family-caregiver interest in service-status visibility, distinct from older-user and provider priorities; numerical Kano rankings have reporting inconsistencies. **Design implication:** test role-specific visibility and negotiated responsibilities with granular consent, rather than assuming family access improves relationships or outcomes. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md` and `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
 
 ## Gaps
 

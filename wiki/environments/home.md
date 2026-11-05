@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [home, smart-home, caregiving]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Home Environment
@@ -77,3 +77,7 @@ For research designs, measure task completion, assistance requests, user choice,
 - Treat connectivity, housing infrastructure, household routines, language, privacy, visitors, and multi-user consent as part of system performance.
 - Provide a visible way to pause monitoring, correct rules, revoke access, review logs, contact a trusted person, and understand what the system cannot detect.
 - Budget and evaluate the human response layer rather than treating community workers, nurses, caregivers, or family members as free infrastructure.
+
+## Remote-Community Readiness
+
+Vandelli adds digital-health readiness/use context for community-dwelling older adults in remote Italian areas. A large-print paper survey includes people who may struggle with digital access, but favorable attitudes and proxy-inferred trust do not establish practical ability, service availability, or home-intervention benefit. Route practical support questions through `wiki/concepts/digital_inclusion_and_supported_use.md`. See `wiki/evidence/vandelli_2026_trust_digital_health_remote_older_adults.md`.

@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [self-care, health-tracking, caregiver-health, mhealth]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Caregiver Self-Care and Health Tracking
@@ -107,6 +107,10 @@ Caregiver health affects caregiving sustainability, but caregiver self-care need
 - For advanced cancer caregivers, treat self-care as an intervention component that may include psycho-emotional, physical, spiritual, daily-functioning, and quality-of-life targets; do not collapse it into app self-tracking.
 - In gynecologic cancer dyadic apps, caregiver self-care features may need private defaults with opt-in sharing.
 - For broad cancer caregiving, self-care design should include external counseling, advocacy, financial/legal, and respite pathways rather than only internal tracking.
+
+## Self-Care and Emotional Recovery
+
+Wang describes self-care constraints and emotional depletion within interacting family, role, and support-system pressures. Track self-care, compassion fatigue, burnout, and emotional balance separately; a monitoring signal or global burden score does not establish which support will help. Sensor-triggered coaching remains a design hypothesis requiring consent and outcome evaluation. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md`.
 
 ## Gaps
 

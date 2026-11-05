@@ -3,7 +3,7 @@ title: Reference and Citation Memory
 type: reference_index
 status: draft
 privacy: private
-last_updated: 2026-10-23
+last_updated: 2026-11-05
 ---
 
 # Reference and Citation Memory
@@ -58,8 +58,19 @@ Keep wiki citations and searched external candidate citations in separate export
 
 ## Current Status
 
-The citation-memory layer is established. After the October 2026 monthly PubMed and a la carte ingests, all 57 citation-bearing evidence sources have canonical item records; two additional evidence pages represent user-provided lecture takeaways rather than formal citation-bearing sources. The three AMIA submission records remain incomplete and not export-ready pending final publication or acceptance metadata. The other 54 records are RIS-ready; missing optional metadata is disclosed in each record, including Hwang's exact publication date, Almeida's final volume/issue/pages, and Tu's exact publication date and final bibliographic fields. Generated RIS files remain local-only by default.
+The citation-memory layer is established. After the November 2026 monthly PubMed ingest, all 63 citation-bearing evidence sources have canonical item records; two additional evidence pages represent user-provided lecture takeaways rather than formal citation-bearing sources. The three AMIA submission records remain incomplete and not export-ready pending final publication or acceptance metadata. The other 60 records are RIS-ready; missing optional metadata is disclosed in each record, including Hwang's exact publication date, Almeida's final volume/issue/pages, and Tu's exact publication date and final bibliographic fields. Generated RIS files remain local-only by default.
 
 The October records preserve original citations and printed publication dates for El-Saboni, Liu, Batchelor, Allheeib, and Long. Export readiness concerns bibliographic completeness; Allheeib remains conceptual and the review and guideline evidence limits remain attached to citation use.
 
 The October a la carte record for Tu preserves the supplied article-in-press version and permanent DOI. Its source ID uses the ingest date, not an asserted publication date. RIS export can use the verified core citation fields with a version note while omitting unverified final fields. Citation memory remains shared across discovery lanes, with no duplicate record for a paper encountered through more than one channel.
+
+## November 2026 Citation Records
+
+Six approved November sources add bibliographic memory with distinct knowledge roles: caregiver needs (Wang/Silva), formative persona evaluation (Nyamathi), patient-only null overall trial results (Svendsen), older-adult adoption context (Vandelli), and requirements with numerical reporting caution (Xianheng). All are RIS-ready; this does not upgrade their evidence strength. Three unavailable PMIDs remain pending without maintained citation/evidence records.
+
+- `wiki/references/items/2026-10-29_wang_mental-health-technology-needs-dementia-caregivers.md`
+- `wiki/references/items/2026-10-26_silva_health-literacy-alzheimer-family-caregivers.md`
+- `wiki/references/items/2026-10-28_nyamathi_personas-daily-activity-maps-dementia.md`
+- `wiki/references/items/2026-11-04_svendsen_digital-stress-management-breast-cancer.md`
+- `wiki/references/items/2026-07-30_vandelli_trust-digital-health-remote-older-adults.md`
+- `wiki/references/items/2026-10-20_xianheng_smart-home-care-platform-requirements-kano.md`

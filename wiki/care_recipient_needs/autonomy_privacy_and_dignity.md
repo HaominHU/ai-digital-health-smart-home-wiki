@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [autonomy, privacy, dignity, care-recipient]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Autonomy, Privacy, and Dignity
@@ -71,6 +71,10 @@ AlzCare's shared reminiscence and caregiver-supported use raise dyadic possibili
 Liu makes older adults' subjective environmental fit visible, and Batchelor's guidelines include client preferences and suitability of technology. These support attending to choice and technology demands, while leaving effects on autonomy untested. See `wiki/evidence/liu_2026_person_environment_fit_aging_in_place.md` and `wiki/evidence/batchelor_2026_digital_technology_in_home_aged_care_guidelines.md`.
 
 Allheeib's differentiated data access is a conceptual governance model. Communication messages and alerts can reveal sensitive health information even when categorized as less sensitive than clinical records. Minimize disclosure, verify recipients, support revocation, and assess consent comprehension; role membership alone is insufficient authorization. See `wiki/evidence/allheeib_2026_privacy_aware_health_communication_framework.md`.
+
+## Contextual Profiles and Preference Limits
+
+Nyamathi motivates richer personal/cultural/functional context in dementia design artifacts. **Design constraints:** minimize sensitive profile data, distinguish the person’s preferences from proxy accounts, control disclosure, and plan consent/assent and human oversight. Xianheng’s requirement preferences cannot waive privacy safeguards or authorize family surveillance, even when a survey labels an item indifferent. See `wiki/evidence/nyamathi_2026_personas_daily_activity_maps_dementia.md` and `wiki/evidence/xianheng_2026_smart_home_care_platform_requirements_kano.md`.
 
 ## Related Pages
 

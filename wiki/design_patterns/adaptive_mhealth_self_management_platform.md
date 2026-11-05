@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [adaptive-mhealth, self-management, platform, chronic-conditions, design-pattern]
-last_updated: 2026-05-18
+last_updated: 2026-11-05
 ---
 
 # Adaptive mHealth Self-Management Platform
@@ -46,6 +46,10 @@ Use a configurable mHealth platform with modular self-management supports, careg
 ## Evidence
 
 - `2019-04-25_setiawan_adaptive-mhealth-self-management`.
+
+## Long Access Does Not Establish Benefit
+
+Svendsen provides an **adjacent patient-trial evaluation caution**: ten-module stress-management programs with 18-month access and early telephone support did not show a statistically significant overall advantage over usual care. Measure active use and outcomes separately; subgroup tailoring remains a hypothesis. The trial does not evaluate iMHere, caregiver systems, or complication prevention. See `wiki/evidence/svendsen_2026_digital_stress_management_breast_cancer.md`.
 
 ## Gaps
 

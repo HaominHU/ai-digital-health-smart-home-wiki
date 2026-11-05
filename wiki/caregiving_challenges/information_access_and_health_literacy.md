@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [health-literacy, information-access, education, caregiving]
-last_updated: 2026-10-01
+last_updated: 2026-11-05
 ---
 
 # Information Access and Health Literacy
@@ -55,7 +55,7 @@ Reusable caregiving challenge hub for making health, care, and resource informat
 
 ## Care Recipient Connection
 
-To be further source-backed.
+Silva describes difficulties translating disease guidance into everyday caregiving, but does not measure improved care-recipient safety or health outcomes. Keep caregiver comprehension/appraisal separate from recipient outcomes and clinical decision-making. See `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md` and `wiki/care_recipient_needs/self_management_and_secondary_complication_prevention.md`.
 
 ## Technology Support Lens
 
@@ -115,6 +115,10 @@ To be further source-backed.
 - For SCI caregiver support, provide resource information in multiple accessible formats and across the rehabilitation spectrum rather than only at discharge.
 - For gynecologic cancer caregiver mHealth, pair curated information with symptom-urgency guidance and clear escalation boundaries; do not let self-triage become autonomous diagnosis or treatment advice.
 - For broad cancer caregiver support, connect plain-language education with advocacy-group, financial, genetic-counseling, clinical-trial, and care-system navigation resources when appropriate.
+
+## From Information Access to Critical Appraisal
+
+Silva distinguishes seeking, understanding, communicating, and assessing Alzheimer information. Online participation and higher formal education did not eliminate difficulties translating guidance into daily care or appraising credibility in its 12-caregiver sample. Treat family mediation and professional guidance as context, not proof that a particular education or AI fact-checking intervention works. See `wiki/evidence/silva_2026_health_literacy_alzheimer_family_caregivers.md` and `wiki/concepts/digital_inclusion_and_supported_use.md`.
 
 ## Gaps
 

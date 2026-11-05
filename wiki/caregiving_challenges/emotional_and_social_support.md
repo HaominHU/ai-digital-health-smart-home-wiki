@@ -5,7 +5,7 @@ status: draft
 privacy: private
 evidence_status: has_sources
 tags: [emotional-support, social-support, peer-support, caregiving]
-last_updated: 2026-09-03
+last_updated: 2026-11-05
 ---
 
 # Emotional and Social Support
@@ -57,7 +57,7 @@ Reusable caregiving challenge hub for emotional burden, peer connection, daily c
 
 ## Care Recipient Connection
 
-To be further source-backed.
+Caregiver emotional needs and care-recipient preferences or behaviors are distinct. Wang maps caregivers’ responses to behavioral demands alongside relational and emotional needs, but its conceptual mapping does not establish care-recipient treatment effects. Shared-support designs should preserve the care recipient’s autonomy and privacy; see `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md` and `wiki/care_recipient_needs/autonomy_privacy_and_dignity.md`.
 
 ## Technology Support Lens
 
@@ -115,6 +115,10 @@ To be further source-backed.
 - Advanced cancer caregiver emotional-support design should match intervention format to target outcome: individual support for psycho-emotional outcomes, dyadic/family support when social or relationship outcomes matter, and peer/group support when daily-functioning goals are central.
 - In gynecologic cancer dyadic apps, emotional support may require separate patient and caregiver spaces so each person can seek support without protecting or burdening the other.
 - For broad cancer caregiver support, route emotional needs to counseling, peer support, advocacy groups, and human services rather than relying only on app content.
+
+## Distinct Emotional and Relational Needs
+
+Wang separates relationship strain, compassion fatigue, burnout, self-care, and emotional balance within dementia caregiver support needs. Its conceptual mapping helps specify need coverage; it does not validate diagnostic categories or show that a technology improves these outcomes. **Design hypothesis:** evaluate relational and emotional support alongside task assistance, with human support and escalation boundaries. See `wiki/evidence/wang_2026_mental_health_technology_needs_dementia_caregivers.md`.
 
 ## Gaps
 
